@@ -1,0 +1,509 @@
+{
+  "set": {
+    "name": "Spooky Saturday Morning",
+    "totalCards": 30,
+    "statNames": [
+      "Courage",
+      "Snacks",
+      "Sneakiness"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "A single vertical trading card, portrait orientation, 2.5:3.5 aspect ratio, centred on a plain neutral background with a slight drop shadow. The card has rounded corners and a thick printed border. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Classic American Saturday-morning cartoon style of the late 1980s and early 1990s, in the manner of Hanna-Barbera television animation: bold clean black ink outlines of uniform weight, flat cel-shaded colours with no gradients, simple two-tone shadows, slightly exaggerated proportions, expressive faces with large simple eyes and thick eyebrows, hand-painted background feel with soft airbrushed skies and muted gouache textures. Limited palette: warm oranges, mustard yellow, teal, purple, olive green, with heavy use of deep purple and dark teal for spooky shadows. Slight halftone print grain and subtle colour misregistration like a vintage printed card. Overall mood: playful, mysterious, a little spooky but friendly.",
+    "cardLayout": [
+      "Top banner: the character name in chunky, slightly wobbly 1980s cartoon title lettering, bright yellow with a dark purple outline.",
+      "Centre: a large character portrait box with a thin inner frame, character shown from the waist up in a dynamic pose against a themed background.",
+      "Bottom panel: a cream-coloured text box with a short flavour line in a rounded sans-serif, and three small stat icons with numbers.",
+      "Border: thick teal border with a thin orange pinstripe inside it; small retro starburst logo in the top-left corner; card number and rarity gem in the bottom-right corner."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no modern vector/flat-design look, no gradients, no watermarks, no extra text beyond what is specified, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "cards": [
+    {
+      "id": "sir-clankalot",
+      "name": "Sir Clankalot",
+      "cardNumber": 1,
+      "rarity": "Rare",
+      "character": "An empty, hovering suit of medieval plate armour, dented and tarnished dark teal with orange rust streaks. Two glowing orange eyes float inside the open visor. A tattered purple cape hangs from the shoulders, one gauntlet grips a huge rusty battle-axe, and the helmet plume is a single sad bent feather.",
+      "poseAndExpression": "Raising the axe overhead in a clumsy threatening swing, but the armour is coming apart at the joints so a loose gauntlet dangles by a strap.",
+      "backgroundScene": "A dim museum hall at night — tall glass display cases, a stuffed bear, a suit-of-armour plinth with a 'DO NOT TOUCH' sign, moonlight slanting through high windows, long purple shadows across the parquet floor.",
+      "flavourText": "Clanks in the night. Also in the day. Clanks constantly.",
+      "stats": {
+        "Courage": 9,
+        "Snacks": 1,
+        "Sneakiness": 2
+      },
+      "image": "./sir-clankalot.png"
+    },
+    {
+      "id": "deep-six-dan",
+      "name": "Deep-Six Dan",
+      "cardNumber": 2,
+      "rarity": "Legendary",
+      "character": "A ghostly old-fashioned deep-sea diver in a bulky canvas suit and a brass helmet with a round glass porthole, the whole figure glowing an eerie sickly green. Strands of seaweed hang from the helmet and shoulders, barnacles crust the brass fittings, and a trail of glowing green footprints drips behind him.",
+      "poseAndExpression": "Stomping forward with heavy arms outstretched, bubbles leaking from the helmet, two pinpoint white eyes staring blankly through the porthole.",
+      "backgroundScene": "A rocky cove at night — a wrecked wooden sailing ship tilted on the rocks, a lighthouse beam sweeping the fog, crashing dark teal waves, glowing green footprints leading up from the water.",
+      "flavourText": "He went down with the ship. He came back without it.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 6,
+        "Sneakiness": 7
+      },
+      "image": "./deep-six-dan.png"
+    },
+    {
+      "id": "the-castle-spectre",
+      "name": "The Castle Spectre",
+      "cardNumber": 3,
+      "rarity": "Common",
+      "character": "A classic sheet-like phantom with a long flowing pale-lavender body that tapers into mist, a skull-like face with hollow black eye sockets and a gaping mouth, and long spindly fingers. A rusted chain is wrapped around one wrist and a heavy iron key hangs from it.",
+      "poseAndExpression": "Swooping down from above with arms spread wide and mouth open in a silent howl, one eyebrow cocked as though enjoying itself.",
+      "backgroundScene": "A crumbling stone castle interior — a grand staircase, suits of armour, cobwebbed candelabras with flickering orange flames, a secret passage half-open in the wall, moonlight through a tall arched window.",
+      "flavourText": "Every castle comes with one. Read the small print.",
+      "stats": {
+        "Courage": 4,
+        "Snacks": 3,
+        "Sneakiness": 9
+      },
+      "image": "./the-castle-spectre.png"
+    },
+    {
+      "id": "old-pickaxe-pete",
+      "name": "Old Pickaxe Pete",
+      "cardNumber": 4,
+      "rarity": "Rare",
+      "character": "A hunched, glowing ghost of an old-time prospector with a long white beard, a battered felt hat, patched overalls and a lantern that burns an unnatural green. He clutches a rusty pickaxe over one shoulder, his face is a craggy grey with wide luminous eyes and two remaining teeth.",
+      "poseAndExpression": "Shuffling forward swinging the lantern, cackling with mouth wide open, free hand pointing a crooked finger straight at the viewer.",
+      "backgroundScene": "An abandoned gold mine — timber-braced tunnel entrance, rusting mine-cart on crooked rails, a faded 'KEEP OUT' sign, scattered tools, a few glinting gold nuggets, greenish lantern light against purple-black rock.",
+      "flavourText": "Still looking for his gold. Still hasn't checked his pockets.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 5,
+        "Sneakiness": 4
+      },
+      "image": "./old-pickaxe-pete.png"
+    },
+    {
+      "id": "grandpappy-grim",
+      "name": "Grandpappy Grim",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "The translucent purple-grey ghost of a stern old gentleman in a Victorian frock coat and high collar, with a tall stovepipe hat, mutton-chop sideburns, a monocle, and a walking cane topped with a silver skull. His lower body fades into curling mist.",
+      "poseAndExpression": "Floating with chin raised and one hand on the cane, the other wagging a disapproving finger, scowling so hard the monocle is popping out.",
+      "backgroundScene": "A dusty old mansion study — floor-to-ceiling bookshelves, a huge oil portrait of the same man over a fireplace, cobwebbed chandelier, a grandfather clock stuck at midnight, moonlight through heavy drapes.",
+      "flavourText": "Has been disappointed in you since 1884.",
+      "stats": {
+        "Courage": 5,
+        "Snacks": 2,
+        "Sneakiness": 6
+      },
+      "image": "./grandpappy-grim.png"
+    },
+    {
+      "id": "the-grabby-gorilla",
+      "name": "The Grabby Gorilla",
+      "cardNumber": 6,
+      "rarity": "Common",
+      "character": "A huge shaggy ape-man with wild olive-brown fur, a flat heavy brow, big yellow teeth, and oversized hands. A torn safari hat sits on his head and a broken movie clapperboard is tangled in the fur on one arm.",
+      "poseAndExpression": "Beating his chest with one fist while swinging from a vine with the other, eyes bulging and tongue out mid-roar.",
+      "backgroundScene": "A jungle movie set — painted canvas backdrop of trees that is clearly fake, a tipped-over director's chair, film lights on stands, a camera on a tripod, real vines tangled with fake ones, purple night sky above the studio walls.",
+      "flavourText": "Take two. He ate take one.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 8,
+        "Sneakiness": 2
+      },
+      "image": "./the-grabby-gorilla.png"
+    },
+    {
+      "id": "giggles-the-grim",
+      "name": "Giggles the Grim",
+      "cardNumber": 7,
+      "rarity": "Rare",
+      "character": "A gaunt ghost clown with chalk-white face paint, a cracked red grin, a purple-and-orange striped ruffled costume, oversized floppy shoes and a tiny bowler hat. He holds a spinning hypnotic swirl disc on a string in one hand, and the other hand is a white glove on an impossibly long arm.",
+      "poseAndExpression": "Leaning in close with the swirl disc held up, head tilted, enormous unblinking eyes and a toothy grin stretched far too wide.",
+      "backgroundScene": "A deserted circus big top at night — striped tent walls, empty bleachers, a sagging trapeze, a cannon, scattered balloons, a single spotlight cutting through dusty darkness.",
+      "flavourText": "You are getting very sleepy. Also very scared.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 3,
+        "Sneakiness": 8
+      },
+      "image": "./giggles-the-grim.png"
+    },
+    {
+      "id": "count-creepsley",
+      "name": "Count Creepsley",
+      "cardNumber": 8,
+      "rarity": "Legendary",
+      "character": "A classic cartoon vampire with slicked-back black hair with a widow's peak, pale blue-grey skin, red eyes, two long fangs, a high-collared black cape lined in deep purple, and a tiny bat hanging upside-down from one ear. He holds a goblet of suspicious red punch.",
+      "poseAndExpression": "Sweeping the cape across his face with one arm, eyes narrowed over the top of it, eyebrows raised in theatrical menace.",
+      "backgroundScene": "A gothic mansion ballroom — cracked chandelier, cobwebbed stained-glass windows, a stone staircase, bats circling near the ceiling, a coffin propped open in the corner, moonlight pooling on the floor.",
+      "flavourText": "Doesn't do mornings. Or garlic. Or small talk.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 7,
+        "Sneakiness": 9
+      },
+      "image": "./count-creepsley.png"
+    },
+    {
+      "id": "stitches",
+      "name": "Stitches",
+      "cardNumber": 9,
+      "rarity": "Common",
+      "character": "A towering flat-headed patchwork monster with olive-green skin, stitched seams across the forehead and neck, bolts on the temples, a heavy brow, a too-small black jacket and arms held stiffly forward. One boot is a size bigger than the other.",
+      "poseAndExpression": "Lumbering forward with arms straight out, mouth in a confused frown, one eye wider than the other as if he isn't sure why everyone is running.",
+      "backgroundScene": "A cliffside laboratory tower in a lightning storm — tall arched windows, crackling electrical coils, bubbling flasks, a slab with leather straps, purple storm clouds and a white lightning fork outside.",
+      "flavourText": "Assembly required. Instructions not included.",
+      "stats": {
+        "Courage": 9,
+        "Snacks": 6,
+        "Sneakiness": 1
+      },
+      "image": "./stitches.png"
+    },
+    {
+      "id": "howler",
+      "name": "Howler",
+      "cardNumber": 10,
+      "rarity": "Rare",
+      "character": "A shaggy grey-and-purple werewolf with a long snout, pointed ears, glowing yellow eyes and a mouthful of jagged teeth. He wears the shredded remains of a red plaid shirt and torn jeans, and has one bandaged paw and a dog-tag collar with a bone on it.",
+      "poseAndExpression": "Head thrown back mid-howl at the moon, claws flexed, one leg kicked out as if interrupted mid-scratch.",
+      "backgroundScene": "A moonlit hillside with a rickety farm fence, a sleeping flock of sheep, a dark pine forest, a full orange moon and a thin mist clinging to the grass.",
+      "flavourText": "Only a monster once a month. Still a problem the other days.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 9,
+        "Sneakiness": 6
+      },
+      "image": "./howler.png"
+    },
+    {
+      "id": "the-bandaged-pharaoh",
+      "name": "The Bandaged Pharaoh",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "A shambling mummy wrapped in yellowed, unravelling bandages with loose ends trailing everywhere. Dark hollow eyes glow faint orange beneath the wraps, a cracked gold-and-teal pharaoh headdress sits on the head, and a gold scarab amulet hangs from the neck. One arm is reaching forward with fingers spread.",
+      "poseAndExpression": "Dragging one stiff leg forward, arms outstretched, bandages snagged on something behind him so he's leaning at an angle, looking mildly annoyed.",
+      "backgroundScene": "A museum Egyptian wing at night — an open sarcophagus, hieroglyph-covered pillars, a stone statue with glowing eyes, velvet rope barriers knocked over, a single desk lamp casting long shadows.",
+      "flavourText": "Four thousand years old and still can't find a loose end.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 2,
+        "Sneakiness": 5
+      },
+      "image": "./the-bandaged-pharaoh.png"
+    },
+    {
+      "id": "space-cook",
+      "name": "Space Cook",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A translucent pale-green ghost wearing a bulky vintage white spacesuit with orange trim and chunky silver joints. The helmet visor is cracked and glows an eerie teal, with two glowing white eyes and a wide mischievous grin visible inside. A tattered chef's apron is tied over the spacesuit and a dented chef's hat is wedged on top of the helmet. He holds a smoking cast-iron frying pan in one glove and a long-handled ladle in the other. Faint wisps of ghostly vapour trail from the bottom of the suit instead of legs.",
+      "poseAndExpression": "Floating slightly off the ground, leaning forward and brandishing the frying pan as if about to serve something horrible, eyebrows raised in gleeful menace.",
+      "backgroundScene": "An abandoned airfield at night — cracked runway with faded yellow markings, a rusting control tower with one flickering light, a derelict propeller plane half-covered by a tarp, low fog rolling across the tarmac, and a huge pale full moon behind thin purple clouds.",
+      "flavourText": "Order up! Nobody ever sends it back.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 10,
+        "Sneakiness": 5
+      },
+      "image": "./space-cook.png"
+    },
+    {
+      "id": "witch-hazel-hagworth",
+      "name": "Witch Hazel Hagworth",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A hunched green-skinned witch with a long hooked nose, a wart, wild grey hair under a crooked purple pointed hat, a patched black dress and striped stockings. She rides a mangy broom and clutches a bubbling jar of something that glows orange.",
+      "poseAndExpression": "Cackling with head thrown back and one bony finger raised, the jar sloshing over, a crow on her shoulder looking embarrassed.",
+      "backgroundScene": "A gnarled haunted forest at night — twisted bare trees, a crooked little cottage with a glowing window, a bubbling cauldron on a fire, a crescent moon and a thin fog between the trunks.",
+      "flavourText": "Her potions are 90% stew. The other 10% is a problem.",
+      "stats": {
+        "Courage": 5,
+        "Snacks": 7,
+        "Sneakiness": 7
+      },
+      "image": "./witch-hazel-hagworth.png"
+    },
+    {
+      "id": "captain-scurvy",
+      "name": "Captain Scurvy",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A glowing teal ghost pirate captain with a huge tangled orange beard, a tricorne hat with a skull-and-crossbones, a tattered long coat, a hook hand, a peg leg and a cutlass. A spectral parrot with hollow eyes perches on his shoulder.",
+      "poseAndExpression": "Striding forward with the cutlass raised and the hook hand pointing, one eye squinted, roaring with a mouth full of gold teeth.",
+      "backgroundScene": "The deck of a ghost ship in thick fog — glowing tattered sails, a ship's wheel turning by itself, barrels and rope, green ghost-light from the lanterns, a jagged coastline barely visible.",
+      "flavourText": "Lost his ship, his crew and his map. Kept the attitude.",
+      "stats": {
+        "Courage": 9,
+        "Snacks": 5,
+        "Sneakiness": 4
+      },
+      "image": "./captain-scurvy.png"
+    },
+    {
+      "id": "the-shadow-twins",
+      "name": "The Shadow Twins",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "Two tall flat shadow figures made of solid dark purple, with jagged edges, long pointed fingers, no faces except two narrow white slits for eyes each. One is slightly taller and sneering, the other shorter and hunched.",
+      "poseAndExpression": "Stretching up a wall side by side with arms raised and fingers splayed, leaning towards each other as if whispering.",
+      "backgroundScene": "A creaky old mansion hallway lit by a single candle — peeling wallpaper, portraits with shifting eyes, a grandfather clock, a staircase vanishing into darkness, candlelight throwing enormous shadows.",
+      "flavourText": "Two for the price of one. The price is your nerves.",
+      "stats": {
+        "Courage": 3,
+        "Snacks": 1,
+        "Sneakiness": 10
+      },
+      "image": "./the-shadow-twins.png"
+    },
+    {
+      "id": "frostbite",
+      "name": "Frostbite",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A huge shaggy white-and-pale-blue snow monster with icicles hanging from its arms and chin, glowing blue eyes, a wide mouth with blunt teeth, and a dusting of snow on its shoulders. It wears a tiny stolen ski hat with a pom-pom and holds a snapped ski pole.",
+      "poseAndExpression": "Roaring with arms up and snow flying off its fur, one foot raised mid-stomp, breath steaming in a big cloud.",
+      "backgroundScene": "A snowbound mountain at night — a dark timber ski lodge with one lit window, a stopped chairlift, pine trees heavy with snow, purple sky, swirling snowflakes and big monster footprints leading down the slope.",
+      "flavourText": "Ski resort closed until further notice. He is the further notice.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 7,
+        "Sneakiness": 3
+      },
+      "image": "./frostbite.png"
+    },
+    {
+      "id": "dr-fizzle-s-other-half",
+      "name": "Dr. Fizzle's Other Half",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A hunched, wild-eyed man mid-transformation — half his face is a mild bespectacled scientist in a white lab coat, the other half is a hairy, fanged, bulging-eyed brute with a top hat sliding off. One hand holds a smoking test tube, the other is a big clawed fist.",
+      "poseAndExpression": "Lurching sideways with the test tube held high, the scientist half looking alarmed and the brute half grinning.",
+      "backgroundScene": "A cluttered Victorian laboratory — shelves of bubbling coloured flasks, a chalkboard of scribbled formulas, gas lamps, a spilled potion fizzing on the floor, fog outside a tall window.",
+      "flavourText": "Side effects may include growling.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 6,
+        "Sneakiness": 5
+      },
+      "image": "./dr-fizzle-s-other-half.png"
+    },
+    {
+      "id": "bog-brute",
+      "name": "Bog Brute",
+      "cardNumber": 18,
+      "rarity": "Common",
+      "character": "A hulking, lumpy swamp monster made of dripping olive-green mud and tangled dark-green weeds, with clumps of moss on the shoulders and a few lily pads stuck to the chest. Big round yellow eyes with tiny black pupils, a wide flat mouth full of blunt teeth, and a single cattail reed sprouting from the top of the head. Thick stubby arms with webbed three-fingered hands, trailing strands of algae. An old rusty bucket is jammed on one foot and a tiny frog sits contentedly on its head.",
+      "poseAndExpression": "Rising up out of the water with arms spread wide, dripping mud, mouth open in a roar — but the eyes are crossed and goofy, so it looks more startled than scary.",
+      "backgroundScene": "A murky bayou at dusk — black still water reflecting a greenish glow, gnarled cypress trees draped in hanging moss, a half-sunk rowboat, glowing fireflies, thick mist along the waterline, and a deep purple sky with a thin orange sunset band on the horizon.",
+      "flavourText": "Smells worse than it looks. Looks pretty bad.",
+      "stats": {
+        "Courage": 5,
+        "Snacks": 4,
+        "Sneakiness": 8
+      },
+      "image": "./bog-brute.png"
+    },
+    {
+      "id": "thawed-out-thaddeus",
+      "name": "Thawed-Out Thaddeus",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A stocky caveman with a heavy brow, a tangled black beard, a shaggy orange fur tunic, and chunks of ice still clinging to his shoulders and club. He carries a huge knobbly wooden club and has one bare foot and one foot still frozen in a block of ice.",
+      "poseAndExpression": "Charging forward with the club raised, mouth open in a bellow, eyes wide and confused, the frozen foot dragging a trail behind.",
+      "backgroundScene": "A frozen research station — a cracked-open block of ice on a steel table, a lab with blinking equipment, frosty windows, a parka on a hook, snow blowing outside under a purple polar sky.",
+      "flavourText": "Defrost completely before use.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 9,
+        "Sneakiness": 2
+      },
+      "image": "./thawed-out-thaddeus.png"
+    },
+    {
+      "id": "the-lurker",
+      "name": "The Lurker",
+      "cardNumber": 20,
+      "rarity": "Legendary",
+      "character": "A tall, hulking green-skinned creature with a lumpy bald head, deep-set glowing yellow eyes, a wide thin-lipped grin and massive hands with long fingers. It wears a torn black suit and a loosened tie, and clutches a bulging canvas money sack.",
+      "poseAndExpression": "Looming through a doorway with one long arm reaching forward and the other hugging the sack, shoulders hunched, grinning as if it has just heard a footstep.",
+      "backgroundScene": "A bank vault at night — a huge round steel door swung open, rows of safety-deposit boxes, scattered banknotes, a flickering ceiling light, a long green shadow stretching across the tiled floor.",
+      "flavourText": "Open twenty-four hours. Unfortunately.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 4,
+        "Sneakiness": 10
+      },
+      "image": "./the-lurker.png"
+    },
+    {
+      "id": "headless-horace",
+      "name": "Headless Horace",
+      "cardNumber": 21,
+      "rarity": "Rare",
+      "character": "A tall colonial-era gentleman ghost in a dark teal frock coat, breeches, buckled shoes and a ruffled cravat — with no head at all, just a faint purple glow above the collar. He carries his own head tucked under one arm: it has a powdered wig, a huge grin and rolling eyes.",
+      "poseAndExpression": "Striding forward with the head held out at arm's length like a lantern, the head laughing while the body gestures as if telling a story.",
+      "backgroundScene": "A fog-filled plantation mansion porch at night — white columns, overgrown ivy, a creaking rocking chair moving by itself, a hanging lantern, weeping willows and a purple moon.",
+      "flavourText": "Keeps his head about him. Literally. Under his arm.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 3,
+        "Sneakiness": 6
+      },
+      "image": "./headless-horace.png"
+    },
+    {
+      "id": "waxworks-wally",
+      "name": "Waxworks Wally",
+      "cardNumber": 22,
+      "rarity": "Common",
+      "character": "A melting wax figure of a man in a tuxedo, his pale yellow face drooping on one side with a sagging eye and a long dripping chin. Wax runs down the jacket in orange streaks, one hand is a half-melted blob, the other holds a smoking candle.",
+      "poseAndExpression": "Staggering forward with the candle held out, drooping eye wide, mouth sliding into a lopsided grin, leaving a trail of wax blobs.",
+      "backgroundScene": "A dim wax museum gallery — rows of frozen wax figures in period costume, velvet ropes, dusty spotlights, a 'HALL OF HORRORS' sign, one figure's eyes clearly following the viewer.",
+      "flavourText": "Stay cool. He can't.",
+      "stats": {
+        "Courage": 4,
+        "Snacks": 2,
+        "Sneakiness": 8
+      },
+      "image": "./waxworks-wally.png"
+    },
+    {
+      "id": "tilt-a-bot",
+      "name": "Tilt-A-Bot",
+      "cardNumber": 23,
+      "rarity": "Rare",
+      "character": "A boxy, clunky 1950s-style robot built from a rusted carnival ride car — a rounded teal body with peeling orange racing stripes and a faded number \"7\" on the chest. Riveted silver arms with pincer claws, a domed head with a single round glowing orange eye, an antenna topped with a tiny flickering light bulb, and a grille mouth that lights up in a jagged grin. One shoulder has a cracked carousel-horse head bolted on as a decoration, and loose wires spark from a dented panel on the side. A limp string of burnt-out fairground bulbs is draped around the neck like a scarf.",
+      "poseAndExpression": "Lurching forward with one claw raised and the other holding a half-crushed bag of popcorn, eye wide and glowing, head tilted at a creepy angle as if it's just noticed you.",
+      "backgroundScene": "An abandoned amusement park at night — a rusting Ferris wheel looming in the background with only a few bulbs still lit, a collapsed roller coaster track, a faded \"FUNLAND\" entrance arch with missing letters, a tilted cotton-candy stand, overgrown weeds cracking through the pavement, thick fog at ground level, and a deep purple sky with a sickly yellow-green moon.",
+      "flavourText": "Please keep your arms and legs inside the robot.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 2,
+        "Sneakiness": 3
+      },
+      "image": "./tilt-a-bot.png"
+    },
+    {
+      "id": "ghost-town-gus",
+      "name": "Ghost Town Gus",
+      "cardNumber": 24,
+      "rarity": "Common",
+      "character": "A transparent pale-blue ghost gunslinger with a wide-brimmed hat pulled low, a bandana over his mouth, a long duster coat, spurs, and two six-shooters. His eyes glow red beneath the hat brim and a tumbleweed is stuck to one boot.",
+      "poseAndExpression": "Standing in a wide showdown stance with both hands hovering over the holsters, squinting, a drop of ghostly sweat on his brow.",
+      "backgroundScene": "A deserted Old West town at dusk — a saloon with swinging doors, a sagging boardwalk, a water tower, a tumbleweed rolling down the dusty main street, an orange sunset band under a purple sky.",
+      "flavourText": "Fastest draw in the afterlife.",
+      "stats": {
+        "Courage": 8,
+        "Snacks": 3,
+        "Sneakiness": 5
+      },
+      "image": "./ghost-town-gus.png"
+    },
+    {
+      "id": "crowbone",
+      "name": "Crowbone",
+      "cardNumber": 25,
+      "rarity": "Rare",
+      "character": "A tall scarecrow with a burlap-sack head stitched with a crooked grin and two button eyes that glow orange, a torn straw hat, a patched overcoat stuffed with straw bursting from the seams, and stick-thin arms ending in twig fingers. Three crows perch on its shoulders and hat.",
+      "poseAndExpression": "Lurching off its post with arms raised stiffly, head tilted, straw spilling out, the crows flapping and cawing.",
+      "backgroundScene": "A moonlit cornfield — tall dark corn stalks, a leaning wooden post, a distant farmhouse with one lit window, a rusty tractor, a huge orange harvest moon and mist along the furrows.",
+      "flavourText": "Scares crows. Scares everyone else, too.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 1,
+        "Sneakiness": 9
+      },
+      "image": "./crowbone.png"
+    },
+    {
+      "id": "chomper",
+      "name": "Chomper",
+      "cardNumber": 26,
+      "rarity": "Common",
+      "character": "A muscular shark-man with slick grey-blue skin, a tall dorsal fin, a long snout full of triangular teeth, tiny black eyes, webbed clawed hands and a thick tail. He wears a torn life-jacket and has a rusty anchor chain looped over one shoulder.",
+      "poseAndExpression": "Bursting up out of the water with jaws wide open and arms spread, water spraying everywhere, one eye looking slightly embarrassed.",
+      "backgroundScene": "A stormy island shore at night — a rickety wooden pier, a rusting fishing trawler, crashing teal waves, jagged rocks, a lighthouse with a broken lamp and purple storm clouds.",
+      "flavourText": "Friends call him Chomper. He has no friends.",
+      "stats": {
+        "Courage": 7,
+        "Snacks": 10,
+        "Sneakiness": 4
+      },
+      "image": "./chomper.png"
+    },
+    {
+      "id": "rattles",
+      "name": "Rattles",
+      "cardNumber": 27,
+      "rarity": "Common",
+      "character": "A lanky grinning skeleton in a faded purple top hat and a loose bow tie, bones tinted pale yellow with teal shadows, jaw hanging open in a permanent cackle. One hand holds a lantern, the other a long bony finger raised, and its rib cage has a small bird's nest inside.",
+      "poseAndExpression": "Dancing a jaunty jig with knees high and arms swinging, skull tilted back in a cackle, bones rattling with little motion lines.",
+      "backgroundScene": "A foggy small-town graveyard at night — crooked tombstones, a wrought-iron gate, a dead tree, a church steeple in the mist, a dim lamp post and a thin crescent moon.",
+      "flavourText": "Nothing inside. Nothing to lose. Nothing to fear. Mostly.",
+      "stats": {
+        "Courage": 9,
+        "Snacks": 0,
+        "Sneakiness": 5
+      },
+      "image": "./rattles.png"
+    },
+    {
+      "id": "sasquatch-sam",
+      "name": "Sasquatch Sam",
+      "cardNumber": 28,
+      "rarity": "Rare",
+      "character": "A towering ghostly bigfoot with shaggy pale-blue glowing fur, huge flat feet, long arms, a sloped forehead and big sad glowing eyes. A snapped tree branch is tangled in its fur and it carries a stolen camping backpack over one shoulder.",
+      "poseAndExpression": "Stomping forward with arms swinging and mouth open in a low moan, glancing back over its shoulder as if checking whether it's been seen.",
+      "backgroundScene": "A pine forest campsite at night — a collapsed tent, a smouldering campfire, a ranger's station with a lit window, enormous glowing footprints in the mud, mist between tall dark trees and a pale moon.",
+      "flavourText": "Big feet, bigger appetite, biggest grudge against campers.",
+      "stats": {
+        "Courage": 6,
+        "Snacks": 8,
+        "Sneakiness": 7
+      },
+      "image": "./sasquatch-sam.png"
+    },
+    {
+      "id": "the-phantom-ace",
+      "name": "The Phantom Ace",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "A ghostly WWI-style fighter pilot with a leather flying cap, goggles glowing green, a long white scarf streaming behind, a leather jacket and a bushy moustache. His face is a translucent pale teal and his hands grip the controls of a spectral red biplane with ragged glowing wings.",
+      "poseAndExpression": "Leaning out of the cockpit with one fist raised and teeth bared in a triumphant grin, scarf whipping in the wind.",
+      "backgroundScene": "A stormy night sky — towering purple thunderclouds, forks of lightning, a glowing full moon, a rusting hangar and windsock far below on a dark hillside.",
+      "flavourText": "Never landed. Never will.",
+      "stats": {
+        "Courage": 10,
+        "Snacks": 4,
+        "Sneakiness": 6
+      },
+      "image": "./the-phantom-ace.png"
+    },
+    {
+      "id": "moatzilla",
+      "name": "Moatzilla",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A long serpentine lake monster with dark teal scales, an olive-green belly, a row of orange spines down its back, a long neck, a wide goofy snout with buck teeth and big round yellow eyes. Pondweed hangs from its head like a bad wig and a rusty portcullis chain is tangled around its neck.",
+      "poseAndExpression": "Rearing its neck up out of the water with mouth open wide, water pouring off its head",
+      "backgroundScene": "A castle moat at night — grey stone castle walls with arrow slits, a raised drawbridge, lily pads and reeds, torchlight flickering from the battlements, mist over the water and a purple sky.",
+      "flavourText": "Comes with the castle. Cannot be returned.",
+      "stats": {
+        "Courage": 5,
+        "Snacks": 8,
+        "Sneakiness": 6
+      },
+      "image": "./moatzilla.png"
+    }
+  ]
+}
