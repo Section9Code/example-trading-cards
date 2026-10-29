@@ -2,7 +2,11 @@
 
 A free set of AI-generated trading cards. Use them as test data for your apps, games, demos, and prototypes.
 
-<img src="season-1/sir-clankalot.png" alt="Sir Clankalot card" width="240">
+<img src="season-1/cards/sir-clankalot-small.webp" alt="Sir Clankalot card" width="240">
+<img src="season-2/cards/dumpling-small.webp" alt="Dumpling" width="240">
+<img src="season-3/cards/redgale-small.webp" alt="Redgale" width="240">
+<img src="season-4/cards/sister-of-the-lake-small.webp" alt="Sister of the lake" width="240">
+
 
 ## Sets
 
@@ -33,7 +37,7 @@ node make-small-cards.ts season-4/cards.json
 Each set folder contains:
 
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
-- One PNG for each card (1024 × 1536, portrait). In season 1 the PNGs are in the set folder. In seasons 2 to 4 they are in `cards/`.
+- `cards/` — one PNG for each card (1024 × 1536, portrait).
 - One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
 - Seasons 2 to 4 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
 
@@ -64,8 +68,8 @@ Each set folder contains:
       "backgroundScene": "...",
       "flavourText": "Clanks in the night. Also in the day. Clanks constantly.",
       "stats": { "Courage": 9, "Snacks": 1, "Sneakiness": 2 },
-      "image": "./sir-clankalot.png",
-      "imageSmall": "./sir-clankalot-small.webp"
+      "image": "./cards/sir-clankalot.png",
+      "imageSmall": "./cards/sir-clankalot-small.webp"
     }
   ]
 }

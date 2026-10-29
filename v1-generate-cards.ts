@@ -1,4 +1,4 @@
-// Generates a card image for each card in cards.json via OpenRouter and records its path.
+// Generates a card image for each card in cards.json via OpenRouter, saves it as cards/<id>.png next to cards.json and records its path.
 // Usage: OPENROUTER_API_KEY=... node v1-generate-cards.ts [path/to/cards.json] [--redo <cardNumber>]
 // --redo moves that card's image to rejected/ and regenerates only that card.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from "node:fs";
@@ -104,7 +104,7 @@ if (import.meta.main) {
   if (values.redo !== undefined) {
     const card = data.cards.find((c) => c.cardNumber === Number(values.redo));
     if (!card) throw new Error(`No card number ${values.redo}`);
-    const current = join(dir, `${card.id}.png`);
+    const current = join(dir, "cards", `${card.id}.png`);
     if (existsSync(current)) {
       const stamp = new Date().toISOString().replace(/[:.]/g, "-");
       const rejected = join(dir, "rejected", `${card.id}-${stamp}.png`);
@@ -118,8 +118,9 @@ if (import.meta.main) {
     cards = [card];
   }
 
+  mkdirSync(join(dir, "cards"), { recursive: true });
   for (const card of cards) {
-    const file = `${card.id}.png`;
+    const file = `cards/${card.id}.png`;
     // Never overwrite a paid-for image, even one the JSON doesn't know about yet.
     if (card.image || existsSync(join(dir, file))) {
       console.log(`skipped #${card.cardNumber} ${card.name}`);

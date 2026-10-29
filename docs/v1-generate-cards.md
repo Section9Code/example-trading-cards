@@ -26,11 +26,11 @@ node v1-generate-cards.ts <path/to/cards.json> [--redo <cardNumber>]
 1. Reads `cards.json`.
 2. For each card, builds one prompt from `sharedPrompt` and the card's own fields. [PROMPTS.md](../PROMPTS.md) shows the prompt template.
 3. Asks OpenRouter (model `openai/gpt-image-2.5-sunburst`, 1024 × 1536) for the image.
-4. Saves the image as `<id>.png` next to `cards.json`, and writes its path to the card's `image` field.
+4. Saves the image as `cards/<id>.png` in the folder that holds `cards.json`, and writes its path to the card's `image` field.
 
 It saves `cards.json` after each card. If a run stops part of the way through, run it again: it skips the cards that already have an image.
 
-It never overwrites an image that you paid for. It skips a card if the card has an `image` field or if `<id>.png` already exists. If one card fails, the script shows `fail` for it and goes on to the next card.
+It never overwrites an image that you paid for. It skips a card if the card has an `image` field or if `cards/<id>.png` already exists. If one card fails, the script shows `fail` for it and goes on to the next card.
 
 ## `cards.json` fields that it uses
 
