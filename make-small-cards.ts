@@ -1,42 +1,36 @@
-// Makes a small web-sized copy of every card image in public/cards and records both paths in the card JSON files.
-// Usage: node scripts/make-small-cards.ts [path/to/cards.json ...]
-// With no arguments it updates src/app/services/cards/cards.json.
-import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
-import { join } from "node:path";
+// Makes a small web-sized copy of every card image in a set, next to the full-size image, and records both paths in cards.json.
+// Usage: node make-small-cards.ts <path/to/cards.json> [more cards.json ...]
+// Each card's `image` (relative to cards.json) says where its full-size image is; the small copy goes beside it as `imageSmall`.
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
 import sharp from "sharp";
 
-/** Folder that holds the full-size card images; the small images are written here too. */
-const CARDS_DIR = join(import.meta.dirname, "..", "public", "cards");
-/** Width of the small image in pixels: about 2x the widest card on the welcome page, for high-DPI screens. */
+/** Width of the small image in pixels: half the 1024px card, enough for grids and thumbnails on high-DPI screens. */
 const SMALL_WIDTH = 512;
 
-/** Returns the small image file name for a full-size image file name, e.g. "x.png" -> "x-small.webp". */
+/** Returns the small image path for a full-size image path, e.g. "./cards/x.png" -> "./cards/x-small.webp". */
 export const smallName = (file: string) => file.replace(/\.png$/, "-small.webp");
 
 if (import.meta.main) {
-  const { positionals } = parseArgs({ allowPositionals: true });
-  const jsonPaths = positionals.length
-    ? positionals
-    : [join(import.meta.dirname, "..", "src", "app", "services", "cards", "cards.json")];
-
-  for (const file of readdirSync(CARDS_DIR).filter((f) => f.endsWith(".png"))) {
-    const small = join(CARDS_DIR, smallName(file));
-    if (existsSync(small)) continue;
-    await sharp(join(CARDS_DIR, file)).resize({ width: SMALL_WIDTH }).webp({ quality: 80 }).toFile(small);
-    console.log(`made  ${smallName(file)}`);
+  const { positionals: jsonPaths } = parseArgs({ allowPositionals: true });
+  if (!jsonPaths.length) {
+    console.error("Usage: node make-small-cards.ts <path/to/cards.json> [more cards.json ...]");
+    process.exit(1);
   }
 
   for (const jsonPath of jsonPaths) {
+    const dir = dirname(jsonPath);
     const data = JSON.parse(readFileSync(jsonPath, "utf8"));
     for (const card of data.cards) {
-      const file = `${card.id}.png`;
-      if (!existsSync(join(CARDS_DIR, file))) {
+      if (!card.image || !existsSync(join(dir, card.image))) {
         console.warn(`no image for #${card.cardNumber} ${card.name} in ${jsonPath}`);
         continue;
       }
-      card.image = `./${file}`;
-      card.imageSmall = `./${smallName(file)}`;
+      card.imageSmall = smallName(card.image);
+      // Always remade, because it is cheap and a rebuilt card must not keep a stale small copy.
+      await sharp(join(dir, card.image)).resize({ width: SMALL_WIDTH }).webp({ quality: 80 }).toFile(join(dir, card.imageSmall));
+      console.log(`made  ${card.imageSmall}`);
     }
     writeFileSync(jsonPath, JSON.stringify(data, null, 2) + "\n");
     console.log(`updated ${jsonPath}`);

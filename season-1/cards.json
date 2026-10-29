@@ -39,7 +39,8 @@
         "Snacks": 1,
         "Sneakiness": 2
       },
-      "image": "./sir-clankalot.png"
+      "image": "./sir-clankalot.png",
+      "imageSmall": "./sir-clankalot-small.webp"
     },
     {
       "id": "deep-six-dan",
@@ -55,7 +56,8 @@
         "Snacks": 6,
         "Sneakiness": 7
       },
-      "image": "./deep-six-dan.png"
+      "image": "./deep-six-dan.png",
+      "imageSmall": "./deep-six-dan-small.webp"
     },
     {
       "id": "the-castle-spectre",
@@ -71,7 +73,8 @@
         "Snacks": 3,
         "Sneakiness": 9
       },
-      "image": "./the-castle-spectre.png"
+      "image": "./the-castle-spectre.png",
+      "imageSmall": "./the-castle-spectre-small.webp"
     },
     {
       "id": "old-pickaxe-pete",
@@ -87,7 +90,8 @@
         "Snacks": 5,
         "Sneakiness": 4
       },
-      "image": "./old-pickaxe-pete.png"
+      "image": "./old-pickaxe-pete.png",
+      "imageSmall": "./old-pickaxe-pete-small.webp"
     },
     {
       "id": "grandpappy-grim",
@@ -103,7 +107,8 @@
         "Snacks": 2,
         "Sneakiness": 6
       },
-      "image": "./grandpappy-grim.png"
+      "image": "./grandpappy-grim.png",
+      "imageSmall": "./grandpappy-grim-small.webp"
     },
     {
       "id": "the-grabby-gorilla",
@@ -119,7 +124,8 @@
         "Snacks": 8,
         "Sneakiness": 2
       },
-      "image": "./the-grabby-gorilla.png"
+      "image": "./the-grabby-gorilla.png",
+      "imageSmall": "./the-grabby-gorilla-small.webp"
     },
     {
       "id": "giggles-the-grim",
@@ -135,7 +141,8 @@
         "Snacks": 3,
         "Sneakiness": 8
       },
-      "image": "./giggles-the-grim.png"
+      "image": "./giggles-the-grim.png",
+      "imageSmall": "./giggles-the-grim-small.webp"
     },
     {
       "id": "count-creepsley",
@@ -151,7 +158,8 @@
         "Snacks": 7,
         "Sneakiness": 9
       },
-      "image": "./count-creepsley.png"
+      "image": "./count-creepsley.png",
+      "imageSmall": "./count-creepsley-small.webp"
     },
     {
       "id": "stitches",
@@ -167,7 +175,8 @@
         "Snacks": 6,
         "Sneakiness": 1
       },
-      "image": "./stitches.png"
+      "image": "./stitches.png",
+      "imageSmall": "./stitches-small.webp"
     },
     {
       "id": "howler",
@@ -183,7 +192,8 @@
         "Snacks": 9,
         "Sneakiness": 6
       },
-      "image": "./howler.png"
+      "image": "./howler.png",
+      "imageSmall": "./howler-small.webp"
     },
     {
       "id": "the-bandaged-pharaoh",
@@ -199,7 +209,8 @@
         "Snacks": 2,
         "Sneakiness": 5
       },
-      "image": "./the-bandaged-pharaoh.png"
+      "image": "./the-bandaged-pharaoh.png",
+      "imageSmall": "./the-bandaged-pharaoh-small.webp"
     },
     {
       "id": "space-cook",
@@ -215,7 +226,8 @@
         "Snacks": 10,
         "Sneakiness": 5
       },
-      "image": "./space-cook.png"
+      "image": "./space-cook.png",
+      "imageSmall": "./space-cook-small.webp"
     },
     {
       "id": "witch-hazel-hagworth",
@@ -231,7 +243,8 @@
         "Snacks": 7,
         "Sneakiness": 7
       },
-      "image": "./witch-hazel-hagworth.png"
+      "image": "./witch-hazel-hagworth.png",
+      "imageSmall": "./witch-hazel-hagworth-small.webp"
     },
     {
       "id": "captain-scurvy",
@@ -247,7 +260,8 @@
         "Snacks": 5,
         "Sneakiness": 4
       },
-      "image": "./captain-scurvy.png"
+      "image": "./captain-scurvy.png",
+      "imageSmall": "./captain-scurvy-small.webp"
     },
     {
       "id": "the-shadow-twins",
@@ -263,7 +277,8 @@
         "Snacks": 1,
         "Sneakiness": 10
       },
-      "image": "./the-shadow-twins.png"
+      "image": "./the-shadow-twins.png",
+      "imageSmall": "./the-shadow-twins-small.webp"
     },
     {
       "id": "frostbite",
@@ -279,7 +294,8 @@
         "Snacks": 7,
         "Sneakiness": 3
       },
-      "image": "./frostbite.png"
+      "image": "./frostbite.png",
+      "imageSmall": "./frostbite-small.webp"
     },
     {
       "id": "dr-fizzle-s-other-half",
@@ -295,7 +311,8 @@
         "Snacks": 6,
         "Sneakiness": 5
       },
-      "image": "./dr-fizzle-s-other-half.png"
+      "image": "./dr-fizzle-s-other-half.png",
+      "imageSmall": "./dr-fizzle-s-other-half-small.webp"
     },
     {
       "id": "bog-brute",
@@ -311,7 +328,8 @@
         "Snacks": 4,
         "Sneakiness": 8
       },
-      "image": "./bog-brute.png"
+      "image": "./bog-brute.png",
+      "imageSmall": "./bog-brute-small.webp"
     },
     {
       "id": "thawed-out-thaddeus",
@@ -327,7 +345,8 @@
         "Snacks": 9,
         "Sneakiness": 2
       },
-      "image": "./thawed-out-thaddeus.png"
+      "image": "./thawed-out-thaddeus.png",
+      "imageSmall": "./thawed-out-thaddeus-small.webp"
     },
     {
       "id": "the-lurker",
@@ -343,7 +362,8 @@
         "Snacks": 4,
         "Sneakiness": 10
       },
-      "image": "./the-lurker.png"
+      "image": "./the-lurker.png",
+      "imageSmall": "./the-lurker-small.webp"
     },
     {
       "id": "headless-horace",
@@ -359,7 +379,8 @@
         "Snacks": 3,
         "Sneakiness": 6
       },
-      "image": "./headless-horace.png"
+      "image": "./headless-horace.png",
+      "imageSmall": "./headless-horace-small.webp"
     },
     {
       "id": "waxworks-wally",
@@ -375,7 +396,8 @@
         "Snacks": 2,
         "Sneakiness": 8
       },
-      "image": "./waxworks-wally.png"
+      "image": "./waxworks-wally.png",
+      "imageSmall": "./waxworks-wally-small.webp"
     },
     {
       "id": "tilt-a-bot",
@@ -391,7 +413,8 @@
         "Snacks": 2,
         "Sneakiness": 3
       },
-      "image": "./tilt-a-bot.png"
+      "image": "./tilt-a-bot.png",
+      "imageSmall": "./tilt-a-bot-small.webp"
     },
     {
       "id": "ghost-town-gus",
@@ -407,7 +430,8 @@
         "Snacks": 3,
         "Sneakiness": 5
       },
-      "image": "./ghost-town-gus.png"
+      "image": "./ghost-town-gus.png",
+      "imageSmall": "./ghost-town-gus-small.webp"
     },
     {
       "id": "crowbone",
@@ -423,7 +447,8 @@
         "Snacks": 1,
         "Sneakiness": 9
       },
-      "image": "./crowbone.png"
+      "image": "./crowbone.png",
+      "imageSmall": "./crowbone-small.webp"
     },
     {
       "id": "chomper",
@@ -439,7 +464,8 @@
         "Snacks": 10,
         "Sneakiness": 4
       },
-      "image": "./chomper.png"
+      "image": "./chomper.png",
+      "imageSmall": "./chomper-small.webp"
     },
     {
       "id": "rattles",
@@ -455,7 +481,8 @@
         "Snacks": 0,
         "Sneakiness": 5
       },
-      "image": "./rattles.png"
+      "image": "./rattles.png",
+      "imageSmall": "./rattles-small.webp"
     },
     {
       "id": "sasquatch-sam",
@@ -471,7 +498,8 @@
         "Snacks": 8,
         "Sneakiness": 7
       },
-      "image": "./sasquatch-sam.png"
+      "image": "./sasquatch-sam.png",
+      "imageSmall": "./sasquatch-sam-small.webp"
     },
     {
       "id": "the-phantom-ace",
@@ -487,7 +515,8 @@
         "Snacks": 4,
         "Sneakiness": 6
       },
-      "image": "./the-phantom-ace.png"
+      "image": "./the-phantom-ace.png",
+      "imageSmall": "./the-phantom-ace-small.webp"
     },
     {
       "id": "moatzilla",
@@ -503,7 +532,8 @@
         "Snacks": 8,
         "Sneakiness": 6
       },
-      "image": "./moatzilla.png"
+      "image": "./moatzilla.png",
+      "imageSmall": "./moatzilla-small.webp"
     }
   ]
 }

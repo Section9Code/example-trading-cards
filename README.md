@@ -18,17 +18,24 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | Script | Made | How | Docs |
 |---|---|---|---|
 | `v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [docs/v1-generate-cards.md](docs/v1-generate-cards.md) |
-| `v2-compose-cards.ts` | Seasons 2 and 3 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [docs/v2-compose-cards.md](docs/v2-compose-cards.md) |
+| `v2-compose-cards.ts` | Seasons 2 to 4 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [docs/v2-compose-cards.md](docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
+
+`make-small-cards.ts` makes the small copies of the cards. It does not need OpenRouter. For each card, it makes a WebP image 512 pixels wide next to the full-size image, and writes its path to `imageSmall` in `cards.json`. Give it one or more `cards.json` files:
+
+```sh
+node make-small-cards.ts season-4/cards.json
+```
 
 ## What is in a set
 
 Each set folder contains:
 
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
-- One PNG for each card (1024 × 1536, portrait). In season 1 the PNGs are in the set folder. In seasons 2 and 3 they are in `cards/`.
-- Seasons 2 and 3 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- One PNG for each card (1024 × 1536, portrait). In season 1 the PNGs are in the set folder. In seasons 2 to 4 they are in `cards/`.
+- One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
+- Seasons 2 to 4 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
 
 ### `cards.json` shape
 
@@ -57,13 +64,14 @@ Each set folder contains:
       "backgroundScene": "...",
       "flavourText": "Clanks in the night. Also in the day. Clanks constantly.",
       "stats": { "Courage": 9, "Snacks": 1, "Sneakiness": 2 },
-      "image": "./sir-clankalot.png"
+      "image": "./sir-clankalot.png",
+      "imageSmall": "./sir-clankalot-small.webp"
     }
   ]
 }
 ```
 
-The `image` path is relative to `cards.json`. The prompt fields let you make more cards in the same style. See [PROMPTS.md](PROMPTS.md) to learn how to build a full image prompt from a card.
+The `image` and `imageSmall` paths are relative to `cards.json`. The prompt fields let you make more cards in the same style. See [PROMPTS.md](PROMPTS.md) to learn how to build a full image prompt from a card.
 
 ## Ideas
 

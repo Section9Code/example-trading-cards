@@ -44,7 +44,8 @@
         "Power": 10,
         "Lore": 6
       },
-      "image": "./cards/great-cthulhu.png"
+      "image": "./cards/great-cthulhu.png",
+      "imageSmall": "./cards/great-cthulhu-small.webp"
     },
     {
       "id": "eyeling",
@@ -61,7 +62,8 @@
         "Power": 2,
         "Lore": 4
       },
-      "image": "./cards/eyeling.png"
+      "image": "./cards/eyeling.png",
+      "imageSmall": "./cards/eyeling-small.webp"
     },
     {
       "id": "the-hounds-of-tindalos",
@@ -78,7 +80,8 @@
         "Power": 6,
         "Lore": 5
       },
-      "image": "./cards/the-hounds-of-tindalos.png"
+      "image": "./cards/the-hounds-of-tindalos.png",
+      "imageSmall": "./cards/the-hounds-of-tindalos-small.webp"
     },
     {
       "id": "mumbling-acolyte",
@@ -95,7 +98,8 @@
         "Power": 2,
         "Lore": 4
       },
-      "image": "./cards/mumbling-acolyte.png"
+      "image": "./cards/mumbling-acolyte.png",
+      "imageSmall": "./cards/mumbling-acolyte-small.webp"
     },
     {
       "id": "bile-toad",
@@ -112,7 +116,8 @@
         "Power": 3,
         "Lore": 2
       },
-      "image": "./cards/bile-toad.png"
+      "image": "./cards/bile-toad.png",
+      "imageSmall": "./cards/bile-toad-small.webp"
     },
     {
       "id": "the-colour-out-of-space",
@@ -129,7 +134,8 @@
         "Power": 7,
         "Lore": 3
       },
-      "image": "./cards/the-colour-out-of-space.png"
+      "image": "./cards/the-colour-out-of-space.png",
+      "imageSmall": "./cards/the-colour-out-of-space-small.webp"
     },
     {
       "id": "hali-eel",
@@ -146,7 +152,8 @@
         "Power": 2,
         "Lore": 2
       },
-      "image": "./cards/hali-eel.png"
+      "image": "./cards/hali-eel.png",
+      "imageSmall": "./cards/hali-eel-small.webp"
     },
     {
       "id": "azathoth",
@@ -163,7 +170,8 @@
         "Power": 10,
         "Lore": 4
       },
-      "image": "./cards/azathoth.png"
+      "image": "./cards/azathoth.png",
+      "imageSmall": "./cards/azathoth-small.webp"
     },
     {
       "id": "lantern-moth-of-carcosa",
@@ -180,7 +188,8 @@
         "Power": 2,
         "Lore": 3
       },
-      "image": "./cards/lantern-moth-of-carcosa.png"
+      "image": "./cards/lantern-moth-of-carcosa.png",
+      "imageSmall": "./cards/lantern-moth-of-carcosa-small.webp"
     },
     {
       "id": "cassilda",
@@ -197,7 +206,8 @@
         "Power": 6,
         "Lore": 7
       },
-      "image": "./cards/cassilda.png"
+      "image": "./cards/cassilda.png",
+      "imageSmall": "./cards/cassilda-small.webp"
     },
     {
       "id": "whispering-grimoire",
@@ -214,7 +224,8 @@
         "Power": 4,
         "Lore": 9
       },
-      "image": "./cards/whispering-grimoire.png"
+      "image": "./cards/whispering-grimoire.png",
+      "imageSmall": "./cards/whispering-grimoire-small.webp"
     },
     {
       "id": "the-phantom-of-truth",
@@ -231,7 +242,8 @@
         "Power": 6,
         "Lore": 6
       },
-      "image": "./cards/the-phantom-of-truth.png"
+      "image": "./cards/the-phantom-of-truth.png",
+      "imageSmall": "./cards/the-phantom-of-truth-small.webp"
     },
     {
       "id": "drowned-fisherman",
@@ -248,7 +260,8 @@
         "Power": 3,
         "Lore": 2
       },
-      "image": "./cards/drowned-fisherman.png"
+      "image": "./cards/drowned-fisherman.png",
+      "imageSmall": "./cards/drowned-fisherman-small.webp"
     },
     {
       "id": "the-dunwich-horror",
@@ -265,7 +278,8 @@
         "Power": 8,
         "Lore": 3
       },
-      "image": "./cards/the-dunwich-horror.png"
+      "image": "./cards/the-dunwich-horror.png",
+      "imageSmall": "./cards/the-dunwich-horror-small.webp"
     },
     {
       "id": "nyarlathotep",
@@ -282,7 +296,8 @@
         "Power": 10,
         "Lore": 9
       },
-      "image": "./cards/nyarlathotep.png"
+      "image": "./cards/nyarlathotep.png",
+      "imageSmall": "./cards/nyarlathotep-small.webp"
     },
     {
       "id": "triangle-crab",
@@ -299,7 +314,8 @@
         "Power": 3,
         "Lore": 3
       },
-      "image": "./cards/triangle-crab.png"
+      "image": "./cards/triangle-crab.png",
+      "imageSmall": "./cards/triangle-crab-small.webp"
     },
     {
       "id": "mirror-leech",
@@ -316,7 +332,8 @@
         "Power": 2,
         "Lore": 3
       },
-      "image": "./cards/mirror-leech.png"
+      "image": "./cards/mirror-leech.png",
+      "imageSmall": "./cards/mirror-leech-small.webp"
     },
     {
       "id": "pickman-s-ghoul",
@@ -333,7 +350,8 @@
         "Power": 5,
         "Lore": 6
       },
-      "image": "./cards/pickman-s-ghoul.png"
+      "image": "./cards/pickman-s-ghoul.png",
+      "imageSmall": "./cards/pickman-s-ghoul-small.webp"
     },
     {
       "id": "gibbering-mouthling",
@@ -350,7 +368,8 @@
         "Power": 2,
         "Lore": 4
       },
-      "image": "./cards/gibbering-mouthling.png"
+      "image": "./cards/gibbering-mouthling.png",
+      "imageSmall": "./cards/gibbering-mouthling-small.webp"
     },
     {
       "id": "keeper-of-the-yellow-sign",
@@ -367,7 +386,8 @@
         "Power": 7,
         "Lore": 6
       },
-      "image": "./cards/keeper-of-the-yellow-sign.png"
+      "image": "./cards/keeper-of-the-yellow-sign.png",
+      "imageSmall": "./cards/keeper-of-the-yellow-sign-small.webp"
     },
     {
       "id": "yellow-rag-scarecrow",
@@ -384,7 +404,8 @@
         "Power": 2,
         "Lore": 2
       },
-      "image": "./cards/yellow-rag-scarecrow.png"
+      "image": "./cards/yellow-rag-scarecrow.png",
+      "imageSmall": "./cards/yellow-rag-scarecrow-small.webp"
     },
     {
       "id": "the-thing-beyond-the-window",
@@ -401,7 +422,8 @@
         "Power": 6,
         "Lore": 5
       },
-      "image": "./cards/the-thing-beyond-the-window.png"
+      "image": "./cards/the-thing-beyond-the-window.png",
+      "imageSmall": "./cards/the-thing-beyond-the-window-small.webp"
     },
     {
       "id": "yog-sothoth",
@@ -418,7 +440,8 @@
         "Power": 10,
         "Lore": 10
       },
-      "image": "./cards/yog-sothoth.png"
+      "image": "./cards/yog-sothoth.png",
+      "imageSmall": "./cards/yog-sothoth-small.webp"
     },
     {
       "id": "sleepwalker",
@@ -435,7 +458,8 @@
         "Power": 2,
         "Lore": 4
       },
-      "image": "./cards/sleepwalker.png"
+      "image": "./cards/sleepwalker.png",
+      "imageSmall": "./cards/sleepwalker-small.webp"
     },
     {
       "id": "the-black-pharaoh-s-herald",
@@ -452,7 +476,8 @@
         "Power": 7,
         "Lore": 5
       },
-      "image": "./cards/the-black-pharaoh-s-herald.png"
+      "image": "./cards/the-black-pharaoh-s-herald.png",
+      "imageSmall": "./cards/the-black-pharaoh-s-herald-small.webp"
     },
     {
       "id": "spore-bat",
@@ -469,7 +494,8 @@
         "Power": 2,
         "Lore": 2
       },
-      "image": "./cards/spore-bat.png"
+      "image": "./cards/spore-bat.png",
+      "imageSmall": "./cards/spore-bat-small.webp"
     },
     {
       "id": "high-priest-of-the-drowned",
@@ -486,7 +512,8 @@
         "Power": 7,
         "Lore": 7
       },
-      "image": "./cards/high-priest-of-the-drowned.png"
+      "image": "./cards/high-priest-of-the-drowned.png",
+      "imageSmall": "./cards/high-priest-of-the-drowned-small.webp"
     },
     {
       "id": "gutter-spawn",
@@ -503,7 +530,8 @@
         "Power": 2,
         "Lore": 2
       },
-      "image": "./cards/gutter-spawn.png"
+      "image": "./cards/gutter-spawn.png",
+      "imageSmall": "./cards/gutter-spawn-small.webp"
     },
     {
       "id": "shub-niggurath",
@@ -520,7 +548,8 @@
         "Power": 9,
         "Lore": 7
       },
-      "image": "./cards/shub-niggurath.png"
+      "image": "./cards/shub-niggurath.png",
+      "imageSmall": "./cards/shub-niggurath-small.webp"
     },
     {
       "id": "bell-ringer-of-hali",
@@ -537,7 +566,8 @@
         "Power": 2,
         "Lore": 3
       },
-      "image": "./cards/bell-ringer-of-hali.png"
+      "image": "./cards/bell-ringer-of-hali.png",
+      "imageSmall": "./cards/bell-ringer-of-hali-small.webp"
     },
     {
       "id": "the-hali-leviathan",
@@ -554,7 +584,8 @@
         "Power": 8,
         "Lore": 4
       },
-      "image": "./cards/the-hali-leviathan.png"
+      "image": "./cards/the-hali-leviathan.png",
+      "imageSmall": "./cards/the-hali-leviathan-small.webp"
     },
     {
       "id": "tomb-slug",
@@ -571,7 +602,8 @@
         "Power": 3,
         "Lore": 3
       },
-      "image": "./cards/tomb-slug.png"
+      "image": "./cards/tomb-slug.png",
+      "imageSmall": "./cards/tomb-slug-small.webp"
     },
     {
       "id": "the-thousand-eyed-choir",
@@ -588,7 +620,8 @@
         "Power": 7,
         "Lore": 6
       },
-      "image": "./cards/the-thousand-eyed-choir.png"
+      "image": "./cards/the-thousand-eyed-choir.png",
+      "imageSmall": "./cards/the-thousand-eyed-choir-small.webp"
     },
     {
       "id": "echo-wisp",
@@ -605,7 +638,8 @@
         "Power": 2,
         "Lore": 3
       },
-      "image": "./cards/echo-wisp.png"
+      "image": "./cards/echo-wisp.png",
+      "imageSmall": "./cards/echo-wisp-small.webp"
     },
     {
       "id": "the-triangle-warden",
@@ -622,7 +656,8 @@
         "Power": 8,
         "Lore": 6
       },
-      "image": "./cards/the-triangle-warden.png"
+      "image": "./cards/the-triangle-warden.png",
+      "imageSmall": "./cards/the-triangle-warden-small.webp"
     },
     {
       "id": "the-king-in-yellow",
@@ -639,7 +674,8 @@
         "Power": 9,
         "Lore": 8
       },
-      "image": "./cards/the-king-in-yellow.png"
+      "image": "./cards/the-king-in-yellow.png",
+      "imageSmall": "./cards/the-king-in-yellow-small.webp"
     },
     {
       "id": "masked-reveller",
@@ -656,7 +692,8 @@
         "Power": 3,
         "Lore": 3
       },
-      "image": "./cards/masked-reveller.png"
+      "image": "./cards/masked-reveller.png",
+      "imageSmall": "./cards/masked-reveller-small.webp"
     },
     {
       "id": "the-gnawers-in-the-walls",
@@ -673,7 +710,8 @@
         "Power": 5,
         "Lore": 4
       },
-      "image": "./cards/the-gnawers-in-the-walls.png"
+      "image": "./cards/the-gnawers-in-the-walls.png",
+      "imageSmall": "./cards/the-gnawers-in-the-walls-small.webp"
     },
     {
       "id": "ink-polyp",
@@ -690,7 +728,8 @@
         "Power": 2,
         "Lore": 5
       },
-      "image": "./cards/ink-polyp.png"
+      "image": "./cards/ink-polyp.png",
+      "imageSmall": "./cards/ink-polyp-small.webp"
     },
     {
       "id": "the-geometer",
@@ -707,7 +746,8 @@
         "Power": 7,
         "Lore": 7
       },
-      "image": "./cards/the-geometer.png"
+      "image": "./cards/the-geometer.png",
+      "imageSmall": "./cards/the-geometer-small.webp"
     },
     {
       "id": "pale-grub",
@@ -724,7 +764,8 @@
         "Power": 2,
         "Lore": 6
       },
-      "image": "./cards/pale-grub.png"
+      "image": "./cards/pale-grub.png",
+      "imageSmall": "./cards/pale-grub-small.webp"
     },
     {
       "id": "sister-of-the-lake",
@@ -741,7 +782,8 @@
         "Power": 6,
         "Lore": 6
       },
-      "image": "./cards/sister-of-the-lake.png"
+      "image": "./cards/sister-of-the-lake.png",
+      "imageSmall": "./cards/sister-of-the-lake-small.webp"
     },
     {
       "id": "crawling-lantern",
@@ -758,7 +800,8 @@
         "Power": 3,
         "Lore": 2
       },
-      "image": "./cards/crawling-lantern.png"
+      "image": "./cards/crawling-lantern.png",
+      "imageSmall": "./cards/crawling-lantern-small.webp"
     },
     {
       "id": "the-starless-wanderer",
@@ -775,7 +818,8 @@
         "Power": 8,
         "Lore": 6
       },
-      "image": "./cards/the-starless-wanderer.png"
+      "image": "./cards/the-starless-wanderer.png",
+      "imageSmall": "./cards/the-starless-wanderer-small.webp"
     },
     {
       "id": "toothed-tome",
@@ -792,7 +836,8 @@
         "Power": 2,
         "Lore": 6
       },
-      "image": "./cards/toothed-tome.png"
+      "image": "./cards/toothed-tome.png",
+      "imageSmall": "./cards/toothed-tome-small.webp"
     },
     {
       "id": "the-prophet-of-black-stars",
@@ -809,7 +854,8 @@
         "Power": 6,
         "Lore": 8
       },
-      "image": "./cards/the-prophet-of-black-stars.png"
+      "image": "./cards/the-prophet-of-black-stars.png",
+      "imageSmall": "./cards/the-prophet-of-black-stars-small.webp"
     },
     {
       "id": "moonlit-gaunt",
@@ -826,7 +872,8 @@
         "Power": 3,
         "Lore": 2
       },
-      "image": "./cards/moonlit-gaunt.png"
+      "image": "./cards/moonlit-gaunt.png",
+      "imageSmall": "./cards/moonlit-gaunt-small.webp"
     },
     {
       "id": "spawn-of-the-sunken-city",
@@ -843,7 +890,8 @@
         "Power": 8,
         "Lore": 4
       },
-      "image": "./cards/spawn-of-the-sunken-city.png"
+      "image": "./cards/spawn-of-the-sunken-city.png",
+      "imageSmall": "./cards/spawn-of-the-sunken-city-small.webp"
     },
     {
       "id": "the-twitching-idol",
@@ -860,7 +908,8 @@
         "Power": 3,
         "Lore": 5
       },
-      "image": "./cards/the-twitching-idol.png"
+      "image": "./cards/the-twitching-idol.png",
+      "imageSmall": "./cards/the-twitching-idol-small.webp"
     },
     {
       "id": "dagon-father-of-the-deep",
@@ -877,7 +926,8 @@
         "Power": 9,
         "Lore": 7
       },
-      "image": "./cards/dagon-father-of-the-deep.png"
+      "image": "./cards/dagon-father-of-the-deep.png",
+      "imageSmall": "./cards/dagon-father-of-the-deep-small.webp"
     }
   ],
   "layout": {

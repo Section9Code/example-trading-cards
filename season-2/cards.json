@@ -42,7 +42,8 @@
         "Bite": 7,
         "Weirdness": 4
       },
-      "image": "./cards/lanternjaw.png"
+      "image": "./cards/lanternjaw.png",
+      "imageSmall": "./cards/lanternjaw-small.webp"
     },
     {
       "id": "the-drowned-choir",
@@ -58,7 +59,8 @@
         "Bite": 4,
         "Weirdness": 10
       },
-      "image": "./cards/the-drowned-choir.png"
+      "image": "./cards/the-drowned-choir.png",
+      "imageSmall": "./cards/the-drowned-choir-small.webp"
     },
     {
       "id": "gulper-gary",
@@ -74,7 +76,8 @@
         "Bite": 5,
         "Weirdness": 6
       },
-      "image": "./cards/gulper-gary.png"
+      "image": "./cards/gulper-gary.png",
+      "imageSmall": "./cards/gulper-gary-small.webp"
     },
     {
       "id": "mother-kelpwhisker",
@@ -90,7 +93,8 @@
         "Bite": 3,
         "Weirdness": 8
       },
-      "image": "./cards/mother-kelpwhisker.png"
+      "image": "./cards/mother-kelpwhisker.png",
+      "imageSmall": "./cards/mother-kelpwhisker-small.webp"
     },
     {
       "id": "bubblepuff",
@@ -106,7 +110,8 @@
         "Bite": 4,
         "Weirdness": 5
       },
-      "image": "./cards/bubblepuff.png"
+      "image": "./cards/bubblepuff.png",
+      "imageSmall": "./cards/bubblepuff-small.webp"
     },
     {
       "id": "snickerclam",
@@ -122,7 +127,8 @@
         "Bite": 6,
         "Weirdness": 4
       },
-      "image": "./cards/snickerclam.png"
+      "image": "./cards/snickerclam.png",
+      "imageSmall": "./cards/snickerclam-small.webp"
     },
     {
       "id": "sir-barnaby-barnacle",
@@ -138,7 +144,8 @@
         "Bite": 6,
         "Weirdness": 7
       },
-      "image": "./cards/sir-barnaby-barnacle.png"
+      "image": "./cards/sir-barnaby-barnacle.png",
+      "imageSmall": "./cards/sir-barnaby-barnacle-small.webp"
     },
     {
       "id": "abyssmaw",
@@ -154,7 +161,8 @@
         "Bite": 10,
         "Weirdness": 8
       },
-      "image": "./cards/abyssmaw.png"
+      "image": "./cards/abyssmaw.png",
+      "imageSmall": "./cards/abyssmaw-small.webp"
     },
     {
       "id": "wobblegoggle",
@@ -170,7 +178,8 @@
         "Bite": 2,
         "Weirdness": 7
       },
-      "image": "./cards/wobblegoggle.png"
+      "image": "./cards/wobblegoggle.png",
+      "imageSmall": "./cards/wobblegoggle-small.webp"
     },
     {
       "id": "the-inkwitch",
@@ -186,7 +195,8 @@
         "Bite": 4,
         "Weirdness": 8
       },
-      "image": "./cards/the-inkwitch.png"
+      "image": "./cards/the-inkwitch.png",
+      "imageSmall": "./cards/the-inkwitch-small.webp"
     },
     {
       "id": "grumblefin",
@@ -202,7 +212,8 @@
         "Bite": 8,
         "Weirdness": 5
       },
-      "image": "./cards/grumblefin.png"
+      "image": "./cards/grumblefin.png",
+      "imageSmall": "./cards/grumblefin-small.webp"
     },
     {
       "id": "vent-wyrm",
@@ -218,7 +229,8 @@
         "Bite": 6,
         "Weirdness": 6
       },
-      "image": "./cards/vent-wyrm.png"
+      "image": "./cards/vent-wyrm.png",
+      "imageSmall": "./cards/vent-wyrm-small.webp"
     },
     {
       "id": "mopfish",
@@ -234,7 +246,8 @@
         "Bite": 2,
         "Weirdness": 6
       },
-      "image": "./cards/mopfish.png"
+      "image": "./cards/mopfish.png",
+      "imageSmall": "./cards/mopfish-small.webp"
     },
     {
       "id": "the-pale-diver",
@@ -250,7 +263,8 @@
         "Bite": 3,
         "Weirdness": 9
       },
-      "image": "./cards/the-pale-diver.png"
+      "image": "./cards/the-pale-diver.png",
+      "imageSmall": "./cards/the-pale-diver-small.webp"
     },
     {
       "id": "snapperjack",
@@ -266,7 +280,8 @@
         "Bite": 6,
         "Weirdness": 3
       },
-      "image": "./cards/snapperjack.png"
+      "image": "./cards/snapperjack.png",
+      "imageSmall": "./cards/snapperjack-small.webp"
     },
     {
       "id": "glimmerworm",
@@ -282,7 +297,8 @@
         "Bite": 2,
         "Weirdness": 7
       },
-      "image": "./cards/glimmerworm.png"
+      "image": "./cards/glimmerworm.png",
+      "imageSmall": "./cards/glimmerworm-small.webp"
     },
     {
       "id": "barnacle-bob",
@@ -298,7 +314,8 @@
         "Bite": 4,
         "Weirdness": 6
       },
-      "image": "./cards/barnacle-bob.png"
+      "image": "./cards/barnacle-bob.png",
+      "imageSmall": "./cards/barnacle-bob-small.webp"
     },
     {
       "id": "squidlet-twins",
@@ -314,7 +331,8 @@
         "Bite": 3,
         "Weirdness": 6
       },
-      "image": "./cards/squidlet-twins.png"
+      "image": "./cards/squidlet-twins.png",
+      "imageSmall": "./cards/squidlet-twins-small.webp"
     },
     {
       "id": "old-mother-kraken",
@@ -330,7 +348,8 @@
         "Bite": 9,
         "Weirdness": 9
       },
-      "image": "./cards/old-mother-kraken.png"
+      "image": "./cards/old-mother-kraken.png",
+      "imageSmall": "./cards/old-mother-kraken-small.webp"
     },
     {
       "id": "murkmonger",
@@ -346,7 +365,8 @@
         "Bite": 5,
         "Weirdness": 8
       },
-      "image": "./cards/murkmonger.png"
+      "image": "./cards/murkmonger.png",
+      "imageSmall": "./cards/murkmonger-small.webp"
     },
     {
       "id": "pebbletoad",
@@ -362,7 +382,8 @@
         "Bite": 5,
         "Weirdness": 4
       },
-      "image": "./cards/pebbletoad.png"
+      "image": "./cards/pebbletoad.png",
+      "imageSmall": "./cards/pebbletoad-small.webp"
     },
     {
       "id": "the-clockwork-nautilus",
@@ -378,7 +399,8 @@
         "Bite": 4,
         "Weirdness": 8
       },
-      "image": "./cards/the-clockwork-nautilus.png"
+      "image": "./cards/the-clockwork-nautilus.png",
+      "imageSmall": "./cards/the-clockwork-nautilus-small.webp"
     },
     {
       "id": "spinyscuttle",
@@ -394,7 +416,8 @@
         "Bite": 4,
         "Weirdness": 5
       },
-      "image": "./cards/spinyscuttle.png"
+      "image": "./cards/spinyscuttle.png",
+      "imageSmall": "./cards/spinyscuttle-small.webp"
     },
     {
       "id": "siren-of-the-shoals",
@@ -410,7 +433,8 @@
         "Bite": 5,
         "Weirdness": 7
       },
-      "image": "./cards/siren-of-the-shoals.png"
+      "image": "./cards/siren-of-the-shoals.png",
+      "imageSmall": "./cards/siren-of-the-shoals-small.webp"
     },
     {
       "id": "dumpling",
@@ -426,7 +450,8 @@
         "Bite": 1,
         "Weirdness": 5
       },
-      "image": "./cards/dumpling.png"
+      "image": "./cards/dumpling.png",
+      "imageSmall": "./cards/dumpling-small.webp"
     },
     {
       "id": "hookfang",
@@ -442,7 +467,8 @@
         "Bite": 7,
         "Weirdness": 3
       },
-      "image": "./cards/hookfang.png"
+      "image": "./cards/hookfang.png",
+      "imageSmall": "./cards/hookfang-small.webp"
     },
     {
       "id": "sandsquatch",
@@ -458,7 +484,8 @@
         "Bite": 5,
         "Weirdness": 6
       },
-      "image": "./cards/sandsquatch.png"
+      "image": "./cards/sandsquatch.png",
+      "imageSmall": "./cards/sandsquatch-small.webp"
     },
     {
       "id": "captain-coralbeard",
@@ -474,7 +501,8 @@
         "Bite": 7,
         "Weirdness": 6
       },
-      "image": "./cards/captain-coralbeard.png"
+      "image": "./cards/captain-coralbeard.png",
+      "imageSmall": "./cards/captain-coralbeard-small.webp"
     },
     {
       "id": "the-leviathan-queen",
@@ -490,7 +518,8 @@
         "Bite": 8,
         "Weirdness": 8
       },
-      "image": "./cards/the-leviathan-queen.png"
+      "image": "./cards/the-leviathan-queen.png",
+      "imageSmall": "./cards/the-leviathan-queen-small.webp"
     },
     {
       "id": "nibbles",
@@ -506,7 +535,8 @@
         "Bite": 3,
         "Weirdness": 4
       },
-      "image": "./cards/nibbles.png"
+      "image": "./cards/nibbles.png",
+      "imageSmall": "./cards/nibbles-small.webp"
     }
   ],
   "layout": {

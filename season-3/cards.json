@@ -42,7 +42,8 @@
         "Fury": 7,
         "Scale": 3
       },
-      "image": "./cards/cinderjaw.png"
+      "image": "./cards/cinderjaw.png",
+      "imageSmall": "./cards/cinderjaw-small.webp"
     },
     {
       "id": "gravemaw",
@@ -58,7 +59,8 @@
         "Fury": 8,
         "Scale": 7
       },
-      "image": "./cards/gravemaw.png"
+      "image": "./cards/gravemaw.png",
+      "imageSmall": "./cards/gravemaw-small.webp"
     },
     {
       "id": "the-red-tyrant",
@@ -74,7 +76,8 @@
         "Fury": 9,
         "Scale": 10
       },
-      "image": "./cards/the-red-tyrant.png"
+      "image": "./cards/the-red-tyrant.png",
+      "imageSmall": "./cards/the-red-tyrant-small.webp"
     },
     {
       "id": "ashwidow",
@@ -90,7 +93,8 @@
         "Fury": 6,
         "Scale": 5
       },
-      "image": "./cards/ashwidow.png"
+      "image": "./cards/ashwidow.png",
+      "imageSmall": "./cards/ashwidow-small.webp"
     },
     {
       "id": "smoulderscut",
@@ -106,7 +110,8 @@
         "Fury": 5,
         "Scale": 4
       },
-      "image": "./cards/smoulderscut.png"
+      "image": "./cards/smoulderscut.png",
+      "imageSmall": "./cards/smoulderscut-small.webp"
     },
     {
       "id": "blisterhide",
@@ -122,7 +127,8 @@
         "Fury": 3,
         "Scale": 6
       },
-      "image": "./cards/blisterhide.png"
+      "image": "./cards/blisterhide.png",
+      "imageSmall": "./cards/blisterhide-small.webp"
     },
     {
       "id": "the-cinder-widow",
@@ -138,7 +144,8 @@
         "Fury": 5,
         "Scale": 7
       },
-      "image": "./cards/the-cinder-widow.png"
+      "image": "./cards/the-cinder-widow.png",
+      "imageSmall": "./cards/the-cinder-widow-small.webp"
     },
     {
       "id": "vorgath-the-unburied",
@@ -154,7 +161,8 @@
         "Fury": 10,
         "Scale": 9
       },
-      "image": "./cards/vorgath-the-unburied.png"
+      "image": "./cards/vorgath-the-unburied.png",
+      "imageSmall": "./cards/vorgath-the-unburied-small.webp"
     },
     {
       "id": "pyrelet",
@@ -170,7 +178,8 @@
         "Fury": 4,
         "Scale": 4
       },
-      "image": "./cards/pyrelet.png"
+      "image": "./cards/pyrelet.png",
+      "imageSmall": "./cards/pyrelet-small.webp"
     },
     {
       "id": "slagjaw",
@@ -186,7 +195,8 @@
         "Fury": 7,
         "Scale": 8
       },
-      "image": "./cards/slagjaw.png"
+      "image": "./cards/slagjaw.png",
+      "imageSmall": "./cards/slagjaw-small.webp"
     },
     {
       "id": "redgale",
@@ -202,7 +212,8 @@
         "Fury": 8,
         "Scale": 4
       },
-      "image": "./cards/redgale.png"
+      "image": "./cards/redgale.png",
+      "imageSmall": "./cards/redgale-small.webp"
     },
     {
       "id": "the-hoardmother",
@@ -218,7 +229,8 @@
         "Fury": 5,
         "Scale": 9
       },
-      "image": "./cards/the-hoardmother.png"
+      "image": "./cards/the-hoardmother.png",
+      "imageSmall": "./cards/the-hoardmother-small.webp"
     },
     {
       "id": "scorchling",
@@ -234,7 +246,8 @@
         "Fury": 6,
         "Scale": 2
       },
-      "image": "./cards/scorchling.png"
+      "image": "./cards/scorchling.png",
+      "imageSmall": "./cards/scorchling-small.webp"
     },
     {
       "id": "bonegrinder",
@@ -250,7 +263,8 @@
         "Fury": 7,
         "Scale": 8
       },
-      "image": "./cards/bonegrinder.png"
+      "image": "./cards/bonegrinder.png",
+      "imageSmall": "./cards/bonegrinder-small.webp"
     },
     {
       "id": "tinderwing",
@@ -266,7 +280,8 @@
         "Fury": 2,
         "Scale": 3
       },
-      "image": "./cards/tinderwing.png"
+      "image": "./cards/tinderwing.png",
+      "imageSmall": "./cards/tinderwing-small.webp"
     },
     {
       "id": "the-crimson-knight",
@@ -282,7 +297,8 @@
         "Fury": 7,
         "Scale": 9
       },
-      "image": "./cards/the-crimson-knight.png"
+      "image": "./cards/the-crimson-knight.png",
+      "imageSmall": "./cards/the-crimson-knight-small.webp"
     },
     {
       "id": "grubdrake",
@@ -298,7 +314,8 @@
         "Fury": 4,
         "Scale": 6
       },
-      "image": "./cards/grubdrake.png"
+      "image": "./cards/grubdrake.png",
+      "imageSmall": "./cards/grubdrake-small.webp"
     },
     {
       "id": "hookhorn",
@@ -314,7 +331,8 @@
         "Fury": 7,
         "Scale": 5
       },
-      "image": "./cards/hookhorn.png"
+      "image": "./cards/hookhorn.png",
+      "imageSmall": "./cards/hookhorn-small.webp"
     },
     {
       "id": "emberkin",
@@ -330,7 +348,8 @@
         "Fury": 6,
         "Scale": 3
       },
-      "image": "./cards/emberkin.png"
+      "image": "./cards/emberkin.png",
+      "imageSmall": "./cards/emberkin-small.webp"
     },
     {
       "id": "malgrimm-the-world-burner",
@@ -346,7 +365,8 @@
         "Fury": 9,
         "Scale": 8
       },
-      "image": "./cards/malgrimm-the-world-burner.png"
+      "image": "./cards/malgrimm-the-world-burner.png",
+      "imageSmall": "./cards/malgrimm-the-world-burner-small.webp"
     },
     {
       "id": "gallowscale",
@@ -362,7 +382,8 @@
         "Fury": 7,
         "Scale": 6
       },
-      "image": "./cards/gallowscale.png"
+      "image": "./cards/gallowscale.png",
+      "imageSmall": "./cards/gallowscale-small.webp"
     },
     {
       "id": "sootsnout",
@@ -378,7 +399,8 @@
         "Fury": 2,
         "Scale": 5
       },
-      "image": "./cards/sootsnout.png"
+      "image": "./cards/sootsnout.png",
+      "imageSmall": "./cards/sootsnout-small.webp"
     },
     {
       "id": "the-flame-oracle",
@@ -394,7 +416,8 @@
         "Fury": 3,
         "Scale": 6
       },
-      "image": "./cards/the-flame-oracle.png"
+      "image": "./cards/the-flame-oracle.png",
+      "imageSmall": "./cards/the-flame-oracle-small.webp"
     },
     {
       "id": "spitecoil",
@@ -410,7 +433,8 @@
         "Fury": 5,
         "Scale": 3
       },
-      "image": "./cards/spitecoil.png"
+      "image": "./cards/spitecoil.png",
+      "imageSmall": "./cards/spitecoil-small.webp"
     },
     {
       "id": "obsidra",
@@ -426,7 +450,8 @@
         "Fury": 4,
         "Scale": 9
       },
-      "image": "./cards/obsidra.png"
+      "image": "./cards/obsidra.png",
+      "imageSmall": "./cards/obsidra-small.webp"
     },
     {
       "id": "cragling",
@@ -442,7 +467,8 @@
         "Fury": 4,
         "Scale": 7
       },
-      "image": "./cards/cragling.png"
+      "image": "./cards/cragling.png",
+      "imageSmall": "./cards/cragling-small.webp"
     },
     {
       "id": "hellbrand",
@@ -458,7 +484,8 @@
         "Fury": 7,
         "Scale": 4
       },
-      "image": "./cards/hellbrand.png"
+      "image": "./cards/hellbrand.png",
+      "imageSmall": "./cards/hellbrand-small.webp"
     },
     {
       "id": "the-pale-scourge",
@@ -474,7 +501,8 @@
         "Fury": 6,
         "Scale": 6
       },
-      "image": "./cards/the-pale-scourge.png"
+      "image": "./cards/the-pale-scourge.png",
+      "imageSmall": "./cards/the-pale-scourge-small.webp"
     },
     {
       "id": "the-ember-queen",
@@ -490,7 +518,8 @@
         "Fury": 8,
         "Scale": 9
       },
-      "image": "./cards/the-ember-queen.png"
+      "image": "./cards/the-ember-queen.png",
+      "imageSmall": "./cards/the-ember-queen-small.webp"
     },
     {
       "id": "nibblescorch",
@@ -506,7 +535,8 @@
         "Fury": 3,
         "Scale": 2
       },
-      "image": "./cards/nibblescorch.png"
+      "image": "./cards/nibblescorch.png",
+      "imageSmall": "./cards/nibblescorch-small.webp"
     }
   ],
   "layout": {
