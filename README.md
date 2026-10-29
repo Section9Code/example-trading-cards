@@ -16,13 +16,14 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-2](season-2/) | Abyssal Oddities | 30 | Glow, Bite, Weirdness | Common (14), Rare (12), Legendary (4) |
 | [season-3](season-3/) | Wyrmfall | 30 | Fire, Fury, Scale | Common (14), Rare (12), Legendary (4) |
 | [season-4](season-4/) | Carcosa Rising | 50 | Madness, Dread, Power, Lore | Common (23), Rare (20), Legendary (7) |
+| [season-5](season-5/) | Barnyard Brawl | 40 (33 made so far) | Strength, Showmanship, Mud | Common (19), Rare (16), Legendary (5) |
 
 ## How the cards were made
 
 | Script | Made | How | Docs |
 |---|---|---|---|
 | `v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [docs/v1-generate-cards.md](docs/v1-generate-cards.md) |
-| `v2-compose-cards.ts` | Seasons 2 to 4 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [docs/v2-compose-cards.md](docs/v2-compose-cards.md) |
+| `v2-compose-cards.ts` | Seasons 2 to 5 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [docs/v2-compose-cards.md](docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
 
@@ -39,7 +40,7 @@ Each set folder contains:
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
 - `cards/` — one PNG for each card (1024 × 1536, portrait).
 - One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
-- Seasons 2 to 4 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- Seasons 2 to 5 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
 
 ### `cards.json` shape
 

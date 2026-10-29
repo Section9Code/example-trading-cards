@@ -1,0 +1,809 @@
+{
+  "set": {
+    "name": "Barnyard Brawl",
+    "totalCards": 40,
+    "statNames": [
+      "Strength",
+      "Showmanship",
+      "Mud"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Loud, funny cartoon illustration in the manner of a 1980s wrestling event poster crossed with a Saturday-morning comic: thick black ink outlines, bold flat colours, halftone dot shading, speed lines and dramatic low camera angles. Muscular, over-the-top farm animals with huge personalities, wearing wrestling masks, capes, trunks, boots and championship belts. Palette: fire-engine red, championship gold, denim blue, cream and barn-wood brown, with bright spotlight yellow highlights. Hay, mud splashes and flying feathers everywhere. Subtle paper grain like a vintage printed card. Overall mood: rowdy, triumphant, silly and full of energy.",
+    "frame": [
+      "Border: a thick border styled like the edge of a wrestling ring: three taut ring ropes in red, white and denim blue running round the card, padded red turnbuckles in the four corners, and weathered red barn-wood planks with gold rivets behind the ropes. Small stars, horseshoes and wisps of hay worked in as ornament.",
+      "Top-left corner: a small round set emblem shaped like a gold championship belt buckle with a cow's head in the middle, with no letters.",
+      "Top: an empty name banner shaped like a long gold championship belt plate with studs at each end, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about a quarter of the card height, in pale cream like an old fight poster, with a thin denim-blue edge. The upper half of the panel is empty space for two lines of text. A thin denim-blue divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into three equal cells side by side by thin vertical denim-blue dividers. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a long word like 'SHOWMANSHIP' and a large number. The icons, left to right: a flexing muscly arm; an old-fashioned announcer's microphone; a splat of brown mud. The icons are simple, flat and bold, in red, gold, denim blue and brown.",
+      "Card number and rarity: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide dark denim-blue plaque with a gold edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. In the bottom-right corner, a wide pill-shaped pale gold badge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. Both are empty, with no letters.",
+      "Accent colours on the frame are only red, gold, denim blue and cream. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no gore or blood, no real wrestlers or real people, no real wrestling company logos, no modern vector/flat-design look, no watermarks, no extra text, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "cards": [
+    {
+      "id": "el-moo-cho",
+      "name": "El Moo-cho",
+      "cardNumber": 1,
+      "rarity": "Rare",
+      "character": "A muscular black-and-white bull luchador wearing a bright red and gold wrestling mask with flames around the eye holes, a sparkly red cape, gold wrestling boots and a nose ring.",
+      "poseAndExpression": "Leaping off the top turnbuckle with arms spread wide, cape flying, mid-flight toward the viewer.",
+      "backgroundScene": "A packed barn arena at night with hay-bale bleachers full of cheering farm animals and spotlights cutting through dust.",
+      "flavourText": "He flies. Bulls are not supposed to fly.",
+      "stats": {
+        "Strength": 7,
+        "Showmanship": 8,
+        "Mud": 3
+      },
+      "image": "./cards/el-moo-cho.png",
+      "imageSmall": "./cards/el-moo-cho-small.webp"
+    },
+    {
+      "id": "the-udder-destruction",
+      "name": "The Udder Destruction",
+      "cardNumber": 2,
+      "rarity": "Legendary",
+      "character": "An enormous, heavyweight dairy cow champion with huge shoulders, a giant gold championship belt round her waist, red wrestling trunks, taped hooves and a cowbell on a chain round her neck.",
+      "poseAndExpression": "Standing in the centre of the ring holding the gold belt high above her head with both hooves, roaring in triumph as confetti falls.",
+      "backgroundScene": "A huge barn arena with fireworks, a crowd of farm animals going wild, and a giant spotlight on the ring.",
+      "flavourText": "Undefeated. Unmilked. Unstoppable.",
+      "stats": {
+        "Strength": 10,
+        "Showmanship": 9,
+        "Mud": 7
+      },
+      "image": "./cards/the-udder-destruction.png",
+      "imageSmall": "./cards/the-udder-destruction-small.webp"
+    },
+    {
+      "id": "captain-cluck",
+      "name": "Captain Cluck",
+      "cardNumber": 3,
+      "rarity": "Common",
+      "character": "A puffed-up little hen in a tiny blue superhero cape and red wrestling singlet, with a determined frown and a single feather sticking up on her head.",
+      "poseAndExpression": "Strutting along the ring apron, chest out, wings on hips, glaring at the crowd.",
+      "backgroundScene": "The side of a wrestling ring in a dusty barn, with a few chicks cheering from the front row.",
+      "flavourText": "She lays eggs and smackdowns.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 6,
+        "Mud": 2
+      },
+      "image": "./cards/captain-cluck.png",
+      "imageSmall": "./cards/captain-cluck-small.webp"
+    },
+    {
+      "id": "the-baa-barian",
+      "name": "The Baa-barian",
+      "cardNumber": 4,
+      "rarity": "Rare",
+      "character": "A huge ram with massive curled horns, a fur loincloth-style pair of wrestling trunks, leather wrist bands, a horned helmet and a shaggy beard.",
+      "poseAndExpression": "Charging headfirst across the ring with horns lowered, wool flying off in tufts.",
+      "backgroundScene": "A wooden barn ring with splintered ropes, hay flying, and a fallen opponent in the corner.",
+      "flavourText": "He ruled the field. Then he ruled the ring.",
+      "stats": {
+        "Strength": 9,
+        "Showmanship": 5,
+        "Mud": 4
+      },
+      "image": "./cards/the-baa-barian.png",
+      "imageSmall": "./cards/the-baa-barian-small.webp"
+    },
+    {
+      "id": "the-quack-pack",
+      "name": "The Quack Pack",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "A tag team of two identical chubby ducks in matching yellow and blue singlets and swimming goggles worn like wrestling masks.",
+      "poseAndExpression": "Both ducks leaping together off the ropes in a perfectly synchronised double flying kick.",
+      "backgroundScene": "A muddy farm pond turned into an outdoor wrestling ring, with lily pads and reeds round the edges.",
+      "flavourText": "Twice the quack. Twice the attack.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 5,
+        "Mud": 3
+      },
+      "image": "./cards/the-quack-pack.png",
+      "imageSmall": "./cards/the-quack-pack-small.webp"
+    },
+    {
+      "id": "sir-hamsalot",
+      "name": "Sir Hamsalot",
+      "cardNumber": 6,
+      "rarity": "Common",
+      "character": "A small, round piglet in a tiny knight's helmet with a plume, a wrestling singlet and a cardboard shield, puffing out his chest.",
+      "poseAndExpression": "Standing on a hay bale to look taller, shaking a tiny fist at a much bigger opponent off-screen.",
+      "backgroundScene": "The edge of a barn ring, with a giant shadow falling across him from someone very large.",
+      "flavourText": "Small in size. Large in opinion.",
+      "stats": {
+        "Strength": 2,
+        "Showmanship": 7,
+        "Mud": 4
+      },
+      "image": "./cards/sir-hamsalot.png",
+      "imageSmall": "./cards/sir-hamsalot-small.webp"
+    },
+    {
+      "id": "nanny-knuckles",
+      "name": "Nanny Knuckles",
+      "cardNumber": 7,
+      "rarity": "Rare",
+      "character": "A tough old grandma goat with grey whiskers, horn-rimmed spectacles, a knitted cardigan worn over a wrestling singlet, and boxing-tape wrapped round her hooves.",
+      "poseAndExpression": "Hitting an opponent with her handbag while the referee looks the other way, cackling.",
+      "backgroundScene": "A barn ring with knitting needles and a ball of yarn on the turnbuckle, an outraged crowd.",
+      "flavourText": "She was wrestling before your grandad was a kid.",
+      "stats": {
+        "Strength": 6,
+        "Showmanship": 7,
+        "Mud": 4
+      },
+      "image": "./cards/nanny-knuckles.png",
+      "imageSmall": "./cards/nanny-knuckles-small.webp"
+    },
+    {
+      "id": "gnasher-the-rope-eater",
+      "name": "Gnasher the Rope-Eater",
+      "cardNumber": 8,
+      "rarity": "Legendary",
+      "character": "A wild-eyed, scruffy billy goat with long beard and crooked horns, wearing torn denim shorts and a spiked collar, with bits of chewed ring rope hanging from his mouth.",
+      "poseAndExpression": "Standing in the ring chewing through the top rope while the referee and announcer panic in the background.",
+      "backgroundScene": "A wrecked barn arena with snapped ropes, a broken turnbuckle and hay everywhere, the crowd half cheering and half fleeing.",
+      "flavourText": "There are no rules. He ate the rule book.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 10,
+        "Mud": 8
+      },
+      "image": "./cards/gnasher-the-rope-eater.png",
+      "imageSmall": "./cards/gnasher-the-rope-eater-small.webp"
+    },
+    {
+      "id": "turkey-trot",
+      "name": "Turkey Trot",
+      "cardNumber": 9,
+      "rarity": "Common",
+      "character": "A lanky, nervous turkey with a wobbly red wattle, running shoes, a sweatband and a wrestling singlet covered in lightning bolts.",
+      "poseAndExpression": "Sprinting round the ring at full speed with feathers flying and a cartoon dust cloud behind him.",
+      "backgroundScene": "A barn ring with motion lines everywhere and a dizzy opponent spinning in the centre.",
+      "flavourText": "He cannot win, but he cannot be caught.",
+      "stats": {
+        "Strength": 2,
+        "Showmanship": 5,
+        "Mud": 3
+      },
+      "image": "./cards/turkey-trot.png",
+      "imageSmall": "./cards/turkey-trot-small.webp"
+    },
+    {
+      "id": "mudslide-malone",
+      "name": "Mudslide Malone",
+      "cardNumber": 10,
+      "rarity": "Rare",
+      "character": "A big, happy pink pig wrestler absolutely caked in mud, wearing brown trunks, a backwards baseball cap and a gold tooth.",
+      "poseAndExpression": "Belly-flopping into a pool of mud in the centre of the ring, sending a huge splash toward the viewer.",
+      "backgroundScene": "An outdoor mud-pit ring in the farmyard with mud-splattered fans in raincoats in the front row.",
+      "flavourText": "Front row tickets come with a free shower.",
+      "stats": {
+        "Strength": 7,
+        "Showmanship": 5,
+        "Mud": 10
+      },
+      "image": "./cards/mudslide-malone.png",
+      "imageSmall": "./cards/mudslide-malone-small.webp"
+    },
+    {
+      "id": "the-masked-mallard",
+      "name": "The Masked Mallard",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "A mysterious, sleek drake mallard in a black and gold full-face wrestling mask, a long black cape and a cool, silent stare.",
+      "poseAndExpression": "Standing on the top rope with wings folded inside his cape, one eyebrow raised, under a single spotlight.",
+      "backgroundScene": "A darkened barn arena with smoke on the floor and a single beam of light on the ring.",
+      "flavourText": "Nobody knows who he is. Everyone knows what he does.",
+      "stats": {
+        "Strength": 6,
+        "Showmanship": 8,
+        "Mud": 3
+      },
+      "image": "./cards/the-masked-mallard.png",
+      "imageSmall": "./cards/the-masked-mallard-small.webp"
+    },
+    {
+      "id": "big-bad-boar",
+      "name": "Big Bad Boar",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A huge, bristly wild boar with tusks, a mohawk of stiff hair, studded leather vest, chains and black wrestling boots, the meanest heel in the barn.",
+      "poseAndExpression": "Snarling and pointing at the crowd while they boo, one hoof on a fallen opponent.",
+      "backgroundScene": "A barn ring under red spotlights with fans throwing popcorn and corn cobs at him.",
+      "flavourText": "Boo him all you like. He loves it.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 7,
+        "Mud": 6
+      },
+      "image": "./cards/big-bad-boar.png",
+      "imageSmall": "./cards/big-bad-boar-small.webp"
+    },
+    {
+      "id": "woolly-bully",
+      "name": "Woolly Bully",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A small, extremely fluffy sheep so round with wool she looks like a cloud, wearing tiny red boots and a headband.",
+      "poseAndExpression": "Bouncing off the ropes like a ball, with a goofy grin.",
+      "backgroundScene": "A barn ring with cushion-like wool tufts floating in the air.",
+      "flavourText": "Opponents bounce right off.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 4,
+        "Mud": 3
+      },
+      "image": "./cards/woolly-bully.png",
+      "imageSmall": "./cards/woolly-bully-small.webp"
+    },
+    {
+      "id": "haymaker-hank",
+      "name": "Haymaker Hank",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A big, slow, strong grey donkey with a lopsided grin, wearing denim overalls cut into a wrestling singlet and enormous boxing gloves.",
+      "poseAndExpression": "Winding up a huge overhead punch with one gloved hoof, tongue sticking out in concentration.",
+      "backgroundScene": "A barn ring with a stack of hay bales collapsing behind him from a missed punch.",
+      "flavourText": "He takes his time. He only needs one.",
+      "stats": {
+        "Strength": 9,
+        "Showmanship": 4,
+        "Mud": 5
+      },
+      "image": "./cards/haymaker-hank.png",
+      "imageSmall": "./cards/haymaker-hank-small.webp"
+    },
+    {
+      "id": "scrambled-chick",
+      "name": "Scrambled Chick",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "A tiny fluffy yellow chick still wearing half an eggshell on its head like a helmet, with a tiny wrestling belt made of a bottle cap.",
+      "poseAndExpression": "Standing in fighting stance with tiny wings raised like fists, very serious.",
+      "backgroundScene": "The middle of a huge empty ring, the chick very small in the frame, a spotlight on it.",
+      "flavourText": "Fresh out of the shell and ready to rumble.",
+      "stats": {
+        "Strength": 1,
+        "Showmanship": 6,
+        "Mud": 2
+      },
+      "image": "./cards/scrambled-chick.png",
+      "imageSmall": "./cards/scrambled-chick-small.webp"
+    },
+    {
+      "id": "horse-power",
+      "name": "Horse Power",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A powerful, gleaming chestnut stallion with a flowing blond mane, a sequinned red and gold robe, gold boots and a championship hairstyle.",
+      "poseAndExpression": "Flexing on the top rope with mane blowing in a wind machine, smiling for the cameras.",
+      "backgroundScene": "A grand barn arena with camera flashes everywhere and a red carpet entrance ramp.",
+      "flavourText": "Two hundred horsepower. All of it hair.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 9,
+        "Mud": 2
+      },
+      "image": "./cards/horse-power.png",
+      "imageSmall": "./cards/horse-power-small.webp"
+    },
+    {
+      "id": "referee-hoot",
+      "name": "Referee Hoot",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A wise, serious barn owl in a black and white striped referee shirt with a whistle round its neck and huge round eyes.",
+      "poseAndExpression": "Turning its head completely round to watch two wrestlers at once, holding up a hand to count.",
+      "backgroundScene": "The middle of a barn ring with two blurry wrestlers grappling on either side.",
+      "flavourText": "It sees everything. It still misses the handbag.",
+      "stats": {
+        "Strength": 2,
+        "Showmanship": 4,
+        "Mud": 1
+      },
+      "image": "./cards/referee-hoot.png",
+      "imageSmall": "./cards/referee-hoot-small.webp"
+    },
+    {
+      "id": "sheepdog-steve",
+      "name": "Sheepdog Steve",
+      "cardNumber": 18,
+      "rarity": "Common",
+      "character": "A scruffy black and white sheepdog manager in a loud checked suit, sunglasses and a gold chain, holding a clipboard and a megaphone.",
+      "poseAndExpression": "Shouting through the megaphone at the ring from the corner, waving the clipboard.",
+      "backgroundScene": "Ringside of a barn arena with a crowd of sheep in the bleachers behind him.",
+      "flavourText": "He has rounded up a fight.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 6,
+        "Mud": 2
+      },
+      "image": "./cards/sheepdog-steve.png",
+      "imageSmall": "./cards/sheepdog-steve-small.webp"
+    },
+    {
+      "id": "crowin-kevin",
+      "name": "Crowin' Kevin",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A tall, proud rooster ring announcer in a shiny tuxedo jacket and bow tie, holding an old-fashioned microphone that dangles from the ceiling.",
+      "poseAndExpression": "Leaning back with the microphone, beak wide open, giving a long dramatic announcement.",
+      "backgroundScene": "The centre of the ring under bright spotlights, the crowd blurred and cheering behind.",
+      "flavourText": "Let's get ready to... cock-a-doodle-doo!",
+      "stats": {
+        "Strength": 2,
+        "Showmanship": 8,
+        "Mud": 1
+      },
+      "image": "./cards/crowin-kevin.png",
+      "imageSmall": "./cards/crowin-kevin-small.webp"
+    },
+    {
+      "id": "big-bertha-the-barn-crusher",
+      "name": "Big Bertha the Barn-Crusher",
+      "cardNumber": 20,
+      "rarity": "Legendary",
+      "character": "A colossal, mountain-sized sow in a red and gold leotard, wristbands and a tiara, with a confident grin and arms as thick as tree trunks.",
+      "poseAndExpression": "Body-slamming an opponent so hard the whole ring bounces and the barn roof shakes loose straw.",
+      "backgroundScene": "A barn arena seen from a low angle, beams cracking, the crowd lifted out of their seats by the shockwave.",
+      "flavourText": "The barn had to be rebuilt. Twice.",
+      "stats": {
+        "Strength": 10,
+        "Showmanship": 8,
+        "Mud": 8
+      },
+      "image": "./cards/big-bertha-the-barn-crusher.png",
+      "imageSmall": "./cards/big-bertha-the-barn-crusher-small.webp"
+    },
+    {
+      "id": "lady-llama",
+      "name": "Lady Llama",
+      "cardNumber": 21,
+      "rarity": "Rare",
+      "character": "A haughty, elegant llama with a glamorous fringe, long eyelashes, a feather boa, sparkly wrestling suit and an expression of total disdain.",
+      "poseAndExpression": "Spitting a huge gob at her opponent with perfect aim while posing for the crowd.",
+      "backgroundScene": "A barn ring with a disgusted opponent wiping their face, cameras flashing.",
+      "flavourText": "Never, ever, insult the fringe.",
+      "stats": {
+        "Strength": 5,
+        "Showmanship": 9,
+        "Mud": 4
+      },
+      "image": "./cards/lady-llama.png",
+      "imageSmall": "./cards/lady-llama-small.webp"
+    },
+    {
+      "id": "the-grain-grabber",
+      "name": "The Grain Grabber",
+      "cardNumber": 22,
+      "rarity": "Common",
+      "character": "A tiny, cheeky barn mouse with a bandit's mask, a sack of grain over its shoulder and a little wrestling singlet.",
+      "poseAndExpression": "Running off with the championship belt, which is much bigger than he is, dragging it across the floor.",
+      "backgroundScene": "Under the ring apron in a barn, with startled wrestlers peering down.",
+      "flavourText": "Nobody saw him take it. Everybody saw him drop it.",
+      "stats": {
+        "Strength": 1,
+        "Showmanship": 5,
+        "Mud": 3
+      },
+      "image": "./cards/the-grain-grabber.png",
+      "imageSmall": "./cards/the-grain-grabber-small.webp"
+    },
+    {
+      "id": "the-feathered-fury",
+      "name": "The Feathered Fury",
+      "cardNumber": 23,
+      "rarity": "Rare",
+      "character": "A lean, fierce fighting rooster high-flyer with a bright red comb, iridescent tail feathers, a red bandana and taped feet.",
+      "poseAndExpression": "Spinning through the air in a corkscrew dive off the top of a stack of hay bales.",
+      "backgroundScene": "An outdoor farmyard ring at sunrise, with the sun rising behind him and the crowd looking up.",
+      "flavourText": "Every morning he wakes the farm. Every evening he puts it to sleep.",
+      "stats": {
+        "Strength": 6,
+        "Showmanship": 8,
+        "Mud": 3
+      },
+      "image": "./cards/the-feathered-fury.png",
+      "imageSmall": "./cards/the-feathered-fury-small.webp"
+    },
+    {
+      "id": "bucket-head-bob",
+      "name": "Bucket Head Bob",
+      "cardNumber": 24,
+      "rarity": "Common",
+      "character": "A clumsy, friendly young calf with a metal milk bucket stuck on his head, little wrestling trunks and big wobbly legs.",
+      "poseAndExpression": "Stumbling across the ring with arms out, accidentally knocking over an opponent.",
+      "backgroundScene": "A barn ring with a surprised opponent tumbling over the ropes.",
+      "flavourText": "He has never seen an opponent. He has beaten several.",
+      "stats": {
+        "Strength": 5,
+        "Showmanship": 4,
+        "Mud": 4
+      },
+      "image": "./cards/bucket-head-bob.png",
+      "imageSmall": "./cards/bucket-head-bob-small.webp"
+    },
+    {
+      "id": "the-ewe-nited-twins",
+      "name": "The Ewe-nited Twins",
+      "cardNumber": 25,
+      "rarity": "Rare",
+      "character": "A tag team of two matching lambs in sparkly gold capes and identical red masks, holding hooves and grinning.",
+      "poseAndExpression": "Both lambs leaping together off the ropes in a perfectly mirrored double dropkick.",
+      "backgroundScene": "A barn ring with a giant flag of a sheep's face hanging over it and fans waving foam hooves.",
+      "flavourText": "Two lambs. One mind. No mercy.",
+      "stats": {
+        "Strength": 5,
+        "Showmanship": 8,
+        "Mud": 3
+      },
+      "image": "./cards/the-ewe-nited-twins.png",
+      "imageSmall": "./cards/the-ewe-nited-twins-small.webp"
+    },
+    {
+      "id": "tumbleweed",
+      "name": "Tumbleweed",
+      "cardNumber": 26,
+      "rarity": "Common",
+      "character": "A small, spiky hedgehog in a tiny wrestling mask, who curls into a ball to attack.",
+      "poseAndExpression": "Rolling across the ring at high speed in a ball, leaving a trail of dust and spikes.",
+      "backgroundScene": "A barn ring with a hopping opponent holding a sore foot.",
+      "flavourText": "Do not try to pin him. Really, do not.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 4,
+        "Mud": 4
+      },
+      "image": "./cards/tumbleweed.png",
+      "imageSmall": "./cards/tumbleweed-small.webp"
+    },
+    {
+      "id": "grumpy-gertie",
+      "name": "Grumpy Gertie",
+      "cardNumber": 27,
+      "rarity": "Common",
+      "character": "A cross white goose with a furious frown, a red bandana and wrestling boots, wings spread wide, hissing.",
+      "poseAndExpression": "Chasing a much bigger wrestler out of the ring, neck stretched out, honking.",
+      "backgroundScene": "The barn arena aisle, with fans diving out of the way.",
+      "flavourText": "The scariest animal on the farm, and everybody knows it.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 6,
+        "Mud": 3
+      },
+      "image": "./cards/grumpy-gertie.png",
+      "imageSmall": "./cards/grumpy-gertie-small.webp"
+    },
+    {
+      "id": "the-shire-giant",
+      "name": "The Shire Giant",
+      "cardNumber": 28,
+      "rarity": "Rare",
+      "character": "An enormous, gentle shire horse with feathery white hooves, a braided mane, a flat cap and a wrestling singlet, smiling kindly.",
+      "poseAndExpression": "Lifting two opponents above his head, one in each hoof, looking calm and polite about it.",
+      "backgroundScene": "A huge barn ring that looks small around him, the crowd gasping.",
+      "flavourText": "He says sorry after every match. He means it.",
+      "stats": {
+        "Strength": 10,
+        "Showmanship": 4,
+        "Mud": 5
+      },
+      "image": "./cards/the-shire-giant.png",
+      "imageSmall": "./cards/the-shire-giant-small.webp"
+    },
+    {
+      "id": "the-barnstormer",
+      "name": "The Barnstormer",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "A towering, shaggy highland cow champion with enormous wide horns tied with gold ribbons, a flowing ginger fringe, a tartan cape and a giant gold belt.",
+      "poseAndExpression": "Bursting through the barn doors on her entrance with pyrotechnics exploding behind her and horns lowered.",
+      "backgroundScene": "A barn arena exploding with fireworks, smoke and confetti, the crowd on its feet.",
+      "flavourText": "When the barn doors blow open, the match is already over.",
+      "stats": {
+        "Strength": 9,
+        "Showmanship": 10,
+        "Mud": 7
+      },
+      "image": "./cards/the-barnstormer.png",
+      "imageSmall": "./cards/the-barnstormer-small.webp"
+    },
+    {
+      "id": "rabbit-punch",
+      "name": "Rabbit Punch",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A small, fast, wiry rabbit boxer with long ears taped up, tiny red gloves and a mouthguard.",
+      "poseAndExpression": "Bouncing on his toes and throwing a blur of tiny punches at a much bigger opponent's knee.",
+      "backgroundScene": "A barn ring with a huge bull opponent looking down, confused.",
+      "flavourText": "He is fast. He is tiny. He is mostly ignored.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 5,
+        "Mud": 2
+      },
+      "image": "./cards/rabbit-punch.png",
+      "imageSmall": "./cards/rabbit-punch-small.webp"
+    },
+    {
+      "id": "el-chivo-loco",
+      "name": "El Chivo Loco",
+      "cardNumber": 31,
+      "rarity": "Rare",
+      "character": "A wiry, wild-eyed white goat luchador with curved horns poking out through holes in a bright green, gold and red lucha libre mask decorated with lightning bolts, a matching cape, gold wrestling boots and a little goatee sticking out of the mask.",
+      "poseAndExpression": "Springing off the top rope in a spinning flying headbutt, horns first, cape fluttering behind him.",
+      "backgroundScene": "A packed barn arena decorated with colourful paper flags and piñatas, a crowd of farm animals in sombreros cheering.",
+      "flavourText": "Nobody knows what is under the mask. Probably more goat.",
+      "stats": {
+        "Strength": 6,
+        "Showmanship": 9,
+        "Mud": 3
+      },
+      "image": "./cards/el-chivo-loco.png",
+      "imageSmall": "./cards/el-chivo-loco-small.webp"
+    },
+    {
+      "id": "frog-splash-fred",
+      "name": "Frog Splash Fred",
+      "cardNumber": 32,
+      "rarity": "Common",
+      "character": "A plump, cheerful green pond frog in tiny red trunks and a sweatband, with huge springy back legs.",
+      "poseAndExpression": "Leaping from the top turnbuckle in a flat belly-first splash, arms and legs spread wide.",
+      "backgroundScene": "A barn ring next to the duck pond, lily pads floating in a paddling pool at ringside.",
+      "flavourText": "He has one move. It is a very good move.",
+      "stats": {
+        "Strength": 3,
+        "Showmanship": 5,
+        "Mud": 5
+      },
+      "image": "./cards/frog-splash-fred.png",
+      "imageSmall": "./cards/frog-splash-fred-small.webp"
+    },
+    {
+      "id": "doctor-quackenstein",
+      "name": "Doctor Quackenstein",
+      "cardNumber": 33,
+      "rarity": "Rare",
+      "character": "A scheming duck mad scientist in a stained white lab coat over a black wrestling singlet, round goggles, wild white head feathers and a clipboard of evil plans.",
+      "poseAndExpression": "Rubbing his wings together with a cackle at ringside, while a bubbling flask of green potion sits on the apron.",
+      "backgroundScene": "A barn ring with a crackling homemade science machine in the corner, sparks flying from the wires.",
+      "flavourText": "He has a plan. It involves a lot of duct tape.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 8,
+        "Mud": 5
+      }
+    },
+    {
+      "id": "pony-express",
+      "name": "Pony Express",
+      "cardNumber": 34,
+      "rarity": "Common",
+      "character": "A small, speedy Shetland pony with a huge shaggy fringe over her eyes, a mail bag satchel, and lightning-bolt wrestling boots.",
+      "poseAndExpression": "Galloping around the ring so fast her hooves are a blur, fringe streaming back.",
+      "backgroundScene": "A barn ring with dust trails and dizzy opponents on the canvas.",
+      "flavourText": "Delivers on time. Delivers a beating.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 4,
+        "Mud": 3
+      },
+      "image": "./cards/pony-express.png",
+      "imageSmall": "./cards/pony-express-small.webp"
+    },
+    {
+      "id": "the-alpaca-lypse",
+      "name": "The Alpaca-lypse",
+      "cardNumber": 35,
+      "rarity": "Rare",
+      "character": "A towering, fluffy cream alpaca with an enormous pompadour of wool, a black leather jacket over a wrestling singlet, and a bored, unbothered expression.",
+      "poseAndExpression": "Standing completely still while an opponent bounces off his fluffy chest, chewing slowly.",
+      "backgroundScene": "A barn arena under red and blue spotlights, the crowd laughing.",
+      "flavourText": "He does not move. He does not need to.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 6,
+        "Mud": 4
+      }
+    },
+    {
+      "id": "mole-mauler",
+      "name": "Mole Mauler",
+      "cardNumber": 36,
+      "rarity": "Common",
+      "character": "A stocky little mole in a miner's helmet with a lamp, tiny wrestling trunks and huge digging claws.",
+      "poseAndExpression": "Bursting up through a hole in the ring canvas underneath his surprised opponent.",
+      "backgroundScene": "A barn ring with a mole hill in the middle of the canvas and splinters flying.",
+      "flavourText": "He never enters the ring. He enters from below.",
+      "stats": {
+        "Strength": 5,
+        "Showmanship": 3,
+        "Mud": 6
+      }
+    },
+    {
+      "id": "sergeant-snout",
+      "name": "Sergeant Snout",
+      "cardNumber": 37,
+      "rarity": "Rare",
+      "character": "A barrel-chested pig drill sergeant in a green army cap, dog tags, camouflage wrestling trunks and a whistle.",
+      "poseAndExpression": "Shouting nose to nose at a terrified opponent, finger jabbing, spit flying.",
+      "backgroundScene": "An outdoor farmyard ring by the pigsty, with a row of piglets doing push-ups in the background.",
+      "flavourText": "Drop and give him twenty. Pins.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 7,
+        "Mud": 6
+      }
+    },
+    {
+      "id": "slow-mo",
+      "name": "Slow Mo",
+      "cardNumber": 38,
+      "rarity": "Common",
+      "character": "An ancient, calm tortoise in a tiny wrestling singlet and a sweatband on his head, wearing sunglasses.",
+      "poseAndExpression": "Crawling extremely slowly toward an opponent who has fallen asleep waiting.",
+      "backgroundScene": "A barn ring with a giant clock on the wall and cobwebs on the ropes.",
+      "flavourText": "He has never lost. His matches have not finished yet.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 3,
+        "Mud": 3
+      }
+    },
+    {
+      "id": "bantam-bruiser",
+      "name": "Bantam Bruiser",
+      "cardNumber": 39,
+      "rarity": "Common",
+      "character": "A tiny, scrappy bantam rooster with a battered comb, an eyepatch, taped wings and a toothpick in his beak.",
+      "poseAndExpression": "Squaring up to a giant bull, chest out, wings raised as fists.",
+      "backgroundScene": "Ringside in a barn, with the bull's huge legs filling most of the frame.",
+      "flavourText": "Pound for pound, the toughest bird alive.",
+      "stats": {
+        "Strength": 4,
+        "Showmanship": 5,
+        "Mud": 2
+      }
+    },
+    {
+      "id": "the-phantom-of-the-hayloft",
+      "name": "The Phantom of the Hayloft",
+      "cardNumber": 40,
+      "rarity": "Legendary",
+      "character": "A mysterious, sleek black barn cat wrestler in a white half-mask, a long black and red cape and gleaming green eyes, moving like a shadow.",
+      "poseAndExpression": "Dropping silently from the dark hayloft rafters onto the ring, cape spread like wings, under one spotlight.",
+      "backgroundScene": "A dark barn arena with hay drifting down from the rafters, the crowd frozen in surprise, a single beam of light.",
+      "flavourText": "Nine lives. Nine titles. No losses.",
+      "stats": {
+        "Strength": 8,
+        "Showmanship": 10,
+        "Mud": 8
+      }
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 121,
+      "top": 210,
+      "width": 783,
+      "height": 802
+    },
+    "text": {
+      "name": {
+        "x": 555,
+        "y": 112,
+        "size": 64,
+        "maxWidth": 440,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1b2a4a",
+        "charWidth": 0.75
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1120,
+        "size": 34,
+        "maxWidth": 780,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#1b2a4a",
+        "italic": true,
+        "wrap": true
+      },
+      "number": {
+        "x": 195,
+        "y": 1465,
+        "size": 40,
+        "maxWidth": 220,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#fff3d6",
+        "anchor": "middle",
+        "bold": true
+      },
+      "rarity": {
+        "x": 805,
+        "y": 1465,
+        "size": 40,
+        "maxWidth": 250,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1b2a4a",
+        "anchor": "middle",
+        "charWidth": 0.85
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 299,
+          "y": 1240,
+          "size": 24,
+          "maxWidth": 125,
+          "font": "Impact, 'Arial Black', sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.53
+        },
+        "value": {
+          "x": 299,
+          "y": 1302,
+          "size": 60,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 582,
+          "y": 1240,
+          "size": 24,
+          "maxWidth": 116,
+          "font": "Impact, 'Arial Black', sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.53
+        },
+        "value": {
+          "x": 582,
+          "y": 1302,
+          "size": 60,
+          "maxWidth": 125,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 862,
+          "y": 1240,
+          "size": 24,
+          "maxWidth": 115,
+          "font": "Impact, 'Arial Black', sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.53
+        },
+        "value": {
+          "x": 862,
+          "y": 1302,
+          "size": 60,
+          "maxWidth": 115,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a4a",
+          "charWidth": 0.7
+        }
+      }
+    ]
+  }
+}
