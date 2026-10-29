@@ -1,0 +1,624 @@
+{
+  "set": {
+    "name": "Abyssal Oddities",
+    "totalCards": 30,
+    "statNames": [
+      "Glow",
+      "Bite",
+      "Weirdness"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Strange storybook fantasy illustration in the manner of a 1970s fantasy paperback cover crossed with an old naturalist's engraving: confident inked linework with fine cross-hatching in the shadows, rich painted colour laid over the ink, slightly grotesque but charming creature design. Palette: deep purples, indigo and near-black for the depths, with glowing accents of cyan, teal, acid green and pale gold from bioluminescence. Soft light falls through murky water, with drifting particles and bubbles. Subtle paper grain like a vintage printed card. Overall mood: eerie, wondrous, a little funny.",
+    "frame": [
+      "Border: a thick, very dark purple border (deep plum to near-black violet) carved like old wood or dark mother-of-pearl, with a thin glowing cyan pinstripe inside it. Fish-scale texture, curling fins, coral branches and tiny bubbles worked into the corners as ornament.",
+      "Top-left corner: a small round set emblem showing a glowing anglerfish lure, with no letters.",
+      "Top: an empty name banner shaped like a long curved fin or a ship's ribbon plaque, dark purple with a pale gold edge, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about a quarter of the card height, in pale lavender-grey like old bone or a weathered shell, with a thin dark purple edge. The upper half of the panel is empty space for two lines of text. A thin dark purple divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into three equal cells side by side by thin vertical dark purple dividers. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a long word like 'WEIRDNESS' and a large number. The icons, left to right: a glowing anglerfish lure bulb on a curved stalk; an open fish jaw full of sharp fangs; a swirling spiral eye. The icons are simple, flat and bold, in dark purple, cyan and pale gold.",
+      "Card number and rarity: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide dark plaque with a pale gold edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. In the bottom-right corner, a wide pill-shaped pale gold badge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. Both are empty, with no letters.",
+      "Accent colours on the frame are only cyan, teal and pale gold. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no modern vector/flat-design look, no watermarks, no extra text, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "cards": [
+    {
+      "id": "lanternjaw",
+      "name": "Lanternjaw",
+      "cardNumber": 1,
+      "rarity": "Rare",
+      "character": "A bulging, lumpy anglerfish the size of a rowing boat, with dark plum skin, a huge underbite crammed with glassy needle teeth, tiny suspicious eyes and a long stalk on its head ending in a glowing cyan lure bulb.",
+      "poseAndExpression": "Hanging still in the dark with its jaws slightly open, the lure dangling right in front of the viewer, grinning patiently.",
+      "backgroundScene": "Pitch-black deep water with drifting particles, a few tiny curious fish swimming toward the glowing lure.",
+      "flavourText": "Follow the light. Everyone does.",
+      "stats": {
+        "Glow": 8,
+        "Bite": 7,
+        "Weirdness": 4
+      },
+      "image": "./cards/lanternjaw.png"
+    },
+    {
+      "id": "the-drowned-choir",
+      "name": "The Drowned Choir",
+      "cardNumber": 2,
+      "rarity": "Legendary",
+      "character": "A vast, ghostly jellyfish as big as a cathedral, its glassy indigo bell carved with glowing teal patterns like stained glass, and hundreds of long trailing tentacles each ending in a tiny pale gold glowing mouth that sings.",
+      "poseAndExpression": "Rising slowly upward with its tentacles fanned out below like a curtain, every little mouth open in song, serene and enormous.",
+      "backgroundScene": "A sunken cathedral on the sea floor with broken spires and arched windows, shafts of faint light falling through murky water, bubbles rising.",
+      "flavourText": "Sailors hear it on still nights. Then they go for a swim.",
+      "stats": {
+        "Glow": 10,
+        "Bite": 4,
+        "Weirdness": 10
+      },
+      "image": "./cards/the-drowned-choir.png"
+    },
+    {
+      "id": "gulper-gary",
+      "name": "Gulper Gary",
+      "cardNumber": 3,
+      "rarity": "Common",
+      "character": "A small, comically baggy gulper eel with a huge stretchy pouch of a mouth, a thin whippy tail with a cyan glowing tip, and two small startled eyes right at the front of its face.",
+      "poseAndExpression": "Mouth stretched wide open around a fish far too big for it, eyes bulging in surprise.",
+      "backgroundScene": "Dark indigo open water with a few drifting particles and a distant glow far below.",
+      "flavourText": "Bit off more than it could chew. Chewed it anyway.",
+      "stats": {
+        "Glow": 3,
+        "Bite": 5,
+        "Weirdness": 6
+      },
+      "image": "./cards/gulper-gary.png"
+    },
+    {
+      "id": "mother-kelpwhisker",
+      "name": "Mother Kelpwhisker",
+      "cardNumber": 4,
+      "rarity": "Rare",
+      "character": "An ancient, wrinkled sea dragon made of tangled purple kelp and driftwood, with long trailing whiskers of glowing teal weed, a curious old face with half-moon spectacles of sea glass, and tiny barnacles all over.",
+      "poseAndExpression": "Drifting gently among the kelp with her head tilted toward the viewer, peering over her spectacles, wise and slightly amused.",
+      "backgroundScene": "A tall kelp forest swaying in deep blue-purple water, shafts of pale light from far above, tiny glowing fish weaving between the stalks.",
+      "flavourText": "She knows every secret the tide has ever told.",
+      "stats": {
+        "Glow": 6,
+        "Bite": 3,
+        "Weirdness": 8
+      },
+      "image": "./cards/mother-kelpwhisker.png"
+    },
+    {
+      "id": "bubblepuff",
+      "name": "Bubblepuff",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "A round, spiky pufferfish blown up like a balloon, pale lavender with cyan spots, tiny fins flapping uselessly and a small offended pout.",
+      "poseAndExpression": "Fully puffed and slowly spinning, glaring at the viewer, very cross.",
+      "backgroundScene": "A shallow reef ledge at dusk with purple coral and drifting bubbles, a curious crab watching from below.",
+      "flavourText": "Do not poke. It has been poked enough.",
+      "stats": {
+        "Glow": 2,
+        "Bite": 4,
+        "Weirdness": 5
+      },
+      "image": "./cards/bubblepuff.png"
+    },
+    {
+      "id": "snickerclam",
+      "name": "Snickerclam",
+      "cardNumber": 6,
+      "rarity": "Common",
+      "character": "A big, knobbly giant clam with a dark purple shell, a glowing acid-green pearl inside and a wide, toothy grinning mouth along the edge of the shell.",
+      "poseAndExpression": "Shell half-open, the pearl glinting like bait, the clam snickering to itself.",
+      "backgroundScene": "A sandy sea floor scattered with old coins and a lost diving boot, dim teal light from above.",
+      "flavourText": "The pearl is real. So are the teeth.",
+      "stats": {
+        "Glow": 4,
+        "Bite": 6,
+        "Weirdness": 4
+      },
+      "image": "./cards/snickerclam.png"
+    },
+    {
+      "id": "sir-barnaby-barnacle",
+      "name": "Sir Barnaby Barnacle",
+      "cardNumber": 7,
+      "rarity": "Rare",
+      "character": "A sea turtle wearing a rusty old knight's helmet so covered in barnacles and coral it has grown into his shell, a broken sword stuck in his back, wise drooping eyes and a long white beard of sea moss.",
+      "poseAndExpression": "Paddling slowly forward with great dignity, chin raised, ready for a quest he forgot centuries ago.",
+      "backgroundScene": "A sunken castle courtyard overgrown with coral and anemones, a toppled statue and a cracked well, faint shafts of light.",
+      "flavourText": "He sank on his first quest. He is still on it.",
+      "stats": {
+        "Glow": 4,
+        "Bite": 6,
+        "Weirdness": 7
+      },
+      "image": "./cards/sir-barnaby-barnacle.png"
+    },
+    {
+      "id": "abyssmaw",
+      "name": "Abyssmaw",
+      "cardNumber": 8,
+      "rarity": "Legendary",
+      "character": "A colossal deep-sea leviathan with a mouth wide enough to swallow a ship, rows upon rows of glowing teal teeth, a body of black-purple armoured plates, and dozens of small pale gold eyes running along its sides.",
+      "poseAndExpression": "Rising out of a trench directly beneath the viewer with its jaws opening wide, a tiny submarine silhouetted in front of it.",
+      "backgroundScene": "The edge of a bottomless ocean trench, the walls lit by glowing vents, debris and bubbles rushing upward.",
+      "flavourText": "The trench is not deep. It is just very hungry.",
+      "stats": {
+        "Glow": 7,
+        "Bite": 10,
+        "Weirdness": 8
+      },
+      "image": "./cards/abyssmaw.png"
+    },
+    {
+      "id": "wobblegoggle",
+      "name": "Wobblegoggle",
+      "cardNumber": 9,
+      "rarity": "Common",
+      "character": "A small, squishy octopus with enormous mismatched eyes, one huge and one tiny, pale lavender skin with cyan freckles, and wobbly tentacles that never quite go where it wants.",
+      "poseAndExpression": "Trying to juggle three pebbles and dropping one, tongue poking out in concentration.",
+      "backgroundScene": "A tide pool cave with smooth stones and a few glowing sea snails on the walls.",
+      "flavourText": "Eight arms. No coordination.",
+      "stats": {
+        "Glow": 3,
+        "Bite": 2,
+        "Weirdness": 7
+      },
+      "image": "./cards/wobblegoggle.png"
+    },
+    {
+      "id": "the-inkwitch",
+      "name": "The Inkwitch",
+      "cardNumber": 10,
+      "rarity": "Rare",
+      "character": "A tall, elegant cuttlefish sorceress floating upright, her skin rippling with glowing cyan and gold patterns like spell runes, a cloak of trailing black ink and a crown of curled shell.",
+      "poseAndExpression": "Raising two tentacles as she casts a swirling spell of glowing ink, eyes narrowed with mischief.",
+      "backgroundScene": "A sunken library with sodden books floating off broken shelves, ink clouds drifting through dark purple water.",
+      "flavourText": "She writes her curses in your own ink.",
+      "stats": {
+        "Glow": 7,
+        "Bite": 4,
+        "Weirdness": 8
+      },
+      "image": "./cards/the-inkwitch.png"
+    },
+    {
+      "id": "grumblefin",
+      "name": "Grumblefin",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "A huge, grumpy old grouper with a sagging jaw, scarred purple scales, a fishing hook still stuck in his lip, and bushy eyebrow fins that frown permanently.",
+      "poseAndExpression": "Glaring straight at the viewer with his huge mouth turned down, bubbles of complaint rising.",
+      "backgroundScene": "A sunken shipwreck deck with a broken wheel and tangled nets, dim teal light.",
+      "flavourText": "He has been caught eleven times. He has kept every hook.",
+      "stats": {
+        "Glow": 3,
+        "Bite": 8,
+        "Weirdness": 5
+      },
+      "image": "./cards/grumblefin.png"
+    },
+    {
+      "id": "vent-wyrm",
+      "name": "Vent Wyrm",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A long, segmented tube worm creature with a bright acid-green feathery crown, armoured pale gold segments and a ring of tiny glowing eyes below the crown.",
+      "poseAndExpression": "Bursting halfway out of a smoking chimney vent with its crown fanned out wide, swaying hypnotically.",
+      "backgroundScene": "A field of black hydrothermal vents billowing dark smoke, glowing mineral cracks and pale crabs crowding the warm rocks.",
+      "flavourText": "It likes it hot. It likes you hotter.",
+      "stats": {
+        "Glow": 7,
+        "Bite": 6,
+        "Weirdness": 6
+      },
+      "image": "./cards/vent-wyrm.png"
+    },
+    {
+      "id": "mopfish",
+      "name": "Mopfish",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A shaggy, flat fish covered in long trailing strands like a mop, pale grey-purple with glowing cyan tips, and a tiny face peeking out from the strands.",
+      "poseAndExpression": "Shuffling along the sea floor sweeping up sand with its strands, looking very busy.",
+      "backgroundScene": "A tidy patch of sea floor next to a messy one full of shells and junk, faint light from above.",
+      "flavourText": "Finally, someone cleans up down here.",
+      "stats": {
+        "Glow": 3,
+        "Bite": 2,
+        "Weirdness": 6
+      },
+      "image": "./cards/mopfish.png"
+    },
+    {
+      "id": "the-pale-diver",
+      "name": "The Pale Diver",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "The ghost of an old deep-sea diver in a brass helmet with a cracked glowing porthole, tattered canvas suit, trailing broken air hose, and empty glowing eyes behind the glass.",
+      "poseAndExpression": "Walking slowly along the sea floor toward the viewer, one heavy boot raised, a lantern held high.",
+      "backgroundScene": "A dark sea floor littered with broken anchors and chains, the outline of a wrecked ship behind, eerie teal mist in the water.",
+      "flavourText": "He is still waiting for someone to pull the rope.",
+      "stats": {
+        "Glow": 6,
+        "Bite": 3,
+        "Weirdness": 9
+      },
+      "image": "./cards/the-pale-diver.png"
+    },
+    {
+      "id": "snapperjack",
+      "name": "Snapperjack",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "A cocky little fish with a big jaw, bright teal scales, a scar over one eye and a tiny sailor's cap stuck on its head.",
+      "poseAndExpression": "Darting forward with its jaw snapping, fins thrown back, full of attitude.",
+      "backgroundScene": "A busy reef with purple coral fans and schools of small fish scattering.",
+      "flavourText": "Small fish. Big mouth.",
+      "stats": {
+        "Glow": 2,
+        "Bite": 6,
+        "Weirdness": 3
+      },
+      "image": "./cards/snapperjack.png"
+    },
+    {
+      "id": "glimmerworm",
+      "name": "Glimmerworm",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A soft, ribbon-like sea worm that glows in bands of cyan, teal and pale gold, with a tiny smiling face and little frilly fins down its sides.",
+      "poseAndExpression": "Looping gracefully through the water in a figure of eight, leaving a trail of glowing sparks.",
+      "backgroundScene": "Dark night water with a sprinkle of glowing plankton like stars.",
+      "flavourText": "It lights the way. Not always the right way.",
+      "stats": {
+        "Glow": 7,
+        "Bite": 2,
+        "Weirdness": 7
+      },
+      "image": "./cards/glimmerworm.png"
+    },
+    {
+      "id": "barnacle-bob",
+      "name": "Barnacle Bob",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A wide, flat crab almost completely covered in barnacles, shells, sea glass and a lost spoon, with only two eyes on stalks poking out of the pile.",
+      "poseAndExpression": "Holding very still and pretending to be a rock, eyes darting nervously.",
+      "backgroundScene": "A rocky tide line with other barnacled rocks, a seagull silhouette above the water surface.",
+      "flavourText": "That rock has a spoon.",
+      "stats": {
+        "Glow": 1,
+        "Bite": 4,
+        "Weirdness": 6
+      },
+      "image": "./cards/barnacle-bob.png"
+    },
+    {
+      "id": "squidlet-twins",
+      "name": "Squidlet Twins",
+      "cardNumber": 18,
+      "rarity": "Common",
+      "character": "Two tiny, identical baby squids with huge round eyes, pale lavender bodies and stubby glowing teal tentacles, holding tentacles like hands.",
+      "poseAndExpression": "Swimming together in a tight spiral, both looking at the viewer with the same suspicious stare.",
+      "backgroundScene": "A field of tall sea grass in deep blue water, bubbles rising.",
+      "flavourText": "They always agree. That is the problem.",
+      "stats": {
+        "Glow": 4,
+        "Bite": 3,
+        "Weirdness": 6
+      },
+      "image": "./cards/squidlet-twins.png"
+    },
+    {
+      "id": "old-mother-kraken",
+      "name": "Old Mother Kraken",
+      "cardNumber": 19,
+      "rarity": "Legendary",
+      "character": "An immense, ancient kraken with dark purple skin mottled with glowing teal spots, one huge wise pale gold eye, barnacled tentacles as thick as towers, and a sunken ship cradled gently in her arms like a toy.",
+      "poseAndExpression": "Curled around the wreck with tentacles rising in every direction, her great eye looking straight at the viewer, calm and terrible.",
+      "backgroundScene": "A deep ocean graveyard of sunken ships, masts and sails drifting, faint light from far above and bubbles rising from the wrecks.",
+      "flavourText": "Every ship down here was a gift. She keeps them all.",
+      "stats": {
+        "Glow": 8,
+        "Bite": 9,
+        "Weirdness": 9
+      },
+      "image": "./cards/old-mother-kraken.png"
+    },
+    {
+      "id": "murkmonger",
+      "name": "Murkmonger",
+      "cardNumber": 20,
+      "rarity": "Rare",
+      "character": "A greasy-looking hagfish merchant with a long slimy body, a tattered coat of seaweed, a tray of strange glowing trinkets hanging from his neck and a sly gap-toothed grin.",
+      "poseAndExpression": "Leaning toward the viewer and holding up a glowing trinket, eyebrows raised as if making a deal.",
+      "backgroundScene": "A murky underwater market of floating stalls made of crates and nets, lanterns of glowing jellyfish hanging from ropes.",
+      "flavourText": "Everything is for sale. Especially you.",
+      "stats": {
+        "Glow": 5,
+        "Bite": 5,
+        "Weirdness": 8
+      },
+      "image": "./cards/murkmonger.png"
+    },
+    {
+      "id": "pebbletoad",
+      "name": "Pebbletoad",
+      "cardNumber": 21,
+      "rarity": "Common",
+      "character": "A lumpy, sleepy toadfish with rough grey-purple skin covered in bumps, a huge wide mouth and heavy-lidded eyes, half-buried in sand.",
+      "poseAndExpression": "Yawning hugely, unbothered by everything.",
+      "backgroundScene": "A muddy sea floor with scattered pebbles and a curious glowing shrimp nearby.",
+      "flavourText": "It has not moved in years. It does not plan to start.",
+      "stats": {
+        "Glow": 1,
+        "Bite": 5,
+        "Weirdness": 4
+      },
+      "image": "./cards/pebbletoad.png"
+    },
+    {
+      "id": "the-clockwork-nautilus",
+      "name": "The Clockwork Nautilus",
+      "cardNumber": 22,
+      "rarity": "Rare",
+      "character": "A mechanical nautilus with a spiral shell of tarnished brass and pale gold, porthole windows glowing cyan, ticking gears showing through cracks and copper tentacles.",
+      "poseAndExpression": "Drifting forward with its tentacles spread and gears turning, its single lens eye focused on the viewer.",
+      "backgroundScene": "A sunken inventor's workshop full of brass instruments, scattered blueprints and broken clocks, teal light through a skylight.",
+      "flavourText": "Built to explore the deep. Never came back up.",
+      "stats": {
+        "Glow": 6,
+        "Bite": 4,
+        "Weirdness": 8
+      },
+      "image": "./cards/the-clockwork-nautilus.png"
+    },
+    {
+      "id": "spinyscuttle",
+      "name": "Spinyscuttle",
+      "cardNumber": 23,
+      "rarity": "Common",
+      "character": "A sea urchin with long purple spines, tiny crab legs underneath and two little goggling eyes on top.",
+      "poseAndExpression": "Scuttling sideways at high speed, spines quivering, looking worried.",
+      "backgroundScene": "A rocky reef slope with coral and a looming shadow of a fish behind it.",
+      "flavourText": "It is not running away. It is running towards somewhere else.",
+      "stats": {
+        "Glow": 2,
+        "Bite": 4,
+        "Weirdness": 5
+      },
+      "image": "./cards/spinyscuttle.png"
+    },
+    {
+      "id": "siren-of-the-shoals",
+      "name": "Siren of the Shoals",
+      "cardNumber": 24,
+      "rarity": "Rare",
+      "character": "An eerie, monstrous fish-creature siren with a wide frog-like fish face, huge glowing pale gold eyes, a crest of spiny teal fins on her head, long tangled hair of dark seaweed, and a body fully covered from neck to tail in heavy iridescent teal armour-like scales and a draped shawl of kelp, nets and shells. A long trailing tail fin.",
+      "poseAndExpression": "Crouched on a rock with her head tilted, singing with her wide mouth open to show rows of small needle teeth, one webbed clawed hand reaching toward the viewer.",
+      "backgroundScene": "A rocky shoal under a full moon, the broken hull of a small boat on the rocks behind her, silver-teal light on the water.",
+      "flavourText": "Her song is lovely. Her smile has too many teeth.",
+      "stats": {
+        "Glow": 7,
+        "Bite": 5,
+        "Weirdness": 7
+      },
+      "image": "./cards/siren-of-the-shoals.png"
+    },
+    {
+      "id": "dumpling",
+      "name": "Dumpling",
+      "cardNumber": 25,
+      "rarity": "Common",
+      "character": "A tiny, round, pale lavender dumbo octopus with two flapping ear-like fins, a soft gentle face and huge sleepy eyes.",
+      "poseAndExpression": "Floating gently with its fins flapping, looking up at the viewer with total trust.",
+      "backgroundScene": "Calm deep blue water with drifting particles like snow.",
+      "flavourText": "Too soft for the abyss. The abyss does not mind.",
+      "stats": {
+        "Glow": 3,
+        "Bite": 1,
+        "Weirdness": 5
+      },
+      "image": "./cards/dumpling.png"
+    },
+    {
+      "id": "hookfang",
+      "name": "Hookfang",
+      "cardNumber": 26,
+      "rarity": "Common",
+      "character": "A lean, sinister viperfish with dark plum scales, a jaw full of huge curved fangs too big to close its mouth, and a row of glowing cyan dots along its belly.",
+      "poseAndExpression": "Lunging forward with its fangs bared, eyes fixed on the viewer.",
+      "backgroundScene": "Deep dark water with a few faint glowing specks.",
+      "flavourText": "It cannot close its mouth. It has never wanted to.",
+      "stats": {
+        "Glow": 4,
+        "Bite": 7,
+        "Weirdness": 3
+      },
+      "image": "./cards/hookfang.png"
+    },
+    {
+      "id": "sandsquatch",
+      "name": "Sandsquatch",
+      "cardNumber": 27,
+      "rarity": "Common",
+      "character": "A shaggy, hunched creature made of sand and kelp with big glowing pale gold eyes peeking out, and little shell claws.",
+      "poseAndExpression": "Rising slowly out of the sand dune, sand pouring off its back, peering about curiously.",
+      "backgroundScene": "A rolling sea floor of sand dunes with ripples and a sunken bottle.",
+      "flavourText": "Footprints in the sand. Very big footprints.",
+      "stats": {
+        "Glow": 2,
+        "Bite": 5,
+        "Weirdness": 6
+      },
+      "image": "./cards/sandsquatch.png"
+    },
+    {
+      "id": "captain-coralbeard",
+      "name": "Captain Coralbeard",
+      "cardNumber": 28,
+      "rarity": "Rare",
+      "character": "A pirate skeleton overgrown with colourful purple and teal coral, a coral beard, a tattered pirate hat, an eyepatch over a glowing socket, and a crab living in his ribcage.",
+      "poseAndExpression": "Standing at the wheel of a sunken ship, pointing his cutlass at the viewer and laughing.",
+      "backgroundScene": "The deck of a sunken pirate galleon with a torn flag drifting, treasure chests spilling gold, schools of fish swimming through broken masts.",
+      "flavourText": "Dead men tell no tales. This one never stops.",
+      "stats": {
+        "Glow": 5,
+        "Bite": 7,
+        "Weirdness": 6
+      },
+      "image": "./cards/captain-coralbeard.png"
+    },
+    {
+      "id": "the-leviathan-queen",
+      "name": "The Leviathan Queen",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "A gigantic, regal sea serpent with a long body of shimmering indigo and teal scales, a crest of glowing pale gold fins like a crown, a flowing mane of bioluminescent tendrils and huge ancient eyes.",
+      "poseAndExpression": "Coiled around a towering coral throne with her head raised high, looking down at the viewer, majestic and commanding.",
+      "backgroundScene": "A vast underwater throne room carved from coral, glowing jellyfish lanterns, kneeling sea creatures in the distance and light streaming from above.",
+      "flavourText": "The whole ocean is her kingdom. You are just visiting.",
+      "stats": {
+        "Glow": 9,
+        "Bite": 8,
+        "Weirdness": 8
+      },
+      "image": "./cards/the-leviathan-queen.png"
+    },
+    {
+      "id": "nibbles",
+      "name": "Nibbles",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A tiny, round, pale lavender fish with oversized cheeks, big hopeful eyes and a minuscule but surprisingly sharp set of teeth.",
+      "poseAndExpression": "Nibbling on the end of a fishing line with total focus.",
+      "backgroundScene": "Bright teal shallow water near the surface with a fishing line and hook dangling from above.",
+      "flavourText": "It steals the bait. Every single time.",
+      "stats": {
+        "Glow": 2,
+        "Bite": 3,
+        "Weirdness": 4
+      },
+      "image": "./cards/nibbles.png"
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 97,
+      "top": 223,
+      "width": 831,
+      "height": 738
+    },
+    "text": {
+      "name": {
+        "x": 520,
+        "y": 95,
+        "size": 64,
+        "maxWidth": 520,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#ffd23f",
+        "stroke": "#1a0a2a",
+        "charWidth": 0.75
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1105,
+        "size": 40,
+        "maxWidth": 800,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#2a1040",
+        "italic": true,
+        "wrap": true
+      },
+      "number": {
+        "x": 172,
+        "y": 1460,
+        "size": 40,
+        "maxWidth": 210,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#f3ead2",
+        "bold": true,
+        "anchor": "middle"
+      },
+      "rarity": {
+        "x": 848,
+        "y": 1460,
+        "size": 40,
+        "maxWidth": 220,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#2a1040",
+        "charWidth": 0.85,
+        "anchor": "middle"
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 265,
+          "y": 1258,
+          "size": 26,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 265,
+          "y": 1330,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 571,
+          "y": 1258,
+          "size": 26,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 571,
+          "y": 1330,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 892,
+          "y": 1258,
+          "size": 26,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 892,
+          "y": 1330,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2a1040",
+          "charWidth": 0.7
+        }
+      }
+    ]
+  }
+}
