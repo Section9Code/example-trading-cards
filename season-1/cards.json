@@ -39,8 +39,8 @@
         "Snacks": 1,
         "Sneakiness": 2
       },
-      "image": "./sir-clankalot.png",
-      "imageSmall": "./sir-clankalot-small.webp"
+      "image": "./cards/sir-clankalot.png",
+      "imageSmall": "./cards/sir-clankalot-small.webp"
     },
     {
       "id": "deep-six-dan",
@@ -56,8 +56,8 @@
         "Snacks": 6,
         "Sneakiness": 7
       },
-      "image": "./deep-six-dan.png",
-      "imageSmall": "./deep-six-dan-small.webp"
+      "image": "./cards/deep-six-dan.png",
+      "imageSmall": "./cards/deep-six-dan-small.webp"
     },
     {
       "id": "the-castle-spectre",
@@ -73,8 +73,8 @@
         "Snacks": 3,
         "Sneakiness": 9
       },
-      "image": "./the-castle-spectre.png",
-      "imageSmall": "./the-castle-spectre-small.webp"
+      "image": "./cards/the-castle-spectre.png",
+      "imageSmall": "./cards/the-castle-spectre-small.webp"
     },
     {
       "id": "old-pickaxe-pete",
@@ -90,8 +90,8 @@
         "Snacks": 5,
         "Sneakiness": 4
       },
-      "image": "./old-pickaxe-pete.png",
-      "imageSmall": "./old-pickaxe-pete-small.webp"
+      "image": "./cards/old-pickaxe-pete.png",
+      "imageSmall": "./cards/old-pickaxe-pete-small.webp"
     },
     {
       "id": "grandpappy-grim",
@@ -107,8 +107,8 @@
         "Snacks": 2,
         "Sneakiness": 6
       },
-      "image": "./grandpappy-grim.png",
-      "imageSmall": "./grandpappy-grim-small.webp"
+      "image": "./cards/grandpappy-grim.png",
+      "imageSmall": "./cards/grandpappy-grim-small.webp"
     },
     {
       "id": "the-grabby-gorilla",
@@ -124,8 +124,8 @@
         "Snacks": 8,
         "Sneakiness": 2
       },
-      "image": "./the-grabby-gorilla.png",
-      "imageSmall": "./the-grabby-gorilla-small.webp"
+      "image": "./cards/the-grabby-gorilla.png",
+      "imageSmall": "./cards/the-grabby-gorilla-small.webp"
     },
     {
       "id": "giggles-the-grim",
@@ -141,8 +141,8 @@
         "Snacks": 3,
         "Sneakiness": 8
       },
-      "image": "./giggles-the-grim.png",
-      "imageSmall": "./giggles-the-grim-small.webp"
+      "image": "./cards/giggles-the-grim.png",
+      "imageSmall": "./cards/giggles-the-grim-small.webp"
     },
     {
       "id": "count-creepsley",
@@ -158,8 +158,8 @@
         "Snacks": 7,
         "Sneakiness": 9
       },
-      "image": "./count-creepsley.png",
-      "imageSmall": "./count-creepsley-small.webp"
+      "image": "./cards/count-creepsley.png",
+      "imageSmall": "./cards/count-creepsley-small.webp"
     },
     {
       "id": "stitches",
@@ -175,8 +175,8 @@
         "Snacks": 6,
         "Sneakiness": 1
       },
-      "image": "./stitches.png",
-      "imageSmall": "./stitches-small.webp"
+      "image": "./cards/stitches.png",
+      "imageSmall": "./cards/stitches-small.webp"
     },
     {
       "id": "howler",
@@ -192,8 +192,8 @@
         "Snacks": 9,
         "Sneakiness": 6
       },
-      "image": "./howler.png",
-      "imageSmall": "./howler-small.webp"
+      "image": "./cards/howler.png",
+      "imageSmall": "./cards/howler-small.webp"
     },
     {
       "id": "the-bandaged-pharaoh",
@@ -209,8 +209,8 @@
         "Snacks": 2,
         "Sneakiness": 5
       },
-      "image": "./the-bandaged-pharaoh.png",
-      "imageSmall": "./the-bandaged-pharaoh-small.webp"
+      "image": "./cards/the-bandaged-pharaoh.png",
+      "imageSmall": "./cards/the-bandaged-pharaoh-small.webp"
     },
     {
       "id": "space-cook",
@@ -226,8 +226,8 @@
         "Snacks": 10,
         "Sneakiness": 5
       },
-      "image": "./space-cook.png",
-      "imageSmall": "./space-cook-small.webp"
+      "image": "./cards/space-cook.png",
+      "imageSmall": "./cards/space-cook-small.webp"
     },
     {
       "id": "witch-hazel-hagworth",
@@ -243,8 +243,8 @@
         "Snacks": 7,
         "Sneakiness": 7
       },
-      "image": "./witch-hazel-hagworth.png",
-      "imageSmall": "./witch-hazel-hagworth-small.webp"
+      "image": "./cards/witch-hazel-hagworth.png",
+      "imageSmall": "./cards/witch-hazel-hagworth-small.webp"
     },
     {
       "id": "captain-scurvy",
@@ -260,8 +260,8 @@
         "Snacks": 5,
         "Sneakiness": 4
       },
-      "image": "./captain-scurvy.png",
-      "imageSmall": "./captain-scurvy-small.webp"
+      "image": "./cards/captain-scurvy.png",
+      "imageSmall": "./cards/captain-scurvy-small.webp"
     },
     {
       "id": "the-shadow-twins",
@@ -277,8 +277,8 @@
         "Snacks": 1,
         "Sneakiness": 10
       },
-      "image": "./the-shadow-twins.png",
-      "imageSmall": "./the-shadow-twins-small.webp"
+      "image": "./cards/the-shadow-twins.png",
+      "imageSmall": "./cards/the-shadow-twins-small.webp"
     },
     {
       "id": "frostbite",
@@ -294,8 +294,8 @@
         "Snacks": 7,
         "Sneakiness": 3
       },
-      "image": "./frostbite.png",
-      "imageSmall": "./frostbite-small.webp"
+      "image": "./cards/frostbite.png",
+      "imageSmall": "./cards/frostbite-small.webp"
     },
     {
       "id": "dr-fizzle-s-other-half",
@@ -311,8 +311,8 @@
         "Snacks": 6,
         "Sneakiness": 5
       },
-      "image": "./dr-fizzle-s-other-half.png",
-      "imageSmall": "./dr-fizzle-s-other-half-small.webp"
+      "image": "./cards/dr-fizzle-s-other-half.png",
+      "imageSmall": "./cards/dr-fizzle-s-other-half-small.webp"
     },
     {
       "id": "bog-brute",
@@ -328,8 +328,8 @@
         "Snacks": 4,
         "Sneakiness": 8
       },
-      "image": "./bog-brute.png",
-      "imageSmall": "./bog-brute-small.webp"
+      "image": "./cards/bog-brute.png",
+      "imageSmall": "./cards/bog-brute-small.webp"
     },
     {
       "id": "thawed-out-thaddeus",
@@ -345,8 +345,8 @@
         "Snacks": 9,
         "Sneakiness": 2
       },
-      "image": "./thawed-out-thaddeus.png",
-      "imageSmall": "./thawed-out-thaddeus-small.webp"
+      "image": "./cards/thawed-out-thaddeus.png",
+      "imageSmall": "./cards/thawed-out-thaddeus-small.webp"
     },
     {
       "id": "the-lurker",
@@ -362,8 +362,8 @@
         "Snacks": 4,
         "Sneakiness": 10
       },
-      "image": "./the-lurker.png",
-      "imageSmall": "./the-lurker-small.webp"
+      "image": "./cards/the-lurker.png",
+      "imageSmall": "./cards/the-lurker-small.webp"
     },
     {
       "id": "headless-horace",
@@ -379,8 +379,8 @@
         "Snacks": 3,
         "Sneakiness": 6
       },
-      "image": "./headless-horace.png",
-      "imageSmall": "./headless-horace-small.webp"
+      "image": "./cards/headless-horace.png",
+      "imageSmall": "./cards/headless-horace-small.webp"
     },
     {
       "id": "waxworks-wally",
@@ -396,8 +396,8 @@
         "Snacks": 2,
         "Sneakiness": 8
       },
-      "image": "./waxworks-wally.png",
-      "imageSmall": "./waxworks-wally-small.webp"
+      "image": "./cards/waxworks-wally.png",
+      "imageSmall": "./cards/waxworks-wally-small.webp"
     },
     {
       "id": "tilt-a-bot",
@@ -413,8 +413,8 @@
         "Snacks": 2,
         "Sneakiness": 3
       },
-      "image": "./tilt-a-bot.png",
-      "imageSmall": "./tilt-a-bot-small.webp"
+      "image": "./cards/tilt-a-bot.png",
+      "imageSmall": "./cards/tilt-a-bot-small.webp"
     },
     {
       "id": "ghost-town-gus",
@@ -430,8 +430,8 @@
         "Snacks": 3,
         "Sneakiness": 5
       },
-      "image": "./ghost-town-gus.png",
-      "imageSmall": "./ghost-town-gus-small.webp"
+      "image": "./cards/ghost-town-gus.png",
+      "imageSmall": "./cards/ghost-town-gus-small.webp"
     },
     {
       "id": "crowbone",
@@ -447,8 +447,8 @@
         "Snacks": 1,
         "Sneakiness": 9
       },
-      "image": "./crowbone.png",
-      "imageSmall": "./crowbone-small.webp"
+      "image": "./cards/crowbone.png",
+      "imageSmall": "./cards/crowbone-small.webp"
     },
     {
       "id": "chomper",
@@ -464,8 +464,8 @@
         "Snacks": 10,
         "Sneakiness": 4
       },
-      "image": "./chomper.png",
-      "imageSmall": "./chomper-small.webp"
+      "image": "./cards/chomper.png",
+      "imageSmall": "./cards/chomper-small.webp"
     },
     {
       "id": "rattles",
@@ -481,8 +481,8 @@
         "Snacks": 0,
         "Sneakiness": 5
       },
-      "image": "./rattles.png",
-      "imageSmall": "./rattles-small.webp"
+      "image": "./cards/rattles.png",
+      "imageSmall": "./cards/rattles-small.webp"
     },
     {
       "id": "sasquatch-sam",
@@ -498,8 +498,8 @@
         "Snacks": 8,
         "Sneakiness": 7
       },
-      "image": "./sasquatch-sam.png",
-      "imageSmall": "./sasquatch-sam-small.webp"
+      "image": "./cards/sasquatch-sam.png",
+      "imageSmall": "./cards/sasquatch-sam-small.webp"
     },
     {
       "id": "the-phantom-ace",
@@ -515,8 +515,8 @@
         "Snacks": 4,
         "Sneakiness": 6
       },
-      "image": "./the-phantom-ace.png",
-      "imageSmall": "./the-phantom-ace-small.webp"
+      "image": "./cards/the-phantom-ace.png",
+      "imageSmall": "./cards/the-phantom-ace-small.webp"
     },
     {
       "id": "moatzilla",
@@ -532,8 +532,8 @@
         "Snacks": 8,
         "Sneakiness": 6
       },
-      "image": "./moatzilla.png",
-      "imageSmall": "./moatzilla-small.webp"
+      "image": "./cards/moatzilla.png",
+      "imageSmall": "./cards/moatzilla-small.webp"
     }
   ]
 }
