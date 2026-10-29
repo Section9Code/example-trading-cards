@@ -1,0 +1,1014 @@
+{
+  "set": {
+    "name": "Carcosa Rising",
+    "totalCards": 50,
+    "statNames": [
+      "Madness",
+      "Dread",
+      "Power",
+      "Lore"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Cosmic horror illustration in the manner of a 1920s pulp magazine cover crossed with an occult woodcut: heavy inked linework, dense stippling and cross-hatching in the shadows, flat painted colour laid over the ink, vast unknowable creatures drawn impossibly huge against tiny human figures and buildings. Sacred geometry everywhere: triangles, nested triangles and staring eyes worked into skies, architecture, robes and creatures. Palette: sickly mustard and jaundiced yellow, pale bile green, tarnished brass, bruised olive and near-black, with glowing accents of pale acid yellow from eyes and strange stars. Hazy, feverish air, twin suns or black stars in the sky. Subtle aged-paper grain like a vintage printed card. Overall mood: dreadful, hypnotic, vast and wrong.",
+    "frame": [
+      "Border: a thick, dark border of tarnished brass and near-black olive, like an ancient occult reliquary, with a thin glowing sickly-yellow pinstripe inside it. Interlocking triangles, small staring eyes with slit pupils and curling tentacles worked into the corners as ornament.",
+      "Top-left corner: a small triangular set emblem with one open, glowing yellow eye in its centre, with no letters.",
+      "Top: an empty name banner shaped like a long tattered strip of yellow silk on a brass rod, dark mustard with a pale yellow edge, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about a quarter of the card height, in pale parchment yellow like old vellum, with a thin dark olive edge. The upper half of the panel is empty space for two lines of text. A thin dark olive divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into four equal cells side by side by thin vertical dark olive dividers. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a word like 'MADNESS' and a large number. The icons, left to right: a cracked spiral eye; a single curling tentacle; an open eye inside a triangle; an open book with an eye on its cover. The icons are simple, flat and bold, in dark olive, mustard and pale acid yellow.",
+      "Rarity and card number: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide pill-shaped pale yellow badge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. In the bottom-right corner, a wide dark plaque with a tarnished brass edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. Both are empty, with no letters.",
+      "Accent colours on the frame are only sickly yellow, mustard, pale acid yellow and tarnished brass. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no cute or chibi monsters, no gore or blood, no nudity, no modern vector/flat-design look, no watermarks, no extra text, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "cards": [
+    {
+      "id": "great-cthulhu",
+      "name": "Great Cthulhu",
+      "cardNumber": 1,
+      "rarity": "Legendary",
+      "character": "A titanic winged god-thing with an octopus-like head of writhing face-tentacles, a scaly, rubbery mountain of a body, narrow vestigial bat wings and long clawed limbs, its skin bruised olive-green and its many slitted eyes glowing sickly yellow.",
+      "poseAndExpression": "Rising slowly out of the sea with its wings unfurling and one vast claw reaching toward a tiny ship, utterly calm and utterly certain.",
+      "backgroundScene": "A drowned city of impossible green-black angles breaking the surface of a heaving yellow-lit sea, its towers leaning wrongly, a sickly star above.",
+      "flavourText": "That is not dead which can eternal lie.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 10,
+        "Power": 10,
+        "Lore": 6
+      },
+      "image": "./cards/great-cthulhu.png"
+    },
+    {
+      "id": "eyeling",
+      "name": "Eyeling",
+      "cardNumber": 2,
+      "rarity": "Common",
+      "character": "A small, round floating creature made of one big bloodshot yellow eye with a slit pupil, a fringe of thin wriggling cilia around it, and a tiny triangle mark on its lid.",
+      "poseAndExpression": "Bobbing in mid-air and staring unblinkingly at the viewer, pupil widening.",
+      "backgroundScene": "A dim attic full of dusty books and a cracked round window glowing yellow.",
+      "flavourText": "It has seen you. It will keep seeing you.",
+      "stats": {
+        "Madness": 4,
+        "Dread": 3,
+        "Power": 2,
+        "Lore": 4
+      },
+      "image": "./cards/eyeling.png"
+    },
+    {
+      "id": "the-hounds-of-tindalos",
+      "name": "The Hounds of Tindalos",
+      "cardNumber": 3,
+      "rarity": "Rare",
+      "character": "Lean, gaunt hunting beasts made of sharp angles rather than curves, with long needle-like snouts, ribbed bodies of bruised blue-grey, and smoke pouring from the corners of the world around them.",
+      "poseAndExpression": "Pouring out of the sharp corner of a room as if through a crack, heads low, scenting the viewer.",
+      "backgroundScene": "A bare room with an unsettling corner where the walls meet wrongly, the air rippling, sickly yellow light from a single lamp.",
+      "flavourText": "Round your rooms. Round them well.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 8,
+        "Power": 6,
+        "Lore": 5
+      },
+      "image": "./cards/the-hounds-of-tindalos.png"
+    },
+    {
+      "id": "mumbling-acolyte",
+      "name": "Mumbling Acolyte",
+      "cardNumber": 4,
+      "rarity": "Common",
+      "character": "A thin, hunched cultist in a tattered mustard-yellow hooded robe stitched with triangles, face hidden in shadow except for a crooked smile, clutching a candle and a crumpled pamphlet.",
+      "poseAndExpression": "Shuffling forward with head bowed, lips moving in an endless whispered chant.",
+      "backgroundScene": "A narrow cobbled alley at night with crooked houses, yellow chalk triangles drawn on the doors.",
+      "flavourText": "He has not stopped chanting since Tuesday.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 2,
+        "Power": 2,
+        "Lore": 4
+      },
+      "image": "./cards/mumbling-acolyte.png"
+    },
+    {
+      "id": "bile-toad",
+      "name": "Bile Toad",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "A bloated, warty toad the size of a dog, sickly yellow-green with three pale eyes in a triangle on its head and a long dripping tongue.",
+      "poseAndExpression": "Squatting on a mossy stone with its throat puffed out, croaking a low, wrong note.",
+      "backgroundScene": "A stagnant marsh under a yellow moon, dead reeds, mist and crooked standing stones.",
+      "flavourText": "Its song makes the frogs leave.",
+      "stats": {
+        "Madness": 3,
+        "Dread": 4,
+        "Power": 3,
+        "Lore": 2
+      },
+      "image": "./cards/bile-toad.png"
+    },
+    {
+      "id": "the-colour-out-of-space",
+      "name": "The Colour Out of Space",
+      "cardNumber": 6,
+      "rarity": "Rare",
+      "character": "A shapeless, shimmering mass of strange light in a colour that should not exist, rendered as a sickly shifting yellow-violet glow, with faint suggestions of eyes and grasping streamers inside it.",
+      "poseAndExpression": "Rising out of an old farm well in a column of unnatural light, streamers reaching toward the trees, which bend away from it.",
+      "backgroundScene": "A blighted farm at night with grey dead crops, crumbling stone walls, warped trees and a farmhouse with one lit window.",
+      "flavourText": "It came down in a stone. It never left.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 6,
+        "Power": 7,
+        "Lore": 3
+      },
+      "image": "./cards/the-colour-out-of-space.png"
+    },
+    {
+      "id": "hali-eel",
+      "name": "Hali Eel",
+      "cardNumber": 7,
+      "rarity": "Common",
+      "character": "A long, thin, pale eel with a row of small yellow eyes running along its whole body and a mouth that opens in a perfect triangle.",
+      "poseAndExpression": "Coiling through dark water just below the surface, several eyes turned toward the viewer.",
+      "backgroundScene": "The black, misty waters of a still lake reflecting twin pale suns.",
+      "flavourText": "The lake is calm. The lake is never calm.",
+      "stats": {
+        "Madness": 3,
+        "Dread": 5,
+        "Power": 2,
+        "Lore": 2
+      },
+      "image": "./cards/hali-eel.png"
+    },
+    {
+      "id": "azathoth",
+      "name": "Azathoth",
+      "cardNumber": 8,
+      "rarity": "Legendary",
+      "character": "The blind idiot god at the centre of all things: a vast, seething, shapeless churning of black and sickly yellow bubbles, tendrils and half-formed eyes, surrounded by tiny robed piping figures dancing around it.",
+      "poseAndExpression": "Boiling and spreading in all directions at once, filling the sky, the piping figures circling it endlessly.",
+      "backgroundScene": "The black void at the centre of the universe, scattered with dying stars, nested glowing triangles and spiralling galaxies.",
+      "flavourText": "Somewhere, the pipers must never stop playing.",
+      "stats": {
+        "Madness": 10,
+        "Dread": 9,
+        "Power": 10,
+        "Lore": 4
+      },
+      "image": "./cards/azathoth.png"
+    },
+    {
+      "id": "lantern-moth-of-carcosa",
+      "name": "Lantern Moth of Carcosa",
+      "cardNumber": 9,
+      "rarity": "Common",
+      "character": "A large, ragged moth with dusty mustard wings patterned with staring eye-spots and triangles, a furry pale body and feathery antennae.",
+      "poseAndExpression": "Fluttering toward the viewer with wings spread wide, the eye-spots seeming to blink.",
+      "backgroundScene": "A ruined stone balcony at dusk with two pale suns sinking behind strange towers.",
+      "flavourText": "It is drawn to light. It prefers the light behind your eyes.",
+      "stats": {
+        "Madness": 4,
+        "Dread": 2,
+        "Power": 2,
+        "Lore": 3
+      },
+      "image": "./cards/lantern-moth-of-carcosa.png"
+    },
+    {
+      "id": "cassilda",
+      "name": "Cassilda",
+      "cardNumber": 10,
+      "rarity": "Rare",
+      "character": "A tragic queen of Carcosa in a long, flowing, tattered gown of pale yellow silk, a tall jagged crown, a delicate triangular pendant, and a sad, pale, beautiful face with glowing yellow tears.",
+      "poseAndExpression": "Standing on the shore with her hand raised to her face, singing a mournful song, the wind pulling at her gown.",
+      "backgroundScene": "The misty shore of the Lake of Hali, the towers of Carcosa behind the moons, cloud waves breaking.",
+      "flavourText": "Songs that the Hyades shall sing, where flap the tatters of the King.",
+      "stats": {
+        "Madness": 7,
+        "Dread": 4,
+        "Power": 6,
+        "Lore": 7
+      },
+      "image": "./cards/cassilda.png"
+    },
+    {
+      "id": "whispering-grimoire",
+      "name": "Whispering Grimoire",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "An ancient, swollen book bound in cracked olive leather, with a single blinking yellow eye on its cover, iron clasps, and small tentacle-like bookmarks wriggling from its pages.",
+      "poseAndExpression": "Lying open on a lectern with its pages fluttering by themselves and faint glowing symbols rising off them.",
+      "backgroundScene": "A cramped scholar's study crowded with candles, star charts and stacks of books, a window showing a yellow moon.",
+      "flavourText": "Do not read it aloud. Do not read it at all.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 3,
+        "Power": 4,
+        "Lore": 9
+      },
+      "image": "./cards/whispering-grimoire.png"
+    },
+    {
+      "id": "the-phantom-of-truth",
+      "name": "The Phantom of Truth",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A tall figure in a long tattered robe, wearing a smooth pale mask with no expression and empty yellow-lit eye holes, its hands long and thin.",
+      "poseAndExpression": "Standing perfectly still and slowly raising one hand toward the mask, as if about to remove it.",
+      "backgroundScene": "A grand masquerade ballroom in yellow and black, dancers frozen in fear, a single shattered mirror.",
+      "flavourText": "You wore a mask. I wear none.",
+      "stats": {
+        "Madness": 8,
+        "Dread": 5,
+        "Power": 6,
+        "Lore": 6
+      },
+      "image": "./cards/the-phantom-of-truth.png"
+    },
+    {
+      "id": "drowned-fisherman",
+      "name": "Drowned Fisherman",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A waterlogged old fisherman in a soaked oilskin coat and sou'wester hat, his skin grey-green, his eyes huge and fishlike, gill slits on his neck and a net full of strange glowing shells over his shoulder.",
+      "poseAndExpression": "Trudging out of the surf toward the viewer, water streaming off him, head tilted in empty curiosity.",
+      "backgroundScene": "A grey misty harbour at dawn with rotting jetties and sagging fishing huts, a strange reef far out at sea.",
+      "flavourText": "He went out on the boat. Something else came back.",
+      "stats": {
+        "Madness": 4,
+        "Dread": 4,
+        "Power": 3,
+        "Lore": 2
+      },
+      "image": "./cards/drowned-fisherman.png"
+    },
+    {
+      "id": "the-dunwich-horror",
+      "name": "The Dunwich Horror",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A colossal, mostly invisible beast shown only by its outline in the haze: a vast barrel-shaped body bursting with ropy tentacles and sucking mouths, and a half-formed face high above, shimmering faintly.",
+      "poseAndExpression": "Striding over a hill crushing the trees as it goes, the faint face looking down at a tiny farmhouse.",
+      "backgroundScene": "Lonely, rounded hills crowned with standing stones, broken fences and a dark valley farm under a yellow sky.",
+      "flavourText": "The footprints were the size of barrels. Nobody saw what made them.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 9,
+        "Power": 8,
+        "Lore": 3
+      },
+      "image": "./cards/the-dunwich-horror.png"
+    },
+    {
+      "id": "nyarlathotep",
+      "name": "Nyarlathotep",
+      "cardNumber": 15,
+      "rarity": "Legendary",
+      "character": "The Crawling Chaos in his pharaoh form: a tall, elegant figure in a long black robe and a gold and black pharaoh's headdress, his face lost in shadow except for a cruel smile, many slender shadowy tentacles spreading from behind him.",
+      "poseAndExpression": "Standing in a grand hall with arms raised in welcome, stars dying in the sky behind him, smiling at the viewer.",
+      "backgroundScene": "A vast temple with pyramids and obelisks, crowds kneeling before him, a black sky full of falling stars.",
+      "flavourText": "He comes as a showman. You will applaud.",
+      "stats": {
+        "Madness": 10,
+        "Dread": 8,
+        "Power": 10,
+        "Lore": 9
+      },
+      "image": "./cards/nyarlathotep.png"
+    },
+    {
+      "id": "triangle-crab",
+      "name": "Triangle Crab",
+      "cardNumber": 16,
+      "rarity": "Common",
+      "character": "A small crab with a perfectly triangular olive shell, three yellow eyes on stalks, and claws shaped like little hooks.",
+      "poseAndExpression": "Scuttling sideways across a rock with claws raised, eyes swivelling in different directions.",
+      "backgroundScene": "A rocky shore at low tide with pale yellow rock pools and strange carvings on the stones.",
+      "flavourText": "Always three steps. Always sideways.",
+      "stats": {
+        "Madness": 2,
+        "Dread": 3,
+        "Power": 3,
+        "Lore": 3
+      },
+      "image": "./cards/triangle-crab.png"
+    },
+    {
+      "id": "mirror-leech",
+      "name": "Mirror Leech",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A flat, glossy, black leech-like creature with a silvery reflective back that shows a distorted reflection of the viewer, and a ring of tiny yellow eyes round its mouth.",
+      "poseAndExpression": "Clinging to the glass of a mirror and peeling back from it, its reflective back rippling.",
+      "backgroundScene": "An old dressing room with a cracked ornate mirror and dying candles.",
+      "flavourText": "Your reflection looks worried. You should be too.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 3,
+        "Power": 2,
+        "Lore": 3
+      },
+      "image": "./cards/mirror-leech.png"
+    },
+    {
+      "id": "pickman-s-ghoul",
+      "name": "Pickman's Ghoul",
+      "cardNumber": 18,
+      "rarity": "Rare",
+      "character": "A hunched, dog-faced ghoul with rubbery grey-green skin, long pointed ears, hoofed feet and long clawed hands, wearing a tattered painter's smock spattered with yellow paint.",
+      "poseAndExpression": "Crouching beside an easel and admiring a dark painting, head tilted proudly toward the viewer.",
+      "backgroundScene": "A cramped cellar studio lit by one lamp, unsettling unfinished paintings stacked against brick walls, a tunnel in the floor.",
+      "flavourText": "He was not painting from imagination.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 6,
+        "Power": 5,
+        "Lore": 6
+      },
+      "image": "./cards/pickman-s-ghoul.png"
+    },
+    {
+      "id": "gibbering-mouthling",
+      "name": "Gibbering Mouthling",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A small, round, rubbery creature covered in little mouths that never stop muttering, with stubby legs, a single yellow eye on top, and a slimy olive skin.",
+      "poseAndExpression": "Bouncing toward the viewer with all its mouths open and talking at once.",
+      "backgroundScene": "A dark cellar with dripping pipes and crates, a cracked lamp throwing yellow light.",
+      "flavourText": "It knows all your secrets. It tells everyone.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 3,
+        "Power": 2,
+        "Lore": 4
+      },
+      "image": "./cards/gibbering-mouthling.png"
+    },
+    {
+      "id": "keeper-of-the-yellow-sign",
+      "name": "Keeper of the Yellow Sign",
+      "cardNumber": 20,
+      "rarity": "Rare",
+      "character": "A gaunt, ageless hierophant in heavy layered robes of faded gold, carrying a staff topped with a twisted, glowing symbol of curling lines, a veil over his face with only yellow eyes showing.",
+      "poseAndExpression": "Holding the glowing sign high above his head, eyes blazing, while people around him fall to their knees.",
+      "backgroundScene": "A dark city plaza at night with gaslights, shuttered shops and a crowd of terrified onlookers.",
+      "flavourText": "Have you found the Yellow Sign?",
+      "stats": {
+        "Madness": 8,
+        "Dread": 5,
+        "Power": 7,
+        "Lore": 6
+      },
+      "image": "./cards/keeper-of-the-yellow-sign.png"
+    },
+    {
+      "id": "yellow-rag-scarecrow",
+      "name": "Yellow Rag Scarecrow",
+      "cardNumber": 21,
+      "rarity": "Common",
+      "character": "A tall, thin scarecrow made of sticks and tattered yellow rags, a burlap sack head with three sewn triangle eyes, and crows perched on its outstretched arms.",
+      "poseAndExpression": "Standing in a field with its head turned toward the viewer when it should be looking away.",
+      "backgroundScene": "A dead cornfield at dusk with a crooked fence and a distant farmhouse, a pale yellow moon.",
+      "flavourText": "Nobody planted it. Nobody dares take it down.",
+      "stats": {
+        "Madness": 4,
+        "Dread": 5,
+        "Power": 2,
+        "Lore": 2
+      },
+      "image": "./cards/yellow-rag-scarecrow.png"
+    },
+    {
+      "id": "the-thing-beyond-the-window",
+      "name": "The Thing Beyond the Window",
+      "cardNumber": 22,
+      "rarity": "Rare",
+      "character": "A vast, dark shape seen through a high attic window: a swirling chaos of black space, half-formed tentacles and countless yellow eyes, pressing against the glass.",
+      "poseAndExpression": "Pressed against the window from the outside, the glass bulging, while an old violin lies abandoned on a chair inside.",
+      "backgroundScene": "A tall, narrow attic room at the top of a steep street, sheet music scattered, the window showing only darkness beyond.",
+      "flavourText": "He played to keep it out. Then he stopped.",
+      "stats": {
+        "Madness": 8,
+        "Dread": 6,
+        "Power": 6,
+        "Lore": 5
+      },
+      "image": "./cards/the-thing-beyond-the-window.png"
+    },
+    {
+      "id": "yog-sothoth",
+      "name": "Yog-Sothoth",
+      "cardNumber": 23,
+      "rarity": "Legendary",
+      "character": "The Key and the Gate: a colossal, glowing conglomeration of iridescent yellow and pale gold spheres and bubbles, each one with an eye, joined together into a towering shape, with ribbons of light weaving through it.",
+      "poseAndExpression": "Filling the sky above a circle of standing stones, its spheres pulsing and shifting, light pouring down onto the stones.",
+      "backgroundScene": "A hilltop circle of tall standing stones at night, lightning in the clouds, a tiny robed figure with raised arms in the centre.",
+      "flavourText": "All time is one to the Gate. All doors are its doors.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 7,
+        "Power": 10,
+        "Lore": 10
+      },
+      "image": "./cards/yog-sothoth.png"
+    },
+    {
+      "id": "sleepwalker",
+      "name": "Sleepwalker",
+      "cardNumber": 24,
+      "rarity": "Common",
+      "character": "A pale young person in a long nightgown and tattered robe, walking with eyes closed, a faint glowing triangle symbol on their forehead and yellow light glowing beneath their eyelids.",
+      "poseAndExpression": "Walking forward with arms slightly raised, bare feet on the wet cobbles, utterly unaware.",
+      "backgroundScene": "A foggy street at midnight lit by gas lamps, all the windows dark.",
+      "flavourText": "They always walk the same way. Toward the lake.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 2,
+        "Power": 2,
+        "Lore": 4
+      },
+      "image": "./cards/sleepwalker.png"
+    },
+    {
+      "id": "the-black-pharaoh-s-herald",
+      "name": "The Black Pharaoh's Herald",
+      "cardNumber": 25,
+      "rarity": "Rare",
+      "character": "A tall, thin, eyeless messenger with a jackal-like black head, wrapped in long strips of yellowed linen, holding a curved brass horn.",
+      "poseAndExpression": "Blowing the horn toward the sky, sound waves drawn as triangles spreading out, a crowd fleeing.",
+      "backgroundScene": "A desert city of sandstone and pyramids under a black sun with a ring of yellow fire.",
+      "flavourText": "When the horn sounds, he is not far behind.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 6,
+        "Power": 7,
+        "Lore": 5
+      },
+      "image": "./cards/the-black-pharaoh-s-herald.png"
+    },
+    {
+      "id": "spore-bat",
+      "name": "Spore Bat",
+      "cardNumber": 26,
+      "rarity": "Common",
+      "character": "A leathery bat with a fungus-like puffball body, pale yellow spores drifting from its wings and a cluster of tiny eyes in place of a face.",
+      "poseAndExpression": "Flapping erratically toward the viewer and shedding a cloud of glowing spores.",
+      "backgroundScene": "A damp cave mouth with dripping stalactites and glowing yellow fungus.",
+      "flavourText": "Breathe in. Now you will dream of it.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 3,
+        "Power": 2,
+        "Lore": 2
+      },
+      "image": "./cards/spore-bat.png"
+    },
+    {
+      "id": "high-priest-of-the-drowned",
+      "name": "High Priest of the Drowned",
+      "cardNumber": 27,
+      "rarity": "Rare",
+      "character": "A tall, stooped priest with a fishlike face, wide unblinking eyes and webbed hands, wearing ornate barnacled robes of tarnished gold and a strange tall tiara of coral and metal.",
+      "poseAndExpression": "Standing knee-deep in the sea with arms raised, leading a chant toward a strange reef where something stirs.",
+      "backgroundScene": "A dark shoreline at midnight, robed figures with torches on the beach, a jagged reef offshore.",
+      "flavourText": "He is only waiting for the stars to come right.",
+      "stats": {
+        "Madness": 7,
+        "Dread": 5,
+        "Power": 7,
+        "Lore": 7
+      },
+      "image": "./cards/high-priest-of-the-drowned.png"
+    },
+    {
+      "id": "gutter-spawn",
+      "name": "Gutter Spawn",
+      "cardNumber": 28,
+      "rarity": "Common",
+      "character": "A small, slimy, frog-like creature with too many legs, pale yellow skin and a wide grin full of tiny teeth, crawling out of a storm drain.",
+      "poseAndExpression": "Peeking out of a gutter grate with its fingers curled around the bars.",
+      "backgroundScene": "A rain-soaked city street at night with puddles reflecting yellow gaslight.",
+      "flavourText": "The drains have been noisy lately.",
+      "stats": {
+        "Madness": 3,
+        "Dread": 4,
+        "Power": 2,
+        "Lore": 2
+      },
+      "image": "./cards/gutter-spawn.png"
+    },
+    {
+      "id": "shub-niggurath",
+      "name": "Shub-Niggurath",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "The Black Goat of the Woods: a vast, dark, cloud-like mass of twisting black-green tendrils, gnarled tree-like legs ending in hooves, and many goat-like horns and yellow eyes emerging from the darkness, with small goat-like young gambolling at its feet.",
+      "poseAndExpression": "Rising out of a forest, its tendrils spreading like branches over the treetops, a crowd of strange little offspring around it.",
+      "backgroundScene": "An ancient dark forest at night, a ring of mushrooms and a stone altar in a clearing, a yellow moon behind the trees.",
+      "flavourText": "The woods are full of her children.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 8,
+        "Power": 9,
+        "Lore": 7
+      },
+      "image": "./cards/shub-niggurath.png"
+    },
+    {
+      "id": "bell-ringer-of-hali",
+      "name": "Bell-Ringer of Hali",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A gaunt, hunchbacked figure in a long mustard cloak with a tall pointed hood, a bell tied at the tip of a long crooked staff, eyes glowing faintly in the hood.",
+      "poseAndExpression": "Ringing the bell slowly as he walks, the sound drawn as faint yellow rings.",
+      "backgroundScene": "A misty causeway across a black lake, twisted lamp posts and the far towers of a strange city.",
+      "flavourText": "Each ring is a name. One of them is yours.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 4,
+        "Power": 2,
+        "Lore": 3
+      },
+      "image": "./cards/bell-ringer-of-hali.png"
+    },
+    {
+      "id": "the-hali-leviathan",
+      "name": "The Hali Leviathan",
+      "cardNumber": 31,
+      "rarity": "Rare",
+      "character": "A huge, pale, eyeless serpent-fish with a smooth body like wet stone, a crest of thin yellow-tipped spines and a wide mouth that opens in four triangular petals.",
+      "poseAndExpression": "Breaching from the black lake in a long arc, mist pouring off its body, petals of its mouth wide open.",
+      "backgroundScene": "The Lake of Hali at twilight, black water, cloud-like waves and twin suns sinking behind spires.",
+      "flavourText": "The lake has a floor. Nobody has ever reached it.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 8,
+        "Power": 8,
+        "Lore": 4
+      },
+      "image": "./cards/the-hali-leviathan.png"
+    },
+    {
+      "id": "tomb-slug",
+      "name": "Tomb Slug",
+      "cardNumber": 32,
+      "rarity": "Common",
+      "character": "A fat, glistening grey-yellow slug as long as a coffin, with two long eye stalks ending in small yellow eyes and a trail of glowing slime.",
+      "poseAndExpression": "Sliding slowly over a cracked gravestone, eye stalks swaying toward the viewer.",
+      "backgroundScene": "An overgrown cemetery at night with tilted gravestones and a crooked mausoleum.",
+      "flavourText": "It is slow. It is very, very patient.",
+      "stats": {
+        "Madness": 2,
+        "Dread": 4,
+        "Power": 3,
+        "Lore": 3
+      },
+      "image": "./cards/tomb-slug.png"
+    },
+    {
+      "id": "the-thousand-eyed-choir",
+      "name": "The Thousand-Eyed Choir",
+      "cardNumber": 33,
+      "rarity": "Rare",
+      "character": "A floating ring of pale, robed, faceless singers joined together, the inside of the ring a mass of yellow eyes, all singing with open mouths.",
+      "poseAndExpression": "Hovering above an altar and slowly rotating, all the singers opening their mouths at once.",
+      "backgroundScene": "A ruined cathedral with collapsed roof, two pale suns visible through the open sky, yellow drapes hanging from pillars.",
+      "flavourText": "They sing the hymn that ends cities.",
+      "stats": {
+        "Madness": 8,
+        "Dread": 5,
+        "Power": 7,
+        "Lore": 6
+      },
+      "image": "./cards/the-thousand-eyed-choir.png"
+    },
+    {
+      "id": "echo-wisp",
+      "name": "Echo Wisp",
+      "cardNumber": 34,
+      "rarity": "Common",
+      "character": "A faint, ghostly wisp of yellow smoke with a vague, sad face that changes to look like whoever is watching.",
+      "poseAndExpression": "Drifting past the viewer, its face slowly becoming a copy of the viewer's.",
+      "backgroundScene": "A long, dark corridor of an old house with closed doors and peeling wallpaper.",
+      "flavourText": "It says your name in your own voice.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 3,
+        "Power": 2,
+        "Lore": 3
+      },
+      "image": "./cards/echo-wisp.png"
+    },
+    {
+      "id": "the-triangle-warden",
+      "name": "The Triangle Warden",
+      "cardNumber": 35,
+      "rarity": "Rare",
+      "character": "A towering stone guardian shaped like a stack of three great triangles, each carved with a huge open eye, with long thin stone arms and glowing yellow runes along its edges.",
+      "poseAndExpression": "Standing guard in front of a sealed door, all three eyes snapping open at once toward the viewer.",
+      "backgroundScene": "A vast underground vault with a gigantic round door covered in symbols, dust in the air.",
+      "flavourText": "It does not let things in. It does not let things out.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 6,
+        "Power": 8,
+        "Lore": 6
+      },
+      "image": "./cards/the-triangle-warden.png"
+    },
+    {
+      "id": "the-king-in-yellow",
+      "name": "The King in Yellow",
+      "cardNumber": 36,
+      "rarity": "Legendary",
+      "character": "A tall, regal, terrible figure in tattered robes of pale, sickly yellow that trail on for ever, a jagged crown, a face that is only a pale mask with nothing behind it, and long thin hands like bone.",
+      "poseAndExpression": "Standing before a throne on a balcony above Carcosa, one hand reaching out to the viewer, the tatters of his robe moving on their own.",
+      "backgroundScene": "The black-starred skies of Carcosa with twin suns sinking into the cloud waves of the Lake of Hali, strange towers behind the moon.",
+      "flavourText": "Strange is the night where black stars rise.",
+      "stats": {
+        "Madness": 10,
+        "Dread": 9,
+        "Power": 9,
+        "Lore": 8
+      },
+      "image": "./cards/the-king-in-yellow.png"
+    },
+    {
+      "id": "masked-reveller",
+      "name": "Masked Reveller",
+      "cardNumber": 37,
+      "rarity": "Common",
+      "character": "A dancer at a cursed ball in an elegant dark gown or suit, wearing a pale yellow masquerade mask with triangle eye holes, frozen in a slightly unnatural pose.",
+      "poseAndExpression": "Spinning in a dance with arms outstretched, but the head tilted at an odd angle toward the viewer.",
+      "backgroundScene": "A grand ballroom with yellow and black tiles, candles guttering and other masked dancers in the background.",
+      "flavourText": "It is time to unmask. Not you. Not yet.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 3,
+        "Power": 3,
+        "Lore": 3
+      },
+      "image": "./cards/masked-reveller.png"
+    },
+    {
+      "id": "the-gnawers-in-the-walls",
+      "name": "The Gnawers in the Walls",
+      "cardNumber": 38,
+      "rarity": "Rare",
+      "character": "A swarm of thin, pale, rat-like creatures with too many teeth and glowing yellow eyes, pouring through cracks in old stone walls.",
+      "poseAndExpression": "Streaming out of a crack in the wall in a writhing wave, all heads turned toward the viewer.",
+      "backgroundScene": "The crumbling walls of an old priory cellar, ancient carvings and a staircase leading down into darkness.",
+      "flavourText": "Listen. Something is scratching. Downward.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 7,
+        "Power": 5,
+        "Lore": 4
+      },
+      "image": "./cards/the-gnawers-in-the-walls.png"
+    },
+    {
+      "id": "ink-polyp",
+      "name": "Ink Polyp",
+      "cardNumber": 39,
+      "rarity": "Common",
+      "character": "A small, dark, jelly-like polyp living in an inkwell, with thin dripping tentacles and a single glossy yellow eye.",
+      "poseAndExpression": "Climbing out of the inkwell and leaving a trail of black ink words across the page.",
+      "backgroundScene": "A writer's desk at night with a candle, quill, and pages covered in frantic writing.",
+      "flavourText": "It finishes your sentences. All of them.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 2,
+        "Power": 2,
+        "Lore": 5
+      },
+      "image": "./cards/ink-polyp.png"
+    },
+    {
+      "id": "the-geometer",
+      "name": "The Geometer",
+      "cardNumber": 40,
+      "rarity": "Rare",
+      "character": "A living impossible shape: a floating, rotating figure of glowing yellow triangles and angles that fold into each other wrongly, with a single eye in the middle of each face.",
+      "poseAndExpression": "Unfolding in mid-air in front of the viewer, its angles turning into new angles that should not exist.",
+      "backgroundScene": "An empty, dusty classroom with chalkboards covered in frantic geometry, the chalk lines glowing.",
+      "flavourText": "Count its corners. Then count them again.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 3,
+        "Power": 7,
+        "Lore": 7
+      },
+      "image": "./cards/the-geometer.png"
+    },
+    {
+      "id": "pale-grub",
+      "name": "Pale Grub",
+      "cardNumber": 41,
+      "rarity": "Common",
+      "character": "A soft, pale yellow grub as big as a cat, with a ring of tiny eyes around its front and many stubby legs, sleepy and plump.",
+      "poseAndExpression": "Curled up in a nest of old papers and blinking slowly at the viewer.",
+      "backgroundScene": "A forgotten library basement full of rotting boxes and spilled scrolls.",
+      "flavourText": "It eats books. It remembers them.",
+      "stats": {
+        "Madness": 2,
+        "Dread": 2,
+        "Power": 2,
+        "Lore": 6
+      },
+      "image": "./cards/pale-grub.png"
+    },
+    {
+      "id": "sister-of-the-lake",
+      "name": "Sister of the Lake",
+      "cardNumber": 42,
+      "rarity": "Rare",
+      "character": "A thin, eerie woman in a long hooded robe of pale mustard, wading in black water, her face hidden except for a faint yellow glow where her eyes should be, with long black hair drifting on the water.",
+      "poseAndExpression": "Standing waist-deep in the lake and beckoning slowly to the viewer with one pale hand.",
+      "backgroundScene": "The misty edge of the Lake of Hali at night, reeds and broken statues, twin moons.",
+      "flavourText": "She has been waiting by the water for a very long time.",
+      "stats": {
+        "Madness": 7,
+        "Dread": 4,
+        "Power": 6,
+        "Lore": 6
+      },
+      "image": "./cards/sister-of-the-lake.png"
+    },
+    {
+      "id": "crawling-lantern",
+      "name": "Crawling Lantern",
+      "cardNumber": 43,
+      "rarity": "Common",
+      "character": "An old iron lantern with a yellow glowing flame inside and small spidery metal legs that let it walk, a little eye peering out of the flame.",
+      "poseAndExpression": "Tottering along a stone path toward the viewer, flame flickering.",
+      "backgroundScene": "A dark, overgrown garden at night with a crumbling statue and a stone path.",
+      "flavourText": "Follow it home. Do not follow it home.",
+      "stats": {
+        "Madness": 3,
+        "Dread": 2,
+        "Power": 3,
+        "Lore": 2
+      },
+      "image": "./cards/crawling-lantern.png"
+    },
+    {
+      "id": "the-starless-wanderer",
+      "name": "The Starless Wanderer",
+      "cardNumber": 44,
+      "rarity": "Rare",
+      "character": "A towering, thin, robed figure with a head shaped like a dark crescent moon, dragging a long, frayed cloak of black sky full of tiny yellow stars behind it.",
+      "poseAndExpression": "Walking slowly across a field, the stars falling out of the sky into its cloak as it passes.",
+      "backgroundScene": "A wide, empty moor at night with the sky going dark as the stars vanish one by one.",
+      "flavourText": "Every night there are fewer stars.",
+      "stats": {
+        "Madness": 7,
+        "Dread": 4,
+        "Power": 8,
+        "Lore": 6
+      },
+      "image": "./cards/the-starless-wanderer.png"
+    },
+    {
+      "id": "toothed-tome",
+      "name": "Toothed Tome",
+      "cardNumber": 45,
+      "rarity": "Common",
+      "character": "A thick, heavy book with jagged teeth along the edges of its covers, a leather tongue for a bookmark, and a yellow eye on the spine.",
+      "poseAndExpression": "Snapping open and shut with its teeth and lunging at a fleeing quill.",
+      "backgroundScene": "A dusty library aisle with tall shelves vanishing into darkness.",
+      "flavourText": "Overdue. Very overdue.",
+      "stats": {
+        "Madness": 3,
+        "Dread": 5,
+        "Power": 2,
+        "Lore": 6
+      },
+      "image": "./cards/toothed-tome.png"
+    },
+    {
+      "id": "the-prophet-of-black-stars",
+      "name": "The Prophet of Black Stars",
+      "cardNumber": 46,
+      "rarity": "Rare",
+      "character": "An ancient, emaciated seer with long white hair and beard, wearing a heavy mustard robe covered in stitched triangles and eyes, with black stars glowing where his eyes should be.",
+      "poseAndExpression": "Pointing at the sky with one bony finger while shouting a prophecy, the wind whipping his robe.",
+      "backgroundScene": "A rocky cliff above a sleeping city at night, black stars rising in the sky.",
+      "flavourText": "The black stars rise tonight. They rose last night too.",
+      "stats": {
+        "Madness": 9,
+        "Dread": 3,
+        "Power": 6,
+        "Lore": 8
+      },
+      "image": "./cards/the-prophet-of-black-stars.png"
+    },
+    {
+      "id": "moonlit-gaunt",
+      "name": "Moonlit Gaunt",
+      "cardNumber": 47,
+      "rarity": "Common",
+      "character": "A thin, faceless, rubbery black creature with curved horns, long bat-like wings and a barbed tail, its smooth face completely blank.",
+      "poseAndExpression": "Perched on a high chimney with wings folded, its blank face tilted toward the viewer.",
+      "backgroundScene": "The rooftops of an old town at night under a large yellow moon.",
+      "flavourText": "It has no face. It still smiles.",
+      "stats": {
+        "Madness": 5,
+        "Dread": 5,
+        "Power": 3,
+        "Lore": 2
+      },
+      "image": "./cards/moonlit-gaunt.png"
+    },
+    {
+      "id": "spawn-of-the-sunken-city",
+      "name": "Spawn of the Sunken City",
+      "cardNumber": 48,
+      "rarity": "Rare",
+      "character": "A hulking, scaly creature with an octopus-like head, small bat wings, bruised green skin and clawed hands, a smaller relative of the great sleeper below.",
+      "poseAndExpression": "Climbing up the slimy steps of a drowned temple with claws gripping the stone, head-tentacles writhing.",
+      "backgroundScene": "Drowned, impossibly angled stone steps rising out of the sea, carved with strange symbols, yellow sky.",
+      "flavourText": "It is only a child. The parent is still asleep.",
+      "stats": {
+        "Madness": 6,
+        "Dread": 8,
+        "Power": 8,
+        "Lore": 4
+      },
+      "image": "./cards/spawn-of-the-sunken-city.png"
+    },
+    {
+      "id": "the-twitching-idol",
+      "name": "The Twitching Idol",
+      "cardNumber": 49,
+      "rarity": "Common",
+      "character": "A small, ugly stone idol of a squatting tentacled figure, with glowing yellow eyes that move, sitting in a hidden alcove.",
+      "poseAndExpression": "Sitting perfectly still, except that its eyes have just turned to look at the viewer.",
+      "backgroundScene": "A dusty antique shop at night full of curios and masks, a shaft of moonlight.",
+      "flavourText": "It was cheap. That should have been a clue.",
+      "stats": {
+        "Madness": 4,
+        "Dread": 3,
+        "Power": 3,
+        "Lore": 5
+      },
+      "image": "./cards/the-twitching-idol.png"
+    },
+    {
+      "id": "dagon-father-of-the-deep",
+      "name": "Dagon, Father of the Deep",
+      "cardNumber": 50,
+      "rarity": "Legendary",
+      "character": "A colossal, ancient fish-man with grey-green scaled skin, a huge head with bulging round eyes and wide lipless mouth, webbed clawed hands and fins down his back, crusted with barnacles and seaweed.",
+      "poseAndExpression": "Rising from the waves to wrap his vast arms around a carved stone monolith, gazing down at a tiny rowboat.",
+      "backgroundScene": "A black rocky island in a vast sea under a yellow moon, an ancient carved monolith standing on its shore.",
+      "flavourText": "On the monolith, the carvings were of him.",
+      "stats": {
+        "Madness": 8,
+        "Dread": 10,
+        "Power": 9,
+        "Lore": 7
+      },
+      "image": "./cards/dagon-father-of-the-deep.png"
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 108,
+      "top": 226,
+      "width": 808,
+      "height": 752
+    },
+    "text": {
+      "name": {
+        "x": 512,
+        "y": 168,
+        "size": 60,
+        "maxWidth": 560,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#2b2a0a",
+        "charWidth": 0.75
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1112,
+        "size": 40,
+        "maxWidth": 820,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#2b2a0a",
+        "italic": true,
+        "wrap": true
+      },
+      "number": {
+        "x": 838,
+        "y": 1428,
+        "size": 36,
+        "maxWidth": 220,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#f3e6a0",
+        "anchor": "middle",
+        "bold": true
+      },
+      "rarity": {
+        "x": 190,
+        "y": 1428,
+        "size": 36,
+        "maxWidth": 230,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#2b2a0a",
+        "charWidth": 0.85,
+        "anchor": "middle"
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 222,
+          "y": 1258,
+          "size": 24,
+          "maxWidth": 92,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 222,
+          "y": 1322,
+          "size": 56,
+          "maxWidth": 105,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 448,
+          "y": 1258,
+          "size": 24,
+          "maxWidth": 115,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 448,
+          "y": 1322,
+          "size": 56,
+          "maxWidth": 115,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 683,
+          "y": 1258,
+          "size": 24,
+          "maxWidth": 105,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 683,
+          "y": 1322,
+          "size": 56,
+          "maxWidth": 105,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 916,
+          "y": 1258,
+          "size": 24,
+          "maxWidth": 125,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 916,
+          "y": 1322,
+          "size": 56,
+          "maxWidth": 125,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b2a0a",
+          "charWidth": 0.7
+        }
+      }
+    ]
+  }
+}

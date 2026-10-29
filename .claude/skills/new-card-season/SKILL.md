@@ -7,11 +7,11 @@ description: Use when the user wants to start a new season or set of trading car
 
 Sets up `season-N/` so it is ready for card details: a `cards.json` with set metadata and shared prompts, a generated `frame.png`, and a `layout` tuned to that frame. It does NOT write the cards; `cards` stays `[]`.
 
-Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` with no arguments for usage). `season-2/cards.json` is the worked example: copy its shape, not its theme.
+Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` with no arguments for usage). `season-2/cards.json` is the worked example: copy its shape, not its theme. Full docs: `docs/v2-compose-cards.md`.
 
 ## Steps
 
-1. **Ask for the theme.** Ask the user in chat for the theme and any wishes for the colour scheme. Propose the rest and let them change it: set name, number of cards (default 30), three stat names that fit the theme, and rarities (default Common, Rare, Legendary).
+1. **Ask for the theme.** Ask the user in chat for the theme and any wishes for the colour scheme. Propose the rest and let them change it: set name, number of cards (default 30), stat names that fit the theme (default three; four fit, see season 4), and rarities (default Common, Rare, Legendary). Also ask if the rarity badge goes bottom-left or bottom-right (default: number bottom-left, rarity bottom-right).
 
 2. **Make the folder.** Use the next free `season-N` (look at the existing `season-*` folders). Write `season-N/cards.json` with:
    - `set`: `name`, `totalCards`, `statNames`, `rarities`.
@@ -22,8 +22,8 @@ Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` wi
      - **Top-left emblem**: a small emblem with no letters.
      - **Top**: an empty name banner about 10% of the card height.
      - **Bottom**: a pale text panel about a quarter of the card height, with an empty upper half for flavour text and a thin divider across the middle. The panel must be pale, because the text is drawn in dark colours.
-     - **Stats row**: the lower half of the panel split into one equal cell per stat, with thin vertical dividers. Each cell has a small bold icon on its left and empty space on its right. Describe each icon in `statNames` order, left to right.
-     - **Card number and rarity**: a small dark plaque for the number with a pale pill-shaped badge on its right, on the border in the bottom-right corner below the panel.
+     - **Stats row**: the lower half of the panel split into one equal cell per stat, with thin vertical dividers. Each cell has a small bold icon on its left, "no wider than a quarter of the cell", and the right three-quarters empty "for a word like '<longest stat name in capitals>' and a large number". Without the size limit the model draws huge icons and the stat text has no room. Describe each icon in `statNames` order, left to right.
+     - **Card number and rarity**: two separate empty badges of the same height on the border below the panel, one in each bottom corner: a wide dark plaque for the number, "about 22% of the card width, so it can hold text like '#30 of 30'", and a wide pale pill for the rarity, "about 25% of the card width, so it can hold a word of nine capital letters". A small plaque and pill side by side in one corner come out too small to read.
      - **Accent colours**: list the allowed accent colours, then add "Do not use pink, magenta or hot pink anywhere on the frame."
      - Leave out the art window and any "no text" rule, because the script adds both.
    - `sharedPrompt.negative`: what the art must not contain.
@@ -68,3 +68,7 @@ Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` wi
 | Icons in a different order from `statNames` | Labels are drawn by index, so the order must match |
 | Tuning the layout without running `preview` | Always check the image; the width estimates are rough |
 | Generating a frame without asking | Every frame costs money; confirm first |
+| Small number plaque and rarity pill side by side | One wide badge in each bottom corner, with a size in % of card width |
+| Icons with no size limit | Say "no wider than a quarter of the cell"; huge icons leave no room for the stat text |
+| Assuming a new frame keeps the old positions | A new frame keeps the layout, but its parts move; run `preview` and re-measure |
+| Measuring by eye only | Scan pixels with sharp (e.g. find the pale pill by colour) to get exact badge bounds |

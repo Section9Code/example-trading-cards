@@ -11,6 +11,7 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-1](season-1/) | Spooky Saturday Morning | 30 | Courage, Snacks, Sneakiness | Common (14), Rare (12), Legendary (4) |
 | [season-2](season-2/) | Abyssal Oddities | 30 | Glow, Bite, Weirdness | Common (14), Rare (12), Legendary (4) |
 | [season-3](season-3/) | Wyrmfall | 30 | Fire, Fury, Scale | Common (14), Rare (12), Legendary (4) |
+| [season-4](season-4/) | Carcosa Rising | 50 | Madness, Dread, Power, Lore | Common (23), Rare (20), Legendary (7) |
 
 ## How the cards were made
 
