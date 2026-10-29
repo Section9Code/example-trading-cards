@@ -1,0 +1,4 @@
+node_modules/
+**/rejected/
+season-*/preview.png
+.env

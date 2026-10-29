@@ -9,6 +9,7 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | Folder | Set name | Cards | Stats | Rarities |
 |---|---|---|---|---|
 | [season-1](season-1/) | Spooky Saturday Morning | 30 | Courage, Snacks, Sneakiness | Common (14), Rare (12), Legendary (4) |
+| [season-3](season-3/) | Wyrmfall | 30 | Fire, Fury, Scale | Common (14), Rare (12), Legendary (4) |
 
 ## What is in a set
 

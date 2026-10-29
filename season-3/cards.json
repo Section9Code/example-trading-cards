@@ -1,0 +1,624 @@
+{
+  "set": {
+    "name": "Wyrmfall",
+    "totalCards": 30,
+    "statNames": [
+      "Fire",
+      "Fury",
+      "Scale"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Dark fantasy illustration in the manner of a 1980s role-playing module cover painted on aged parchment: bold inked linework with heavy cross-hatching in the shadows, rich painted colour laid over the ink, monstrous horned dragons drawn huge, scarred and armoured with jagged scales. Palette: deep blood red and oxblood, dark crimson, soot-black and charcoal, with glowing accents of ember orange and molten gold from fire and embers. Smoky, hot air with drifting sparks and ash. Subtle parchment grain like a vintage printed card. Overall mood: menacing, epic, awe-inspiring.",
+    "frame": [
+      "Border: a thick, very dark red border (deep oxblood to near-black crimson) like blackened, heat-scarred iron with riveted edges, with a thin glowing ember-orange pinstripe inside it. Overlapping dragon scales, curling horns and small claws worked into the corners as ornament.",
+      "Top-left corner: a small round set emblem showing a slit-pupilled dragon eye, with no letters.",
+      "Top: an empty name banner shaped like a long forged iron plaque with pointed ends, dark crimson with a molten gold edge, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about a quarter of the card height, in pale cream parchment, with a thin dark red edge. The upper half of the panel is empty space for two lines of text. A thin dark red divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into three equal cells side by side by thin vertical dark red dividers. Each cell has one small bold icon on its left side and empty space to the right of the icon for a short word and a large number. The icons, left to right: a tall flame; a clawed dragon talon; a shield made of overlapping scales. The icons are simple, flat and bold, in dark red, ember orange and molten gold.",
+      "Card number and rarity: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide dark plaque with a molten gold edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. In the bottom-right corner, a wide pill-shaped pale gold badge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. Both are empty, with no letters.",
+      "Accent colours on the frame are only ember orange, molten gold and dark crimson. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no cute or chibi dragons, no modern vector/flat-design look, no watermarks, no extra text, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "cards": [
+    {
+      "id": "cinderjaw",
+      "name": "Cinderjaw",
+      "cardNumber": 1,
+      "rarity": "Common",
+      "character": "A squat, bulldog-shaped young dragon with charcoal-black scales cracked like cooling lava, glowing ember-orange in the cracks. An oversized underbite of jagged teeth, stubby horns, small leathery wings it has not grown into yet, and smoke leaking from its nostrils.",
+      "poseAndExpression": "Crouched low on all fours with its tail lashing, snarling and puffing a small, sputtering burst of flame, determined and furious despite its size.",
+      "backgroundScene": "A rocky volcanic ledge strewn with blackened bones and smouldering embers, a river of molten lava glowing far below, ash drifting through a dark red sky.",
+      "flavourText": "Small fire. Big attitude.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 7,
+        "Scale": 3
+      },
+      "image": "./cards/cinderjaw.png"
+    },
+    {
+      "id": "gravemaw",
+      "name": "Gravemaw",
+      "cardNumber": 2,
+      "rarity": "Rare",
+      "character": "A long, gaunt, serpentine dragon with ash-grey scales stretched over a visible ribcage, tattered membrane wings, and a skull-like head crowned with a ring of broken horns. Its eyes and the back of its throat glow molten gold, and old iron chains still hang from its neck.",
+      "poseAndExpression": "Coiled around a crumbling stone pillar, head lowered toward the viewer with its jaws wide open in a slow, menacing hiss, eyes narrowed and hungry.",
+      "backgroundScene": "A ruined battlefield graveyard at dusk, broken swords and shattered shields half-buried in ash, crooked stone tombs, dark crimson clouds and a blood-red setting sun.",
+      "flavourText": "It remembers every knight who came for it. None of them remember anything.",
+      "stats": {
+        "Fire": 6,
+        "Fury": 8,
+        "Scale": 7
+      },
+      "image": "./cards/gravemaw.png"
+    },
+    {
+      "id": "the-red-tyrant",
+      "name": "The Red Tyrant",
+      "cardNumber": 3,
+      "rarity": "Legendary",
+      "character": "A colossal, mountain-sized ancient dragon with deep blood-red scales as thick as castle walls, scarred and studded with broken spears. Enormous curved horns, a crown of jagged spikes along its brow, vast tattered wings, and a chest that glows from within like a forge.",
+      "poseAndExpression": "Rearing up on its hind legs with wings spread to fill the sky, roaring a torrent of molten-gold fire straight upward, utterly dominant and furious.",
+      "backgroundScene": "A burning castle on a cliff, its towers collapsing in flame, tiny fleeing figures on the walls, the whole sky boiling with smoke and lit dark red and orange by the fire.",
+      "flavourText": "Kingdoms are just kindling with flags on.",
+      "stats": {
+        "Fire": 10,
+        "Fury": 9,
+        "Scale": 10
+      },
+      "image": "./cards/the-red-tyrant.png"
+    },
+    {
+      "id": "ashwidow",
+      "name": "Ashwidow",
+      "cardNumber": 4,
+      "rarity": "Rare",
+      "character": "A slender, spider-limbed dragon with six long jointed legs, soot-black scales and a blood-red hourglass mark on its belly. A narrow, fanged head with a cluster of small glowing ember-orange eyes, and thin smoky wings like torn lace.",
+      "poseAndExpression": "Hanging upside down from a burnt rafter by four legs, lowering its head toward the viewer with fangs bared, patient and predatory.",
+      "backgroundScene": "The charred skeleton of a great hall, its roof beams blackened, thick ropes of grey ash-silk strung between the beams, embers drifting through red gloom.",
+      "flavourText": "She weaves with smoke and waits with fire.",
+      "stats": {
+        "Fire": 6,
+        "Fury": 6,
+        "Scale": 5
+      },
+      "image": "./cards/ashwidow.png"
+    },
+    {
+      "id": "smoulderscut",
+      "name": "Smoulderscut",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "A scrawny, rat-sized dragon with patchy dull-red scales, one torn ear-frill, a long bald tail and a crooked snout that is always leaking little wisps of smoke.",
+      "poseAndExpression": "Scuttling along on all fours with a stolen gold coin clamped in its teeth, glancing back over its shoulder, sly and guilty.",
+      "backgroundScene": "A dark dungeon tunnel lit by a dying torch, gnawed bones and spilled coins on the floor, red light spilling from a crack in the wall.",
+      "flavourText": "Every hoard starts with one coin. Usually someone else's.",
+      "stats": {
+        "Fire": 3,
+        "Fury": 5,
+        "Scale": 4
+      },
+      "image": "./cards/smoulderscut.png"
+    },
+    {
+      "id": "blisterhide",
+      "name": "Blisterhide",
+      "cardNumber": 6,
+      "rarity": "Common",
+      "character": "A lumpy, toad-like dragon with warty oxblood-red skin covered in glowing ember-orange blisters, a wide flat head, tiny stub wings and a fat swinging belly.",
+      "poseAndExpression": "Sitting squat in a bubbling pool, cheeks puffed out and about to spit a gob of molten slag, smug and lazy.",
+      "backgroundScene": "A steaming volcanic swamp of bubbling tar pools, dead black trees and drifting yellow-red fumes under a dark crimson sky.",
+      "flavourText": "Do not pop the blisters. Do not ask why.",
+      "stats": {
+        "Fire": 6,
+        "Fury": 3,
+        "Scale": 6
+      },
+      "image": "./cards/blisterhide.png"
+    },
+    {
+      "id": "the-cinder-widow",
+      "name": "The Cinder Widow",
+      "cardNumber": 7,
+      "rarity": "Rare",
+      "character": "A tall, elegant dragon with long sweeping horns like a mourning veil, dark crimson scales edged in black, and great tattered wings draped around her like a cloak. Her eyes glow molten gold and a broken knight's crown hangs on one horn.",
+      "poseAndExpression": "Standing upright on a ruined balcony, wings folded close, gazing down at the viewer with cold, sorrowful contempt.",
+      "backgroundScene": "A grand ruined cathedral with shattered red stained-glass windows, smoke curling through the broken arches, candles of fire burning on the cracked floor.",
+      "flavourText": "She wears his crown. He did not need it any more.",
+      "stats": {
+        "Fire": 7,
+        "Fury": 5,
+        "Scale": 7
+      },
+      "image": "./cards/the-cinder-widow.png"
+    },
+    {
+      "id": "vorgath-the-unburied",
+      "name": "Vorgath the Unburied",
+      "cardNumber": 8,
+      "rarity": "Legendary",
+      "character": "A colossal ancient dragon that has clawed its way out of the earth, its blood-red scales caked with soil and roots, half its face bare skull with a burning molten-gold eye, the other half scarred flesh. Huge broken horns, ribs showing through torn scales, and a heart of fire glowing in its chest.",
+      "poseAndExpression": "Bursting up out of the ground with its front claws gripping the edge of a vast crater, jaws open in a deafening roar, rocks and gravestones flying around it.",
+      "backgroundScene": "A great burial mound torn open, toppled standing stones, a burning sky of black smoke and red fire, tiny torch-carrying villagers fleeing in the distance.",
+      "flavourText": "They buried it for a thousand years. It only needed a nap.",
+      "stats": {
+        "Fire": 9,
+        "Fury": 10,
+        "Scale": 9
+      },
+      "image": "./cards/vorgath-the-unburied.png"
+    },
+    {
+      "id": "pyrelet",
+      "name": "Pyrelet",
+      "cardNumber": 9,
+      "rarity": "Common",
+      "character": "A hatchling dragon still wearing half of its cracked black eggshell on its head like a helmet. Bright ember-red scales, oversized clawed feet, stubby wings and enormous glowing gold eyes.",
+      "poseAndExpression": "Sitting up proudly in the shell fragments and breathing its first tiny, wobbly puff of flame, looking surprised at itself.",
+      "backgroundScene": "A nest of scorched bones and gold coins inside a dark cave, more black eggs glowing faintly from within, red firelight on the cave walls.",
+      "flavourText": "First breath. First fire. First of many.",
+      "stats": {
+        "Fire": 4,
+        "Fury": 4,
+        "Scale": 4
+      },
+      "image": "./cards/pyrelet.png"
+    },
+    {
+      "id": "slagjaw",
+      "name": "Slagjaw",
+      "cardNumber": 10,
+      "rarity": "Rare",
+      "character": "A heavy, armoured dragon whose lower jaw is a crude iron plate riveted on after an old battle. Rust-red scales, a ridge of blunt spikes down its back, thick forelegs and a glowing furnace-orange throat.",
+      "poseAndExpression": "Hunched forward over a pile of melted armour, chewing on a twisted sword with its iron jaw, sparks spraying from its teeth, grim and unbothered.",
+      "backgroundScene": "An abandoned dwarven forge deep under a mountain, cold anvils and broken hammers, rivers of molten metal glowing in channels in the stone floor.",
+      "flavourText": "The smiths gave it a new jaw. It gave them a short retirement.",
+      "stats": {
+        "Fire": 6,
+        "Fury": 7,
+        "Scale": 8
+      },
+      "image": "./cards/slagjaw.png"
+    },
+    {
+      "id": "redgale",
+      "name": "Redgale",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "A lean, fast storm dragon with swept-back horns, sleek dark crimson scales and huge narrow wings edged with glowing ember-orange. Long whip-like tail with a blade-shaped tip.",
+      "poseAndExpression": "Diving straight down through the clouds toward the viewer, wings half-folded, jaws open with streaks of flame trailing behind it, fierce and focused.",
+      "backgroundScene": "A storm sky boiling with dark red clouds and forks of orange lightning, a tiny burning watchtower on a cliff far below.",
+      "flavourText": "You will hear it after it has already passed.",
+      "stats": {
+        "Fire": 7,
+        "Fury": 8,
+        "Scale": 4
+      },
+      "image": "./cards/redgale.png"
+    },
+    {
+      "id": "the-hoardmother",
+      "name": "The Hoardmother",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A huge, heavy-set old dragon with deep red scales worn smooth and studded with embedded gold coins and gems, a long grey-whiskered snout, drooping horns and half-closed molten-gold eyes.",
+      "poseAndExpression": "Curled protectively around a mountain of treasure with her chin resting on the gold, one eye open and watching the viewer, calm but dangerous.",
+      "backgroundScene": "A vast cavern piled high with gold, crowns, goblets and broken swords, lit by a glowing lava pool, skeletons of past thieves half-buried in coins.",
+      "flavourText": "Count her gold if you must. She counts the thieves.",
+      "stats": {
+        "Fire": 6,
+        "Fury": 5,
+        "Scale": 9
+      },
+      "image": "./cards/the-hoardmother.png"
+    },
+    {
+      "id": "scorchling",
+      "name": "Scorchling",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A small, wiry dragon the size of a large dog with bright red scales, a frilled neck, needle teeth and a tail tipped with a little flickering flame like a candle.",
+      "poseAndExpression": "Leaping between two burning rooftops with legs stretched out and mouth wide in a gleeful shriek.",
+      "backgroundScene": "A medieval town at night with thatched roofs on fire, chimneys and crooked timber houses, sparks and smoke rising into a dark red sky.",
+      "flavourText": "Thatched roofs were a mistake.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 6,
+        "Scale": 2
+      },
+      "image": "./cards/scorchling.png"
+    },
+    {
+      "id": "bonegrinder",
+      "name": "Bonegrinder",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A broad, low dragon with a massive square head, rows of flat crushing teeth, heavy charcoal-and-red scales like stacked slate, and short powerful legs with blunt claws.",
+      "poseAndExpression": "Lying on its belly gnawing a giant's thigh bone like a dog, eyes rolled up toward the viewer with a low warning growl.",
+      "backgroundScene": "A dark canyon floor scattered with giant bones and skulls, a red sunset glowing through the canyon walls, smoke rising from cracks in the ground.",
+      "flavourText": "It does not hunt giants. It just finishes them.",
+      "stats": {
+        "Fire": 4,
+        "Fury": 7,
+        "Scale": 8
+      },
+      "image": "./cards/bonegrinder.png"
+    },
+    {
+      "id": "tinderwing",
+      "name": "Tinderwing",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "A small, moth-like dragon with huge soft wings patterned with glowing ember-orange eye spots, a furry crimson ruff around its neck and feathery antennae above its horns.",
+      "poseAndExpression": "Fluttering toward a lantern with wings spread wide, staring at the flame in a happy trance.",
+      "backgroundScene": "A dark forest path at night lit by a single swinging lantern hung on a dead tree, glowing sparks floating like fireflies.",
+      "flavourText": "Drawn to every flame. Leaves a bigger one behind.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 2,
+        "Scale": 3
+      },
+      "image": "./cards/tinderwing.png"
+    },
+    {
+      "id": "the-crimson-knight",
+      "name": "The Crimson Knight",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A muscular dragon wearing a full suit of blackened knight's plate armour fitted to its body, dark red scales showing at the joints, a great horned helm with a slit visor glowing ember-orange, and a broken lance through one wing.",
+      "poseAndExpression": "Standing tall on its hind legs with a knight's shield gripped in one claw like a trophy, chest puffed out, proud and menacing.",
+      "backgroundScene": "A ruined tournament field with torn banners, broken lances and a collapsed wooden grandstand on fire, smoke drifting across a dark red sky.",
+      "flavourText": "It won the joust. It also ate the judges.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 7,
+        "Scale": 9
+      },
+      "image": "./cards/the-crimson-knight.png"
+    },
+    {
+      "id": "grubdrake",
+      "name": "Grubdrake",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A fat, wingless, worm-like dragon with soft segmented dull-red scales, tiny stubby legs, a round mouth ringed with teeth and a pair of beady ember-orange eyes.",
+      "poseAndExpression": "Bursting up out of a mine-cart track with its round mouth wide open, startled and hungry.",
+      "backgroundScene": "An old mine tunnel with wooden supports and tipped-over carts, red crystals in the walls and glowing lava seeping through cracks.",
+      "flavourText": "The miners dug too deep. It dug up.",
+      "stats": {
+        "Fire": 3,
+        "Fury": 4,
+        "Scale": 6
+      },
+      "image": "./cards/grubdrake.png"
+    },
+    {
+      "id": "hookhorn",
+      "name": "Hookhorn",
+      "cardNumber": 18,
+      "rarity": "Common",
+      "character": "A goat-like mountain dragon with two huge curled horns like a ram, shaggy dark red mane, rough charcoal scales, short wings and cloven clawed feet built for climbing.",
+      "poseAndExpression": "Perched on a narrow rocky peak, head lowered ready to charge, snorting smoke, stubborn and defiant.",
+      "backgroundScene": "Jagged volcanic mountain peaks with smoke rising from distant craters, a narrow cliff path and a broken rope bridge, red evening sky.",
+      "flavourText": "There is only one path. It is standing on it.",
+      "stats": {
+        "Fire": 3,
+        "Fury": 7,
+        "Scale": 5
+      },
+      "image": "./cards/hookhorn.png"
+    },
+    {
+      "id": "emberkin",
+      "name": "Emberkin",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A pack of three small, lean, wolf-sized dragons with matching soot-black and red scales, ragged frills and glowing ember-orange eyes, the leader slightly larger with a notched horn.",
+      "poseAndExpression": "Prowling together in a tight line toward the viewer, heads low and teeth bared, the leader in front with a hungry grin.",
+      "backgroundScene": "A burnt-out forest of black tree trunks with embers still glowing on the ground, smoke hanging low, dark red moonlight.",
+      "flavourText": "One is a nuisance. Three is a plan.",
+      "stats": {
+        "Fire": 4,
+        "Fury": 6,
+        "Scale": 3
+      },
+      "image": "./cards/emberkin.png"
+    },
+    {
+      "id": "malgrimm-the-world-burner",
+      "name": "Malgrimm the World-Burner",
+      "cardNumber": 20,
+      "rarity": "Legendary",
+      "character": "A titanic dragon so vast its wings blot out the sky, with blackened, cracked scales glowing from within like a cooling lava field, rows of horns like a crown of mountains, and four burning molten-gold eyes.",
+      "poseAndExpression": "Seen from below, flying over the land with wings spread from edge to edge, breathing a river of fire straight down, utterly unstoppable.",
+      "backgroundScene": "A whole kingdom of fields, forests and towers burning far below, the horizon a wall of flame and black smoke, the sky dark red and orange.",
+      "flavourText": "Maps of the old kingdoms are mostly ash now.",
+      "stats": {
+        "Fire": 10,
+        "Fury": 9,
+        "Scale": 8
+      },
+      "image": "./cards/malgrimm-the-world-burner.png"
+    },
+    {
+      "id": "gallowscale",
+      "name": "Gallowscale",
+      "cardNumber": 21,
+      "rarity": "Rare",
+      "character": "A gaunt, vulture-like dragon with a bald, wrinkled red head and neck, a ruff of black spiked scales at its shoulders, ragged black wings and long hooked claws.",
+      "poseAndExpression": "Perched on top of an old wooden gallows with its wings mantled, head tilted, staring at the viewer with eerie hungry interest.",
+      "backgroundScene": "A bleak crossroads on a dead moor with a crooked signpost, crows circling, a burning village on the horizon and a blood-red sky.",
+      "flavourText": "It always arrives just before the bad news.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 7,
+        "Scale": 6
+      },
+      "image": "./cards/gallowscale.png"
+    },
+    {
+      "id": "sootsnout",
+      "name": "Sootsnout",
+      "cardNumber": 22,
+      "rarity": "Common",
+      "character": "A chubby, pig-nosed little dragon covered head to tail in black soot, with dark red scales showing only where it has rubbed itself clean, stubby horns and a curly tail.",
+      "poseAndExpression": "Stuck halfway out of a chimney pot with its cheeks puffed, sneezing out a huge cloud of black soot and sparks, embarrassed.",
+      "backgroundScene": "A crowded rooftop of a medieval town at dusk, crooked chimneys smoking, a red sky full of drifting ash.",
+      "flavourText": "Chimney sweeps charge double on its street.",
+      "stats": {
+        "Fire": 4,
+        "Fury": 2,
+        "Scale": 5
+      },
+      "image": "./cards/sootsnout.png"
+    },
+    {
+      "id": "the-flame-oracle",
+      "name": "The Flame Oracle",
+      "cardNumber": 23,
+      "rarity": "Rare",
+      "character": "An ancient, thin dragon with long white whiskers and a beard of smoke, faded red scales painted with glowing golden runes, many small horns like a crown, and cloudy blind eyes that glow faintly.",
+      "poseAndExpression": "Coiled around a great bronze brazier, staring into its flames with its head tilted, whispering a prophecy, calm and mysterious.",
+      "backgroundScene": "An old temple carved into a cliff with tall pillars, hanging chains of bronze bells, incense smoke and firelight flickering over carved dragon statues.",
+      "flavourText": "It sees the future in the fire. The future is mostly fire.",
+      "stats": {
+        "Fire": 8,
+        "Fury": 3,
+        "Scale": 6
+      },
+      "image": "./cards/the-flame-oracle.png"
+    },
+    {
+      "id": "spitecoil",
+      "name": "Spitecoil",
+      "cardNumber": 24,
+      "rarity": "Common",
+      "character": "A thin, snake-like wingless dragon with dark red and black banded scales, a hooded neck like a cobra, and a forked tongue that drips tiny burning drops.",
+      "poseAndExpression": "Rearing up from a coil with its hood flared and mouth open, about to spit a jet of burning venom at the viewer.",
+      "backgroundScene": "A cracked desert of red sand and black rock, ancient broken statues half-buried in dunes, heat haze and a dark orange sun.",
+      "flavourText": "It does not need wings. You will not get far enough.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 5,
+        "Scale": 3
+      },
+      "image": "./cards/spitecoil.png"
+    },
+    {
+      "id": "obsidra",
+      "name": "Obsidra",
+      "cardNumber": 25,
+      "rarity": "Rare",
+      "character": "A sharp, crystalline dragon whose scales are jagged plates of glossy black obsidian with glowing red magma showing between them, glassy blade-like wings and horns like shards of volcanic glass.",
+      "poseAndExpression": "Standing on a lava flow with its glass wings raised and spread, catching the red light, head turned in a cold glare.",
+      "backgroundScene": "A volcano slope with rivers of glowing lava, sharp black obsidian spikes rising from the ground, ash falling like snow.",
+      "flavourText": "Swords shatter on it. So does courage.",
+      "stats": {
+        "Fire": 7,
+        "Fury": 4,
+        "Scale": 9
+      },
+      "image": "./cards/obsidra.png"
+    },
+    {
+      "id": "cragling",
+      "name": "Cragling",
+      "cardNumber": 26,
+      "rarity": "Common",
+      "character": "A small, stocky dragon with lumpy grey-red scales like rough stone, moss-like patches of soot, short wings tucked tight and a blunt beak-like snout.",
+      "poseAndExpression": "Clinging to a cliff face, blending in with the rocks, one eye open and peering at the viewer with suspicion.",
+      "backgroundScene": "A sheer rocky cliff above a smoking valley, with small ledges, bird nests and dark red evening light.",
+      "flavourText": "That rock just blinked.",
+      "stats": {
+        "Fire": 2,
+        "Fury": 4,
+        "Scale": 7
+      },
+      "image": "./cards/cragling.png"
+    },
+    {
+      "id": "hellbrand",
+      "name": "Hellbrand",
+      "cardNumber": 27,
+      "rarity": "Common",
+      "character": "A young, muscular dragon with a glowing branded mark burned into its shoulder, dark crimson scales, a short spiked tail and a snapped iron collar still around its neck.",
+      "poseAndExpression": "Pulling free of a broken chain with one foreleg raised, roaring in defiance, flames spilling from its jaws.",
+      "backgroundScene": "A ruined fortress dungeon with broken bars and a smashed gate, torchlight and smoke, an opening to a red sky beyond.",
+      "flavourText": "They tried to tame it. That went badly for them.",
+      "stats": {
+        "Fire": 5,
+        "Fury": 7,
+        "Scale": 4
+      },
+      "image": "./cards/hellbrand.png"
+    },
+    {
+      "id": "the-pale-scourge",
+      "name": "The Pale Scourge",
+      "cardNumber": 28,
+      "rarity": "Rare",
+      "character": "A rare albino dragon with bone-white scales streaked with blood-red veins, thin blood-red membrane wings, ember-red eyes and long bone-white horns, its breath glowing a pale searing gold.",
+      "poseAndExpression": "Landing on a castle wall with its wings still flared, head low and jaws open in a hiss, steam curling from its mouth.",
+      "backgroundScene": "A grey stone castle wall at night under a dark red moon, guards' broken spears scattered, banners burning.",
+      "flavourText": "White as bone. Hungry as fire.",
+      "stats": {
+        "Fire": 8,
+        "Fury": 6,
+        "Scale": 6
+      },
+      "image": "./cards/the-pale-scourge.png"
+    },
+    {
+      "id": "the-ember-queen",
+      "name": "The Ember Queen",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "A magnificent, regal dragon empress with gleaming deep red scales edged in molten gold, a natural crown of tall golden horns, a long flowing frill like a royal mantle, and huge wings veined with glowing fire.",
+      "poseAndExpression": "Seated upon a throne of melted gold and bones with her wings spread behind her like a cloak, chin raised, looking down at the viewer with total command.",
+      "backgroundScene": "A vast throne hall inside a volcano with pillars carved as dragons, rivers of lava along the floor, lesser dragons bowing in the smoky distance.",
+      "flavourText": "Every dragon bows. The brave ones bow first.",
+      "stats": {
+        "Fire": 9,
+        "Fury": 8,
+        "Scale": 9
+      },
+      "image": "./cards/the-ember-queen.png"
+    },
+    {
+      "id": "nibblescorch",
+      "name": "Nibblescorch",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A tiny, kitten-sized dragon with soft dark red scales, oversized wings, a round belly and huge gold eyes, with a little scorched knight's helmet stuck on its head.",
+      "poseAndExpression": "Sitting on top of a pile of knight's armour, chewing the end of a sword like a toy, looking innocent.",
+      "backgroundScene": "A smoky battlefield at sunset with scattered shields and banners, a giant dark dragon silhouette in the distance, red sky.",
+      "flavourText": "Cute. Do not let it near your armour.",
+      "stats": {
+        "Fire": 3,
+        "Fury": 3,
+        "Scale": 2
+      },
+      "image": "./cards/nibblescorch.png"
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 79,
+      "top": 168,
+      "width": 866,
+      "height": 752
+    },
+    "text": {
+      "name": {
+        "x": 525,
+        "y": 85,
+        "size": 64,
+        "maxWidth": 600,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#ffd23f",
+        "stroke": "#2a0505",
+        "charWidth": 0.75
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1068,
+        "size": 40,
+        "maxWidth": 820,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#3a0a0a",
+        "italic": true,
+        "wrap": true
+      },
+      "number": {
+        "x": 210,
+        "y": 1438,
+        "size": 40,
+        "maxWidth": 280,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#ffffff",
+        "anchor": "middle",
+        "bold": true
+      },
+      "rarity": {
+        "x": 800,
+        "y": 1438,
+        "size": 40,
+        "maxWidth": 280,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#3a0a0a",
+        "charWidth": 0.85,
+        "anchor": "middle"
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 266,
+          "y": 1222,
+          "size": 28,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 266,
+          "y": 1295,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 577,
+          "y": 1222,
+          "size": 28,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 577,
+          "y": 1295,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 877,
+          "y": 1222,
+          "size": 28,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 877,
+          "y": 1295,
+          "size": 62,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#3a0a0a",
+          "charWidth": 0.7
+        }
+      }
+    ]
+  }
+}
