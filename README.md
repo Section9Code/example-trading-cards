@@ -1,6 +1,6 @@
 # Trading Cards
 
-<img src="src/docs/banner.webp" alt="Trading Cards banner: a fan of seven example cards, one from each set, with the text: free AI-generated card sets with images and JSON data.">
+<img src="src/docs/banner.webp" alt="Trading Cards banner: a fan of eight example cards, one from each set, with the text: free AI-generated card sets with images and JSON data.">
 
 A free set of AI-generated trading cards. Use them as test data for your apps, games, demos, and prototypes.
 
@@ -15,13 +15,14 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-5](season-5/) | Barnyard Brawl | 40 | Strength, Show, Mud | Common (19), Rare (16), Legendary (5) |
 | [season-6](season-6/) | Fright Bites | 50, plus a rules card and a card back | Flavour, Menace, Fresh, Cook Speed, Eats You, Serves | Common (23), Rare (20), Legendary (7) |
 | [season-7](season-7/) | Cat Knights | 50, plus a rules card and a card back | Valour, Cunning, Nobility, Nap Power | Common (23), Rare (20), Legendary (7) |
+| [season-8](season-8/) | War Dogs | 30, plus a card back | Bravery, Discipline, Bite | Common (14), Rare (12), Legendary (4) |
 
 ## How the cards were made
 
 | Script | Made | How | Docs |
 |---|---|---|---|
 | `src/v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [src/docs/v1-generate-cards.md](src/docs/v1-generate-cards.md) |
-| `src/v2-compose-cards.ts` | Seasons 2 to 7 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
+| `src/v2-compose-cards.ts` | Seasons 2 to 8 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
 
@@ -40,8 +41,9 @@ Each set folder contains:
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
 - `cards/` — one PNG for each card (1024 × 1536, portrait).
 - One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
-- Seasons 2 to 7 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- Seasons 2 to 8 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
 - Seasons 6 and 7 only: `rules-card.png` (how to play, a game like Top Trumps) and `card-back.png`.
+- Season 8 only: `card-back.png`.
 
 ### `cards.json` shape
 

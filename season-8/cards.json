@@ -1,0 +1,666 @@
+{
+  "set": {
+    "name": "War Dogs",
+    "totalCards": 30,
+    "statNames": [
+      "Bravery",
+      "Discipline",
+      "Bite"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Vintage 1940s wartime poster and storybook illustration: bold dark ink outlines, flat gouache colour with simple blocked-in shading and a slightly limited screen-printed look. Characters are expressive dogs in army uniforms with lightly caricatured proportions, big characterful faces and simplified fur shapes that keep each breed easy to recognise. Backgrounds are simple, stylised shapes. Palette: olive drab, khaki, gunmetal, brass and aged canvas, with dark ink for lines. Subtle aged paper grain over everything. Overall mood: dignified and characterful, with a quiet sense of humour coming from how seriously the dogs take their duties.",
+    "frame": [
+      "Border: a thick border of riveted, worn olive-drab painted steel with chipped paint, brass corner plates and small hex bolts, like the side of an old military vehicle. Drawn in the same illustrated style, seen straight on.",
+      "Top-left corner: a small brass shield emblem with an embossed paw print above two crossed bones, with no letters.",
+      "Top: an empty name plate shaped like a long brushed-steel dog tag with rounded ends and a brass edge, pale in colour, about 10% of the card height, with no letters in it.",
+      "Bottom: a pale aged-canvas text panel below the window, about a quarter of the card height, with a thin dark stitched edge. The upper half of the panel is empty space for flavour text. A thin dark divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into three equal cells by thin vertical dark dividers. Each cell has one small bold icon hard against its left edge, vertically centred, and every icon is the same size: no wider than a quarter of the cell and no taller than half of the cell. The right three-quarters of every cell is completely empty space for a word like 'DISCIPLINE' and a large number. The icons, left to right: a small brass star medal on a ribbon; three small stacked military chevrons; a single sharp white canine fang. The icons are simple, flat and bold, in olive drab, brass, gunmetal and dark ink.",
+      "Card number and rarity: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide dark gunmetal plaque with a brass edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. In the bottom-right corner, a wide pill-shaped pale canvas badge with a brass edge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. Both are empty, with no letters.",
+      "Accent colours on the frame are only olive drab, khaki, gunmetal, brass, dark ink and pale canvas. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no photograph, no camera depth of field, no 3D render, no anime style, no human soldiers or people, no injuries, no blood, no gore, no guns being fired, no real national flags, no real regimental badges or military insignia, no political symbols, no swastikas or other extremist symbols, no text on badges or uniforms, no watermarks, no extra text, no blurry or cut-off borders.",
+    "artSize": "1152x1024"
+  },
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, drawn in the same illustrated style as the frame. A design mirrored top to bottom, so it looks the same either way up, with no single upright object in the middle: a thick border of riveted, worn olive-drab painted steel with brass corner plates and small hex bolts, around a dark gunmetal centre panel. In the centre, a brass diamond with two crossed bones lying flat on it, with an embossed brass paw print above them and the same paw print mirrored upside down below them. No text, letters or numbers. Do not use pink or magenta."
+  },
+  "cards": [
+    {
+      "id": "private-biscuit",
+      "name": "Private Biscuit",
+      "cardNumber": 1,
+      "rarity": "Common",
+      "character": "A young golden retriever in a plain olive drab field jacket and a slightly too large steel helmet. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Sitting to attention with a hopeful expression, tongue just visible",
+      "backgroundScene": "A muddy army training camp with canvas tents",
+      "flavourText": "Joined up for the free meals. Has no complaints so far.",
+      "stats": {
+        "Bravery": 6,
+        "Discipline": 3,
+        "Bite": 2
+      },
+      "image": "./cards/private-biscuit.png",
+      "imageSmall": "./cards/private-biscuit-small.webp"
+    },
+    {
+      "id": "corporal-pickles",
+      "name": "Corporal Pickles",
+      "cardNumber": 2,
+      "rarity": "Common",
+      "character": "A wire-haired dachshund in a khaki 1940s battledress tunic and side cap, with plain cloth chevrons on the sleeve. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Peering upward with stern determination, chin raised",
+      "backgroundScene": "A narrow sandbagged trench corridor in soft morning light",
+      "flavourText": "Regulations say he is tall enough. He wrote the regulations.",
+      "stats": {
+        "Bravery": 7,
+        "Discipline": 5,
+        "Bite": 3
+      },
+      "image": "./cards/corporal-pickles.png",
+      "imageSmall": "./cards/corporal-pickles-small.webp"
+    },
+    {
+      "id": "sergeant-major-bulldozer",
+      "name": "Sergeant Major Bulldozer",
+      "cardNumber": 3,
+      "rarity": "Rare",
+      "character": "A heavy English bulldog in an immaculate khaki dress uniform with polished brass buttons, a leather belt and a peaked cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Glaring straight at the viewer, jowls set, utterly unimpressed",
+      "backgroundScene": "An empty parade ground with whitewashed barracks behind",
+      "flavourText": "Has never once raised his voice. Has never needed to.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 10,
+        "Bite": 7
+      },
+      "image": "./cards/sergeant-major-bulldozer.png",
+      "imageSmall": "./cards/sergeant-major-bulldozer-small.webp"
+    },
+    {
+      "id": "general-montague-woof",
+      "name": "General Montague Woof",
+      "cardNumber": 4,
+      "rarity": "Legendary",
+      "character": "An aged distinguished Old English sheepdog in a formal field marshal style olive uniform with gold braid, invented medals and a peaked cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Seated in a dignified regimental portrait pose, looking slightly past the viewer",
+      "backgroundScene": "A wood-panelled war room with a large map table",
+      "flavourText": "Nobody has seen his eyes. The enemy has seen his plans.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 10,
+        "Bite": 6
+      },
+      "image": "./cards/general-montague-woof.png",
+      "imageSmall": "./cards/general-montague-woof-small.webp"
+    },
+    {
+      "id": "trooper-dash",
+      "name": "Trooper Dash",
+      "cardNumber": 5,
+      "rarity": "Common",
+      "character": "A lean whippet in a 1910s khaki cavalry tunic with leather cross straps and a soft peaked cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Alert and poised, ears up, watching something in the distance",
+      "backgroundScene": "A misty open field with a line of bare poplar trees",
+      "flavourText": "Carries urgent dispatches. Also, for some reason, a tennis ball.",
+      "stats": {
+        "Bravery": 5,
+        "Discipline": 4,
+        "Bite": 3
+      },
+      "image": "./cards/trooper-dash.png",
+      "imageSmall": "./cards/trooper-dash-small.webp"
+    },
+    {
+      "id": "medic-mabel",
+      "name": "Medic Mabel",
+      "cardNumber": 6,
+      "rarity": "Rare",
+      "character": "A kind-eyed Saint Bernard in a pale canvas field medic's tabard with a plain white armband and a small wooden first aid chest on her collar. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Gazing warmly at the viewer, head slightly tilted",
+      "backgroundScene": "A snowy mountain aid station with a canvas tent and lanterns",
+      "flavourText": "She has licked more wounds than any surgeon in the army.",
+      "stats": {
+        "Bravery": 9,
+        "Discipline": 7,
+        "Bite": 2
+      },
+      "image": "./cards/medic-mabel.png",
+      "imageSmall": "./cards/medic-mabel-small.webp"
+    },
+    {
+      "id": "gunner-thud",
+      "name": "Gunner Thud",
+      "cardNumber": 7,
+      "rarity": "Common",
+      "character": "A broad-chested Rottweiler in grease-stained olive overalls with an open collar and a canvas tanker's helmet. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking calmly over one shoulder with a mild, patient expression",
+      "backgroundScene": "The side of an old olive tank in a workshop yard",
+      "flavourText": "Deaf in one ear. Selectively deaf in the other.",
+      "stats": {
+        "Bravery": 7,
+        "Discipline": 4,
+        "Bite": 8
+      },
+      "image": "./cards/gunner-thud.png",
+      "imageSmall": "./cards/gunner-thud-small.webp"
+    },
+    {
+      "id": "lieutenant-fitzwilliam",
+      "name": "Lieutenant Fitzwilliam",
+      "cardNumber": 8,
+      "rarity": "Common",
+      "character": "A slim, elegant Afghan hound in a tailored 1910s officer's tunic with a polished leather belt and silky fur combed perfectly. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking down his long nose with aristocratic boredom",
+      "backgroundScene": "A stately country house commandeered as a headquarters",
+      "flavourText": "Has inspected the front. Found it badly decorated.",
+      "stats": {
+        "Bravery": 3,
+        "Discipline": 6,
+        "Bite": 2
+      },
+      "image": "./cards/lieutenant-fitzwilliam.png",
+      "imageSmall": "./cards/lieutenant-fitzwilliam-small.webp"
+    },
+    {
+      "id": "paratrooper-skye",
+      "name": "Paratrooper Skye",
+      "cardNumber": 9,
+      "rarity": "Rare",
+      "character": "A scruffy Border collie in a mottled camouflage jump smock with a leather and webbing paratrooper's helmet and a parachute harness. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Bright-eyed and wind-blown, grinning with mouth open",
+      "backgroundScene": "The open side door of a vintage transport plane with clouds beyond",
+      "flavourText": "Asked if she was scared to jump. She had already jumped.",
+      "stats": {
+        "Bravery": 10,
+        "Discipline": 7,
+        "Bite": 4
+      },
+      "image": "./cards/paratrooper-skye.png",
+      "imageSmall": "./cards/paratrooper-skye-small.webp"
+    },
+    {
+      "id": "sapper-dig",
+      "name": "Sapper Dig",
+      "cardNumber": 10,
+      "rarity": "Common",
+      "character": "A stocky Jack Russell terrier in a muddy khaki sapper's tunic with rolled sleeves and a small tin hat. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking up with a muddy nose and intense focus",
+      "backgroundScene": "Freshly dug earthworks and timber supports in low light",
+      "flavourText": "The tunnel was finished in a day. Nobody asked for a tunnel.",
+      "stats": {
+        "Bravery": 6,
+        "Discipline": 3,
+        "Bite": 5
+      },
+      "image": "./cards/sapper-dig.png",
+      "imageSmall": "./cards/sapper-dig-small.webp"
+    },
+    {
+      "id": "colonel-bramble",
+      "name": "Colonel Bramble",
+      "cardNumber": 11,
+      "rarity": "Rare",
+      "character": "A silver-muzzled German shorthaired pointer in a khaki tropical uniform with a Sam Browne belt, a pith helmet and an invented row of medal ribbons. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Standing rigid and pointing with his whole body, staring off to one side",
+      "backgroundScene": "A dusty desert fort with palm trees and heat haze",
+      "flavourText": "Has spent forty years pointing at things. Usually correctly.",
+      "stats": {
+        "Bravery": 7,
+        "Discipline": 9,
+        "Bite": 5
+      },
+      "image": "./cards/colonel-bramble.png",
+      "imageSmall": "./cards/colonel-bramble-small.webp"
+    },
+    {
+      "id": "grenadier-maximilian",
+      "name": "Grenadier Maximilian",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A towering Great Dane in a Napoleonic-era dark blue coat with white cross belts, brass buttons and a very tall bearskin cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Standing perfectly straight, gazing over the viewer with solemn pride",
+      "backgroundScene": "A smoky early nineteenth century battlefield ridge",
+      "flavourText": "Enters every tent in two instalments.",
+      "stats": {
+        "Bravery": 9,
+        "Discipline": 9,
+        "Bite": 6
+      },
+      "image": "./cards/grenadier-maximilian.png",
+      "imageSmall": "./cards/grenadier-maximilian-small.webp"
+    },
+    {
+      "id": "drummer-boy-pip",
+      "name": "Drummer Boy Pip",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A small beagle puppy in an oversized Napoleonic red drummer's coat with white lace and a small shako hat. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking earnestly up at the viewer with big eyes, one ear inside out",
+      "backgroundScene": "A grassy army camp at dawn with a marching drum",
+      "flavourText": "Keeps perfect time. Howls the chorus.",
+      "stats": {
+        "Bravery": 4,
+        "Discipline": 5,
+        "Bite": 1
+      },
+      "image": "./cards/drummer-boy-pip.png",
+      "imageSmall": "./cards/drummer-boy-pip-small.webp"
+    },
+    {
+      "id": "sniper-ghost",
+      "name": "Sniper Ghost",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A pale Weimaraner in a shaggy woodland ghillie suit made of leaves and hessian strips, with only the face showing. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Perfectly still, amber eyes staring directly at the viewer",
+      "backgroundScene": "Deep forest undergrowth with soft dappled light",
+      "flavourText": "You will not see him. You will notice your sausages are gone.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 9,
+        "Bite": 7
+      },
+      "image": "./cards/sniper-ghost.png",
+      "imageSmall": "./cards/sniper-ghost-small.webp"
+    },
+    {
+      "id": "quartermaster-crumbs",
+      "name": "Quartermaster Crumbs",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "A very round pug in a khaki storeman's coat with a pencil tucked behind one ear and a small side cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Staring with bulging eyes, wrinkled brow and deep suspicion",
+      "backgroundScene": "A dim army supply depot with stacked crates and sacks",
+      "flavourText": "All rations are accounted for. Do not check his bed.",
+      "stats": {
+        "Bravery": 2,
+        "Discipline": 6,
+        "Bite": 2
+      },
+      "image": "./cards/quartermaster-crumbs.png",
+      "imageSmall": "./cards/quartermaster-crumbs-small.webp"
+    },
+    {
+      "id": "tank-commander-ursula",
+      "name": "Tank Commander Ursula",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A big black Newfoundland in a padded leather tanker's jacket and headset with goggles pushed up on her forehead. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking out with calm authority from an open vehicle hatch",
+      "backgroundScene": "The turret of an old olive tank on a foggy dirt road",
+      "flavourText": "She leads from the front. It is the only part she fits in.",
+      "stats": {
+        "Bravery": 9,
+        "Discipline": 8,
+        "Bite": 6
+      },
+      "image": "./cards/tank-commander-ursula.png",
+      "imageSmall": "./cards/tank-commander-ursula-small.webp"
+    },
+    {
+      "id": "radio-operator-sparks",
+      "name": "Radio Operator Sparks",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "An alert Papillon in a khaki shirt and tie with bulky vintage radio headphones resting around its enormous ears. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Head cocked to one side, listening hard, eyes narrowed",
+      "backgroundScene": "A cluttered signals dugout with glowing valve radios",
+      "flavourText": "Those ears pick up signals from three countries.",
+      "stats": {
+        "Bravery": 3,
+        "Discipline": 7,
+        "Bite": 1
+      },
+      "image": "./cards/radio-operator-sparks.png",
+      "imageSmall": "./cards/radio-operator-sparks-small.webp"
+    },
+    {
+      "id": "commando-rex",
+      "name": "Commando Rex",
+      "cardNumber": 18,
+      "rarity": "Rare",
+      "character": "A muscular Belgian Malinois in modern multicam camouflage with a tactical harness and a ballistic vest. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Intense, ears forward, mouth slightly open, staring just past the viewer",
+      "backgroundScene": "A dusty compound at golden hour",
+      "flavourText": "Doesn't talk about his missions. Doesn't talk at all, actually.",
+      "stats": {
+        "Bravery": 10,
+        "Discipline": 9,
+        "Bite": 9
+      },
+      "image": "./cards/commando-rex.png",
+      "imageSmall": "./cards/commando-rex-small.webp"
+    },
+    {
+      "id": "highlander-hamish",
+      "name": "Highlander Hamish",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A West Highland white terrier in a dark green and navy tartan kilt jacket with a feather-trimmed glengarry cap. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Chest puffed out, chin up, fur blowing in the wind",
+      "backgroundScene": "A misty Scottish glen with heather and grey hills",
+      "flavourText": "Fears nothing but baths, and has beaten those as well.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 5,
+        "Bite": 4
+      },
+      "image": "./cards/highlander-hamish.png",
+      "imageSmall": "./cards/highlander-hamish-small.webp"
+    },
+    {
+      "id": "field-chaplain-barnaby",
+      "name": "Field Chaplain Barnaby",
+      "cardNumber": 20,
+      "rarity": "Common",
+      "character": "A gentle, droopy basset hound in a dark khaki chaplain's tunic with a plain white collar. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Gazing up sorrowfully with long ears and heavy, kind eyes",
+      "backgroundScene": "A small canvas field chapel lit by candles",
+      "flavourText": "He listens to every confession, then sleeps on it.",
+      "stats": {
+        "Bravery": 4,
+        "Discipline": 6,
+        "Bite": 1
+      },
+      "image": "./cards/field-chaplain-barnaby.png",
+      "imageSmall": "./cards/field-chaplain-barnaby-small.webp"
+    },
+    {
+      "id": "pilot-officer-goggles",
+      "name": "Pilot Officer Goggles",
+      "cardNumber": 21,
+      "rarity": "Rare",
+      "character": "A cheerful Airedale terrier in a sheepskin flying jacket, a white silk scarf, a leather flying helmet and brass goggles. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Grinning into the wind, scarf streaming behind, ears flapping out of the helmet",
+      "backgroundScene": "A grass airfield with a vintage biplane",
+      "flavourText": "Sticks his head out of the plane. It is not a safety issue, he says.",
+      "stats": {
+        "Bravery": 9,
+        "Discipline": 4,
+        "Bite": 3
+      },
+      "image": "./cards/pilot-officer-goggles.png",
+      "imageSmall": "./cards/pilot-officer-goggles-small.webp"
+    },
+    {
+      "id": "cossack-sasha",
+      "name": "Cossack Sasha",
+      "cardNumber": 22,
+      "rarity": "Rare",
+      "character": "A magnificent borzoi in a long dark Crimean-era greatcoat with a tall fur hat and an embroidered bandolier without weapons. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Gazing nobly to one side with long muzzle raised",
+      "backgroundScene": "A vast snowy steppe at dusk with a line of horses",
+      "flavourText": "Has crossed the steppe twice, and is only slightly out of breath.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 6,
+        "Bite": 6
+      },
+      "image": "./cards/cossack-sasha.png",
+      "imageSmall": "./cards/cossack-sasha-small.webp"
+    },
+    {
+      "id": "cook-sergeant-gristle",
+      "name": "Cook Sergeant Gristle",
+      "cardNumber": 23,
+      "rarity": "Common",
+      "character": "A jowly boxer in a stained white cook's apron over olive fatigues with a battered tin hat worn as a cooking pot. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Licking his chops with one eye half shut, looking pleased",
+      "backgroundScene": "A steaming outdoor field kitchen with big dented pots",
+      "flavourText": "Nobody has complained about the stew. Nobody has dared.",
+      "stats": {
+        "Bravery": 5,
+        "Discipline": 3,
+        "Bite": 6
+      },
+      "image": "./cards/cook-sergeant-gristle.png",
+      "imageSmall": "./cards/cook-sergeant-gristle-small.webp"
+    },
+    {
+      "id": "dispatch-rider-bolt",
+      "name": "Dispatch Rider Bolt",
+      "cardNumber": 24,
+      "rarity": "Common",
+      "character": "A tall sleek greyhound in a long waxed khaki motorcycle coat with goggles and a leather crash helmet. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Leaning forward eagerly, ears back, ready to run",
+      "backgroundScene": "A rainy cobbled lane with a vintage motorcycle sidecar",
+      "flavourText": "The motorcycle is mostly for show. He usually arrives first.",
+      "stats": {
+        "Bravery": 6,
+        "Discipline": 5,
+        "Bite": 3
+      },
+      "image": "./cards/dispatch-rider-bolt.png",
+      "imageSmall": "./cards/dispatch-rider-bolt-small.webp"
+    },
+    {
+      "id": "military-police-brutus",
+      "name": "Military Police Brutus",
+      "cardNumber": 25,
+      "rarity": "Rare",
+      "character": "A stern Dobermann in a pressed olive uniform with a white peaked cap, white belt and a plain white armband. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Staring coldly straight ahead, jaw closed, not blinking",
+      "backgroundScene": "A guarded barracks gate with a striped barrier arm",
+      "flavourText": "You were off the path. He has made a note.",
+      "stats": {
+        "Bravery": 6,
+        "Discipline": 8,
+        "Bite": 8
+      },
+      "image": "./cards/military-police-brutus.png",
+      "imageSmall": "./cards/military-police-brutus-small.webp"
+    },
+    {
+      "id": "mountain-trooper-heidi",
+      "name": "Mountain Trooper Heidi",
+      "cardNumber": 26,
+      "rarity": "Rare",
+      "character": "A shaggy Bernese mountain dog in a grey-green wool mountain jacket, a soft cap with a small plain feather and coiled climbing rope. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Looking out across the valley, breath misting in the cold air, content",
+      "backgroundScene": "A high alpine ridge with snow and peaks",
+      "flavourText": "Carried the whole platoon's kit up. Then went back for the platoon.",
+      "stats": {
+        "Bravery": 9,
+        "Discipline": 7,
+        "Bite": 5
+      },
+      "image": "./cards/mountain-trooper-heidi.png",
+      "imageSmall": "./cards/mountain-trooper-heidi-small.webp"
+    },
+    {
+      "id": "the-old-campaigner",
+      "name": "The Old Campaigner",
+      "cardNumber": 27,
+      "rarity": "Legendary",
+      "character": "An ancient grizzled wolfhound with a grey muzzle and a torn ear, wearing a faded, much-mended greatcoat covered in invented campaign medals. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Seated in a weathered, quiet regimental portrait, tired wise eyes meeting the viewer",
+      "backgroundScene": "An old soldiers' hospital courtyard in soft autumn light",
+      "flavourText": "Fought in every war. Still cannot be told to get off the sofa.",
+      "stats": {
+        "Bravery": 10,
+        "Discipline": 8,
+        "Bite": 7
+      },
+      "image": "./cards/the-old-campaigner.png",
+      "imageSmall": "./cards/the-old-campaigner-small.webp"
+    },
+    {
+      "id": "admiral-of-the-pond",
+      "name": "Admiral of the Pond",
+      "cardNumber": 28,
+      "rarity": "Common",
+      "character": "A soggy, delighted Labrador in a dark blue naval officer's coat with gold buttons and a bicorne hat, dripping wet. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Soaking wet with a big open-mouthed grin, water beading on the fur",
+      "backgroundScene": "A rowing boat on a misty lake with reeds around it",
+      "flavourText": "This is the army. He has been told. He has gone swimming anyway.",
+      "stats": {
+        "Bravery": 7,
+        "Discipline": 1,
+        "Bite": 3
+      },
+      "image": "./cards/admiral-of-the-pond.png",
+      "imageSmall": "./cards/admiral-of-the-pond-small.webp"
+    },
+    {
+      "id": "iron-duchess",
+      "name": "Iron Duchess",
+      "cardNumber": 29,
+      "rarity": "Legendary",
+      "character": "A majestic white Samoyed in a long pale grey ceremonial general's coat with silver epaulettes, a jewelled invented order and a plumed bicorne hat. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Regal and smiling faintly, chin lifted, looking down at the viewer",
+      "backgroundScene": "A grand palace hall with tall windows and chandeliers",
+      "flavourText": "Her troops would follow her anywhere. They mostly want to pat her.",
+      "stats": {
+        "Bravery": 8,
+        "Discipline": 9,
+        "Bite": 8
+      },
+      "image": "./cards/iron-duchess.png",
+      "imageSmall": "./cards/iron-duchess-small.webp"
+    },
+    {
+      "id": "wolf-of-the-winter-line",
+      "name": "Wolf of the Winter Line",
+      "cardNumber": 30,
+      "rarity": "Legendary",
+      "character": "A huge grey Czechoslovakian wolfdog in a white winter camouflage smock and a fur-lined hood, with frost on the muzzle. Head-and-chest portrait of the dog; the uniform has plain or invented badges with no lettering",
+      "poseAndExpression": "Staring straight ahead with pale yellow eyes, utterly motionless, breath steaming",
+      "backgroundScene": "A frozen pine forest in a blizzard",
+      "flavourText": "The enemy calls him a rumour. He answers to no other name.",
+      "stats": {
+        "Bravery": 10,
+        "Discipline": 9,
+        "Bite": 10
+      },
+      "image": "./cards/wolf-of-the-winter-line.png",
+      "imageSmall": "./cards/wolf-of-the-winter-line-small.webp"
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 75,
+      "top": 190,
+      "width": 873,
+      "height": 779
+    },
+    "text": {
+      "name": {
+        "x": 575,
+        "y": 92,
+        "size": 58,
+        "maxWidth": 590,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1a1c14",
+        "charWidth": 0.75,
+        "bold": true,
+        "twoLinesBelow": 24,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1098,
+        "size": 32,
+        "maxWidth": 840,
+        "font": "'Courier New', Courier, monospace",
+        "colour": "#1a1c14",
+        "bold": true,
+        "wrap": true,
+        "balance": true
+      },
+      "number": {
+        "x": 212,
+        "y": 1448,
+        "size": 33,
+        "maxWidth": 210,
+        "font": "'Courier New', Courier, monospace",
+        "colour": "#e8dfc4",
+        "bold": true
+      },
+      "rarity": {
+        "x": 796,
+        "y": 1448,
+        "size": 31,
+        "maxWidth": 240,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1a1c14",
+        "charWidth": 0.72,
+        "bold": true
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 248,
+          "y": 1226,
+          "size": 28,
+          "maxWidth": 195,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        },
+        "value": {
+          "x": 248,
+          "y": 1295,
+          "size": 68,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 555,
+          "y": 1226,
+          "size": 28,
+          "maxWidth": 195,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        },
+        "value": {
+          "x": 555,
+          "y": 1295,
+          "size": 68,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 857,
+          "y": 1226,
+          "size": 28,
+          "maxWidth": 195,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        },
+        "value": {
+          "x": 857,
+          "y": 1295,
+          "size": 68,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1c14",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      }
+    ]
+  }
+}
