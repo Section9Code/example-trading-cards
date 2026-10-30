@@ -1,13 +1,8 @@
 # Trading Cards
 
+<img src="src/docs/banner.webp" alt="Trading Cards banner: a fan of six example cards, one from each set, with the text: free AI-generated card sets with images and JSON data.">
+
 A free set of AI-generated trading cards. Use them as test data for your apps, games, demos, and prototypes.
-
-<img src="season-1/cards/sir-clankalot-small.webp" alt="Sir Clankalot card" width="240">
-<img src="season-2/cards/dumpling-small.webp" alt="Dumpling" width="240">
-<img src="season-3/cards/redgale-small.webp" alt="Redgale" width="240">
-<img src="season-4/cards/sister-of-the-lake-small.webp" alt="Sister of the lake" width="240">
-<img src="season-6/cards/grand-gateau-cthulhu-small.webp" alt="Grand Gâteau Cthulhu" width="240">
-
 
 ## Sets
 
