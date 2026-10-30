@@ -6,6 +6,7 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 <img src="season-2/cards/dumpling-small.webp" alt="Dumpling" width="240">
 <img src="season-3/cards/redgale-small.webp" alt="Redgale" width="240">
 <img src="season-4/cards/sister-of-the-lake-small.webp" alt="Sister of the lake" width="240">
+<img src="season-6/cards/grand-gateau-cthulhu-small.webp" alt="Grand Gâteau Cthulhu" width="240">
 
 
 ## Sets
@@ -17,13 +18,14 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-3](season-3/) | Wyrmfall | 30 | Fire, Fury, Scale | Common (14), Rare (12), Legendary (4) |
 | [season-4](season-4/) | Carcosa Rising | 50 | Madness, Dread, Power, Lore | Common (23), Rare (20), Legendary (7) |
 | [season-5](season-5/) | Barnyard Brawl | 40 | Strength, Show, Mud | Common (19), Rare (16), Legendary (5) |
+| [season-6](season-6/) | Fright Bites | 50, plus a rules card and a card back | Flavour, Menace, Fresh, Cook Speed, Eats You, Serves | Common (23), Rare (20), Legendary (7) |
 
 ## How the cards were made
 
 | Script | Made | How | Docs |
 |---|---|---|---|
 | `src/v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [src/docs/v1-generate-cards.md](src/docs/v1-generate-cards.md) |
-| `src/v2-compose-cards.ts` | Seasons 2 to 5 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
+| `src/v2-compose-cards.ts` | Seasons 2 to 6 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
 
@@ -38,10 +40,12 @@ node src/make-small-cards.ts season-4/cards.json
 
 Each set folder contains:
 
+- `README.md` — every card in the set, shown as an image.
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
 - `cards/` — one PNG for each card (1024 × 1536, portrait).
 - One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
-- Seasons 2 to 5 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- Seasons 2 to 6 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- Season 6 only: `rules-card.png` (how to play, a game like Top Trumps) and `card-back.png`.
 
 ### `cards.json` shape
 

@@ -7,6 +7,7 @@
 //   node src/v2-compose-cards.ts preview <cards.json>        draw a worst-case sample card on grey art to preview.png
 //   node src/v2-compose-cards.ts cards   <cards.json>        make missing art, then rebuild every card
 //   node src/v2-compose-cards.ts redo    <cards.json> <number> replace one card's art, then rebuild that card
+//   node src/v2-compose-cards.ts rules   <cards.json>        draw the rules card's text on rules-frame.png
 // An old frame or art image is moved to rejected/, never deleted.
 // Output: frame.png, art/<id>.png and cards/<id>.png next to cards.json.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from "node:fs";
@@ -18,10 +19,10 @@ import sharp from "sharp";
 const MODEL = "openai/gpt-image-2.5-sunburst";
 /** Frame size in pixels, portrait for a trading card. */
 const FRAME_SIZE = "1024x1536";
-/** Art size in pixels; square is closest to the frame window, and the art is cropped to fit it. */
+/** Default art size in pixels; `sharedPrompt.artSize` overrides it. The art is cropped to fit the frame window. */
 const ART_SIZE = "1024x1024";
 const USAGE =
-  "Usage: node src/v2-compose-cards.ts frame-prompt|frame|layout|preview|cards <cards.json>  or  node src/v2-compose-cards.ts redo <cards.json> <cardNumber>";
+  "Usage: node src/v2-compose-cards.ts frame-prompt|frame|layout|preview|cards|rules <cards.json>  or  node src/v2-compose-cards.ts redo <cards.json> <cardNumber>";
 
 /** One card entry in cards.json. */
 type Card = {
@@ -60,6 +61,8 @@ type TextBox = {
   italic?: boolean;
   /** Wrap onto more lines at `maxWidth` instead of shrinking. */
   wrap?: boolean;
+  /** With `wrap`, makes two-line text even, so no word sits alone on the second line. */
+  balance?: boolean;
   /** One-line text that would shrink below this size goes on two lines instead. Off when absent. */
   twoLinesBelow?: number;
   /** Line spacing as a multiple of the font size. Default 1.2. */
@@ -82,10 +85,14 @@ type Layout = {
 type CardSet = {
   set: { name: string; totalCards: number; statNames: string[]; rarities: string[] };
   /** `frame` describes the look of the shared frame, one line per part. */
-  sharedPrompt: { format: string; artStyle: string; frame?: string[]; negative: string };
+  sharedPrompt: { format: string; artStyle: string; frame?: string[]; windowHeight?: number; artSize?: string; negative: string };
+  rulesCard?: RulesCard;
   layout?: Layout;
   cards: Card[];
 };
+
+/** A set's how-to-play card, drawn over rules-frame.png. `step` is a wrapped box; its `y` is the top of the first step. */
+type RulesCard = { title: string; steps: string[]; layout: { title: TextBox; step: TextBox; gap: number } };
 
 /**
  * Builds the prompt for the empty card frame that every card in the set shares.
@@ -107,7 +114,7 @@ ${artStyle}
 
 LAYOUT
 ${frame.map((line) => `- ${line}`).join("\n")}
-- Centre: a large rectangular picture window with a thin inner frame, about 85% of the card width and 55% of the card height, between the name banner and the text panel. Fill the window with solid flat pure magenta (#FF00FF) and nothing else. The window has sharp square corners.
+- Centre: a large rectangular picture window with a thin inner frame, about 85% of the card width and ${data.sharedPrompt.windowHeight ?? 55}% of the card height, between the name banner and the text panel. Fill the window with solid flat pure magenta (#FF00FF) and nothing else. The window has sharp square corners.
 
 NEGATIVE
 No text, letters or numbers anywhere on the card; icons are fine. No character or scene in the window, only flat magenta. Do not use magenta anywhere outside the window. ${negative}`;
@@ -273,6 +280,7 @@ export function textSvg(box: TextBox, text: string): string {
   const fit = (chars: number) => Math.min(box.size, box.maxWidth / (chars * cw));
   let size = box.wrap ? box.size : fit(text.length);
   let lines = box.wrap ? wrap(text, Math.floor(box.maxWidth / (size * cw))) : [text];
+  if (box.balance && lines.length === 2) lines = splitInTwo(text);
   if (!box.wrap && box.twoLinesBelow && size < box.twoLinesBelow) {
     lines = splitInTwo(text);
     size = fit(Math.max(...lines.map((l) => l.length)));
@@ -304,6 +312,29 @@ export function cardSvg(data: CardSet, layout: Layout, card: Card, width: number
   ${data.set.statNames.map((s, i) => textSvg(stats[i].label, s.toUpperCase()) + textSvg(stats[i].value, String(card.stats[s]))).join("\n  ")}
   ${textSvg(text.number, `#${card.cardNumber} of ${data.set.totalCards}`)}
   ${textSvg(text.rarity, card.rarity.toUpperCase())}
+</svg>`;
+}
+
+/**
+ * Builds the text layer for a set's rules card: the title, then each numbered step below the last.
+ * @param rules The rules card's text and positions.
+ * @returns The SVG, the same size as a card.
+ */
+export function rulesSvg(rules: RulesCard): string {
+  const { step, gap } = rules.layout;
+  const lh = step.size * (step.lineHeight ?? 1.2);
+  const chars = Math.floor(step.maxWidth / (step.size * (step.charWidth ?? 0.6)));
+  let top = step.y;
+  const steps = rules.steps.map((text, i) => {
+    const numbered = `${i + 1}. ${text}`;
+    const lines = wrap(numbered, chars).length;
+    const svg = textSvg({ ...step, y: top + ((lines - 1) * lh) / 2 }, numbered);
+    top += lines * lh + gap;
+    return svg;
+  });
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536">
+  ${textSvg(rules.layout.title, rules.title.toUpperCase())}
+  ${steps.join("\n  ")}
 </svg>`;
 }
 
@@ -346,7 +377,7 @@ export async function compose(framePath: string, art: string | Buffer, data: Car
 if (import.meta.main) {
   const { positionals } = parseArgs({ allowPositionals: true });
   const [command, jsonPath, cardNumber] = positionals;
-  const commands = ["frame-prompt", "frame", "layout", "preview", "cards", "redo"];
+  const commands = ["frame-prompt", "frame", "layout", "preview", "cards", "redo", "rules"];
   if (!commands.includes(command) || !jsonPath?.endsWith(".json") || (command === "redo" && !cardNumber)) {
     console.error(USAGE);
     process.exit(1);
@@ -369,6 +400,14 @@ if (import.meta.main) {
 
   if (command === "frame-prompt") {
     console.log(buildFramePrompt(data));
+  } else if (command === "rules") {
+    const rules = data.rulesCard;
+    if (!rules) throw new Error(`No rulesCard in ${jsonPath}`);
+    const svg = rulesSvg(rules);
+    const rulesFrame = join(dir, "rules-frame.png");
+    if (!existsSync(rulesFrame)) throw new Error(`No ${rulesFrame}; make it first`);
+    await sharp(rulesFrame).composite([{ input: Buffer.from(svg), left: 0, top: 0 }]).png().toFile(join(dir, "rules-card.png"));
+    console.log(`drew ${join(dir, "rules-card.png")}`);
   } else if (command === "frame" || command === "layout") {
     if (command === "frame") {
       console.log("make  frame");
@@ -412,7 +451,7 @@ if (import.meta.main) {
       if (!card) throw new Error(`No card number ${cardNumber}`);
       console.log(`make  #${card.cardNumber} ${card.name}`);
       // Generate first, so a failed call leaves the old art in place.
-      const art = await generate(buildArtPrompt(data, card), ART_SIZE);
+      const art = await generate(buildArtPrompt(data, card), data.sharedPrompt.artSize ?? ART_SIZE);
       const artPath = join(dir, "art", `${card.id}.png`);
       reject(artPath, `${card.id}-art`);
       writeFileSync(artPath, art);
@@ -425,7 +464,7 @@ if (import.meta.main) {
       if (!existsSync(artPath)) {
         console.log(`make  #${card.cardNumber} ${card.name}`);
         try {
-          writeFileSync(artPath, await generate(buildArtPrompt(data, card), ART_SIZE));
+          writeFileSync(artPath, await generate(buildArtPrompt(data, card), data.sharedPrompt.artSize ?? ART_SIZE));
         } catch (err) {
           console.error(`fail  #${card.cardNumber} ${card.name}: ${(err as Error).message}`);
           continue;

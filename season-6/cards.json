@@ -1,0 +1,1253 @@
+{
+  "set": {
+    "name": "Fright Bites",
+    "totalCards": 50,
+    "statNames": [
+      "Flavour",
+      "Menace",
+      "Fresh",
+      "Cook Speed",
+      "Eats You",
+      "Serves"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Legendary"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Funny, grimy horror cartoon in the manner of a hand-painted 1950s monster-movie poster crossed with a greasy diner menu: bold black ink outlines, flat poster colours, halftone dot shading and dramatic low camera angles with harsh under-lighting. Living, monstrous food with big expressive eyes, too many teeth and comic menace, looming over kitchens and diners. Palette: slime green, ketchup red, mustard yellow, greasy black, dented steel grey and old-menu cream. Drips of sauce, steam and crumbs everywhere. Subtle worn paper grain like an old printed poster. Overall mood: gleefully creepy and silly, never truly disgusting.",
+    "windowHeight": 45,
+    "artSize": "1424x1024",
+    "frame": [
+      "Border: a thick border styled like a dented stainless-steel diner counter with a black-and-cream checkerboard trim, chrome rivets and a few cartoon drips of mustard and ketchup running down it.",
+      "Top-left corner: a small round set emblem shaped like a silver restaurant cloche with two glowing eyes peering out from under it, with no letters.",
+      "Top: an empty name banner shaped like a long chrome diner sign with rounded ends, in pale cream inside a steel edge, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about 30% of the card height, in pale cream like a stained paper order ticket, with a thin greasy-black edge. The top third of the panel is empty space for two lines of text. A thin black divider line runs across the panel below that space.",
+      "Stats grid: the lower two-thirds of the panel is split into six equal cells, in two rows of three, by thin black dividers. The first cell, top left, has a pale mustard-yellow background to show it is the main stat; the other five stay pale cream. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a word like 'COOK SPEED' and a large number. The icons, top row left to right: a red chilli pepper; a meat cleaver; a green herb sprig. Bottom row left to right: a stopwatch; a wide-open mouth with sharp teeth; a plate with a fork. The icons are simple, flat and bold, in ketchup red, slime green, mustard yellow, steel grey and black.",
+      "Card number and rarity: below the panel, on the border, two separate empty badges of the same height. In the bottom-left corner, a wide greasy-black plaque with a steel edge for the card number, about 22% of the card width, so it can hold text like '#50 of 50'. In the bottom-right corner, a wide pill-shaped pale cream badge for the rarity, about 25% of the card width, so it can hold a word of nine capital letters. Both are empty, with no letters.",
+      "Accent colours on the frame are only ketchup red, mustard yellow, slime green, steel grey, black and cream. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No photorealism, no 3D render, no anime style, no gore, no blood, no real people, no real food brands or restaurant logos, no modern vector/flat-design look, no watermarks, no extra text, no blurry or cut-off borders, no real or existing cartoon characters."
+  },
+  "rulesCard": {
+    "title": "How to Play",
+    "steps": [
+      "Two players. Deal all the cards evenly.",
+      "Each player shuffles their cards into a deck and places it face down.",
+      "Each player takes the top card from their deck and looks at it.",
+      "The winner of the last round picks the stat to compare. In the first round, the player who most recently ate the most horrible food picks.",
+      "Reveal the cards. The highest value in the called stat wins.",
+      "The winner puts both cards in their own new pile. On a tie, each player puts their own card in their own pile.",
+      "When a player's deck runs out, they shuffle their pile to make a new face-down deck.",
+      "You win when your opponent has no more cards left. Bon appétit!"
+    ],
+    "layout": {
+      "title": {
+        "x": 570,
+        "y": 115,
+        "size": 58,
+        "maxWidth": 600,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#14110c",
+        "charWidth": 0.75,
+        "bold": true
+      },
+      "step": {
+        "x": 125,
+        "y": 228,
+        "size": 34,
+        "maxWidth": 780,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#14110c",
+        "anchor": "start",
+        "wrap": true,
+        "charWidth": 0.5,
+        "lineHeight": 1.25
+      },
+      "gap": 16
+    }
+  },
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in the same style as the card fronts. A symmetrical design, the same when turned upside down: a dented stainless-steel diner counter border with black-and-cream checkerboard trim and chrome rivets, around a greasy black centre panel with a large silver restaurant cloche in the middle, two glowing eyes peering out from under it. A ring of tiny cartoon forks, knives and teeth around the cloche. No text, letters or numbers. Do not use pink or magenta."
+  },
+  "cards": [
+    {
+      "id": "gloomburger",
+      "name": "Gloomburger",
+      "cardNumber": 1,
+      "rarity": "Common",
+      "character": "A towering cheeseburger monster with a stack of three patties, rows of jagged teeth between the buns, droopy cheese and sad yellow eyes on the top bun",
+      "poseAndExpression": "Leaning forward, mouth gaping open, with a menacing grin",
+      "backgroundScene": "A dim roadside diner at night with a flickering neon glow",
+      "flavourText": "Would you like fries with your doom?",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 6,
+        "Fresh": 4,
+        "Cook Speed": 9,
+        "Eats You": 6,
+        "Serves": 2
+      },
+      "image": "./cards/gloomburger.png",
+      "imageSmall": "./cards/gloomburger-small.webp"
+    },
+    {
+      "id": "the-lasagnamander",
+      "name": "The Lasagnamander",
+      "cardNumber": 2,
+      "rarity": "Rare",
+      "character": "A long salamander built from dripping layers of lasagne, with cheese-strand whiskers and a beady meat-sauce eye",
+      "poseAndExpression": "Crawling out of a baking dish, licking its lips",
+      "backgroundScene": "A bubbling oven interior glowing orange",
+      "flavourText": "Nobody knows how many layers it has. Those who counted are in it.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 7,
+        "Fresh": 4,
+        "Cook Speed": 3,
+        "Eats You": 7,
+        "Serves": 8
+      },
+      "image": "./cards/the-lasagnamander.png",
+      "imageSmall": "./cards/the-lasagnamander-small.webp"
+    },
+    {
+      "id": "the-leftover",
+      "name": "The Leftover",
+      "cardNumber": 3,
+      "rarity": "Legendary",
+      "character": "A shapeless, many-eyed grey-green mass in a cracked plastic tub with a peeling, unreadable label",
+      "poseAndExpression": "Pushing the lid up slowly, its eyes opening one by one",
+      "backgroundScene": "The cold back shelf of a glowing fridge",
+      "flavourText": "Nobody remembers making it. It remembers you.",
+      "stats": {
+        "Flavour": 3,
+        "Menace": 10,
+        "Fresh": 0,
+        "Cook Speed": 10,
+        "Eats You": 10,
+        "Serves": 3
+      },
+      "image": "./cards/the-leftover.png",
+      "imageSmall": "./cards/the-leftover-small.webp"
+    },
+    {
+      "id": "sir-loin",
+      "name": "Sir Loin",
+      "cardNumber": 4,
+      "rarity": "Common",
+      "character": "A thick sirloin steak with stubby arms and an angry face, wearing dented rusty knight's armour and holding a butter knife like a sword",
+      "poseAndExpression": "Standing proudly with the butter knife raised in a salute",
+      "backgroundScene": "A smoky steakhouse kitchen with a flaming grill behind",
+      "flavourText": "He is rare. He is also well done with you.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 7,
+        "Fresh": 6,
+        "Cook Speed": 7,
+        "Eats You": 3,
+        "Serves": 2
+      },
+      "image": "./cards/sir-loin.png",
+      "imageSmall": "./cards/sir-loin-small.webp"
+    },
+    {
+      "id": "eggsorcists-regret",
+      "name": "Eggsorcist's Regret",
+      "cardNumber": 5,
+      "rarity": "Rare",
+      "character": "A possessed white egg floating in the air with a cracked shell and a spinning yellow yolk for a face",
+      "poseAndExpression": "Levitating and spinning above a frying pan, glaring",
+      "backgroundScene": "A dark bedroom-like kitchen with a priest's hat on a chair and flying utensils",
+      "flavourText": "It has been sunny side up for 300 years.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 8,
+        "Fresh": 0,
+        "Cook Speed": 9,
+        "Eats You": 5,
+        "Serves": 1
+      },
+      "image": "./cards/eggsorcists-regret.png",
+      "imageSmall": "./cards/eggsorcists-regret-small.webp"
+    },
+    {
+      "id": "pretzel-fiend",
+      "name": "Pretzel Fiend",
+      "cardNumber": 6,
+      "rarity": "Common",
+      "character": "A giant salted pretzel creature with long twisted limbs, salt-crystal teeth and a wide unsettling smile",
+      "poseAndExpression": "Tying itself into an impossible knot while staring straight ahead",
+      "backgroundScene": "A shadowy fairground snack stand under bare light bulbs",
+      "flavourText": "It only looks like it is smiling.",
+      "stats": {
+        "Flavour": 5,
+        "Menace": 4,
+        "Fresh": 3,
+        "Cook Speed": 8,
+        "Eats You": 7,
+        "Serves": 1
+      },
+      "image": "./cards/pretzel-fiend.png",
+      "imageSmall": "./cards/pretzel-fiend-small.webp"
+    },
+    {
+      "id": "the-crawlfish-dinner",
+      "name": "The Crawlfish Dinner",
+      "cardNumber": 7,
+      "rarity": "Rare",
+      "character": "A whole seafood platter walking on crab legs, with snapping claws, lemon wedge eyes and a grinning crawfish in the middle",
+      "poseAndExpression": "Scuttling off the table with claws raised",
+      "backgroundScene": "A candlelit waterfront restaurant with toppled chairs",
+      "flavourText": "The table was set. The table was a mistake.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 7,
+        "Fresh": 5,
+        "Cook Speed": 5,
+        "Eats You": 8,
+        "Serves": 6
+      },
+      "image": "./cards/the-crawlfish-dinner.png",
+      "imageSmall": "./cards/the-crawlfish-dinner-small.webp"
+    },
+    {
+      "id": "silent-pancake",
+      "name": "Silent Pancake",
+      "cardNumber": 8,
+      "rarity": "Common",
+      "character": "A flat, pale pancake monster with two huge watchful eyes and a pat of butter on its head, thin as a sheet of paper",
+      "poseAndExpression": "Sliding sideways, peering round the edge of a door",
+      "backgroundScene": "A dark suburban hallway with moonlight under a kitchen door",
+      "flavourText": "It slides under doors. You will not hear it.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 5,
+        "Fresh": 7,
+        "Cook Speed": 10,
+        "Eats You": 5,
+        "Serves": 1
+      },
+      "image": "./cards/silent-pancake.png",
+      "imageSmall": "./cards/silent-pancake-small.webp"
+    },
+    {
+      "id": "baron-von-brie",
+      "name": "Baron Von Brie",
+      "cardNumber": 9,
+      "rarity": "Rare",
+      "character": "An aged wheel of brie with vampire fangs, a high-collared black cape and a soft oozing centre",
+      "poseAndExpression": "Rising elegantly from a cheese coffin, cape spread",
+      "backgroundScene": "A cobwebbed stone cheese cellar lit by candles",
+      "flavourText": "He only gets stronger with age. And worse.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 7,
+        "Fresh": 2,
+        "Cook Speed": 3,
+        "Eats You": 5,
+        "Serves": 4
+      },
+      "image": "./cards/baron-von-brie.png",
+      "imageSmall": "./cards/baron-von-brie-small.webp"
+    },
+    {
+      "id": "meatball-mob",
+      "name": "Meatball Mob",
+      "cardNumber": 10,
+      "rarity": "Common",
+      "character": "Five snarling meatballs with flat caps, pinstripe ties and tomato sauce dripping down their round bodies",
+      "poseAndExpression": "Huddled together, glaring and cracking tiny knuckles",
+      "backgroundScene": "A back alley behind an old Italian kitchen, steam rising from a grate",
+      "flavourText": "They roll in a gang. Nobody talks. Everybody simmers.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 6,
+        "Fresh": 5,
+        "Cook Speed": 4,
+        "Eats You": 4,
+        "Serves": 5
+      },
+      "image": "./cards/meatball-mob.png",
+      "imageSmall": "./cards/meatball-mob-small.webp"
+    },
+    {
+      "id": "grand-gateau-cthulhu",
+      "name": "Grand Gâteau Cthulhu",
+      "cardNumber": 11,
+      "rarity": "Legendary",
+      "character": "A colossal tiered celebration cake with a tentacled octopus face, bat-like icing wings and tiny screaming candles",
+      "poseAndExpression": "Towering over a banquet, tentacles spreading",
+      "backgroundScene": "A sunken cathedral-like ballroom under a green sea-lit sky",
+      "flavourText": "Let them eat cake. It will eat them first.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 10,
+        "Fresh": 6,
+        "Cook Speed": 2,
+        "Eats You": 9,
+        "Serves": 10
+      },
+      "image": "./cards/grand-gateau-cthulhu.png",
+      "imageSmall": "./cards/grand-gateau-cthulhu-small.webp"
+    },
+    {
+      "id": "tentacle-pie",
+      "name": "Tentacle Pie",
+      "cardNumber": 12,
+      "rarity": "Rare",
+      "character": "A golden crusted pie with thick green tentacles bursting up through the lattice and blackbirds fleeing",
+      "poseAndExpression": "Tentacles reaching out in every direction",
+      "backgroundScene": "A cottage window sill at dusk with a stormy sky",
+      "flavourText": "Four and twenty blackbirds tried to warn you.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 8,
+        "Fresh": 5,
+        "Cook Speed": 4,
+        "Eats You": 8,
+        "Serves": 6
+      },
+      "image": "./cards/tentacle-pie.png",
+      "imageSmall": "./cards/tentacle-pie-small.webp"
+    },
+    {
+      "id": "soggy-bottom",
+      "name": "Soggy Bottom",
+      "cardNumber": 13,
+      "rarity": "Common",
+      "character": "A collapsing pastry tart monster with a wet, sagging base, droopy eyes and fruit filling oozing from its mouth",
+      "poseAndExpression": "Slumping wearily across a counter, reaching out one damp pastry hand",
+      "backgroundScene": "A steamy baking tent lit by a cold oven glow",
+      "flavourText": "It failed the bake. Now the baker fails too.",
+      "stats": {
+        "Flavour": 2,
+        "Menace": 3,
+        "Fresh": 3,
+        "Cook Speed": 3,
+        "Eats You": 4,
+        "Serves": 6
+      },
+      "image": "./cards/soggy-bottom.png",
+      "imageSmall": "./cards/soggy-bottom-small.webp"
+    },
+    {
+      "id": "reaper-chilli",
+      "name": "Reaper Chilli",
+      "cardNumber": 14,
+      "rarity": "Rare",
+      "character": "A gaunt red chilli pepper in a black hooded cloak, holding a scythe, with a burning stare",
+      "poseAndExpression": "Raising the scythe with one bony green stem hand",
+      "backgroundScene": "A hazy fiery kitchen with smoke and heat shimmer",
+      "flavourText": "You will see a light. It is your tongue.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 10,
+        "Fresh": 8,
+        "Cook Speed": 10,
+        "Eats You": 3,
+        "Serves": 1
+      },
+      "image": "./cards/reaper-chilli.png",
+      "imageSmall": "./cards/reaper-chilli-small.webp"
+    },
+    {
+      "id": "toast-ghost",
+      "name": "Toast Ghost",
+      "cardNumber": 15,
+      "rarity": "Common",
+      "character": "A pale, translucent slice of white bread floating like a ghost, with hollow eyes and crumbs drifting behind it",
+      "poseAndExpression": "Hovering with arms raised, moaning",
+      "backgroundScene": "A dark kitchen with a toaster glowing orange on the worktop",
+      "flavourText": "Toasted in 1953. Still has not popped up.",
+      "stats": {
+        "Flavour": 3,
+        "Menace": 4,
+        "Fresh": 0,
+        "Cook Speed": 10,
+        "Eats You": 2,
+        "Serves": 1
+      },
+      "image": "./cards/toast-ghost.png",
+      "imageSmall": "./cards/toast-ghost-small.webp"
+    },
+    {
+      "id": "sushi-serpent",
+      "name": "Sushi Serpent",
+      "cardNumber": 16,
+      "rarity": "Rare",
+      "character": "A long sea serpent made of linked sushi rolls, with a salmon-nigiri head, wasabi eyes and seaweed fins",
+      "poseAndExpression": "Coiling up from a conveyor belt and hissing",
+      "backgroundScene": "A dark sushi bar with paper lanterns and rolling waves painted on the wall",
+      "flavourText": "Goes round and round. Then it stops at you.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 6,
+        "Fresh": 10,
+        "Cook Speed": 7,
+        "Eats You": 7,
+        "Serves": 4
+      },
+      "image": "./cards/sushi-serpent.png",
+      "imageSmall": "./cards/sushi-serpent-small.webp"
+    },
+    {
+      "id": "gnashed-potatoes",
+      "name": "Gnashed Potatoes",
+      "cardNumber": 17,
+      "rarity": "Common",
+      "character": "A heaving mound of lumpy mashed potato with dozens of tiny teeth and a lake of gravy on top",
+      "poseAndExpression": "Rising out of a bowl with its many mouths snapping",
+      "backgroundScene": "A family dining table at a tense Sunday dinner",
+      "flavourText": "You cannot have just a little. It decides how much.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 5,
+        "Cook Speed": 8,
+        "Eats You": 6,
+        "Serves": 6
+      },
+      "image": "./cards/gnashed-potatoes.png",
+      "imageSmall": "./cards/gnashed-potatoes-small.webp"
+    },
+    {
+      "id": "the-last-supper-club",
+      "name": "The Last Supper Club",
+      "cardNumber": 18,
+      "rarity": "Legendary",
+      "character": "A long banquet table that has grown legs and a toothy maw, with roast dishes and goblets snapping at each other",
+      "poseAndExpression": "Stalking through a dining hall, chairs flying",
+      "backgroundScene": "A grand candlelit hall with long shadows and red curtains",
+      "flavourText": "Reservations are not required. You are already booked.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 10,
+        "Fresh": 5,
+        "Cook Speed": 5,
+        "Eats You": 10,
+        "Serves": 10
+      },
+      "image": "./cards/the-last-supper-club.png",
+      "imageSmall": "./cards/the-last-supper-club-small.webp"
+    },
+    {
+      "id": "bad-apple",
+      "name": "Bad Apple",
+      "cardNumber": 19,
+      "rarity": "Common",
+      "character": "A shiny red apple with a sly face, a wiggling green worm for a tongue and a stolen teacher's badge",
+      "poseAndExpression": "Smirking with narrowed eyes as the worm licks its lips",
+      "backgroundScene": "A gloomy old school canteen with rows of empty chairs",
+      "flavourText": "Just the one. That is all it takes to spoil the rest.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 4,
+        "Fresh": 8,
+        "Cook Speed": 10,
+        "Eats You": 3,
+        "Serves": 1
+      },
+      "image": "./cards/bad-apple.png",
+      "imageSmall": "./cards/bad-apple-small.webp"
+    },
+    {
+      "id": "frankenwurst",
+      "name": "Frankenwurst",
+      "cardNumber": 20,
+      "rarity": "Rare",
+      "character": "A patchwork monster stitched together from different sausages with bolts in its neck and a flat-topped head",
+      "poseAndExpression": "Stumbling forward, arms out, groaning",
+      "backgroundScene": "A lightning-lit butcher's laboratory with sparking switches",
+      "flavourText": "Nobody asks what is in it. It does not know either.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 7,
+        "Fresh": 3,
+        "Cook Speed": 6,
+        "Eats You": 6,
+        "Serves": 4
+      },
+      "image": "./cards/frankenwurst.png",
+      "imageSmall": "./cards/frankenwurst-small.webp"
+    },
+    {
+      "id": "howling-hot-dog",
+      "name": "Howling Hot Dog",
+      "cardNumber": 21,
+      "rarity": "Common",
+      "character": "A hot dog in a bun with werewolf fur along the sausage, pointed ears, long fangs and mustard drool",
+      "poseAndExpression": "Throwing its head back and howling at the moon",
+      "backgroundScene": "A foggy night outside a street food cart under a full moon",
+      "flavourText": "Mustard by day. Something much worse by moonlight.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 7,
+        "Fresh": 5,
+        "Cook Speed": 9,
+        "Eats You": 5,
+        "Serves": 1
+      },
+      "image": "./cards/howling-hot-dog.png",
+      "imageSmall": "./cards/howling-hot-dog-small.webp"
+    },
+    {
+      "id": "banana-banshee",
+      "name": "Banana Banshee",
+      "cardNumber": 22,
+      "rarity": "Rare",
+      "character": "A pale, overripe banana with long streaming peel hair and an enormous screaming mouth, spotted with brown",
+      "poseAndExpression": "Floating with its peel flowing, shrieking",
+      "backgroundScene": "A misty moor with a dead tree and a fruit bowl on a rock",
+      "flavourText": "When it wails, someone is about to slip.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 8,
+        "Fresh": 2,
+        "Cook Speed": 10,
+        "Eats You": 3,
+        "Serves": 1
+      },
+      "image": "./cards/banana-banshee.png",
+      "imageSmall": "./cards/banana-banshee-small.webp"
+    },
+    {
+      "id": "doughnut-disturb",
+      "name": "Doughnut Disturb",
+      "cardNumber": 23,
+      "rarity": "Common",
+      "character": "An iced ring doughnut monster with a mouth all the way round its hole, sprinkles for teeth and bloodshot sugar eyes",
+      "poseAndExpression": "Hanging on a door handle, leering at the viewer",
+      "backgroundScene": "A dingy motel corridor at night with a buzzing ceiling light",
+      "flavourText": "Knock if you like. It already has the room.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 4,
+        "Cook Speed": 7,
+        "Eats You": 6,
+        "Serves": 1
+      },
+      "image": "./cards/doughnut-disturb.png",
+      "imageSmall": "./cards/doughnut-disturb-small.webp"
+    },
+    {
+      "id": "the-wereroast",
+      "name": "The Wereroast",
+      "cardNumber": 24,
+      "rarity": "Rare",
+      "character": "A whole roast joint on a platter with fur sprouting, wolf ears, sharp claws and a gravy-dripping snarl",
+      "poseAndExpression": "Bursting out of its roasting tin at full moon, roaring",
+      "backgroundScene": "A country dining room with a huge window and a full moon",
+      "flavourText": "Sunday lunch. Monday, nobody came back.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 8,
+        "Fresh": 5,
+        "Cook Speed": 2,
+        "Eats You": 8,
+        "Serves": 8
+      },
+      "image": "./cards/the-wereroast.png",
+      "imageSmall": "./cards/the-wereroast-small.webp"
+    },
+    {
+      "id": "sprout-of-spite",
+      "name": "Sprout of Spite",
+      "cardNumber": 25,
+      "rarity": "Common",
+      "character": "A small, furious green Brussels sprout with thick angry brows and a tiny clenched fist",
+      "poseAndExpression": "Standing on a dinner plate, shaking its fist upward",
+      "backgroundScene": "A festive dining table with candles and a dark window behind",
+      "flavourText": "Every year you push it aside. Every year it remembers.",
+      "stats": {
+        "Flavour": 1,
+        "Menace": 6,
+        "Fresh": 7,
+        "Cook Speed": 6,
+        "Eats You": 3,
+        "Serves": 1
+      },
+      "image": "./cards/sprout-of-spite.png",
+      "imageSmall": "./cards/sprout-of-spite-small.webp"
+    },
+    {
+      "id": "chefs-surprise",
+      "name": "Chef's Surprise",
+      "cardNumber": 26,
+      "rarity": "Legendary",
+      "character": "A huge silver cloche with a hungry mouth beneath it, long waiter's arms, and a tall chef's hat resting on top with no chef beneath it",
+      "poseAndExpression": "Lifting its own lid to reveal a wide toothy grin and glowing eyes",
+      "backgroundScene": "A gleaming restaurant kitchen after closing time, empty and silent",
+      "flavourText": "The chef has stepped out. The chef has not stepped out.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 9,
+        "Fresh": 7,
+        "Cook Speed": 7,
+        "Eats You": 10,
+        "Serves": 6
+      },
+      "image": "./cards/chefs-surprise.png",
+      "imageSmall": "./cards/chefs-surprise-small.webp"
+    },
+    {
+      "id": "ramen-kraken",
+      "name": "Ramen Kraken",
+      "cardNumber": 27,
+      "rarity": "Rare",
+      "character": "A giant kraken formed of thick noodles rising out of a huge steaming bowl, with a soft-boiled egg for each eye",
+      "poseAndExpression": "Wrapping noodle tentacles round a tiny boat and chopsticks",
+      "backgroundScene": "A stormy sea of broth under neon city lights",
+      "flavourText": "Slurp it, or it slurps you. Those are the only rules.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 8,
+        "Fresh": 7,
+        "Cook Speed": 8,
+        "Eats You": 9,
+        "Serves": 5
+      },
+      "image": "./cards/ramen-kraken.png",
+      "imageSmall": "./cards/ramen-kraken-small.webp"
+    },
+    {
+      "id": "corn-stalker",
+      "name": "Corn Stalker",
+      "cardNumber": 28,
+      "rarity": "Common",
+      "character": "A tall, gaunt corn on the cob with kernels for teeth, wrapped in a tattered husk cloak",
+      "poseAndExpression": "Peering out between tall stalks with glowing eyes",
+      "backgroundScene": "A moonlit cornfield with a scarecrow in the distance",
+      "flavourText": "All ears. It has been listening for some time.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 6,
+        "Fresh": 8,
+        "Cook Speed": 7,
+        "Eats You": 5,
+        "Serves": 1
+      },
+      "image": "./cards/corn-stalker.png",
+      "imageSmall": "./cards/corn-stalker-small.webp"
+    },
+    {
+      "id": "phantom-souffle",
+      "name": "Phantom Soufflé",
+      "cardNumber": 29,
+      "rarity": "Rare",
+      "character": "A tall, ghostly white soufflé rising above its dish, with a theatre half-mask and a sweeping cloak of steam",
+      "poseAndExpression": "Rising dramatically, one hand raised for silence",
+      "backgroundScene": "An ornate old opera-house kitchen with chandelier light",
+      "flavourText": "One loud noise, and it collapses. Then it comes for you.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 6,
+        "Fresh": 8,
+        "Cook Speed": 3,
+        "Eats You": 4,
+        "Serves": 2
+      },
+      "image": "./cards/phantom-souffle.png",
+      "imageSmall": "./cards/phantom-souffle-small.webp"
+    },
+    {
+      "id": "wailing-waffle",
+      "name": "Wailing Waffle",
+      "cardNumber": 30,
+      "rarity": "Common",
+      "character": "A golden square waffle with a grid of tiny weeping eyes and a wide open crying mouth, syrup running like tears",
+      "poseAndExpression": "Sobbing dramatically with its arms thrown up",
+      "backgroundScene": "A greasy diner breakfast counter at dawn",
+      "flavourText": "Each square holds a little more sorrow. And syrup.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 3,
+        "Fresh": 6,
+        "Cook Speed": 8,
+        "Eats You": 2,
+        "Serves": 2
+      },
+      "image": "./cards/wailing-waffle.png",
+      "imageSmall": "./cards/wailing-waffle-small.webp"
+    },
+    {
+      "id": "gingerbread-golem",
+      "name": "Gingerbread Golem",
+      "cardNumber": 31,
+      "rarity": "Rare",
+      "character": "A huge, cracked gingerbread man with icing runes across its chest and burning sugar-glass eyes",
+      "poseAndExpression": "Stomping forward with clenched fists",
+      "backgroundScene": "A snowy village street with broken gingerbread houses",
+      "flavourText": "You cannot catch it. Nobody has ever tried twice.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 8,
+        "Fresh": 4,
+        "Cook Speed": 5,
+        "Eats You": 6,
+        "Serves": 8
+      },
+      "image": "./cards/gingerbread-golem.png",
+      "imageSmall": "./cards/gingerbread-golem-small.webp"
+    },
+    {
+      "id": "the-club-sandwich",
+      "name": "The Club Sandwich",
+      "cardNumber": 32,
+      "rarity": "Common",
+      "character": "A tall triple-decker sandwich with a cocktail stick through its head, wielding a wooden caveman club",
+      "poseAndExpression": "Swinging the club over its shoulder, snarling",
+      "backgroundScene": "A dim members-only lounge with leather chairs",
+      "flavourText": "Membership is compulsory. So is the club.",
+      "stats": {
+        "Flavour": 6,
+        "Menace": 8,
+        "Fresh": 5,
+        "Cook Speed": 7,
+        "Eats You": 3,
+        "Serves": 2
+      },
+      "image": "./cards/the-club-sandwich.png",
+      "imageSmall": "./cards/the-club-sandwich-small.webp"
+    },
+    {
+      "id": "mother-sourdough",
+      "name": "Mother Sourdough",
+      "cardNumber": 33,
+      "rarity": "Legendary",
+      "character": "A vast bubbling sourdough starter overflowing a stone crock, with a matriarch's face, crown of crust and yeasty tendrils",
+      "poseAndExpression": "Swelling upward and spreading her arms, smiling",
+      "backgroundScene": "An ancient candlelit bakery cellar with smaller jars worshipping her",
+      "flavourText": "Feed her daily. If you forget, she will remember.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 8,
+        "Fresh": 3,
+        "Cook Speed": 1,
+        "Eats You": 8,
+        "Serves": 10
+      },
+      "image": "./cards/mother-sourdough.png",
+      "imageSmall": "./cards/mother-sourdough-small.webp"
+    },
+    {
+      "id": "beet-down",
+      "name": "Beet Down",
+      "cardNumber": 34,
+      "rarity": "Common",
+      "character": "A muscular purple beetroot with boxing gloves, leafy hair and a bruised, grumpy face",
+      "poseAndExpression": "Throwing a hard punch straight at the viewer",
+      "backgroundScene": "A grubby vegetable-crate boxing ring in a cellar",
+      "flavourText": "Stains everything. Especially the loser.",
+      "stats": {
+        "Flavour": 3,
+        "Menace": 7,
+        "Fresh": 8,
+        "Cook Speed": 5,
+        "Eats You": 4,
+        "Serves": 2
+      },
+      "image": "./cards/beet-down.png",
+      "imageSmall": "./cards/beet-down-small.webp"
+    },
+    {
+      "id": "medusa-bolognese",
+      "name": "Medusa Bolognese",
+      "cardNumber": 35,
+      "rarity": "Rare",
+      "character": "A plate of spaghetti forming a woman's face, with living snake noodles for hair and meatball eyes behind dark glasses",
+      "poseAndExpression": "Pulling down her glasses with a noodle, eyes glowing",
+      "backgroundScene": "A marble trattoria full of diners turned to stone at the table",
+      "flavourText": "One look and you will never leave the table.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 9,
+        "Fresh": 5,
+        "Cook Speed": 6,
+        "Eats You": 5,
+        "Serves": 4
+      },
+      "image": "./cards/medusa-bolognese.png",
+      "imageSmall": "./cards/medusa-bolognese-small.webp"
+    },
+    {
+      "id": "burrito-mummy",
+      "name": "Burrito Mummy",
+      "cardNumber": 36,
+      "rarity": "Common",
+      "character": "A fat burrito wrapped in unravelling foil and tortilla like a mummy, with a single glowing eye peeking through",
+      "poseAndExpression": "Lurching forward with both arms out",
+      "backgroundScene": "A torchlit stone tomb with hot sauce bottles as offerings",
+      "flavourText": "Wrapped for 3,000 years. Still hot in the middle.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 6,
+        "Fresh": 1,
+        "Cook Speed": 9,
+        "Eats You": 5,
+        "Serves": 3
+      },
+      "image": "./cards/burrito-mummy.png",
+      "imageSmall": "./cards/burrito-mummy-small.webp"
+    },
+    {
+      "id": "gumbo-lagoon",
+      "name": "Gumbo Lagoon",
+      "cardNumber": 37,
+      "rarity": "Rare",
+      "character": "A dark, swampy pot of gumbo rising up as a scaly creature with shrimp claws, okra fingers and glowing eyes",
+      "poseAndExpression": "Emerging from the pot, dripping, reaching over the rim",
+      "backgroundScene": "A misty Louisiana-style bayou with cypress trees and lanterns",
+      "flavourText": "It has been simmering since before the swamp.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 7,
+        "Fresh": 3,
+        "Cook Speed": 1,
+        "Eats You": 7,
+        "Serves": 9
+      },
+      "image": "./cards/gumbo-lagoon.png",
+      "imageSmall": "./cards/gumbo-lagoon-small.webp"
+    },
+    {
+      "id": "jelly-fright",
+      "name": "Jelly Fright",
+      "cardNumber": 38,
+      "rarity": "Common",
+      "character": "A wobbling green jelly in the shape of a castle mould, with a screaming face and shapes suspended inside it",
+      "poseAndExpression": "Quivering violently, mouth stretched wide",
+      "backgroundScene": "A gloomy children's party with limp balloons",
+      "flavourText": "It trembles. Not from fear. From anticipation.",
+      "stats": {
+        "Flavour": 5,
+        "Menace": 4,
+        "Fresh": 6,
+        "Cook Speed": 6,
+        "Eats You": 3,
+        "Serves": 8
+      },
+      "image": "./cards/jelly-fright.png",
+      "imageSmall": "./cards/jelly-fright-small.webp"
+    },
+    {
+      "id": "cyclops-omelette",
+      "name": "Cyclops Omelette",
+      "cardNumber": 39,
+      "rarity": "Rare",
+      "character": "A massive folded omelette with one giant yellow eye in the middle and cheese oozing from a toothy grin",
+      "poseAndExpression": "Standing tall, glaring down with a single eye",
+      "backgroundScene": "A rocky cave kitchen with a huge cast-iron pan and sheep bones",
+      "flavourText": "You have to break a few eggs. It breaks everything else.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 7,
+        "Fresh": 9,
+        "Cook Speed": 9,
+        "Eats You": 6,
+        "Serves": 5
+      },
+      "image": "./cards/cyclops-omelette.png",
+      "imageSmall": "./cards/cyclops-omelette-small.webp"
+    },
+    {
+      "id": "everlasting-stew",
+      "name": "Everlasting Stew",
+      "cardNumber": 40,
+      "rarity": "Legendary",
+      "character": "A great black cauldron of stew with a huge carrot-toothed face in the broth, potato eyes and a ladle for a tongue",
+      "poseAndExpression": "Boiling over and rising out of the cauldron, roaring",
+      "backgroundScene": "A witch's hut kitchen with a fire that has never gone out",
+      "flavourText": "Nobody has reached the bottom. Some are still looking.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 9,
+        "Fresh": 1,
+        "Cook Speed": 1,
+        "Eats You": 9,
+        "Serves": 10
+      },
+      "image": "./cards/everlasting-stew.png",
+      "imageSmall": "./cards/everlasting-stew-small.webp"
+    },
+    {
+      "id": "cream-puff-creep",
+      "name": "Cream Puff Creep",
+      "cardNumber": 41,
+      "rarity": "Common",
+      "character": "A soft round cream puff with a sinister little moustache, leaking cream and wearing a tiny trench coat",
+      "poseAndExpression": "Sidling along with shifty eyes",
+      "backgroundScene": "A rainy street outside a closed patisserie",
+      "flavourText": "Light as air. Follows you home.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 3,
+        "Fresh": 4,
+        "Cook Speed": 7,
+        "Eats You": 4,
+        "Serves": 1
+      },
+      "image": "./cards/cream-puff-creep.png",
+      "imageSmall": "./cards/cream-puff-creep-small.webp"
+    },
+    {
+      "id": "cupcake-horde",
+      "name": "Cupcake Horde",
+      "cardNumber": 42,
+      "rarity": "Rare",
+      "character": "A shambling crowd of zombie cupcakes with torn paper cases, drooping icing and vacant eyes",
+      "poseAndExpression": "Lurching forward together with their arms out",
+      "backgroundScene": "A ruined bake sale in a dark school hall with bunting",
+      "flavourText": "Moist. Moist. Moist. Moist. Moist.",
+      "stats": {
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 2,
+        "Cook Speed": 6,
+        "Eats You": 8,
+        "Serves": 10
+      },
+      "image": "./cards/cupcake-horde.png",
+      "imageSmall": "./cards/cupcake-horde-small.webp"
+    },
+    {
+      "id": "nacho-ghoul",
+      "name": "Nacho Ghoul",
+      "cardNumber": 43,
+      "rarity": "Common",
+      "character": "A pile of melted-cheese nachos forming a ghoulish figure, with jalapeno eyes and tortilla chip claws",
+      "poseAndExpression": "Rising from a bowl, stretching gooey cheese arms",
+      "backgroundScene": "A rowdy dark sports bar with an old TV glowing",
+      "flavourText": "It is nacho friend. It is nobody's friend.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 5,
+        "Fresh": 4,
+        "Cook Speed": 9,
+        "Eats You": 6,
+        "Serves": 4
+      },
+      "image": "./cards/nacho-ghoul.png",
+      "imageSmall": "./cards/nacho-ghoul-small.webp"
+    },
+    {
+      "id": "sundae-yeti",
+      "name": "Sundae Yeti",
+      "cardNumber": 44,
+      "rarity": "Rare",
+      "character": "A huge shaggy yeti of whipped cream and ice cream scoops, with a cherry on its head and wafer claws",
+      "poseAndExpression": "Roaring and beating its chest, melting slightly",
+      "backgroundScene": "A blizzard outside a frozen mountain ice cream parlour",
+      "flavourText": "Avoid brain freeze. It avoids nothing.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 7,
+        "Fresh": 6,
+        "Cook Speed": 10,
+        "Eats You": 5,
+        "Serves": 4
+      },
+      "image": "./cards/sundae-yeti.png",
+      "imageSmall": "./cards/sundae-yeti-small.webp"
+    },
+    {
+      "id": "pea-brain",
+      "name": "Pea Brain",
+      "cardNumber": 45,
+      "rarity": "Common",
+      "character": "A single enormous pea with a visible wrinkled brain under a glass dome on its head and huge staring eyes",
+      "poseAndExpression": "Pressing its fingertips together and plotting",
+      "backgroundScene": "A mad scientist's kitchen with bubbling pans and a blackboard of diagrams",
+      "flavourText": "A very small mind. Very, very focused on you.",
+      "stats": {
+        "Flavour": 2,
+        "Menace": 3,
+        "Fresh": 7,
+        "Cook Speed": 10,
+        "Eats You": 1,
+        "Serves": 1
+      },
+      "image": "./cards/pea-brain.png",
+      "imageSmall": "./cards/pea-brain-small.webp"
+    },
+    {
+      "id": "the-fondue-abyss",
+      "name": "The Fondue Abyss",
+      "cardNumber": 46,
+      "rarity": "Legendary",
+      "character": "A bottomless pot of molten golden cheese with a huge slow face rising from it and long fondue forks for fingers",
+      "poseAndExpression": "Reaching up from the pot with dripping cheese arms",
+      "backgroundScene": "A snowy Alpine chalet at midnight with candles and frosted windows",
+      "flavourText": "Drop your bread in, and you must go in after it.",
+      "stats": {
+        "Flavour": 10,
+        "Menace": 10,
+        "Fresh": 6,
+        "Cook Speed": 6,
+        "Eats You": 10,
+        "Serves": 8
+      },
+      "image": "./cards/the-fondue-abyss.png",
+      "imageSmall": "./cards/the-fondue-abyss-small.webp"
+    },
+    {
+      "id": "the-wild-haggis",
+      "name": "The Wild Haggis",
+      "cardNumber": 47,
+      "rarity": "Rare",
+      "character": "A round, hairy haggis on three legs of different lengths, with wild tufted eyebrows and a tartan scarf",
+      "poseAndExpression": "Charging sideways round a hill, bellowing",
+      "backgroundScene": "A windswept Highland glen in thick mist with a distant castle",
+      "flavourText": "Its left legs are shorter. Run clockwise.",
+      "stats": {
+        "Flavour": 8,
+        "Menace": 7,
+        "Fresh": 6,
+        "Cook Speed": 3,
+        "Eats You": 6,
+        "Serves": 6
+      },
+      "image": "./cards/the-wild-haggis.png",
+      "imageSmall": "./cards/the-wild-haggis-small.webp"
+    },
+    {
+      "id": "haunted-fishstick",
+      "name": "Haunted Fishstick",
+      "cardNumber": 48,
+      "rarity": "Common",
+      "character": "A breaded fish finger with a see-through ghostly tail, empty eyes and a little rotting sailor's cap",
+      "poseAndExpression": "Drifting out of a frozen food box with a low moan",
+      "backgroundScene": "A frosty freezer aisle lit by a sickly green light",
+      "flavourText": "Lost at sea. Found in aisle nine.",
+      "stats": {
+        "Flavour": 4,
+        "Menace": 3,
+        "Fresh": 1,
+        "Cook Speed": 9,
+        "Eats You": 2,
+        "Serves": 1
+      },
+      "image": "./cards/haunted-fishstick.png",
+      "imageSmall": "./cards/haunted-fishstick-small.webp"
+    },
+    {
+      "id": "pizza-wraith",
+      "name": "Pizza Wraith",
+      "cardNumber": 49,
+      "rarity": "Rare",
+      "character": "A ragged whole pizza floating like a wraith, with pepperoni eyes, stringing cheese for a cloak and one slice missing",
+      "poseAndExpression": "Gliding through a wall with a long cheesy groan",
+      "backgroundScene": "A rain-soaked street at night with a delivery scooter on its side",
+      "flavourText": "Thirty minutes or it is free. It has never been free.",
+      "stats": {
+        "Flavour": 9,
+        "Menace": 8,
+        "Fresh": 5,
+        "Cook Speed": 8,
+        "Eats You": 7,
+        "Serves": 8
+      },
+      "image": "./cards/pizza-wraith.png",
+      "imageSmall": "./cards/pizza-wraith-small.webp"
+    },
+    {
+      "id": "bagel-of-doom",
+      "name": "Bagel of Doom",
+      "cardNumber": 50,
+      "rarity": "Common",
+      "character": "A burnt black bagel with a fiery glow inside its hole like a portal and sesame-seed teeth round the edge",
+      "poseAndExpression": "Looming with flames licking out of its centre",
+      "backgroundScene": "A scorched bakery at midnight with smoke curling up",
+      "flavourText": "Do not look through the hole. It is looking back.",
+      "stats": {
+        "Flavour": 5,
+        "Menace": 8,
+        "Fresh": 3,
+        "Cook Speed": 8,
+        "Eats You": 6,
+        "Serves": 1
+      },
+      "image": "./cards/bagel-of-doom.png",
+      "imageSmall": "./cards/bagel-of-doom-small.webp"
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 67,
+      "top": 221,
+      "width": 891,
+      "height": 640
+    },
+    "text": {
+      "name": {
+        "x": 585,
+        "y": 132,
+        "size": 58,
+        "maxWidth": 600,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#14110c",
+        "charWidth": 0.75,
+        "bold": true,
+        "twoLinesBelow": 30,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 512,
+        "y": 972,
+        "size": 32,
+        "maxWidth": 860,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#14110c",
+        "italic": true,
+        "wrap": true,
+        "balance": true
+      },
+      "number": {
+        "x": 188,
+        "y": 1458,
+        "size": 38,
+        "maxWidth": 250,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#f6ecd2",
+        "bold": true
+      },
+      "rarity": {
+        "x": 838,
+        "y": 1458,
+        "size": 36,
+        "maxWidth": 260,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#14110c",
+        "charWidth": 0.85
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 272,
+          "y": 1100,
+          "size": 22,
+          "maxWidth": 160,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7,
+          "bold": true
+        },
+        "value": {
+          "x": 272,
+          "y": 1165,
+          "size": 68,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 584,
+          "y": 1105,
+          "size": 22,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 584,
+          "y": 1170,
+          "size": 52,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 895,
+          "y": 1105,
+          "size": 22,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 895,
+          "y": 1170,
+          "size": 52,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 268,
+          "y": 1258,
+          "size": 22,
+          "maxWidth": 170,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 268,
+          "y": 1325,
+          "size": 52,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 580,
+          "y": 1258,
+          "size": 22,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 580,
+          "y": 1325,
+          "size": 52,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        }
+      },
+      {
+        "label": {
+          "x": 910,
+          "y": 1258,
+          "size": 22,
+          "maxWidth": 125,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        },
+        "value": {
+          "x": 910,
+          "y": 1325,
+          "size": 52,
+          "maxWidth": 130,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#14110c",
+          "charWidth": 0.7
+        }
+      }
+    ]
+  }
+}

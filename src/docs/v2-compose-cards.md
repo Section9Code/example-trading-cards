@@ -25,6 +25,7 @@ Run it with no arguments to see the usage line.
 | Command | Paid? | What it does |
 |---|---|---|
 | `frame-prompt` | No | Shows the frame prompt. Use it to check the prompt, or to make the frame with a different tool. |
+| `rules` | No | Draws `rulesCard` from `cards.json` on `rules-frame.png` and saves `rules-card.png`. |
 | `frame` | Yes, 1 image | Makes a new frame, finds its magenta window and saves the window to `layout`. |
 | `layout` | No | Finds the magenta window in the `frame.png` that is there now and saves it to `layout`. Use it after you make the frame with a different tool. |
 | `preview` | No | Draws a sample card on grey art to `preview.png`. It uses the longest name and flavour text in the set, so you can see if the text fits. |
@@ -58,6 +59,8 @@ Building the finished cards from the frame and art is free. `cards` builds every
 |---|---|
 | `artStyle` | The art style for the frame and for every card's art |
 | `frame` | A list of lines that describe the frame: the border, name banner, text panel, stat icons, number plaque and rarity badge. The script adds the rules for the magenta window. |
+| `windowHeight` | Optional. The height of the art window, as a percentage of the card height. The default is 55. Use a smaller value if the text panel needs more space. |
+| `artSize` | Optional. The size of each card's art, such as `1424x1024`. The default is `1024x1024`. Use the same shape as `layout.window`, so that the art is not cropped much. |
 | `negative` | What the images must not contain |
 
 ### `cards[i]`
@@ -97,6 +100,7 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 | `anchor` | `"middle"` | `"start"`, `"middle"` or `"end"`. |
 | `bold`, `italic` | `false` | The font style. |
 | `wrap` | `false` | Puts the text on more lines at `maxWidth`, and keeps the font size. |
+| `balance` | `false` | With `wrap`, makes two lines of text about the same length. |
 | `twoLinesBelow` | off | If one-line text would shrink below this size, puts it on two lines instead. |
 | `lineHeight` | `1.2` | The line spacing, as a multiple of the font size. |
 | `charWidth` | `0.6` | The average letter width, as a multiple of the font size. The script uses it to fit text, because it does not measure the text. Make it larger for wide fonts, or if text goes outside its box. |
