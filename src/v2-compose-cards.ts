@@ -60,6 +60,8 @@ type TextBox = {
   italic?: boolean;
   /** Wrap onto more lines at `maxWidth` instead of shrinking. */
   wrap?: boolean;
+  /** One-line text that would shrink below this size goes on two lines instead. Off when absent. */
+  twoLinesBelow?: number;
   /** Line spacing as a multiple of the font size. Default 1.2. */
   lineHeight?: number;
   /** Average character width as a multiple of the font size, used to fit text. Default 0.6; raise it for wide fonts. */
@@ -248,6 +250,18 @@ export function wrap(text: string, max: number): string[] {
 }
 
 /**
+ * Splits text into two lines at the word gap that keeps the longer line shortest.
+ * @param text The text to split.
+ * @returns The two lines, or one line if the text has no word gap.
+ */
+export function splitInTwo(text: string): string[] {
+  const words = text.split(/\s+/);
+  const splits = words.slice(1).map((_, i) => [words.slice(0, i + 1).join(" "), words.slice(i + 1).join(" ")]);
+  const longer = (lines: string[]) => Math.max(...lines.map((l) => l.length));
+  return splits.reduce((best, s) => (longer(s) < longer(best) ? s : best), splits[0] ?? [text]);
+}
+
+/**
  * Draws one piece of text as an SVG element, wrapped or shrunk to fit its box and centred on its `y`.
  * ponytail: widths are estimated from character counts, not measured; tune `charWidth` per box if text overflows.
  * @param box Where and how to draw the text.
@@ -256,8 +270,13 @@ export function wrap(text: string, max: number): string[] {
  */
 export function textSvg(box: TextBox, text: string): string {
   const cw = box.charWidth ?? 0.6;
-  const size = box.wrap ? box.size : Math.min(box.size, box.maxWidth / (text.length * cw));
-  const lines = box.wrap ? wrap(text, Math.floor(box.maxWidth / (size * cw))) : [text];
+  const fit = (chars: number) => Math.min(box.size, box.maxWidth / (chars * cw));
+  let size = box.wrap ? box.size : fit(text.length);
+  let lines = box.wrap ? wrap(text, Math.floor(box.maxWidth / (size * cw))) : [text];
+  if (!box.wrap && box.twoLinesBelow && size < box.twoLinesBelow) {
+    lines = splitInTwo(text);
+    size = fit(Math.max(...lines.map((l) => l.length)));
+  }
   const lh = size * (box.lineHeight ?? 1.2);
   const top = box.y - ((lines.length - 1) * lh) / 2;
   const stroke = box.stroke

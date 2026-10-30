@@ -4,7 +4,7 @@
     "totalCards": 40,
     "statNames": [
       "Strength",
-      "Showmanship",
+      "Show",
       "Mud"
     ],
     "rarities": [
@@ -39,7 +39,7 @@
       "flavourText": "He flies. Bulls are not supposed to fly.",
       "stats": {
         "Strength": 7,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 3
       },
       "image": "./cards/el-moo-cho.png",
@@ -56,7 +56,7 @@
       "flavourText": "Undefeated. Unmilked. Unstoppable.",
       "stats": {
         "Strength": 10,
-        "Showmanship": 9,
+        "Show": 9,
         "Mud": 7
       },
       "image": "./cards/the-udder-destruction.png",
@@ -73,7 +73,7 @@
       "flavourText": "She lays eggs and smackdowns.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 6,
+        "Show": 6,
         "Mud": 2
       },
       "image": "./cards/captain-cluck.png",
@@ -90,7 +90,7 @@
       "flavourText": "He ruled the field. Then he ruled the ring.",
       "stats": {
         "Strength": 9,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 4
       },
       "image": "./cards/the-baa-barian.png",
@@ -107,7 +107,7 @@
       "flavourText": "Twice the quack. Twice the attack.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 3
       },
       "image": "./cards/the-quack-pack.png",
@@ -124,7 +124,7 @@
       "flavourText": "Small in size. Large in opinion.",
       "stats": {
         "Strength": 2,
-        "Showmanship": 7,
+        "Show": 7,
         "Mud": 4
       },
       "image": "./cards/sir-hamsalot.png",
@@ -141,7 +141,7 @@
       "flavourText": "She was wrestling before your grandad was a kid.",
       "stats": {
         "Strength": 6,
-        "Showmanship": 7,
+        "Show": 7,
         "Mud": 4
       },
       "image": "./cards/nanny-knuckles.png",
@@ -158,7 +158,7 @@
       "flavourText": "There are no rules. He ate the rule book.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 10,
+        "Show": 10,
         "Mud": 8
       },
       "image": "./cards/gnasher-the-rope-eater.png",
@@ -175,7 +175,7 @@
       "flavourText": "He cannot win, but he cannot be caught.",
       "stats": {
         "Strength": 2,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 3
       },
       "image": "./cards/turkey-trot.png",
@@ -192,7 +192,7 @@
       "flavourText": "Front row tickets come with a free shower.",
       "stats": {
         "Strength": 7,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 10
       },
       "image": "./cards/mudslide-malone.png",
@@ -209,7 +209,7 @@
       "flavourText": "Nobody knows who he is. Everyone knows what he does.",
       "stats": {
         "Strength": 6,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 3
       },
       "image": "./cards/the-masked-mallard.png",
@@ -226,7 +226,7 @@
       "flavourText": "Boo him all you like. He loves it.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 7,
+        "Show": 7,
         "Mud": 6
       },
       "image": "./cards/big-bad-boar.png",
@@ -243,7 +243,7 @@
       "flavourText": "Opponents bounce right off.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 3
       },
       "image": "./cards/woolly-bully.png",
@@ -260,7 +260,7 @@
       "flavourText": "He takes his time. He only needs one.",
       "stats": {
         "Strength": 9,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 5
       },
       "image": "./cards/haymaker-hank.png",
@@ -277,7 +277,7 @@
       "flavourText": "Fresh out of the shell and ready to rumble.",
       "stats": {
         "Strength": 1,
-        "Showmanship": 6,
+        "Show": 6,
         "Mud": 2
       },
       "image": "./cards/scrambled-chick.png",
@@ -294,7 +294,7 @@
       "flavourText": "Two hundred horsepower. All of it hair.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 9,
+        "Show": 9,
         "Mud": 2
       },
       "image": "./cards/horse-power.png",
@@ -311,7 +311,7 @@
       "flavourText": "It sees everything. It still misses the handbag.",
       "stats": {
         "Strength": 2,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 1
       },
       "image": "./cards/referee-hoot.png",
@@ -328,7 +328,7 @@
       "flavourText": "He has rounded up a fight.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 6,
+        "Show": 6,
         "Mud": 2
       },
       "image": "./cards/sheepdog-steve.png",
@@ -345,7 +345,7 @@
       "flavourText": "Let's get ready to... cock-a-doodle-doo!",
       "stats": {
         "Strength": 2,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 1
       },
       "image": "./cards/crowin-kevin.png",
@@ -362,7 +362,7 @@
       "flavourText": "The barn had to be rebuilt. Twice.",
       "stats": {
         "Strength": 10,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 8
       },
       "image": "./cards/big-bertha-the-barn-crusher.png",
@@ -379,7 +379,7 @@
       "flavourText": "Never, ever, insult the fringe.",
       "stats": {
         "Strength": 5,
-        "Showmanship": 9,
+        "Show": 9,
         "Mud": 4
       },
       "image": "./cards/lady-llama.png",
@@ -396,7 +396,7 @@
       "flavourText": "Nobody saw him take it. Everybody saw him drop it.",
       "stats": {
         "Strength": 1,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 3
       },
       "image": "./cards/the-grain-grabber.png",
@@ -413,7 +413,7 @@
       "flavourText": "Every morning he wakes the farm. Every evening he puts it to sleep.",
       "stats": {
         "Strength": 6,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 3
       },
       "image": "./cards/the-feathered-fury.png",
@@ -430,7 +430,7 @@
       "flavourText": "He has never seen an opponent. He has beaten several.",
       "stats": {
         "Strength": 5,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 4
       },
       "image": "./cards/bucket-head-bob.png",
@@ -447,7 +447,7 @@
       "flavourText": "Two lambs. One mind. No mercy.",
       "stats": {
         "Strength": 5,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 3
       },
       "image": "./cards/the-ewe-nited-twins.png",
@@ -464,7 +464,7 @@
       "flavourText": "Do not try to pin him. Really, do not.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 4
       },
       "image": "./cards/tumbleweed.png",
@@ -481,7 +481,7 @@
       "flavourText": "The scariest animal on the farm, and everybody knows it.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 6,
+        "Show": 6,
         "Mud": 3
       },
       "image": "./cards/grumpy-gertie.png",
@@ -498,7 +498,7 @@
       "flavourText": "He says sorry after every match. He means it.",
       "stats": {
         "Strength": 10,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 5
       },
       "image": "./cards/the-shire-giant.png",
@@ -515,7 +515,7 @@
       "flavourText": "When the barn doors blow open, the match is already over.",
       "stats": {
         "Strength": 9,
-        "Showmanship": 10,
+        "Show": 10,
         "Mud": 7
       },
       "image": "./cards/the-barnstormer.png",
@@ -532,7 +532,7 @@
       "flavourText": "He is fast. He is tiny. He is mostly ignored.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 2
       },
       "image": "./cards/rabbit-punch.png",
@@ -549,7 +549,7 @@
       "flavourText": "Nobody knows what is under the mask. Probably more goat.",
       "stats": {
         "Strength": 6,
-        "Showmanship": 9,
+        "Show": 9,
         "Mud": 3
       },
       "image": "./cards/el-chivo-loco.png",
@@ -566,7 +566,7 @@
       "flavourText": "He has one move. It is a very good move.",
       "stats": {
         "Strength": 3,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 5
       },
       "image": "./cards/frog-splash-fred.png",
@@ -583,9 +583,11 @@
       "flavourText": "He has a plan. It involves a lot of duct tape.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 8,
+        "Show": 8,
         "Mud": 5
-      }
+      },
+      "image": "./cards/doctor-quackenstein.png",
+      "imageSmall": "./cards/doctor-quackenstein-small.webp"
     },
     {
       "id": "pony-express",
@@ -598,7 +600,7 @@
       "flavourText": "Delivers on time. Delivers a beating.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 4,
+        "Show": 4,
         "Mud": 3
       },
       "image": "./cards/pony-express.png",
@@ -615,9 +617,11 @@
       "flavourText": "He does not move. He does not need to.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 6,
+        "Show": 6,
         "Mud": 4
-      }
+      },
+      "image": "./cards/the-alpaca-lypse.png",
+      "imageSmall": "./cards/the-alpaca-lypse-small.webp"
     },
     {
       "id": "mole-mauler",
@@ -630,9 +634,11 @@
       "flavourText": "He never enters the ring. He enters from below.",
       "stats": {
         "Strength": 5,
-        "Showmanship": 3,
+        "Show": 3,
         "Mud": 6
-      }
+      },
+      "image": "./cards/mole-mauler.png",
+      "imageSmall": "./cards/mole-mauler-small.webp"
     },
     {
       "id": "sergeant-snout",
@@ -645,9 +651,11 @@
       "flavourText": "Drop and give him twenty. Pins.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 7,
+        "Show": 7,
         "Mud": 6
-      }
+      },
+      "image": "./cards/sergeant-snout.png",
+      "imageSmall": "./cards/sergeant-snout-small.webp"
     },
     {
       "id": "slow-mo",
@@ -660,9 +668,11 @@
       "flavourText": "He has never lost. His matches have not finished yet.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 3,
+        "Show": 3,
         "Mud": 3
-      }
+      },
+      "image": "./cards/slow-mo.png",
+      "imageSmall": "./cards/slow-mo-small.webp"
     },
     {
       "id": "bantam-bruiser",
@@ -675,9 +685,11 @@
       "flavourText": "Pound for pound, the toughest bird alive.",
       "stats": {
         "Strength": 4,
-        "Showmanship": 5,
+        "Show": 5,
         "Mud": 2
-      }
+      },
+      "image": "./cards/bantam-bruiser.png",
+      "imageSmall": "./cards/bantam-bruiser-small.webp"
     },
     {
       "id": "the-phantom-of-the-hayloft",
@@ -690,9 +702,11 @@
       "flavourText": "Nine lives. Nine titles. No losses.",
       "stats": {
         "Strength": 8,
-        "Showmanship": 10,
+        "Show": 10,
         "Mud": 8
-      }
+      },
+      "image": "./cards/the-phantom-of-the-hayloft.png",
+      "imageSmall": "./cards/the-phantom-of-the-hayloft-small.webp"
     }
   ],
   "layout": {
@@ -705,12 +719,15 @@
     "text": {
       "name": {
         "x": 555,
-        "y": 112,
+        "y": 122,
         "size": 64,
         "maxWidth": 440,
         "font": "'Arial Black', Impact, sans-serif",
-        "colour": "#1b2a4a",
-        "charWidth": 0.75
+        "colour": "#0f1a30",
+        "charWidth": 0.75,
+        "twoLinesBelow": 30,
+        "lineHeight": 1.05,
+        "bold": true
       },
       "flavour": {
         "x": 512,
@@ -746,13 +763,13 @@
     "stats": [
       {
         "label": {
-          "x": 299,
+          "x": 297,
           "y": 1240,
-          "size": 24,
+          "size": 22,
           "maxWidth": 125,
           "font": "Impact, 'Arial Black', sans-serif",
           "colour": "#1b2a4a",
-          "charWidth": 0.53
+          "charWidth": 0.7
         },
         "value": {
           "x": 299,
@@ -768,11 +785,11 @@
         "label": {
           "x": 582,
           "y": 1240,
-          "size": 24,
+          "size": 22,
           "maxWidth": 116,
           "font": "Impact, 'Arial Black', sans-serif",
           "colour": "#1b2a4a",
-          "charWidth": 0.53
+          "charWidth": 0.7
         },
         "value": {
           "x": 582,
@@ -788,11 +805,11 @@
         "label": {
           "x": 862,
           "y": 1240,
-          "size": 24,
+          "size": 22,
           "maxWidth": 115,
           "font": "Impact, 'Arial Black', sans-serif",
           "colour": "#1b2a4a",
-          "charWidth": 0.53
+          "charWidth": 0.7
         },
         "value": {
           "x": 862,

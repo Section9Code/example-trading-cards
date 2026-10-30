@@ -16,7 +16,7 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-2](season-2/) | Abyssal Oddities | 30 | Glow, Bite, Weirdness | Common (14), Rare (12), Legendary (4) |
 | [season-3](season-3/) | Wyrmfall | 30 | Fire, Fury, Scale | Common (14), Rare (12), Legendary (4) |
 | [season-4](season-4/) | Carcosa Rising | 50 | Madness, Dread, Power, Lore | Common (23), Rare (20), Legendary (7) |
-| [season-5](season-5/) | Barnyard Brawl | 40 (33 made so far) | Strength, Showmanship, Mud | Common (19), Rare (16), Legendary (5) |
+| [season-5](season-5/) | Barnyard Brawl | 40 | Strength, Show, Mud | Common (19), Rare (16), Legendary (5) |
 
 ## How the cards were made
 

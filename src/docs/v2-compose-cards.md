@@ -97,6 +97,7 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 | `anchor` | `"middle"` | `"start"`, `"middle"` or `"end"`. |
 | `bold`, `italic` | `false` | The font style. |
 | `wrap` | `false` | Puts the text on more lines at `maxWidth`, and keeps the font size. |
+| `twoLinesBelow` | off | If one-line text would shrink below this size, puts it on two lines instead. |
 | `lineHeight` | `1.2` | The line spacing, as a multiple of the font size. |
 | `charWidth` | `0.6` | The average letter width, as a multiple of the font size. The script uses it to fit text, because it does not measure the text. Make it larger for wide fonts, or if text goes outside its box. |
 
