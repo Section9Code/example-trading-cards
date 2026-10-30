@@ -7,7 +7,7 @@ description: Use when the user wants to start a new season or set of trading car
 
 Sets up `season-N/` so it is ready for card details: a `cards.json` with set metadata and shared prompts, a generated `frame.png`, and a `layout` tuned to that frame. It does NOT write the cards; `cards` stays `[]`.
 
-Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` with no arguments for usage). `season-2/cards.json` is the worked example: copy its shape, not its theme. Full docs: `docs/v2-compose-cards.md`.
+Everything runs through `src/v2-compose-cards.ts` (run `node src/v2-compose-cards.ts` with no arguments for usage). `season-2/cards.json` is the worked example: copy its shape, not its theme. Full docs: `src/docs/v2-compose-cards.md`.
 
 ## Steps
 
@@ -29,11 +29,11 @@ Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` wi
    - `sharedPrompt.negative`: what the art must not contain.
    - `cards`: `[]`.
 
-3. **Show the frame prompt.** Run `node v2-compose-cards.ts frame-prompt season-N/cards.json` and show it to the user. Change `cards.json` until they approve it.
+3. **Show the frame prompt.** Run `node src/v2-compose-cards.ts frame-prompt season-N/cards.json` and show it to the user. Change `cards.json` until they approve it.
 
 4. **Make the frame.** Each frame is a paid image, so confirm with the user before generating one.
-   - If an OpenRouter image tool (MCP) is available: send it the printed prompt at 1024x1536, save the PNG as `season-N/frame.png`, then run `node v2-compose-cards.ts layout season-N/cards.json`.
-   - Otherwise, if `OPENROUTER_API_KEY` is set: run `node v2-compose-cards.ts frame season-N/cards.json`.
+   - If an OpenRouter image tool (MCP) is available: send it the printed prompt at 1024x1536, save the PNG as `season-N/frame.png`, then run `node src/v2-compose-cards.ts layout season-N/cards.json`.
+   - Otherwise, if `OPENROUTER_API_KEY` is set: run `node src/v2-compose-cards.ts frame season-N/cards.json`.
    - Otherwise, ask the user to run that command, or to make the image elsewhere from the printed prompt, save it as `season-N/frame.png` and run `layout`. Wait for them to tell you it is done.
 
 5. **Check the frame.** Read `season-N/frame.png` and check that:
@@ -52,11 +52,11 @@ Everything runs through `v2-compose-cards.ts` (run `node v2-compose-cards.ts` wi
    - `y` is the vertical centre of the text. One-line text shrinks to fit `maxWidth`, using `charWidth` (font size × character count) to estimate its width. Use about 0.75 for Arial Black, and up to 0.95 for short capitalised words in small spaces.
 
    Then repeat until nothing overflows, overlaps an icon or sits off-centre:
-   1. Run `node v2-compose-cards.ts preview season-N/cards.json`.
+   1. Run `node src/v2-compose-cards.ts preview season-N/cards.json`.
    2. Read `season-N/preview.png`. It shows the longest name and flavour text, the longest rarity and every stat at 10, on grey placeholder art.
    3. Fix any problems in the layout.
 
-7. **Hand over.** Tell the user that the season is ready for card details, and show them the final preview. Each card needs `id` (kebab-case of the name), `name`, `cardNumber`, `rarity`, `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (0-10 for each stat name). `node v2-compose-cards.ts cards season-N/cards.json` then builds the cards.
+7. **Hand over.** Tell the user that the season is ready for card details, and show them the final preview. Each card needs `id` (kebab-case of the name), `name`, `cardNumber`, `rarity`, `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (0-10 for each stat name). `node src/v2-compose-cards.ts cards season-N/cards.json` then builds the cards.
 
 ## Common mistakes
 

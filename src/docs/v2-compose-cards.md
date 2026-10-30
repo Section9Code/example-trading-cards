@@ -11,13 +11,13 @@ The script puts the art behind the magenta window and draws the text at the posi
 ## Before you start
 
 - Use Node.js 22.18 or later. It runs `.ts` files directly.
-- Run `npm install`. The script uses [sharp](https://sharp.pixelplumbing.com/) to work with images.
+- Run `npm install --prefix src`. The script uses [sharp](https://sharp.pixelplumbing.com/) to work with images.
 - Set `OPENROUTER_API_KEY` to your OpenRouter API key. Only `frame`, `cards` (when art is missing) and `redo` need it, because only they make images.
 
 ## Usage
 
 ```sh
-node v2-compose-cards.ts <command> <path/to/cards.json> [cardNumber]
+node src/v2-compose-cards.ts <command> <path/to/cards.json> [cardNumber]
 ```
 
 Run it with no arguments to see the usage line.
@@ -100,7 +100,7 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 | `lineHeight` | `1.2` | The line spacing, as a multiple of the font size. |
 | `charWidth` | `0.6` | The average letter width, as a multiple of the font size. The script uses it to fit text, because it does not measure the text. Make it larger for wide fonts, or if text goes outside its box. |
 
-[season-2/cards.json](../season-2/cards.json) and [season-3/cards.json](../season-3/cards.json) are complete examples.
+[season-2/cards.json](../../season-2/cards.json) and [season-3/cards.json](../../season-3/cards.json) are complete examples.
 
 ## Examples
 
@@ -109,13 +109,13 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 1. Write `cards.json` with `set`, `sharedPrompt` and an empty `cards` list. Check the frame prompt:
 
    ```sh
-   node v2-compose-cards.ts frame-prompt season-4/cards.json
+   node src/v2-compose-cards.ts frame-prompt season-4/cards.json
    ```
 
 2. Make the frame:
 
    ```sh
-   node v2-compose-cards.ts frame season-4/cards.json
+   node src/v2-compose-cards.ts frame season-4/cards.json
    ```
 
    ```text
@@ -126,13 +126,13 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 3. Draw a preview, and look at `season-4/preview.png`. Change the text boxes in `layout` until all the text fits, and draw the preview again after each change:
 
    ```sh
-   node v2-compose-cards.ts preview season-4/cards.json
+   node src/v2-compose-cards.ts preview season-4/cards.json
    ```
 
 4. Add the cards to `cards`, then make the art and build the cards:
 
    ```sh
-   node v2-compose-cards.ts cards season-4/cards.json
+   node src/v2-compose-cards.ts cards season-4/cards.json
    ```
 
    ```text
@@ -146,14 +146,14 @@ Each text box has these fields. All sizes are in pixels on the 1024 × 1536 fram
 If the frame is wrong (for example, the rarity badge is too small), change the lines in `sharedPrompt.frame` and make a new frame. The old one goes to `rejected/`:
 
 ```sh
-node v2-compose-cards.ts frame season-3/cards.json
-node v2-compose-cards.ts preview season-3/cards.json
+node src/v2-compose-cards.ts frame season-3/cards.json
+node src/v2-compose-cards.ts preview season-3/cards.json
 ```
 
 The new frame can put things in different places. Draw a preview, move the text boxes to match, then build the cards again. This is free, because the art is already there:
 
 ```sh
-node v2-compose-cards.ts cards season-3/cards.json
+node src/v2-compose-cards.ts cards season-3/cards.json
 ```
 
 ### Make new art for one card
@@ -161,7 +161,7 @@ node v2-compose-cards.ts cards season-3/cards.json
 Change the card's `character`, `poseAndExpression` or `backgroundScene` if necessary, then:
 
 ```sh
-node v2-compose-cards.ts redo season-2/cards.json 24
+node src/v2-compose-cards.ts redo season-2/cards.json 24
 ```
 
 ```text
@@ -175,6 +175,6 @@ built #24 Siren of the Shoals
 Show the prompt, make the image at 1024 × 1536 with your tool and save it as `frame.png`. Then find its window:
 
 ```sh
-node v2-compose-cards.ts frame-prompt season-4/cards.json
-node v2-compose-cards.ts layout season-4/cards.json
+node src/v2-compose-cards.ts frame-prompt season-4/cards.json
+node src/v2-compose-cards.ts layout season-4/cards.json
 ```

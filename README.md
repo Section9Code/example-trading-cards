@@ -22,15 +22,16 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 
 | Script | Made | How | Docs |
 |---|---|---|---|
-| `v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [docs/v1-generate-cards.md](docs/v1-generate-cards.md) |
-| `v2-compose-cards.ts` | Seasons 2 to 5 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [docs/v2-compose-cards.md](docs/v2-compose-cards.md) |
+| `src/v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [src/docs/v1-generate-cards.md](src/docs/v1-generate-cards.md) |
+| `src/v2-compose-cards.ts` | Seasons 2 to 5 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
 
-`make-small-cards.ts` makes the small copies of the cards. It does not need OpenRouter. For each card, it makes a WebP image 512 pixels wide next to the full-size image, and writes its path to `imageSmall` in `cards.json`. Give it one or more `cards.json` files:
+`src/make-small-cards.ts` makes the small copies of the cards. It does not need OpenRouter. For each card, it makes a WebP image 512 pixels wide next to the full-size image, and writes its path to `imageSmall` in `cards.json`. Give it one or more `cards.json` files:
 
 ```sh
-node make-small-cards.ts season-4/cards.json
+npm install --prefix src
+node src/make-small-cards.ts season-4/cards.json
 ```
 
 ## What is in a set
@@ -76,7 +77,7 @@ Each set folder contains:
 }
 ```
 
-The `image` and `imageSmall` paths are relative to `cards.json`. The prompt fields let you make more cards in the same style. See [PROMPTS.md](PROMPTS.md) to learn how to build a full image prompt from a card.
+The `image` and `imageSmall` paths are relative to `cards.json`. The prompt fields let you make more cards in the same style. See [PROMPTS.md](src/docs/PROMPTS.md) to learn how to build a full image prompt from a card.
 
 ## Ideas
 

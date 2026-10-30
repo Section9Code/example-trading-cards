@@ -1,12 +1,12 @@
 // Builds each card in a set from three layers: one shared frame, borderless art for the card (both made
 // via OpenRouter), and the card's text drawn on top at the positions given in cards.json `layout`.
 // Usage (OPENROUTER_API_KEY is only needed when an image must be generated):
-//   node v2-compose-cards.ts frame-prompt <cards.json>   print the frame prompt, to make the frame elsewhere
-//   node v2-compose-cards.ts frame   <cards.json>        make the frame, find its art window, save it to layout
-//   node v2-compose-cards.ts layout  <cards.json>        find the art window in an existing frame.png, save it to layout
-//   node v2-compose-cards.ts preview <cards.json>        draw a worst-case sample card on grey art to preview.png
-//   node v2-compose-cards.ts cards   <cards.json>        make missing art, then rebuild every card
-//   node v2-compose-cards.ts redo    <cards.json> <number> replace one card's art, then rebuild that card
+//   node src/v2-compose-cards.ts frame-prompt <cards.json>   print the frame prompt, to make the frame elsewhere
+//   node src/v2-compose-cards.ts frame   <cards.json>        make the frame, find its art window, save it to layout
+//   node src/v2-compose-cards.ts layout  <cards.json>        find the art window in an existing frame.png, save it to layout
+//   node src/v2-compose-cards.ts preview <cards.json>        draw a worst-case sample card on grey art to preview.png
+//   node src/v2-compose-cards.ts cards   <cards.json>        make missing art, then rebuild every card
+//   node src/v2-compose-cards.ts redo    <cards.json> <number> replace one card's art, then rebuild that card
 // An old frame or art image is moved to rejected/, never deleted.
 // Output: frame.png, art/<id>.png and cards/<id>.png next to cards.json.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from "node:fs";
@@ -21,7 +21,7 @@ const FRAME_SIZE = "1024x1536";
 /** Art size in pixels; square is closest to the frame window, and the art is cropped to fit it. */
 const ART_SIZE = "1024x1024";
 const USAGE =
-  "Usage: node v2-compose-cards.ts frame-prompt|frame|layout|preview|cards <cards.json>  or  node v2-compose-cards.ts redo <cards.json> <cardNumber>";
+  "Usage: node src/v2-compose-cards.ts frame-prompt|frame|layout|preview|cards <cards.json>  or  node src/v2-compose-cards.ts redo <cards.json> <cardNumber>";
 
 /** One card entry in cards.json. */
 type Card = {

@@ -57,7 +57,7 @@ Put the stats in the order given by `set.statNames`. For season 1 that order is 
 
 ## Example: Tilt-a-Bot
 
-This is the card with `"id": "tilt-a-bot"` from [season-1/cards.json](season-1/cards.json):
+This is the card with `"id": "tilt-a-bot"` from [season-1/cards.json](../../season-1/cards.json):
 
 ```text
 TRADING CARD — TILT-A-BOT

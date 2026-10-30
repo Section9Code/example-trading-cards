@@ -1,5 +1,5 @@
 // Makes a small web-sized copy of every card image in a set, next to the full-size image, and records both paths in cards.json.
-// Usage: node make-small-cards.ts <path/to/cards.json> [more cards.json ...]
+// Usage: node src/make-small-cards.ts <path/to/cards.json> [more cards.json ...]
 // Each card's `image` (relative to cards.json) says where its full-size image is; the small copy goes beside it as `imageSmall`.
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -15,7 +15,7 @@ export const smallName = (file: string) => file.replace(/\.png$/, "-small.webp")
 if (import.meta.main) {
   const { positionals: jsonPaths } = parseArgs({ allowPositionals: true });
   if (!jsonPaths.length) {
-    console.error("Usage: node make-small-cards.ts <path/to/cards.json> [more cards.json ...]");
+    console.error("Usage: node src/make-small-cards.ts <path/to/cards.json> [more cards.json ...]");
     process.exit(1);
   }
 

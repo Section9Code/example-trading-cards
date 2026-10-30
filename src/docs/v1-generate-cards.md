@@ -13,7 +13,7 @@ This is simple, but the model draws the frame again for each card. So the frame 
 ## Usage
 
 ```sh
-node v1-generate-cards.ts <path/to/cards.json> [--redo <cardNumber>]
+node src/v1-generate-cards.ts <path/to/cards.json> [--redo <cardNumber>]
 ```
 
 | Argument | What it does |
@@ -24,7 +24,7 @@ node v1-generate-cards.ts <path/to/cards.json> [--redo <cardNumber>]
 ## What it does
 
 1. Reads `cards.json`.
-2. For each card, builds one prompt from `sharedPrompt` and the card's own fields. [PROMPTS.md](../PROMPTS.md) shows the prompt template.
+2. For each card, builds one prompt from `sharedPrompt` and the card's own fields. [PROMPTS.md](PROMPTS.md) shows the prompt template.
 3. Asks OpenRouter (model `openai/gpt-image-2.5-sunburst`, 1024 × 1536) for the image.
 4. Saves the image as `cards/<id>.png` in the folder that holds `cards.json`, and writes its path to the card's `image` field.
 
@@ -43,14 +43,14 @@ It never overwrites an image that you paid for. It skips a card if the card has 
 | `sharedPrompt.negative` | The NEGATIVE section |
 | `cards[i]` | `name`, `character`, `poseAndExpression`, `backgroundScene`, `flavourText`, `stats`, `rarity`, `cardNumber` |
 
-[season-1/cards.json](../season-1/cards.json) is a complete example.
+[season-1/cards.json](../../season-1/cards.json) is a complete example.
 
 ## Examples
 
 Make every card in season 1 that does not have an image yet:
 
 ```sh
-node v1-generate-cards.ts season-1/cards.json
+node src/v1-generate-cards.ts season-1/cards.json
 ```
 
 ```text
@@ -62,7 +62,7 @@ skipped #2 Deep-Six Dan
 Make a new image for card 7 (Giggles the Grim). The old image goes to `season-1/rejected/`:
 
 ```sh
-node v1-generate-cards.ts season-1/cards.json --redo 7
+node src/v1-generate-cards.ts season-1/cards.json --redo 7
 ```
 
 ```text

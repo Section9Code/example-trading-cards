@@ -1,5 +1,5 @@
 // Generates a card image for each card in cards.json via OpenRouter, saves it as cards/<id>.png next to cards.json and records its path.
-// Usage: OPENROUTER_API_KEY=... node v1-generate-cards.ts [path/to/cards.json] [--redo <cardNumber>]
+// Usage: OPENROUTER_API_KEY=... node src/v1-generate-cards.ts [path/to/cards.json] [--redo <cardNumber>]
 // --redo moves that card's image to rejected/ and regenerates only that card.
 import { readFileSync, writeFileSync, existsSync, mkdirSync, renameSync } from "node:fs";
 import { dirname, join } from "node:path";
