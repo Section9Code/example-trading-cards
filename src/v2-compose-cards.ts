@@ -29,7 +29,7 @@ type Card = {
   id: string;
   name: string;
   cardNumber: number;
-  rarity: string;
+  rarity?: string;
   character: string;
   poseAndExpression: string;
   backgroundScene: string;
@@ -75,7 +75,7 @@ type TextBox = {
 type Layout = {
   /** The art window; found by the `frame` command. */
   window: Box;
-  /** name: the card name; flavour: the flavour text; number: "#n of total"; rarity: the rarity in capitals. */
+  /** name: the card name; flavour: the flavour text; number: "#n of total"; rarity: the rarity in capitals, or the set name if the card has no rarity. */
   text: Record<"name" | "flavour" | "number" | "rarity", TextBox>;
   /** One cell per stat, in `set.statNames` order: the stat name and its value, beside the frame's stat icon. */
   stats: { label: TextBox; value: TextBox }[];
@@ -83,7 +83,7 @@ type Layout = {
 
 /** The full contents of cards.json: set metadata, the shared prompt parts, the layout and the cards. */
 type CardSet = {
-  set: { name: string; totalCards: number; statNames: string[]; rarities: string[] };
+  set: { name: string; totalCards: number; statNames: string[]; rarities?: string[] };
   /** `frame` describes the look of the shared frame, one line per part. */
   sharedPrompt: { format: string; artStyle: string; frame?: string[]; windowHeight?: number; artSize?: string; negative: string };
   rulesCard?: RulesCard;
@@ -311,7 +311,7 @@ export function cardSvg(data: CardSet, layout: Layout, card: Card, width: number
   ${textSvg(text.flavour, card.flavourText)}
   ${data.set.statNames.map((s, i) => textSvg(stats[i].label, s.toUpperCase()) + textSvg(stats[i].value, String(card.stats[s]))).join("\n  ")}
   ${textSvg(text.number, `#${card.cardNumber} of ${data.set.totalCards}`)}
-  ${textSvg(text.rarity, card.rarity.toUpperCase())}
+  ${textSvg(text.rarity, (card.rarity ?? data.set.name).toUpperCase())}
 </svg>`;
 }
 
@@ -432,7 +432,7 @@ if (import.meta.main) {
         name: longest(data.cards.map((c) => c.name), "Sample Card Name Here"),
         flavourText: longest(data.cards.map((c) => c.flavourText), "A sample line of flavour text, about as long as the longest one will be."),
         cardNumber: data.set.totalCards,
-        rarity: longest(data.set.rarities, ""),
+        rarity: longest(data.set.rarities ?? [], data.set.name),
         stats: Object.fromEntries(data.set.statNames.map((s) => [s, 10])),
       } as Card;
       const { width, height } = layout.window;

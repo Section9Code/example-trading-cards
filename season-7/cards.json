@@ -7,11 +7,6 @@
       "Cunning",
       "Nobility",
       "Nap Power"
-    ],
-    "rarities": [
-      "Common",
-      "Rare",
-      "Legendary"
     ]
   },
   "sharedPrompt": {
@@ -75,16 +70,15 @@
       "id": "sir-purrcival",
       "name": "Sir Purrcival",
       "cardNumber": 1,
-      "rarity": "Rare",
       "character": "A ginger tabby knight in dented silver plate armour with a crimson surcoat and a paw-print shield",
       "poseAndExpression": "Standing proud with a sword raised, chin up, deadpan and heroic",
       "backgroundScene": "A green jousting field with striped tents and fluttering pennants",
       "flavourText": "Sworn to defend the realm, except during nap time.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 4,
-        "Nobility": 7,
-        "Nap Power": 5
+        "Valour": 9,
+        "Cunning": 3,
+        "Nobility": 6,
+        "Nap Power": 2
       },
       "image": "./cards/sir-purrcival.png",
       "imageSmall": "./cards/sir-purrcival-small.webp"
@@ -93,16 +87,15 @@
       "id": "squire-whiskerby",
       "name": "Squire Whiskerby",
       "cardNumber": 2,
-      "rarity": "Common",
       "character": "A skinny young grey kitten squire in an oversized dented helmet, carrying a pile of armour",
       "poseAndExpression": "Staggering under the load, eyes wide, helmet slipping over one ear",
       "backgroundScene": "A castle stable yard with hay bales and a patient horse",
       "flavourText": "Has dropped every sword he has ever carried.",
       "stats": {
         "Valour": 3,
-        "Cunning": 3,
-        "Nobility": 2,
-        "Nap Power": 6
+        "Cunning": 6,
+        "Nobility": 1,
+        "Nap Power": 10
       },
       "image": "./cards/squire-whiskerby.png",
       "imageSmall": "./cards/squire-whiskerby-small.webp"
@@ -111,16 +104,15 @@
       "id": "queen-fluffington",
       "name": "Queen Fluffington",
       "cardNumber": 3,
-      "rarity": "Legendary",
       "character": "A huge white long-haired Persian cat queen in a royal-blue velvet gown, a heavy gold crown and an ermine cape",
       "poseAndExpression": "Seated on a golden throne, one paw raised in dismissal, utterly unimpressed",
       "backgroundScene": "A grand throne hall with stained-glass windows and heraldic banners",
       "flavourText": "She has never once been told no. She would not hear it anyway.",
       "stats": {
-        "Valour": 7,
-        "Cunning": 9,
+        "Valour": 1,
+        "Cunning": 5,
         "Nobility": 10,
-        "Nap Power": 9
+        "Nap Power": 4
       },
       "image": "./cards/queen-fluffington.png",
       "imageSmall": "./cards/queen-fluffington-small.webp"
@@ -129,16 +121,15 @@
       "id": "jester-tumblepaws",
       "name": "Jester Tumblepaws",
       "cardNumber": 4,
-      "rarity": "Common",
       "character": "A calico cat jester in a crimson and gold motley suit with a three-pointed belled hat",
       "poseAndExpression": "Balancing on one back paw while juggling three balls of yarn, grinning slyly",
       "backgroundScene": "A busy banquet hall with long tables and amused nobles",
       "flavourText": "Laughs at the king's jokes. Tells better ones when he leaves.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 7,
-        "Nobility": 3,
-        "Nap Power": 5
+        "Valour": 3,
+        "Cunning": 9,
+        "Nobility": 1,
+        "Nap Power": 7
       },
       "image": "./cards/jester-tumblepaws.png",
       "imageSmall": "./cards/jester-tumblepaws-small.webp"
@@ -147,16 +138,15 @@
       "id": "friar-tuna",
       "name": "Friar Tuna",
       "cardNumber": 5,
-      "rarity": "Rare",
       "character": "A plump tabby monk cat in a brown habit with a rope belt and a neat tonsure between the ears",
       "poseAndExpression": "Blissfully holding up a whole fish with both paws, eyes closed",
       "backgroundScene": "A candlelit monastery kitchen with hanging herbs and barrels",
       "flavourText": "Took a vow of silence, broken daily at dinner time.",
       "stats": {
-        "Valour": 5,
-        "Cunning": 4,
-        "Nobility": 5,
-        "Nap Power": 9
+        "Valour": 4,
+        "Cunning": 3,
+        "Nobility": 3,
+        "Nap Power": 10
       },
       "image": "./cards/friar-tuna.png",
       "imageSmall": "./cards/friar-tuna-small.webp"
@@ -165,16 +155,15 @@
       "id": "lady-mittens-the-bold",
       "name": "Lady Mittens the Bold",
       "cardNumber": 6,
-      "rarity": "Rare",
       "character": "A black cat with white paws in a green velvet gown worn over chain mail, a longsword at her hip",
       "poseAndExpression": "Striding forward with her skirts hitched up, chin high, eyes narrowed",
       "backgroundScene": "A misty castle drawbridge at dawn with crows on the battlements",
       "flavourText": "Came to the ball in chain mail. Left with three duchies.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 7,
+        "Valour": 6,
+        "Cunning": 5,
         "Nobility": 8,
-        "Nap Power": 3
+        "Nap Power": 1
       },
       "image": "./cards/lady-mittens-the-bold.png",
       "imageSmall": "./cards/lady-mittens-the-bold-small.webp"
@@ -183,16 +172,15 @@
       "id": "archer-fletchwhisker",
       "name": "Archer Fletchwhisker",
       "cardNumber": 7,
-      "rarity": "Common",
       "character": "A lean brown tabby archer in a forest-green hood and leather jerkin with a longbow and quiver",
       "poseAndExpression": "Drawing the bow with one eye shut, tail held perfectly still",
       "backgroundScene": "A dense stylised forest of flat green trees with a straw target",
       "flavourText": "Has never missed a target. Has often ignored one.",
       "stats": {
-        "Valour": 5,
-        "Cunning": 6,
-        "Nobility": 2,
-        "Nap Power": 4
+        "Valour": 7,
+        "Cunning": 8,
+        "Nobility": 3,
+        "Nap Power": 2
       },
       "image": "./cards/archer-fletchwhisker.png",
       "imageSmall": "./cards/archer-fletchwhisker-small.webp"
@@ -201,16 +189,15 @@
       "id": "king-mewdred-the-mild",
       "name": "King Mewdred the Mild",
       "cardNumber": 8,
-      "rarity": "Rare",
       "character": "An old, fat grey British shorthair king in a crimson robe, with a crown slipping over one eye",
       "poseAndExpression": "Slumped sideways on a throne, half asleep, sceptre dangling from one paw",
       "backgroundScene": "A sunlit royal chamber with a sunbeam falling across the throne",
       "flavourText": "His reign is known as the Long Afternoon.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 3,
-        "Nobility": 9,
-        "Nap Power": 10
+        "Valour": 1,
+        "Cunning": 2,
+        "Nobility": 8,
+        "Nap Power": 9
       },
       "image": "./cards/king-mewdred-the-mild.png",
       "imageSmall": "./cards/king-mewdred-the-mild-small.webp"
@@ -219,16 +206,15 @@
       "id": "baker-biscuit",
       "name": "Baker Biscuit",
       "cardNumber": 9,
-      "rarity": "Common",
       "character": "A cream-coloured cat baker in a flour-dusted apron and a floppy linen cap",
       "poseAndExpression": "Kneading dough rhythmically with both front paws, eyes half shut in bliss",
       "backgroundScene": "A warm stone bakery with a glowing brick oven and loaves on shelves",
       "flavourText": "Makes biscuits all day. Nobody has ever had to teach her.",
       "stats": {
         "Valour": 2,
-        "Cunning": 2,
-        "Nobility": 3,
-        "Nap Power": 7
+        "Cunning": 4,
+        "Nobility": 5,
+        "Nap Power": 9
       },
       "image": "./cards/baker-biscuit.png",
       "imageSmall": "./cards/baker-biscuit-small.webp"
@@ -237,16 +223,15 @@
       "id": "blacksmith-claw",
       "name": "Blacksmith Claw",
       "cardNumber": 10,
-      "rarity": "Common",
       "character": "A massive scarred grey tomcat blacksmith in a leather apron with a heavy hammer",
       "poseAndExpression": "Hammering a glowing horseshoe on an anvil, jaw set, sparks flying",
       "backgroundScene": "A dark forge with glowing coals, bellows and rows of iron tools",
       "flavourText": "Forged a sword so sharp it cut the conversation short.",
       "stats": {
-        "Valour": 7,
+        "Valour": 10,
         "Cunning": 2,
         "Nobility": 2,
-        "Nap Power": 4
+        "Nap Power": 6
       },
       "image": "./cards/blacksmith-claw.png",
       "imageSmall": "./cards/blacksmith-claw-small.webp"
@@ -255,16 +240,15 @@
       "id": "the-black-knight-of-nine-lives",
       "name": "The Black Knight of Nine Lives",
       "cardNumber": 11,
-      "rarity": "Legendary",
       "character": "An enormous black cat knight in spiked jet-black plate armour with a tattered crimson cloak and glowing gold eyes",
       "poseAndExpression": "Standing in a wide stance with a two-handed greatsword planted in the ground, unblinking",
       "backgroundScene": "A burning battlefield at dusk with broken lances and circling crows",
       "flavourText": "Has died eight times. Found all of them restful.",
       "stats": {
         "Valour": 10,
-        "Cunning": 7,
-        "Nobility": 6,
-        "Nap Power": 8
+        "Cunning": 5,
+        "Nobility": 3,
+        "Nap Power": 2
       },
       "image": "./cards/the-black-knight-of-nine-lives.png",
       "imageSmall": "./cards/the-black-knight-of-nine-lives-small.webp"
@@ -273,16 +257,15 @@
       "id": "sister-purrpetua",
       "name": "Sister Purrpetua",
       "cardNumber": 12,
-      "rarity": "Common",
       "character": "A thin Siamese nun cat in a black and white wimple with a rosary and a heavy book",
       "poseAndExpression": "Peering over the book with a look of total disapproval, tail flicking",
       "backgroundScene": "A quiet cloister garden with stone arches and neat herb beds",
       "flavourText": "Sees all you have done. Writes it all down.",
       "stats": {
-        "Valour": 3,
-        "Cunning": 7,
-        "Nobility": 5,
-        "Nap Power": 4
+        "Valour": 2,
+        "Cunning": 9,
+        "Nobility": 7,
+        "Nap Power": 2
       },
       "image": "./cards/sister-purrpetua.png",
       "imageSmall": "./cards/sister-purrpetua-small.webp"
@@ -291,16 +274,15 @@
       "id": "merlynx-the-wise",
       "name": "Merlynx the Wise",
       "cardNumber": 13,
-      "rarity": "Legendary",
       "character": "An ancient long-bearded grey lynx wizard in a star-covered royal-blue robe and a tall pointed hat, holding a gnarled staff",
       "poseAndExpression": "Conjuring a swirl of gold stars from one paw, one eyebrow raised",
       "backgroundScene": "A cluttered round tower study with scrolls, potions and a brass orrery",
       "flavourText": "Saw this card coming. Has already forgiven you.",
       "stats": {
-        "Valour": 5,
-        "Cunning": 10,
-        "Nobility": 8,
-        "Nap Power": 7
+        "Valour": 2,
+        "Cunning": 9,
+        "Nobility": 7,
+        "Nap Power": 2
       },
       "image": "./cards/merlynx-the-wise.png",
       "imageSmall": "./cards/merlynx-the-wise-small.webp"
@@ -309,16 +291,15 @@
       "id": "page-boy-pounce",
       "name": "Page Boy Pounce",
       "cardNumber": 14,
-      "rarity": "Common",
       "character": "A small orange kitten page in a blue and gold tabard and a feathered cap, holding a scroll",
       "poseAndExpression": "Sprinting flat out mid-leap, scroll in mouth, ears flat back",
       "backgroundScene": "A winding castle staircase with torches and tapestries",
       "flavourText": "Delivers messages quickly, then knocks them off the table.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 5,
+        "Valour": 4,
+        "Cunning": 6,
         "Nobility": 2,
-        "Nap Power": 3
+        "Nap Power": 8
       },
       "image": "./cards/page-boy-pounce.png",
       "imageSmall": "./cards/page-boy-pounce-small.webp"
@@ -327,16 +308,15 @@
       "id": "duchess-velvet-paws",
       "name": "Duchess Velvet Paws",
       "cardNumber": 15,
-      "rarity": "Rare",
       "character": "A slender smoke-grey Russian Blue cat duchess in a crimson gown with a tall pointed hennin veil",
       "poseAndExpression": "Sipping from a golden goblet, eyes sliding sideways with a knowing smile",
       "backgroundScene": "A candlelit castle gallery with whispering courtiers in the shadows",
       "flavourText": "Three husbands. Three accidents. One very good alibi.",
       "stats": {
-        "Valour": 3,
+        "Valour": 1,
         "Cunning": 10,
-        "Nobility": 9,
-        "Nap Power": 5
+        "Nobility": 8,
+        "Nap Power": 1
       },
       "image": "./cards/duchess-velvet-paws.png",
       "imageSmall": "./cards/duchess-velvet-paws-small.webp"
@@ -345,16 +325,15 @@
       "id": "sir-cattimore-the-round",
       "name": "Sir Cattimore the Round",
       "cardNumber": 16,
-      "rarity": "Common",
       "character": "A very fat orange cat knight whose plate armour barely closes, with a chicken leg in one paw",
       "poseAndExpression": "Riding a tiny exhausted donkey, chewing happily, visor up",
       "backgroundScene": "A dusty country road beside a roadside inn with a hanging sign",
       "flavourText": "Undefeated at the banquet table. Rarely seen anywhere else.",
       "stats": {
-        "Valour": 4,
-        "Cunning": 2,
-        "Nobility": 5,
-        "Nap Power": 8
+        "Valour": 6,
+        "Cunning": 1,
+        "Nobility": 4,
+        "Nap Power": 9
       },
       "image": "./cards/sir-cattimore-the-round.png",
       "imageSmall": "./cards/sir-cattimore-the-round-small.webp"
@@ -363,16 +342,15 @@
       "id": "executioner-hush",
       "name": "Executioner Hush",
       "cardNumber": 17,
-      "rarity": "Rare",
       "character": "A huge silent charcoal cat in a black hood with eye holes, carrying a very large wooden mallet",
       "poseAndExpression": "Standing perfectly still with arms folded, staring straight ahead",
       "backgroundScene": "A foggy castle courtyard with a stone wall and a single raven",
       "flavourText": "Nobody knows who he is. Everybody moves out of his sunbeam.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 4,
-        "Nobility": 2,
-        "Nap Power": 6
+        "Valour": 10,
+        "Cunning": 1,
+        "Nobility": 1,
+        "Nap Power": 8
       },
       "image": "./cards/executioner-hush.png",
       "imageSmall": "./cards/executioner-hush-small.webp"
@@ -381,16 +359,15 @@
       "id": "minstrel-yowlin-wyn",
       "name": "Minstrel Yowlin' Wyn",
       "cardNumber": 18,
-      "rarity": "Common",
       "character": "A scruffy tuxedo cat minstrel in a patched green tunic with a feathered cap and a lute",
       "poseAndExpression": "Singing at full volume with eyes shut and mouth wide, plucking the lute",
       "backgroundScene": "A moonlit castle wall below an open window, with an old boot flying past",
       "flavourText": "Sings under your window at three in the morning, as a service.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 4,
-        "Nobility": 2,
-        "Nap Power": 3
+        "Valour": 7,
+        "Cunning": 8,
+        "Nobility": 4,
+        "Nap Power": 1
       },
       "image": "./cards/minstrel-yowlin-wyn.png",
       "imageSmall": "./cards/minstrel-yowlin-wyn-small.webp"
@@ -399,7 +376,6 @@
       "id": "abbot-snoozewell",
       "name": "Abbot Snoozewell",
       "cardNumber": 19,
-      "rarity": "Common",
       "character": "An elderly white monk cat in a heavy black habit with a large copper tonsure patch",
       "poseAndExpression": "Asleep upright in a carved choir stall, with a small bubble at his nose",
       "backgroundScene": "A dim abbey choir with tall candles and carved stone saints",
@@ -417,16 +393,15 @@
       "id": "lady-guinevere-longtail",
       "name": "Lady Guinevere Longtail",
       "cardNumber": 20,
-      "rarity": "Rare",
       "character": "A graceful silver tabby lady in a pale blue gown and a gold circlet, with an extremely long tail",
       "poseAndExpression": "Leaning from a tower window with her tail hanging down to the ground like a rope",
       "backgroundScene": "A tall castle tower above a rose garden, with a knight cat climbing the tail",
       "flavourText": "Nobody climbs this tail without an appointment.",
       "stats": {
-        "Valour": 4,
-        "Cunning": 7,
-        "Nobility": 9,
-        "Nap Power": 5
+        "Valour": 3,
+        "Cunning": 6,
+        "Nobility": 10,
+        "Nap Power": 1
       },
       "image": "./cards/lady-guinevere-longtail.png",
       "imageSmall": "./cards/lady-guinevere-longtail-small.webp"
@@ -435,16 +410,15 @@
       "id": "sir-hiss-a-lot",
       "name": "Sir Hiss-a-Lot",
       "cardNumber": 21,
-      "rarity": "Common",
       "character": "A bristling puffed-up tortoiseshell knight in mismatched armour with a very small sword",
       "poseAndExpression": "Arched up on tiptoes with his fur on end, hissing at the viewer",
       "backgroundScene": "A narrow wooden bridge over a stream with a bored goose nearby",
       "flavourText": "Lost his only duel to a cucumber.",
       "stats": {
-        "Valour": 6,
-        "Cunning": 2,
+        "Valour": 9,
+        "Cunning": 1,
         "Nobility": 3,
-        "Nap Power": 3
+        "Nap Power": 7
       },
       "image": "./cards/sir-hiss-a-lot.png",
       "imageSmall": "./cards/sir-hiss-a-lot-small.webp"
@@ -453,16 +427,15 @@
       "id": "falconer-featherbane",
       "name": "Falconer Featherbane",
       "cardNumber": 22,
-      "rarity": "Rare",
       "character": "A sharp-eyed Bengal cat falconer in a leather jerkin with a heavy gauntlet and a nervous falcon on it",
       "poseAndExpression": "Staring hungrily at the falcon on his wrist, licking his lips",
       "backgroundScene": "A windswept hillside with a distant castle and flat, swirling clouds",
       "flavourText": "Has lost eleven falcons. Not one of them flew away.",
       "stats": {
         "Valour": 6,
-        "Cunning": 8,
-        "Nobility": 4,
-        "Nap Power": 4
+        "Cunning": 9,
+        "Nobility": 2,
+        "Nap Power": 3
       },
       "image": "./cards/falconer-featherbane.png",
       "imageSmall": "./cards/falconer-featherbane-small.webp"
@@ -471,16 +444,15 @@
       "id": "treasurer-goldpaw",
       "name": "Treasurer Goldpaw",
       "cardNumber": 23,
-      "rarity": "Common",
       "character": "A narrow-faced thin grey cat in a dark robe with a chain of gold keys and an abacus",
       "poseAndExpression": "Pushing a single coin off the edge of a desk with one claw, staring at the viewer",
       "backgroundScene": "A stone counting house with chests of coins and stacks of ledgers",
       "flavourText": "The royal treasure is safe. It is mostly under the bed.",
       "stats": {
         "Valour": 1,
-        "Cunning": 8,
+        "Cunning": 9,
         "Nobility": 6,
-        "Nap Power": 5
+        "Nap Power": 4
       },
       "image": "./cards/treasurer-goldpaw.png",
       "imageSmall": "./cards/treasurer-goldpaw-small.webp"
@@ -489,16 +461,15 @@
       "id": "sir-lancelittle",
       "name": "Sir Lancelittle",
       "cardNumber": 24,
-      "rarity": "Common",
       "character": "A tiny kitten knight in full plate armour far too big, with a lance three times his length",
       "poseAndExpression": "Wobbling on a very fat hen as a steed, lance drooping, determined stare",
       "backgroundScene": "A jousting list with a laughing crowd under striped canopies",
       "flavourText": "What he lacks in height, he also lacks in reach.",
       "stats": {
-        "Valour": 6,
-        "Cunning": 3,
-        "Nobility": 4,
-        "Nap Power": 5
+        "Valour": 9,
+        "Cunning": 2,
+        "Nobility": 3,
+        "Nap Power": 6
       },
       "image": "./cards/sir-lancelittle.png",
       "imageSmall": "./cards/sir-lancelittle-small.webp"
@@ -507,16 +478,15 @@
       "id": "princess-pouncealot",
       "name": "Princess Pouncealot",
       "cardNumber": 25,
-      "rarity": "Rare",
       "character": "A young tawny cat princess in a crimson gown with a small crown askew and a wooden sword",
       "poseAndExpression": "Leaping from a banister with the sword raised and skirts flying, delighted",
       "backgroundScene": "A grand castle staircase with shocked servants and a falling suit of armour",
       "flavourText": "Fifth in line for the throne. Working on it.",
       "stats": {
         "Valour": 7,
-        "Cunning": 7,
-        "Nobility": 8,
-        "Nap Power": 2
+        "Cunning": 3,
+        "Nobility": 9,
+        "Nap Power": 1
       },
       "image": "./cards/princess-pouncealot.png",
       "imageSmall": "./cards/princess-pouncealot-small.webp"
@@ -525,16 +495,15 @@
       "id": "thief-of-the-larder",
       "name": "Thief of the Larder",
       "cardNumber": 26,
-      "rarity": "Rare",
       "character": "A sleek black cat rogue in a dark hood and mask with a sack over one shoulder and fish bones in his teeth",
       "poseAndExpression": "Tiptoeing along a high shelf, one paw raised, eyes wide, frozen mid-step",
       "backgroundScene": "A dark castle pantry with hanging hams, cheese wheels and barrels",
       "flavourText": "Stole the crown jewels by accident on the way to the ham.",
       "stats": {
-        "Valour": 4,
-        "Cunning": 9,
+        "Valour": 3,
+        "Cunning": 10,
         "Nobility": 1,
-        "Nap Power": 4
+        "Nap Power": 6
       },
       "image": "./cards/thief-of-the-larder.png",
       "imageSmall": "./cards/thief-of-the-larder-small.webp"
@@ -543,16 +512,15 @@
       "id": "alchemist-catnippus",
       "name": "Alchemist Catnippus",
       "cardNumber": 27,
-      "rarity": "Rare",
       "character": "A wild-eyed striped cat alchemist in a singed purple-blue robe with goggles and bubbling flasks",
       "poseAndExpression": "Sniffing a smoking green flask, pupils enormous, swaying slightly",
       "backgroundScene": "A vaulted cellar laboratory with copper stills and shelves of dried herbs",
       "flavourText": "Sought the secret of gold. Found catnip. Stopped looking.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 8,
-        "Nobility": 5,
-        "Nap Power": 7
+        "Valour": 1,
+        "Cunning": 7,
+        "Nobility": 4,
+        "Nap Power": 8
       },
       "image": "./cards/alchemist-catnippus.png",
       "imageSmall": "./cards/alchemist-catnippus-small.webp"
@@ -561,16 +529,15 @@
       "id": "sir-gawain-the-grumpy",
       "name": "Sir Gawain the Grumpy",
       "cardNumber": 28,
-      "rarity": "Rare",
       "character": "A flat-faced grey Persian knight in heavy gold-trimmed plate with a permanent scowl",
       "poseAndExpression": "Sitting on a mounting block with arms crossed, sword across his knees, glaring",
       "backgroundScene": "A rainy castle courtyard with one small puddle and a soggy banner",
       "flavourText": "Has been in a bad mood since the Third Crusade.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 3,
+        "Valour": 9,
+        "Cunning": 2,
         "Nobility": 7,
-        "Nap Power": 6
+        "Nap Power": 2
       },
       "image": "./cards/sir-gawain-the-grumpy.png",
       "imageSmall": "./cards/sir-gawain-the-grumpy-small.webp"
@@ -579,14 +546,13 @@
       "id": "royal-food-taster-nibbs",
       "name": "Royal Food Taster Nibbs",
       "cardNumber": 29,
-      "rarity": "Common",
       "character": "A plump anxious brown tabby in a crimson and gold servant's tabard with a silver spoon",
       "poseAndExpression": "Tasting from a huge silver platter while eyeing the nobles nervously",
       "backgroundScene": "A long royal banquet table piled with roast fish and pies",
       "flavourText": "It is a dangerous job. He has asked for more of it.",
       "stats": {
-        "Valour": 3,
-        "Cunning": 4,
+        "Valour": 8,
+        "Cunning": 3,
         "Nobility": 3,
         "Nap Power": 6
       },
@@ -597,16 +563,15 @@
       "id": "gatekeeper-old-tom",
       "name": "Gatekeeper Old Tom",
       "cardNumber": 30,
-      "rarity": "Common",
       "character": "A battered one-eared old ginger tom guard in rusty chain mail with a tall halberd and a ring of keys",
       "poseAndExpression": "Leaning on the halberd beside an open door, looking in and then out again",
       "backgroundScene": "A huge castle gatehouse with a raised portcullis and a drawbridge",
       "flavourText": "Wants in. Wants out. Wants in. The gate has not shut since spring.",
       "stats": {
-        "Valour": 5,
+        "Valour": 7,
         "Cunning": 3,
-        "Nobility": 2,
-        "Nap Power": 7
+        "Nobility": 1,
+        "Nap Power": 9
       },
       "image": "./cards/gatekeeper-old-tom.png",
       "imageSmall": "./cards/gatekeeper-old-tom-small.webp"
@@ -615,16 +580,15 @@
       "id": "bishop-bartholomew-bigwhiskers",
       "name": "Bishop Bartholomew Bigwhiskers",
       "cardNumber": 31,
-      "rarity": "Rare",
       "character": "A dignified long-whiskered white and black cat bishop in gold-embroidered vestments with a tall mitre and crook",
       "poseAndExpression": "Giving a solemn blessing with one paw, whiskers spread magnificently",
       "backgroundScene": "A soaring cathedral nave with rose windows casting flat coloured light",
       "flavourText": "Blesses the faithful, then knocks over the holy water.",
       "stats": {
-        "Valour": 3,
-        "Cunning": 7,
-        "Nobility": 9,
-        "Nap Power": 6
+        "Valour": 2,
+        "Cunning": 6,
+        "Nobility": 10,
+        "Nap Power": 2
       },
       "image": "./cards/bishop-bartholomew-bigwhiskers.png",
       "imageSmall": "./cards/bishop-bartholomew-bigwhiskers-small.webp"
@@ -633,15 +597,14 @@
       "id": "lord-reginald-fishbone",
       "name": "Lord Reginald Fishbone",
       "cardNumber": 32,
-      "rarity": "Common",
       "character": "A scrawny, proud cat lord in a threadbare crimson doublet, a chipped coronet and a fish-bone brooch",
       "poseAndExpression": "Holding up one paw in lofty refusal of a crust of bread, ribs showing",
       "backgroundScene": "A crumbling manor hall with holes in the roof and one sad tapestry",
       "flavourText": "His lands are vast. They are mostly bog.",
       "stats": {
-        "Valour": 3,
-        "Cunning": 5,
-        "Nobility": 6,
+        "Valour": 2,
+        "Cunning": 6,
+        "Nobility": 9,
         "Nap Power": 3
       },
       "image": "./cards/lord-reginald-fishbone.png",
@@ -651,16 +614,15 @@
       "id": "lady-foldington",
       "name": "Lady Foldington",
       "cardNumber": 33,
-      "rarity": "Common",
       "character": "A round-faced Scottish fold cat lady with tiny folded ears, a tall headdress and a brocade gown",
       "poseAndExpression": "Peering down her nose from a carriage window, ears flat, mildly appalled",
       "backgroundScene": "A muddy village street with a fine gilded carriage and staring peasants",
       "flavourText": "The ears are folded in permanent disapproval.",
       "stats": {
-        "Valour": 2,
-        "Cunning": 6,
-        "Nobility": 8,
-        "Nap Power": 5
+        "Valour": 1,
+        "Cunning": 7,
+        "Nobility": 9,
+        "Nap Power": 3
       },
       "image": "./cards/lady-foldington.png",
       "imageSmall": "./cards/lady-foldington-small.webp"
@@ -669,16 +631,15 @@
       "id": "sir-tristan-tailchaser",
       "name": "Sir Tristan Tailchaser",
       "cardNumber": 34,
-      "rarity": "Common",
       "character": "A young lean cream tabby knight in light armour with a crimson plume, tail held in one gauntlet",
       "poseAndExpression": "Spinning in circles mid-charge, staring at his own tail with deep suspicion",
       "backgroundScene": "A tournament field with an astonished opponent cat knight on horseback",
       "flavourText": "Finally caught his nemesis. It was attached.",
       "stats": {
-        "Valour": 6,
-        "Cunning": 1,
-        "Nobility": 4,
-        "Nap Power": 4
+        "Valour": 9,
+        "Cunning": 0,
+        "Nobility": 5,
+        "Nap Power": 6
       },
       "image": "./cards/sir-tristan-tailchaser.png",
       "imageSmall": "./cards/sir-tristan-tailchaser-small.webp"
@@ -687,15 +648,14 @@
       "id": "the-dragon-slayer-cat",
       "name": "The Dragon-Slayer Cat",
       "cardNumber": 35,
-      "rarity": "Legendary",
       "character": "A broad, heroic marmalade cat in gleaming gold and silver armour with a blue cape and a notched sword",
       "poseAndExpression": "Standing with one foot on a sleeping small green dragon, using it as a warm bed",
       "backgroundScene": "A smoking mountain cave entrance littered with gold coins and helmets",
       "flavourText": "Did not slay the dragon. Just made it move over.",
       "stats": {
-        "Valour": 10,
-        "Cunning": 6,
-        "Nobility": 7,
+        "Valour": 7,
+        "Cunning": 2,
+        "Nobility": 2,
         "Nap Power": 9
       },
       "image": "./cards/the-dragon-slayer-cat.png",
@@ -705,16 +665,15 @@
       "id": "peasant-muddypaws",
       "name": "Peasant Muddypaws",
       "cardNumber": 36,
-      "rarity": "Common",
       "character": "A scruffy mud-splattered tabby peasant in a sackcloth tunic with a wooden rake",
       "poseAndExpression": "Standing ankle deep in a muddy field, glaring at the viewer, shaking one paw dry",
       "backgroundScene": "A flat strip-farmed medieval field with a distant castle and a grey sky",
       "flavourText": "Pays a tax of one mouse a month. Disputes the size of the mouse.",
       "stats": {
-        "Valour": 4,
-        "Cunning": 4,
+        "Valour": 7,
+        "Cunning": 8,
         "Nobility": 0,
-        "Nap Power": 4
+        "Nap Power": 5
       },
       "image": "./cards/peasant-muddypaws.png",
       "imageSmall": "./cards/peasant-muddypaws-small.webp"
@@ -723,16 +682,15 @@
       "id": "ratcatcher-general",
       "name": "Ratcatcher General",
       "cardNumber": 37,
-      "rarity": "Rare",
       "character": "A stocky scarred tabby in a battered steel helmet with medals on a leather sash and a very small map",
       "poseAndExpression": "Pointing at a tiny map with a dagger, one eye closed, barking orders",
       "backgroundScene": "A torchlit castle cellar with barrels and very nervous tiny rat eyes in the dark",
       "flavourText": "Has won every war he has ever declared on a mouse.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 7,
-        "Nobility": 5,
-        "Nap Power": 3
+        "Valour": 9,
+        "Cunning": 8,
+        "Nobility": 2,
+        "Nap Power": 1
       },
       "image": "./cards/ratcatcher-general.png",
       "imageSmall": "./cards/ratcatcher-general-small.webp"
@@ -741,16 +699,15 @@
       "id": "queen-maine-the-coon",
       "name": "Queen Maine the Coon",
       "cardNumber": 38,
-      "rarity": "Legendary",
       "character": "A gigantic shaggy brown Maine Coon warrior queen in bronze-trimmed armour with a fur cloak and a battle axe",
       "poseAndExpression": "Towering over tiny cat soldiers, axe on one shoulder, calm and amused",
       "backgroundScene": "A snowy northern fortress with banners whipping in the wind",
       "flavourText": "Her army numbers one. It has always been enough.",
       "stats": {
-        "Valour": 10,
-        "Cunning": 6,
+        "Valour": 9,
+        "Cunning": 1,
         "Nobility": 10,
-        "Nap Power": 6
+        "Nap Power": 0
       },
       "image": "./cards/queen-maine-the-coon.png",
       "imageSmall": "./cards/queen-maine-the-coon-small.webp"
@@ -759,16 +716,15 @@
       "id": "scribe-inkpaw",
       "name": "Scribe Inkpaw",
       "cardNumber": 39,
-      "rarity": "Common",
       "character": "A meek bespectacled grey and white cat scribe in a brown robe with a quill and ink-stained paws",
       "poseAndExpression": "Bent over a manuscript, a trail of inky paw prints running right across the page",
       "backgroundScene": "A monastery scriptorium with sloped desks and bright illuminated pages",
       "flavourText": "Every illuminated manuscript has one mistake. His are paw-shaped.",
       "stats": {
         "Valour": 1,
-        "Cunning": 5,
-        "Nobility": 4,
-        "Nap Power": 5
+        "Cunning": 7,
+        "Nobility": 3,
+        "Nap Power": 9
       },
       "image": "./cards/scribe-inkpaw.png",
       "imageSmall": "./cards/scribe-inkpaw-small.webp"
@@ -777,14 +733,13 @@
       "id": "pirate-knight-sir-barnacle",
       "name": "Pirate Knight Sir Barnacle",
       "cardNumber": 40,
-      "rarity": "Common",
       "character": "A salt-crusted grey cat knight with an eye patch, rusty armour with barnacles and a fish on his sword",
       "poseAndExpression": "Standing on a small wooden rowboat, sword raised, soaking wet and furious",
       "backgroundScene": "A choppy flat-painted sea with stylised waves and a distant castle",
       "flavourText": "Hates the water. Chose this life to spite it.",
       "stats": {
-        "Valour": 6,
-        "Cunning": 4,
+        "Valour": 8,
+        "Cunning": 7,
         "Nobility": 2,
         "Nap Power": 3
       },
@@ -795,16 +750,15 @@
       "id": "lady-isolde-moonwhisker",
       "name": "Lady Isolde Moonwhisker",
       "cardNumber": 41,
-      "rarity": "Rare",
       "character": "An ethereal pale grey cat lady in a dark blue gown scattered with silver stars and a long silver veil",
       "poseAndExpression": "Standing on a rooftop, gazing up at the moon, tail curled, and quietly yowling",
       "backgroundScene": "A moonlit castle rooftop with chimneys, stars and a huge pale moon",
       "flavourText": "Her song has ended three wars and started four.",
       "stats": {
-        "Valour": 4,
-        "Cunning": 8,
-        "Nobility": 8,
-        "Nap Power": 6
+        "Valour": 2,
+        "Cunning": 7,
+        "Nobility": 10,
+        "Nap Power": 1
       },
       "image": "./cards/lady-isolde-moonwhisker.png",
       "imageSmall": "./cards/lady-isolde-moonwhisker-small.webp"
@@ -813,16 +767,15 @@
       "id": "sir-boots-the-unshod",
       "name": "Sir Boots the Unshod",
       "cardNumber": 42,
-      "rarity": "Common",
       "character": "A tuxedo cat knight with white socks, wearing full plate armour except for his bare paws",
       "poseAndExpression": "Stepping daintily through a puddle, one paw shaken high in disgust",
       "backgroundScene": "A rainy road with a wooden signpost and a muddy ditch",
       "flavourText": "Won't wear the boots. Won't discuss the boots.",
       "stats": {
-        "Valour": 5,
-        "Cunning": 4,
+        "Valour": 6,
+        "Cunning": 2,
         "Nobility": 4,
-        "Nap Power": 5
+        "Nap Power": 8
       },
       "image": "./cards/sir-boots-the-unshod.png",
       "imageSmall": "./cards/sir-boots-the-unshod-small.webp"
@@ -831,15 +784,14 @@
       "id": "hermit-of-the-crate-keep",
       "name": "Hermit of the Crate Keep",
       "cardNumber": 43,
-      "rarity": "Rare",
       "character": "A wise, shaggy old grey cat hermit in a rough hooded robe, sitting in a small keep made of a wooden crate",
       "poseAndExpression": "Squeezed tightly inside the crate with only his head showing, serene",
       "backgroundScene": "A lonely misty hilltop with a single twisted tree and a far-off castle",
       "flavourText": "If it fits, he sits. So say the ancient scrolls.",
       "stats": {
-        "Valour": 2,
+        "Valour": 1,
         "Cunning": 8,
-        "Nobility": 4,
+        "Nobility": 1,
         "Nap Power": 10
       },
       "image": "./cards/hermit-of-the-crate-keep.png",
@@ -849,15 +801,14 @@
       "id": "crown-prince-fluffbottom",
       "name": "Crown Prince Fluffbottom",
       "cardNumber": 44,
-      "rarity": "Common",
       "character": "A vain young long-haired golden cat prince in a blue doublet with a small crown and enormous fluffy trousers of fur",
       "poseAndExpression": "Admiring himself in a polished shield, turning to check his rear, pleased",
       "backgroundScene": "A royal dressing room with velvet drapes and a fussing servant cat",
       "flavourText": "Will one day rule. Has already chosen the mirror.",
       "stats": {
-        "Valour": 2,
+        "Valour": 1,
         "Cunning": 3,
-        "Nobility": 8,
+        "Nobility": 10,
         "Nap Power": 6
       },
       "image": "./cards/crown-prince-fluffbottom.png",
@@ -867,16 +818,15 @@
       "id": "sir-pounce-de-lion",
       "name": "Sir Pounce de Lion",
       "cardNumber": 45,
-      "rarity": "Rare",
       "character": "A cat knight with a huge home-made mane of straw tied round his head, in gold armour with a lion shield",
       "poseAndExpression": "Roaring silently with mouth wide open and chest out, mane slipping sideways",
       "backgroundScene": "A golden tournament field with heraldic lion banners and a yawning crowd",
       "flavourText": "Fools no one. Terrifies everyone anyway.",
       "stats": {
-        "Valour": 9,
-        "Cunning": 5,
-        "Nobility": 6,
-        "Nap Power": 4
+        "Valour": 10,
+        "Cunning": 3,
+        "Nobility": 5,
+        "Nap Power": 2
       },
       "image": "./cards/sir-pounce-de-lion.png",
       "imageSmall": "./cards/sir-pounce-de-lion-small.webp"
@@ -885,16 +835,15 @@
       "id": "sir-mordecat-the-traitor",
       "name": "Sir Mordecat the Traitor",
       "cardNumber": 46,
-      "rarity": "Rare",
       "character": "A thin sneering dark grey cat knight in black and crimson armour with a hidden dagger behind his back",
       "poseAndExpression": "Bowing low to an unseen king, smiling with all his teeth, dagger gripped behind him",
       "backgroundScene": "A shadowy throne room behind a pillar, with torches and a long red carpet",
       "flavourText": "Swore loyalty on Tuesday. It is now Wednesday.",
       "stats": {
-        "Valour": 6,
-        "Cunning": 9,
+        "Valour": 5,
+        "Cunning": 8,
         "Nobility": 6,
-        "Nap Power": 3
+        "Nap Power": 1
       },
       "image": "./cards/sir-mordecat-the-traitor.png",
       "imageSmall": "./cards/sir-mordecat-the-traitor-small.webp"
@@ -903,7 +852,6 @@
       "id": "the-green-knight",
       "name": "The Green Knight",
       "cardNumber": 47,
-      "rarity": "Legendary",
       "character": "A giant moss-green furred cat knight in green leaf armour with a tail of ivy and a great axe of wood and gold",
       "poseAndExpression": "Holding his helmet under one arm, staring knowingly at the viewer",
       "backgroundScene": "An ancient forest chapel overgrown with flat green vines and white flowers",
@@ -911,8 +859,8 @@
       "stats": {
         "Valour": 9,
         "Cunning": 8,
-        "Nobility": 8,
-        "Nap Power": 6
+        "Nobility": 2,
+        "Nap Power": 1
       },
       "image": "./cards/the-green-knight.png",
       "imageSmall": "./cards/the-green-knight-small.webp"
@@ -921,16 +869,15 @@
       "id": "grand-vizier-slink",
       "name": "Grand Vizier Slink",
       "cardNumber": 48,
-      "rarity": "Rare",
       "character": "A long thin Oriental cat vizier in a tall dark hat and black and gold robes, with huge ears and a scroll of plots",
       "poseAndExpression": "Whispering into an unseen king's ear from behind a curtain, eyes gleaming",
       "backgroundScene": "A curtained royal chamber with gold lamps and hidden doors",
       "flavourText": "Everything he advises is for your own good. Everything.",
       "stats": {
-        "Valour": 2,
+        "Valour": 1,
         "Cunning": 10,
         "Nobility": 7,
-        "Nap Power": 4
+        "Nap Power": 2
       },
       "image": "./cards/grand-vizier-slink.png",
       "imageSmall": "./cards/grand-vizier-slink-small.webp"
@@ -939,16 +886,15 @@
       "id": "knight-errant-sir-stray",
       "name": "Knight Errant Sir Stray",
       "cardNumber": 49,
-      "rarity": "Rare",
       "character": "A scruffy, one-eyed brown cat knight in patched-up armour made of pots and pans, with a dented cooking-pot helmet",
       "poseAndExpression": "Sitting by a small campfire, cooking a fish on his sword, quietly content",
       "backgroundScene": "A lonely moonlit roadside camp with an old horse and a crooked milestone",
       "flavourText": "Has no lord, no lands, no home. Also, no regrets.",
       "stats": {
-        "Valour": 8,
-        "Cunning": 6,
-        "Nobility": 1,
-        "Nap Power": 7
+        "Valour": 6,
+        "Cunning": 5,
+        "Nobility": 0,
+        "Nap Power": 9
       },
       "image": "./cards/knight-errant-sir-stray.png",
       "imageSmall": "./cards/knight-errant-sir-stray-small.webp"
@@ -957,16 +903,15 @@
       "id": "arthur-the-once-and-future-cat",
       "name": "Arthur, the Once and Future Cat",
       "cardNumber": 50,
-      "rarity": "Legendary",
       "character": "A majestic golden-maned tabby king in silver armour with a blue and gold cloak, a gleaming crown and a glowing sword",
       "poseAndExpression": "Pulling a shining sword from a stone with one paw, while looking bored and yawning",
       "backgroundScene": "A misty sacred lake and standing stones, with a golden sunrise and a far castle on a hill",
       "flavourText": "He will return when the realm needs him, or at feeding time.",
       "stats": {
-        "Valour": 10,
-        "Cunning": 8,
+        "Valour": 8,
+        "Cunning": 1,
         "Nobility": 10,
-        "Nap Power": 10
+        "Nap Power": 1
       },
       "image": "./cards/arthur-the-once-and-future-cat.png",
       "imageSmall": "./cards/arthur-the-once-and-future-cat-small.webp"

@@ -65,7 +65,7 @@ Building the finished cards from the frame and art is free. `cards` builds every
 
 ### `cards[i]`
 
-`id`, `name`, `cardNumber`, `rarity`, `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (one value from 0 to 10 for each name in `set.statNames`). The art prompt uses `character`, `poseAndExpression` and `backgroundScene`. The text layer uses the other fields. After a card is built, the script writes its path to `image`.
+`id`, `name`, `cardNumber`, `rarity` (optional), `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (one value from 0 to 10 for each name in `set.statNames`). The art prompt uses `character`, `poseAndExpression` and `backgroundScene`. The text layer uses the other fields. If a card has no `rarity`, its rarity badge shows `set.name`. After a card is built, the script writes its path to `image`.
 
 ### `layout`
 
@@ -78,7 +78,7 @@ Building the finished cards from the frame and art is free. `cards` builds every
     "name":    { /* text box */ },
     "flavour": { /* text box */ },
     "number":  { /* text box: "#3 of 30" */ },
-    "rarity":  { /* text box: the rarity in capitals */ }
+    "rarity":  { /* text box: the rarity, or set name, in capitals */ }
   },
   "stats": [
     { "label": { /* text box */ }, "value": { /* text box */ } }

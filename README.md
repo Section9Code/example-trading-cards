@@ -14,7 +14,7 @@ A free set of AI-generated trading cards. Use them as test data for your apps, g
 | [season-4](season-4/) | Carcosa Rising | 50 | Madness, Dread, Power, Lore | Common (23), Rare (20), Legendary (7) |
 | [season-5](season-5/) | Barnyard Brawl | 40 | Strength, Show, Mud | Common (19), Rare (16), Legendary (5) |
 | [season-6](season-6/) | Fright Bites | 50, plus a rules card and a card back | Flavour, Menace, Fresh, Cook Speed, Eats You, Serves | Common (23), Rare (20), Legendary (7) |
-| [season-7](season-7/) | Cat Knights | 50, plus a rules card and a card back | Valour, Cunning, Nobility, Nap Power | Common (23), Rare (20), Legendary (7) |
+| [season-7](season-7/) | Cat Knights | 50, plus a rules card and a card back | Valour, Cunning, Nobility, Nap Power | None. Stats balanced for Top Trumps: each card totals 20 |
 | [season-8](season-8/) | War Dogs | 30, plus a card back | Bravery, Discipline, Bite | Common (14), Rare (12), Legendary (4) |
 
 ## How the cards were made
@@ -66,7 +66,7 @@ Each set folder contains:
       "id": "sir-clankalot",
       "name": "Sir Clankalot",
       "cardNumber": 1,
-      "rarity": "Rare",
+      "rarity": "Rare",    // optional; Season 7 has none
       "character": "...",
       "poseAndExpression": "...",
       "backgroundScene": "...",

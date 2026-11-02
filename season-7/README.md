@@ -3,7 +3,7 @@
 50 cards. Select a card to open the full-size image.
 
 - **Stats:** Valour, Cunning, Nobility, Nap Power
-- **Rarities:** Common (23), Rare (20), Legendary (7)
+- **Balance:** built for Top Trumps. Every card's stats add up to 20, with at least one stat of 8 or more and one of 3 or less, so every card can win a round and every card can lose one. The corner badge shows the set name instead of a rarity.
 - **Data:** [cards.json](cards.json)
 
 [Back to all sets](../README.md)
