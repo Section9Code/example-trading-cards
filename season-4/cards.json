@@ -39,10 +39,10 @@
       "backgroundScene": "A drowned city of impossible green-black angles breaking the surface of a heaving yellow-lit sea, its towers leaning wrongly, a sickly star above.",
       "flavourText": "That is not dead which can eternal lie.",
       "stats": {
-        "Madness": 9,
+        "Madness": 5,
         "Dread": 10,
-        "Power": 10,
-        "Lore": 6
+        "Power": 4,
+        "Lore": 1
       },
       "image": "./cards/great-cthulhu.png",
       "imageSmall": "./cards/great-cthulhu-small.webp"
@@ -57,10 +57,10 @@
       "backgroundScene": "A dim attic full of dusty books and a cracked round window glowing yellow.",
       "flavourText": "It has seen you. It will keep seeing you.",
       "stats": {
-        "Madness": 4,
-        "Dread": 3,
-        "Power": 2,
-        "Lore": 4
+        "Madness": 6,
+        "Dread": 4,
+        "Power": 1,
+        "Lore": 9
       },
       "image": "./cards/eyeling.png",
       "imageSmall": "./cards/eyeling-small.webp"
@@ -75,10 +75,10 @@
       "backgroundScene": "A bare room with an unsettling corner where the walls meet wrongly, the air rippling, sickly yellow light from a single lamp.",
       "flavourText": "Round your rooms. Round them well.",
       "stats": {
-        "Madness": 6,
-        "Dread": 8,
-        "Power": 6,
-        "Lore": 5
+        "Madness": 4,
+        "Dread": 9,
+        "Power": 4,
+        "Lore": 3
       },
       "image": "./cards/the-hounds-of-tindalos.png",
       "imageSmall": "./cards/the-hounds-of-tindalos-small.webp"
@@ -93,10 +93,10 @@
       "backgroundScene": "A narrow cobbled alley at night with crooked houses, yellow chalk triangles drawn on the doors.",
       "flavourText": "He has not stopped chanting since Tuesday.",
       "stats": {
-        "Madness": 5,
+        "Madness": 9,
         "Dread": 2,
         "Power": 2,
-        "Lore": 4
+        "Lore": 7
       },
       "image": "./cards/mumbling-acolyte.png",
       "imageSmall": "./cards/mumbling-acolyte-small.webp"
@@ -111,10 +111,10 @@
       "backgroundScene": "A stagnant marsh under a yellow moon, dead reeds, mist and crooked standing stones.",
       "flavourText": "Its song makes the frogs leave.",
       "stats": {
-        "Madness": 3,
-        "Dread": 4,
-        "Power": 3,
-        "Lore": 2
+        "Madness": 4,
+        "Dread": 8,
+        "Power": 5,
+        "Lore": 3
       },
       "image": "./cards/bile-toad.png",
       "imageSmall": "./cards/bile-toad-small.webp"
@@ -129,10 +129,10 @@
       "backgroundScene": "A blighted farm at night with grey dead crops, crumbling stone walls, warped trees and a farmhouse with one lit window.",
       "flavourText": "It came down in a stone. It never left.",
       "stats": {
-        "Madness": 9,
-        "Dread": 6,
-        "Power": 7,
-        "Lore": 3
+        "Madness": 10,
+        "Dread": 5,
+        "Power": 4,
+        "Lore": 1
       },
       "image": "./cards/the-colour-out-of-space.png",
       "imageSmall": "./cards/the-colour-out-of-space-small.webp"
@@ -147,10 +147,10 @@
       "backgroundScene": "The black, misty waters of a still lake reflecting twin pale suns.",
       "flavourText": "The lake is calm. The lake is never calm.",
       "stats": {
-        "Madness": 3,
-        "Dread": 5,
-        "Power": 2,
-        "Lore": 2
+        "Madness": 4,
+        "Dread": 9,
+        "Power": 3,
+        "Lore": 4
       },
       "image": "./cards/hali-eel.png",
       "imageSmall": "./cards/hali-eel-small.webp"
@@ -165,10 +165,10 @@
       "backgroundScene": "The black void at the centre of the universe, scattered with dying stars, nested glowing triangles and spiralling galaxies.",
       "flavourText": "Somewhere, the pipers must never stop playing.",
       "stats": {
-        "Madness": 10,
-        "Dread": 9,
+        "Madness": 2,
+        "Dread": 7,
         "Power": 10,
-        "Lore": 4
+        "Lore": 1
       },
       "image": "./cards/azathoth.png",
       "imageSmall": "./cards/azathoth-small.webp"
@@ -183,10 +183,10 @@
       "backgroundScene": "A ruined stone balcony at dusk with two pale suns sinking behind strange towers.",
       "flavourText": "It is drawn to light. It prefers the light behind your eyes.",
       "stats": {
-        "Madness": 4,
-        "Dread": 2,
-        "Power": 2,
-        "Lore": 3
+        "Madness": 6,
+        "Dread": 3,
+        "Power": 3,
+        "Lore": 8
       },
       "image": "./cards/lantern-moth-of-carcosa.png",
       "imageSmall": "./cards/lantern-moth-of-carcosa-small.webp"
@@ -201,10 +201,10 @@
       "backgroundScene": "The misty shore of the Lake of Hali, the towers of Carcosa behind the moons, cloud waves breaking.",
       "flavourText": "Songs that the Hyades shall sing, where flap the tatters of the King.",
       "stats": {
-        "Madness": 7,
-        "Dread": 4,
-        "Power": 6,
-        "Lore": 7
+        "Madness": 5,
+        "Dread": 1,
+        "Power": 5,
+        "Lore": 9
       },
       "image": "./cards/cassilda.png",
       "imageSmall": "./cards/cassilda-small.webp"
@@ -219,10 +219,10 @@
       "backgroundScene": "A cramped scholar's study crowded with candles, star charts and stacks of books, a window showing a yellow moon.",
       "flavourText": "Do not read it aloud. Do not read it at all.",
       "stats": {
-        "Madness": 6,
-        "Dread": 3,
-        "Power": 4,
-        "Lore": 9
+        "Madness": 5,
+        "Dread": 2,
+        "Power": 3,
+        "Lore": 10
       },
       "image": "./cards/whispering-grimoire.png",
       "imageSmall": "./cards/whispering-grimoire-small.webp"
@@ -237,10 +237,10 @@
       "backgroundScene": "A grand masquerade ballroom in yellow and black, dancers frozen in fear, a single shattered mirror.",
       "flavourText": "You wore a mask. I wear none.",
       "stats": {
-        "Madness": 8,
-        "Dread": 5,
-        "Power": 6,
-        "Lore": 6
+        "Madness": 9,
+        "Dread": 2,
+        "Power": 4,
+        "Lore": 5
       },
       "image": "./cards/the-phantom-of-truth.png",
       "imageSmall": "./cards/the-phantom-of-truth-small.webp"
@@ -255,10 +255,10 @@
       "backgroundScene": "A grey misty harbour at dawn with rotting jetties and sagging fishing huts, a strange reef far out at sea.",
       "flavourText": "He went out on the boat. Something else came back.",
       "stats": {
-        "Madness": 4,
-        "Dread": 4,
-        "Power": 3,
-        "Lore": 2
+        "Madness": 6,
+        "Dread": 8,
+        "Power": 5,
+        "Lore": 1
       },
       "image": "./cards/drowned-fisherman.png",
       "imageSmall": "./cards/drowned-fisherman-small.webp"
@@ -273,10 +273,10 @@
       "backgroundScene": "Lonely, rounded hills crowned with standing stones, broken fences and a dark valley farm under a yellow sky.",
       "flavourText": "The footprints were the size of barrels. Nobody saw what made them.",
       "stats": {
-        "Madness": 6,
-        "Dread": 9,
-        "Power": 8,
-        "Lore": 3
+        "Madness": 3,
+        "Dread": 10,
+        "Power": 6,
+        "Lore": 1
       },
       "image": "./cards/the-dunwich-horror.png",
       "imageSmall": "./cards/the-dunwich-horror-small.webp"
@@ -291,10 +291,10 @@
       "backgroundScene": "A vast temple with pyramids and obelisks, crowds kneeling before him, a black sky full of falling stars.",
       "flavourText": "He comes as a showman. You will applaud.",
       "stats": {
-        "Madness": 10,
-        "Dread": 8,
-        "Power": 10,
-        "Lore": 9
+        "Madness": 6,
+        "Dread": 1,
+        "Power": 8,
+        "Lore": 5
       },
       "image": "./cards/nyarlathotep.png",
       "imageSmall": "./cards/nyarlathotep-small.webp"
@@ -309,10 +309,10 @@
       "backgroundScene": "A rocky shore at low tide with pale yellow rock pools and strange carvings on the stones.",
       "flavourText": "Always three steps. Always sideways.",
       "stats": {
-        "Madness": 2,
-        "Dread": 3,
-        "Power": 3,
-        "Lore": 3
+        "Madness": 1,
+        "Dread": 4,
+        "Power": 7,
+        "Lore": 8
       },
       "image": "./cards/triangle-crab.png",
       "imageSmall": "./cards/triangle-crab-small.webp"
@@ -327,10 +327,10 @@
       "backgroundScene": "An old dressing room with a cracked ornate mirror and dying candles.",
       "flavourText": "Your reflection looks worried. You should be too.",
       "stats": {
-        "Madness": 5,
-        "Dread": 3,
+        "Madness": 9,
+        "Dread": 5,
         "Power": 2,
-        "Lore": 3
+        "Lore": 4
       },
       "image": "./cards/mirror-leech.png",
       "imageSmall": "./cards/mirror-leech-small.webp"
@@ -345,10 +345,10 @@
       "backgroundScene": "A cramped cellar studio lit by one lamp, unsettling unfinished paintings stacked against brick walls, a tunnel in the floor.",
       "flavourText": "He was not painting from imagination.",
       "stats": {
-        "Madness": 6,
-        "Dread": 6,
-        "Power": 5,
-        "Lore": 6
+        "Madness": 4,
+        "Dread": 7,
+        "Power": 1,
+        "Lore": 8
       },
       "image": "./cards/pickman-s-ghoul.png",
       "imageSmall": "./cards/pickman-s-ghoul-small.webp"
@@ -363,10 +363,10 @@
       "backgroundScene": "A dark cellar with dripping pipes and crates, a cracked lamp throwing yellow light.",
       "flavourText": "It knows all your secrets. It tells everyone.",
       "stats": {
-        "Madness": 6,
-        "Dread": 3,
-        "Power": 2,
-        "Lore": 4
+        "Madness": 9,
+        "Dread": 4,
+        "Power": 1,
+        "Lore": 6
       },
       "image": "./cards/gibbering-mouthling.png",
       "imageSmall": "./cards/gibbering-mouthling-small.webp"
@@ -381,10 +381,10 @@
       "backgroundScene": "A dark city plaza at night with gaslights, shuttered shops and a crowd of terrified onlookers.",
       "flavourText": "Have you found the Yellow Sign?",
       "stats": {
-        "Madness": 8,
-        "Dread": 5,
-        "Power": 7,
-        "Lore": 6
+        "Madness": 9,
+        "Dread": 1,
+        "Power": 6,
+        "Lore": 4
       },
       "image": "./cards/keeper-of-the-yellow-sign.png",
       "imageSmall": "./cards/keeper-of-the-yellow-sign-small.webp"
@@ -399,10 +399,10 @@
       "backgroundScene": "A dead cornfield at dusk with a crooked fence and a distant farmhouse, a pale yellow moon.",
       "flavourText": "Nobody planted it. Nobody dares take it down.",
       "stats": {
-        "Madness": 4,
-        "Dread": 5,
+        "Madness": 6,
+        "Dread": 9,
         "Power": 2,
-        "Lore": 2
+        "Lore": 3
       },
       "image": "./cards/yellow-rag-scarecrow.png",
       "imageSmall": "./cards/yellow-rag-scarecrow-small.webp"
@@ -417,10 +417,10 @@
       "backgroundScene": "A tall, narrow attic room at the top of a steep street, sheet music scattered, the window showing only darkness beyond.",
       "flavourText": "He played to keep it out. Then he stopped.",
       "stats": {
-        "Madness": 8,
-        "Dread": 6,
-        "Power": 6,
-        "Lore": 5
+        "Madness": 9,
+        "Dread": 5,
+        "Power": 4,
+        "Lore": 2
       },
       "image": "./cards/the-thing-beyond-the-window.png",
       "imageSmall": "./cards/the-thing-beyond-the-window-small.webp"
@@ -435,10 +435,10 @@
       "backgroundScene": "A hilltop circle of tall standing stones at night, lightning in the clouds, a tiny robed figure with raised arms in the centre.",
       "flavourText": "All time is one to the Gate. All doors are its doors.",
       "stats": {
-        "Madness": 9,
-        "Dread": 7,
-        "Power": 10,
-        "Lore": 10
+        "Madness": 4,
+        "Dread": 1,
+        "Power": 9,
+        "Lore": 6
       },
       "image": "./cards/yog-sothoth.png",
       "imageSmall": "./cards/yog-sothoth-small.webp"
@@ -453,10 +453,10 @@
       "backgroundScene": "A foggy street at midnight lit by gas lamps, all the windows dark.",
       "flavourText": "They always walk the same way. Toward the lake.",
       "stats": {
-        "Madness": 6,
+        "Madness": 10,
         "Dread": 2,
         "Power": 2,
-        "Lore": 4
+        "Lore": 6
       },
       "image": "./cards/sleepwalker.png",
       "imageSmall": "./cards/sleepwalker-small.webp"
@@ -471,10 +471,10 @@
       "backgroundScene": "A desert city of sandstone and pyramids under a black sun with a ring of yellow fire.",
       "flavourText": "When the horn sounds, he is not far behind.",
       "stats": {
-        "Madness": 6,
-        "Dread": 6,
-        "Power": 7,
-        "Lore": 5
+        "Madness": 4,
+        "Dread": 5,
+        "Power": 8,
+        "Lore": 3
       },
       "image": "./cards/the-black-pharaoh-s-herald.png",
       "imageSmall": "./cards/the-black-pharaoh-s-herald-small.webp"
@@ -489,10 +489,10 @@
       "backgroundScene": "A damp cave mouth with dripping stalactites and glowing yellow fungus.",
       "flavourText": "Breathe in. Now you will dream of it.",
       "stats": {
-        "Madness": 5,
-        "Dread": 3,
-        "Power": 2,
-        "Lore": 2
+        "Madness": 9,
+        "Dread": 5,
+        "Power": 3,
+        "Lore": 3
       },
       "image": "./cards/spore-bat.png",
       "imageSmall": "./cards/spore-bat-small.webp"
@@ -507,10 +507,10 @@
       "backgroundScene": "A dark shoreline at midnight, robed figures with torches on the beach, a jagged reef offshore.",
       "flavourText": "He is only waiting for the stars to come right.",
       "stats": {
-        "Madness": 7,
-        "Dread": 5,
-        "Power": 7,
-        "Lore": 7
+        "Madness": 5,
+        "Dread": 1,
+        "Power": 6,
+        "Lore": 8
       },
       "image": "./cards/high-priest-of-the-drowned.png",
       "imageSmall": "./cards/high-priest-of-the-drowned-small.webp"
@@ -525,10 +525,10 @@
       "backgroundScene": "A rain-soaked city street at night with puddles reflecting yellow gaslight.",
       "flavourText": "The drains have been noisy lately.",
       "stats": {
-        "Madness": 3,
-        "Dread": 4,
-        "Power": 2,
-        "Lore": 2
+        "Madness": 5,
+        "Dread": 8,
+        "Power": 3,
+        "Lore": 4
       },
       "image": "./cards/gutter-spawn.png",
       "imageSmall": "./cards/gutter-spawn-small.webp"
@@ -543,10 +543,10 @@
       "backgroundScene": "An ancient dark forest at night, a ring of mushrooms and a stone altar in a clearing, a yellow moon behind the trees.",
       "flavourText": "The woods are full of her children.",
       "stats": {
-        "Madness": 9,
-        "Dread": 8,
-        "Power": 9,
-        "Lore": 7
+        "Madness": 6,
+        "Dread": 5,
+        "Power": 8,
+        "Lore": 1
       },
       "image": "./cards/shub-niggurath.png",
       "imageSmall": "./cards/shub-niggurath-small.webp"
@@ -561,10 +561,10 @@
       "backgroundScene": "A misty causeway across a black lake, twisted lamp posts and the far towers of a strange city.",
       "flavourText": "Each ring is a name. One of them is yours.",
       "stats": {
-        "Madness": 5,
-        "Dread": 4,
-        "Power": 2,
-        "Lore": 3
+        "Madness": 9,
+        "Dread": 6,
+        "Power": 1,
+        "Lore": 4
       },
       "image": "./cards/bell-ringer-of-hali.png",
       "imageSmall": "./cards/bell-ringer-of-hali-small.webp"
@@ -579,10 +579,10 @@
       "backgroundScene": "The Lake of Hali at twilight, black water, cloud-like waves and twin suns sinking behind spires.",
       "flavourText": "The lake has a floor. Nobody has ever reached it.",
       "stats": {
-        "Madness": 5,
-        "Dread": 8,
+        "Madness": 1,
+        "Dread": 10,
         "Power": 8,
-        "Lore": 4
+        "Lore": 1
       },
       "image": "./cards/the-hali-leviathan.png",
       "imageSmall": "./cards/the-hali-leviathan-small.webp"
@@ -597,10 +597,10 @@
       "backgroundScene": "An overgrown cemetery at night with tilted gravestones and a crooked mausoleum.",
       "flavourText": "It is slow. It is very, very patient.",
       "stats": {
-        "Madness": 2,
-        "Dread": 4,
-        "Power": 3,
-        "Lore": 3
+        "Madness": 1,
+        "Dread": 9,
+        "Power": 5,
+        "Lore": 5
       },
       "image": "./cards/tomb-slug.png",
       "imageSmall": "./cards/tomb-slug-small.webp"
@@ -615,10 +615,10 @@
       "backgroundScene": "A ruined cathedral with collapsed roof, two pale suns visible through the open sky, yellow drapes hanging from pillars.",
       "flavourText": "They sing the hymn that ends cities.",
       "stats": {
-        "Madness": 8,
-        "Dread": 5,
-        "Power": 7,
-        "Lore": 6
+        "Madness": 6,
+        "Dread": 1,
+        "Power": 9,
+        "Lore": 4
       },
       "image": "./cards/the-thousand-eyed-choir.png",
       "imageSmall": "./cards/the-thousand-eyed-choir-small.webp"
@@ -633,10 +633,10 @@
       "backgroundScene": "A long, dark corridor of an old house with closed doors and peeling wallpaper.",
       "flavourText": "It says your name in your own voice.",
       "stats": {
-        "Madness": 6,
-        "Dread": 3,
+        "Madness": 9,
+        "Dread": 5,
         "Power": 2,
-        "Lore": 3
+        "Lore": 4
       },
       "image": "./cards/echo-wisp.png",
       "imageSmall": "./cards/echo-wisp-small.webp"
@@ -651,10 +651,10 @@
       "backgroundScene": "A vast underground vault with a gigantic round door covered in symbols, dust in the air.",
       "flavourText": "It does not let things in. It does not let things out.",
       "stats": {
-        "Madness": 5,
-        "Dread": 6,
-        "Power": 8,
-        "Lore": 6
+        "Madness": 1,
+        "Dread": 5,
+        "Power": 9,
+        "Lore": 5
       },
       "image": "./cards/the-triangle-warden.png",
       "imageSmall": "./cards/the-triangle-warden-small.webp"
@@ -669,10 +669,10 @@
       "backgroundScene": "The black-starred skies of Carcosa with twin suns sinking into the cloud waves of the Lake of Hali, strange towers behind the moon.",
       "flavourText": "Strange is the night where black stars rise.",
       "stats": {
-        "Madness": 10,
-        "Dread": 9,
-        "Power": 9,
-        "Lore": 8
+        "Madness": 9,
+        "Dread": 6,
+        "Power": 4,
+        "Lore": 1
       },
       "image": "./cards/the-king-in-yellow.png",
       "imageSmall": "./cards/the-king-in-yellow-small.webp"
@@ -687,10 +687,10 @@
       "backgroundScene": "A grand ballroom with yellow and black tiles, candles guttering and other masked dancers in the background.",
       "flavourText": "It is time to unmask. Not you. Not yet.",
       "stats": {
-        "Madness": 5,
+        "Madness": 8,
         "Dread": 3,
-        "Power": 3,
-        "Lore": 3
+        "Power": 5,
+        "Lore": 4
       },
       "image": "./cards/masked-reveller.png",
       "imageSmall": "./cards/masked-reveller-small.webp"
@@ -705,10 +705,10 @@
       "backgroundScene": "The crumbling walls of an old priory cellar, ancient carvings and a staircase leading down into darkness.",
       "flavourText": "Listen. Something is scratching. Downward.",
       "stats": {
-        "Madness": 6,
-        "Dread": 7,
-        "Power": 5,
-        "Lore": 4
+        "Madness": 5,
+        "Dread": 9,
+        "Power": 4,
+        "Lore": 2
       },
       "image": "./cards/the-gnawers-in-the-walls.png",
       "imageSmall": "./cards/the-gnawers-in-the-walls-small.webp"
@@ -723,10 +723,10 @@
       "backgroundScene": "A writer's desk at night with a candle, quill, and pages covered in frantic writing.",
       "flavourText": "It finishes your sentences. All of them.",
       "stats": {
-        "Madness": 5,
+        "Madness": 7,
         "Dread": 2,
         "Power": 2,
-        "Lore": 5
+        "Lore": 9
       },
       "image": "./cards/ink-polyp.png",
       "imageSmall": "./cards/ink-polyp-small.webp"
@@ -741,10 +741,10 @@
       "backgroundScene": "An empty, dusty classroom with chalkboards covered in frantic geometry, the chalk lines glowing.",
       "flavourText": "Count its corners. Then count them again.",
       "stats": {
-        "Madness": 9,
-        "Dread": 3,
-        "Power": 7,
-        "Lore": 7
+        "Madness": 10,
+        "Dread": 1,
+        "Power": 6,
+        "Lore": 3
       },
       "image": "./cards/the-geometer.png",
       "imageSmall": "./cards/the-geometer-small.webp"
@@ -759,10 +759,10 @@
       "backgroundScene": "A forgotten library basement full of rotting boxes and spilled scrolls.",
       "flavourText": "It eats books. It remembers them.",
       "stats": {
-        "Madness": 2,
-        "Dread": 2,
-        "Power": 2,
-        "Lore": 6
+        "Madness": 3,
+        "Dread": 3,
+        "Power": 4,
+        "Lore": 10
       },
       "image": "./cards/pale-grub.png",
       "imageSmall": "./cards/pale-grub-small.webp"
@@ -777,10 +777,10 @@
       "backgroundScene": "The misty edge of the Lake of Hali at night, reeds and broken statues, twin moons.",
       "flavourText": "She has been waiting by the water for a very long time.",
       "stats": {
-        "Madness": 7,
-        "Dread": 4,
-        "Power": 6,
-        "Lore": 6
+        "Madness": 6,
+        "Dread": 1,
+        "Power": 9,
+        "Lore": 4
       },
       "image": "./cards/sister-of-the-lake.png",
       "imageSmall": "./cards/sister-of-the-lake-small.webp"
@@ -795,10 +795,10 @@
       "backgroundScene": "A dark, overgrown garden at night with a crumbling statue and a stone path.",
       "flavourText": "Follow it home. Do not follow it home.",
       "stats": {
-        "Madness": 3,
-        "Dread": 2,
-        "Power": 3,
-        "Lore": 2
+        "Madness": 6,
+        "Dread": 3,
+        "Power": 8,
+        "Lore": 3
       },
       "image": "./cards/crawling-lantern.png",
       "imageSmall": "./cards/crawling-lantern-small.webp"
@@ -813,10 +813,10 @@
       "backgroundScene": "A wide, empty moor at night with the sky going dark as the stars vanish one by one.",
       "flavourText": "Every night there are fewer stars.",
       "stats": {
-        "Madness": 7,
-        "Dread": 4,
-        "Power": 8,
-        "Lore": 6
+        "Madness": 4,
+        "Dread": 1,
+        "Power": 10,
+        "Lore": 5
       },
       "image": "./cards/the-starless-wanderer.png",
       "imageSmall": "./cards/the-starless-wanderer-small.webp"
@@ -831,10 +831,10 @@
       "backgroundScene": "A dusty library aisle with tall shelves vanishing into darkness.",
       "flavourText": "Overdue. Very overdue.",
       "stats": {
-        "Madness": 3,
-        "Dread": 5,
-        "Power": 2,
-        "Lore": 6
+        "Madness": 2,
+        "Dread": 7,
+        "Power": 1,
+        "Lore": 10
       },
       "image": "./cards/toothed-tome.png",
       "imageSmall": "./cards/toothed-tome-small.webp"
@@ -849,10 +849,10 @@
       "backgroundScene": "A rocky cliff above a sleeping city at night, black stars rising in the sky.",
       "flavourText": "The black stars rise tonight. They rose last night too.",
       "stats": {
-        "Madness": 9,
-        "Dread": 3,
-        "Power": 6,
-        "Lore": 8
+        "Madness": 10,
+        "Dread": 1,
+        "Power": 4,
+        "Lore": 5
       },
       "image": "./cards/the-prophet-of-black-stars.png",
       "imageSmall": "./cards/the-prophet-of-black-stars-small.webp"
@@ -867,10 +867,10 @@
       "backgroundScene": "The rooftops of an old town at night under a large yellow moon.",
       "flavourText": "It has no face. It still smiles.",
       "stats": {
-        "Madness": 5,
-        "Dread": 5,
+        "Madness": 7,
+        "Dread": 9,
         "Power": 3,
-        "Lore": 2
+        "Lore": 1
       },
       "image": "./cards/moonlit-gaunt.png",
       "imageSmall": "./cards/moonlit-gaunt-small.webp"
@@ -885,10 +885,10 @@
       "backgroundScene": "Drowned, impossibly angled stone steps rising out of the sea, carved with strange symbols, yellow sky.",
       "flavourText": "It is only a child. The parent is still asleep.",
       "stats": {
-        "Madness": 6,
-        "Dread": 8,
-        "Power": 8,
-        "Lore": 4
+        "Madness": 2,
+        "Dread": 10,
+        "Power": 7,
+        "Lore": 1
       },
       "image": "./cards/spawn-of-the-sunken-city.png",
       "imageSmall": "./cards/spawn-of-the-sunken-city-small.webp"
@@ -903,10 +903,10 @@
       "backgroundScene": "A dusty antique shop at night full of curios and masks, a shaft of moonlight.",
       "flavourText": "It was cheap. That should have been a clue.",
       "stats": {
-        "Madness": 4,
+        "Madness": 5,
         "Dread": 3,
         "Power": 3,
-        "Lore": 5
+        "Lore": 9
       },
       "image": "./cards/the-twitching-idol.png",
       "imageSmall": "./cards/the-twitching-idol-small.webp"
@@ -921,10 +921,10 @@
       "backgroundScene": "A black rocky island in a vast sea under a yellow moon, an ancient carved monolith standing on its shore.",
       "flavourText": "On the monolith, the carvings were of him.",
       "stats": {
-        "Madness": 8,
-        "Dread": 10,
-        "Power": 9,
-        "Lore": 7
+        "Madness": 3,
+        "Dread": 9,
+        "Power": 6,
+        "Lore": 2
       },
       "image": "./cards/dagon-father-of-the-deep.png",
       "imageSmall": "./cards/dagon-father-of-the-deep-small.webp"
