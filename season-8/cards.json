@@ -42,9 +42,9 @@
       "backgroundScene": "A muddy army training camp with canvas tents",
       "flavourText": "Joined up for the free meals. Has no complaints so far.",
       "stats": {
-        "Bravery": 6,
+        "Bravery": 9,
         "Discipline": 3,
-        "Bite": 2
+        "Bite": 3
       },
       "image": "./cards/private-biscuit.png",
       "imageSmall": "./cards/private-biscuit-small.webp"
@@ -59,9 +59,9 @@
       "backgroundScene": "A narrow sandbagged trench corridor in soft morning light",
       "flavourText": "Regulations say he is tall enough. He wrote the regulations.",
       "stats": {
-        "Bravery": 7,
+        "Bravery": 9,
         "Discipline": 5,
-        "Bite": 3
+        "Bite": 1
       },
       "image": "./cards/corporal-pickles.png",
       "imageSmall": "./cards/corporal-pickles-small.webp"
@@ -76,9 +76,9 @@
       "backgroundScene": "An empty parade ground with whitewashed barracks behind",
       "flavourText": "Has never once raised his voice. Has never needed to.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 10,
-        "Bite": 7
+        "Bravery": 3,
+        "Discipline": 9,
+        "Bite": 3
       },
       "image": "./cards/sergeant-major-bulldozer.png",
       "imageSmall": "./cards/sergeant-major-bulldozer-small.webp"
@@ -93,9 +93,9 @@
       "backgroundScene": "A wood-panelled war room with a large map table",
       "flavourText": "Nobody has seen his eyes. The enemy has seen his plans.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 10,
-        "Bite": 6
+        "Bravery": 4,
+        "Discipline": 9,
+        "Bite": 2
       },
       "image": "./cards/general-montague-woof.png",
       "imageSmall": "./cards/general-montague-woof-small.webp"
@@ -110,7 +110,7 @@
       "backgroundScene": "A misty open field with a line of bare poplar trees",
       "flavourText": "Carries urgent dispatches. Also, for some reason, a tennis ball.",
       "stats": {
-        "Bravery": 5,
+        "Bravery": 8,
         "Discipline": 4,
         "Bite": 3
       },
@@ -127,9 +127,9 @@
       "backgroundScene": "A snowy mountain aid station with a canvas tent and lanterns",
       "flavourText": "She has licked more wounds than any surgeon in the army.",
       "stats": {
-        "Bravery": 9,
-        "Discipline": 7,
-        "Bite": 2
+        "Bravery": 10,
+        "Discipline": 4,
+        "Bite": 1
       },
       "image": "./cards/medic-mabel.png",
       "imageSmall": "./cards/medic-mabel-small.webp"
@@ -144,9 +144,9 @@
       "backgroundScene": "The side of an old olive tank in a workshop yard",
       "flavourText": "Deaf in one ear. Selectively deaf in the other.",
       "stats": {
-        "Bravery": 7,
-        "Discipline": 4,
-        "Bite": 8
+        "Bravery": 4,
+        "Discipline": 1,
+        "Bite": 10
       },
       "image": "./cards/gunner-thud.png",
       "imageSmall": "./cards/gunner-thud-small.webp"
@@ -162,8 +162,8 @@
       "flavourText": "Has inspected the front. Found it badly decorated.",
       "stats": {
         "Bravery": 3,
-        "Discipline": 6,
-        "Bite": 2
+        "Discipline": 9,
+        "Bite": 3
       },
       "image": "./cards/lieutenant-fitzwilliam.png",
       "imageSmall": "./cards/lieutenant-fitzwilliam-small.webp"
@@ -179,8 +179,8 @@
       "flavourText": "Asked if she was scared to jump. She had already jumped.",
       "stats": {
         "Bravery": 10,
-        "Discipline": 7,
-        "Bite": 4
+        "Discipline": 4,
+        "Bite": 1
       },
       "image": "./cards/paratrooper-skye.png",
       "imageSmall": "./cards/paratrooper-skye-small.webp"
@@ -195,9 +195,9 @@
       "backgroundScene": "Freshly dug earthworks and timber supports in low light",
       "flavourText": "The tunnel was finished in a day. Nobody asked for a tunnel.",
       "stats": {
-        "Bravery": 6,
-        "Discipline": 3,
-        "Bite": 5
+        "Bravery": 5,
+        "Discipline": 1,
+        "Bite": 9
       },
       "image": "./cards/sapper-dig.png",
       "imageSmall": "./cards/sapper-dig-small.webp"
@@ -212,9 +212,9 @@
       "backgroundScene": "A dusty desert fort with palm trees and heat haze",
       "flavourText": "Has spent forty years pointing at things. Usually correctly.",
       "stats": {
-        "Bravery": 7,
+        "Bravery": 4,
         "Discipline": 9,
-        "Bite": 5
+        "Bite": 2
       },
       "image": "./cards/colonel-bramble.png",
       "imageSmall": "./cards/colonel-bramble-small.webp"
@@ -229,9 +229,9 @@
       "backgroundScene": "A smoky early nineteenth century battlefield ridge",
       "flavourText": "Enters every tent in two instalments.",
       "stats": {
-        "Bravery": 9,
+        "Bravery": 5,
         "Discipline": 9,
-        "Bite": 6
+        "Bite": 1
       },
       "image": "./cards/grenadier-maximilian.png",
       "imageSmall": "./cards/grenadier-maximilian-small.webp"
@@ -246,8 +246,8 @@
       "backgroundScene": "A grassy army camp at dawn with a marching drum",
       "flavourText": "Keeps perfect time. Howls the chorus.",
       "stats": {
-        "Bravery": 4,
-        "Discipline": 5,
+        "Bravery": 5,
+        "Discipline": 9,
         "Bite": 1
       },
       "image": "./cards/drummer-boy-pip.png",
@@ -263,9 +263,9 @@
       "backgroundScene": "Deep forest undergrowth with soft dappled light",
       "flavourText": "You will not see him. You will notice your sausages are gone.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 9,
-        "Bite": 7
+        "Bravery": 3,
+        "Discipline": 8,
+        "Bite": 4
       },
       "image": "./cards/sniper-ghost.png",
       "imageSmall": "./cards/sniper-ghost-small.webp"
@@ -280,9 +280,9 @@
       "backgroundScene": "A dim army supply depot with stacked crates and sacks",
       "flavourText": "All rations are accounted for. Do not check his bed.",
       "stats": {
-        "Bravery": 2,
-        "Discipline": 6,
-        "Bite": 2
+        "Bravery": 1,
+        "Discipline": 10,
+        "Bite": 4
       },
       "image": "./cards/quartermaster-crumbs.png",
       "imageSmall": "./cards/quartermaster-crumbs-small.webp"
@@ -297,9 +297,9 @@
       "backgroundScene": "The turret of an old olive tank on a foggy dirt road",
       "flavourText": "She leads from the front. It is the only part she fits in.",
       "stats": {
-        "Bravery": 9,
-        "Discipline": 8,
-        "Bite": 6
+        "Bravery": 8,
+        "Discipline": 6,
+        "Bite": 1
       },
       "image": "./cards/tank-commander-ursula.png",
       "imageSmall": "./cards/tank-commander-ursula-small.webp"
@@ -315,8 +315,8 @@
       "flavourText": "Those ears pick up signals from three countries.",
       "stats": {
         "Bravery": 3,
-        "Discipline": 7,
-        "Bite": 1
+        "Discipline": 10,
+        "Bite": 2
       },
       "image": "./cards/radio-operator-sparks.png",
       "imageSmall": "./cards/radio-operator-sparks-small.webp"
@@ -331,9 +331,9 @@
       "backgroundScene": "A dusty compound at golden hour",
       "flavourText": "Doesn't talk about his missions. Doesn't talk at all, actually.",
       "stats": {
-        "Bravery": 10,
-        "Discipline": 9,
-        "Bite": 9
+        "Bravery": 6,
+        "Discipline": 1,
+        "Bite": 8
       },
       "image": "./cards/commando-rex.png",
       "imageSmall": "./cards/commando-rex-small.webp"
@@ -348,9 +348,9 @@
       "backgroundScene": "A misty Scottish glen with heather and grey hills",
       "flavourText": "Fears nothing but baths, and has beaten those as well.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 5,
-        "Bite": 4
+        "Bravery": 9,
+        "Discipline": 3,
+        "Bite": 3
       },
       "image": "./cards/highlander-hamish.png",
       "imageSmall": "./cards/highlander-hamish-small.webp"
@@ -366,7 +366,7 @@
       "flavourText": "He listens to every confession, then sleeps on it.",
       "stats": {
         "Bravery": 4,
-        "Discipline": 6,
+        "Discipline": 10,
         "Bite": 1
       },
       "image": "./cards/field-chaplain-barnaby.png",
@@ -382,9 +382,9 @@
       "backgroundScene": "A grass airfield with a vintage biplane",
       "flavourText": "Sticks his head out of the plane. It is not a safety issue, he says.",
       "stats": {
-        "Bravery": 9,
-        "Discipline": 4,
-        "Bite": 3
+        "Bravery": 10,
+        "Discipline": 3,
+        "Bite": 2
       },
       "image": "./cards/pilot-officer-goggles.png",
       "imageSmall": "./cards/pilot-officer-goggles-small.webp"
@@ -399,9 +399,9 @@
       "backgroundScene": "A vast snowy steppe at dusk with a line of horses",
       "flavourText": "Has crossed the steppe twice, and is only slightly out of breath.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 6,
-        "Bite": 6
+        "Bravery": 5,
+        "Discipline": 2,
+        "Bite": 8
       },
       "image": "./cards/cossack-sasha.png",
       "imageSmall": "./cards/cossack-sasha-small.webp"
@@ -417,8 +417,8 @@
       "flavourText": "Nobody has complained about the stew. Nobody has dared.",
       "stats": {
         "Bravery": 5,
-        "Discipline": 3,
-        "Bite": 6
+        "Discipline": 1,
+        "Bite": 9
       },
       "image": "./cards/cook-sergeant-gristle.png",
       "imageSmall": "./cards/cook-sergeant-gristle-small.webp"
@@ -433,9 +433,9 @@
       "backgroundScene": "A rainy cobbled lane with a vintage motorcycle sidecar",
       "flavourText": "The motorcycle is mostly for show. He usually arrives first.",
       "stats": {
-        "Bravery": 6,
+        "Bravery": 9,
         "Discipline": 5,
-        "Bite": 3
+        "Bite": 1
       },
       "image": "./cards/dispatch-rider-bolt.png",
       "imageSmall": "./cards/dispatch-rider-bolt-small.webp"
@@ -450,9 +450,9 @@
       "backgroundScene": "A guarded barracks gate with a striped barrier arm",
       "flavourText": "You were off the path. He has made a note.",
       "stats": {
-        "Bravery": 6,
-        "Discipline": 8,
-        "Bite": 8
+        "Bravery": 1,
+        "Discipline": 5,
+        "Bite": 9
       },
       "image": "./cards/military-police-brutus.png",
       "imageSmall": "./cards/military-police-brutus-small.webp"
@@ -468,8 +468,8 @@
       "flavourText": "Carried the whole platoon's kit up. Then went back for the platoon.",
       "stats": {
         "Bravery": 9,
-        "Discipline": 7,
-        "Bite": 5
+        "Discipline": 5,
+        "Bite": 1
       },
       "image": "./cards/mountain-trooper-heidi.png",
       "imageSmall": "./cards/mountain-trooper-heidi-small.webp"
@@ -484,9 +484,9 @@
       "backgroundScene": "An old soldiers' hospital courtyard in soft autumn light",
       "flavourText": "Fought in every war. Still cannot be told to get off the sofa.",
       "stats": {
-        "Bravery": 10,
-        "Discipline": 8,
-        "Bite": 7
+        "Bravery": 8,
+        "Discipline": 4,
+        "Bite": 3
       },
       "image": "./cards/the-old-campaigner.png",
       "imageSmall": "./cards/the-old-campaigner-small.webp"
@@ -501,9 +501,9 @@
       "backgroundScene": "A rowing boat on a misty lake with reeds around it",
       "flavourText": "This is the army. He has been told. He has gone swimming anyway.",
       "stats": {
-        "Bravery": 7,
+        "Bravery": 10,
         "Discipline": 1,
-        "Bite": 3
+        "Bite": 4
       },
       "image": "./cards/admiral-of-the-pond.png",
       "imageSmall": "./cards/admiral-of-the-pond-small.webp"
@@ -518,9 +518,9 @@
       "backgroundScene": "A grand palace hall with tall windows and chandeliers",
       "flavourText": "Her troops would follow her anywhere. They mostly want to pat her.",
       "stats": {
-        "Bravery": 8,
-        "Discipline": 9,
-        "Bite": 8
+        "Bravery": 1,
+        "Discipline": 8,
+        "Bite": 6
       },
       "image": "./cards/iron-duchess.png",
       "imageSmall": "./cards/iron-duchess-small.webp"
@@ -535,9 +535,9 @@
       "backgroundScene": "A frozen pine forest in a blizzard",
       "flavourText": "The enemy calls him a rumour. He answers to no other name.",
       "stats": {
-        "Bravery": 10,
-        "Discipline": 9,
-        "Bite": 10
+        "Bravery": 5,
+        "Discipline": 2,
+        "Bite": 8
       },
       "image": "./cards/wolf-of-the-winter-line.png",
       "imageSmall": "./cards/wolf-of-the-winter-line-small.webp"
