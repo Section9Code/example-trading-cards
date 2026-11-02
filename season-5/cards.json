@@ -38,9 +38,9 @@
       "backgroundScene": "A packed barn arena at night with hay-bale bleachers full of cheering farm animals and spotlights cutting through dust.",
       "flavourText": "He flies. Bulls are not supposed to fly.",
       "stats": {
-        "Strength": 7,
-        "Show": 8,
-        "Mud": 3
+        "Strength": 5,
+        "Show": 9,
+        "Mud": 1
       },
       "image": "./cards/el-moo-cho.png",
       "imageSmall": "./cards/el-moo-cho-small.webp"
@@ -55,9 +55,9 @@
       "backgroundScene": "A huge barn arena with fireworks, a crowd of farm animals going wild, and a giant spotlight on the ring.",
       "flavourText": "Undefeated. Unmilked. Unstoppable.",
       "stats": {
-        "Strength": 10,
-        "Show": 9,
-        "Mud": 7
+        "Strength": 9,
+        "Show": 4,
+        "Mud": 2
       },
       "image": "./cards/the-udder-destruction.png",
       "imageSmall": "./cards/the-udder-destruction-small.webp"
@@ -73,8 +73,8 @@
       "flavourText": "She lays eggs and smackdowns.",
       "stats": {
         "Strength": 3,
-        "Show": 6,
-        "Mud": 2
+        "Show": 9,
+        "Mud": 3
       },
       "image": "./cards/captain-cluck.png",
       "imageSmall": "./cards/captain-cluck-small.webp"
@@ -89,9 +89,9 @@
       "backgroundScene": "A wooden barn ring with splintered ropes, hay flying, and a fallen opponent in the corner.",
       "flavourText": "He ruled the field. Then he ruled the ring.",
       "stats": {
-        "Strength": 9,
-        "Show": 5,
-        "Mud": 4
+        "Strength": 10,
+        "Show": 2,
+        "Mud": 3
       },
       "image": "./cards/the-baa-barian.png",
       "imageSmall": "./cards/the-baa-barian-small.webp"
@@ -106,9 +106,9 @@
       "backgroundScene": "A muddy farm pond turned into an outdoor wrestling ring, with lily pads and reeds round the edges.",
       "flavourText": "Twice the quack. Twice the attack.",
       "stats": {
-        "Strength": 4,
-        "Show": 5,
-        "Mud": 3
+        "Strength": 5,
+        "Show": 2,
+        "Mud": 8
       },
       "image": "./cards/the-quack-pack.png",
       "imageSmall": "./cards/the-quack-pack-small.webp"
@@ -123,9 +123,9 @@
       "backgroundScene": "The edge of a barn ring, with a giant shadow falling across him from someone very large.",
       "flavourText": "Small in size. Large in opinion.",
       "stats": {
-        "Strength": 2,
-        "Show": 7,
-        "Mud": 4
+        "Strength": 1,
+        "Show": 4,
+        "Mud": 10
       },
       "image": "./cards/sir-hamsalot.png",
       "imageSmall": "./cards/sir-hamsalot-small.webp"
@@ -140,9 +140,9 @@
       "backgroundScene": "A barn ring with knitting needles and a ball of yarn on the turnbuckle, an outraged crowd.",
       "flavourText": "She was wrestling before your grandad was a kid.",
       "stats": {
-        "Strength": 6,
-        "Show": 7,
-        "Mud": 4
+        "Strength": 9,
+        "Show": 5,
+        "Mud": 1
       },
       "image": "./cards/nanny-knuckles.png",
       "imageSmall": "./cards/nanny-knuckles-small.webp"
@@ -158,8 +158,8 @@
       "flavourText": "There are no rules. He ate the rule book.",
       "stats": {
         "Strength": 8,
-        "Show": 10,
-        "Mud": 8
+        "Show": 5,
+        "Mud": 2
       },
       "image": "./cards/gnasher-the-rope-eater.png",
       "imageSmall": "./cards/gnasher-the-rope-eater-small.webp"
@@ -174,9 +174,9 @@
       "backgroundScene": "A barn ring with motion lines everywhere and a dizzy opponent spinning in the centre.",
       "flavourText": "He cannot win, but he cannot be caught.",
       "stats": {
-        "Strength": 2,
+        "Strength": 1,
         "Show": 5,
-        "Mud": 3
+        "Mud": 9
       },
       "image": "./cards/turkey-trot.png",
       "imageSmall": "./cards/turkey-trot-small.webp"
@@ -191,8 +191,8 @@
       "backgroundScene": "An outdoor mud-pit ring in the farmyard with mud-splattered fans in raincoats in the front row.",
       "flavourText": "Front row tickets come with a free shower.",
       "stats": {
-        "Strength": 7,
-        "Show": 5,
+        "Strength": 4,
+        "Show": 1,
         "Mud": 10
       },
       "image": "./cards/mudslide-malone.png",
@@ -208,9 +208,9 @@
       "backgroundScene": "A darkened barn arena with smoke on the floor and a single beam of light on the ring.",
       "flavourText": "Nobody knows who he is. Everyone knows what he does.",
       "stats": {
-        "Strength": 6,
-        "Show": 8,
-        "Mud": 3
+        "Strength": 5,
+        "Show": 9,
+        "Mud": 1
       },
       "image": "./cards/the-masked-mallard.png",
       "imageSmall": "./cards/the-masked-mallard-small.webp"
@@ -226,8 +226,8 @@
       "flavourText": "Boo him all you like. He loves it.",
       "stats": {
         "Strength": 8,
-        "Show": 7,
-        "Mud": 6
+        "Show": 3,
+        "Mud": 4
       },
       "image": "./cards/big-bad-boar.png",
       "imageSmall": "./cards/big-bad-boar-small.webp"
@@ -242,9 +242,9 @@
       "backgroundScene": "A barn ring with cushion-like wool tufts floating in the air.",
       "flavourText": "Opponents bounce right off.",
       "stats": {
-        "Strength": 3,
-        "Show": 4,
-        "Mud": 3
+        "Strength": 1,
+        "Show": 6,
+        "Mud": 8
       },
       "image": "./cards/woolly-bully.png",
       "imageSmall": "./cards/woolly-bully-small.webp"
@@ -259,9 +259,9 @@
       "backgroundScene": "A barn ring with a stack of hay bales collapsing behind him from a missed punch.",
       "flavourText": "He takes his time. He only needs one.",
       "stats": {
-        "Strength": 9,
-        "Show": 4,
-        "Mud": 5
+        "Strength": 10,
+        "Show": 1,
+        "Mud": 4
       },
       "image": "./cards/haymaker-hank.png",
       "imageSmall": "./cards/haymaker-hank-small.webp"
@@ -277,8 +277,8 @@
       "flavourText": "Fresh out of the shell and ready to rumble.",
       "stats": {
         "Strength": 1,
-        "Show": 6,
-        "Mud": 2
+        "Show": 10,
+        "Mud": 4
       },
       "image": "./cards/scrambled-chick.png",
       "imageSmall": "./cards/scrambled-chick-small.webp"
@@ -293,9 +293,9 @@
       "backgroundScene": "A grand barn arena with camera flashes everywhere and a red carpet entrance ramp.",
       "flavourText": "Two hundred horsepower. All of it hair.",
       "stats": {
-        "Strength": 8,
-        "Show": 9,
-        "Mud": 2
+        "Strength": 4,
+        "Show": 10,
+        "Mud": 1
       },
       "image": "./cards/horse-power.png",
       "imageSmall": "./cards/horse-power-small.webp"
@@ -310,9 +310,9 @@
       "backgroundScene": "The middle of a barn ring with two blurry wrestlers grappling on either side.",
       "flavourText": "It sees everything. It still misses the handbag.",
       "stats": {
-        "Strength": 2,
-        "Show": 4,
-        "Mud": 1
+        "Strength": 4,
+        "Show": 9,
+        "Mud": 2
       },
       "image": "./cards/referee-hoot.png",
       "imageSmall": "./cards/referee-hoot-small.webp"
@@ -328,8 +328,8 @@
       "flavourText": "He has rounded up a fight.",
       "stats": {
         "Strength": 3,
-        "Show": 6,
-        "Mud": 2
+        "Show": 9,
+        "Mud": 3
       },
       "image": "./cards/sheepdog-steve.png",
       "imageSmall": "./cards/sheepdog-steve-small.webp"
@@ -344,9 +344,9 @@
       "backgroundScene": "The centre of the ring under bright spotlights, the crowd blurred and cheering behind.",
       "flavourText": "Let's get ready to... cock-a-doodle-doo!",
       "stats": {
-        "Strength": 2,
-        "Show": 8,
-        "Mud": 1
+        "Strength": 3,
+        "Show": 10,
+        "Mud": 2
       },
       "image": "./cards/crowin-kevin.png",
       "imageSmall": "./cards/crowin-kevin-small.webp"
@@ -361,9 +361,9 @@
       "backgroundScene": "A barn arena seen from a low angle, beams cracking, the crowd lifted out of their seats by the shockwave.",
       "flavourText": "The barn had to be rebuilt. Twice.",
       "stats": {
-        "Strength": 10,
-        "Show": 8,
-        "Mud": 8
+        "Strength": 9,
+        "Show": 1,
+        "Mud": 5
       },
       "image": "./cards/big-bertha-the-barn-crusher.png",
       "imageSmall": "./cards/big-bertha-the-barn-crusher-small.webp"
@@ -378,9 +378,9 @@
       "backgroundScene": "A barn ring with a disgusted opponent wiping their face, cameras flashing.",
       "flavourText": "Never, ever, insult the fringe.",
       "stats": {
-        "Strength": 5,
+        "Strength": 3,
         "Show": 9,
-        "Mud": 4
+        "Mud": 3
       },
       "image": "./cards/lady-llama.png",
       "imageSmall": "./cards/lady-llama-small.webp"
@@ -397,7 +397,7 @@
       "stats": {
         "Strength": 1,
         "Show": 5,
-        "Mud": 3
+        "Mud": 9
       },
       "image": "./cards/the-grain-grabber.png",
       "imageSmall": "./cards/the-grain-grabber-small.webp"
@@ -412,9 +412,9 @@
       "backgroundScene": "An outdoor farmyard ring at sunrise, with the sun rising behind him and the crowd looking up.",
       "flavourText": "Every morning he wakes the farm. Every evening he puts it to sleep.",
       "stats": {
-        "Strength": 6,
-        "Show": 8,
-        "Mud": 3
+        "Strength": 5,
+        "Show": 9,
+        "Mud": 1
       },
       "image": "./cards/the-feathered-fury.png",
       "imageSmall": "./cards/the-feathered-fury-small.webp"
@@ -429,9 +429,9 @@
       "backgroundScene": "A barn ring with a surprised opponent tumbling over the ropes.",
       "flavourText": "He has never seen an opponent. He has beaten several.",
       "stats": {
-        "Strength": 5,
-        "Show": 4,
-        "Mud": 4
+        "Strength": 8,
+        "Show": 1,
+        "Mud": 6
       },
       "image": "./cards/bucket-head-bob.png",
       "imageSmall": "./cards/bucket-head-bob-small.webp"
@@ -446,9 +446,9 @@
       "backgroundScene": "A barn ring with a giant flag of a sheep's face hanging over it and fans waving foam hooves.",
       "flavourText": "Two lambs. One mind. No mercy.",
       "stats": {
-        "Strength": 5,
-        "Show": 8,
-        "Mud": 3
+        "Strength": 4,
+        "Show": 9,
+        "Mud": 2
       },
       "image": "./cards/the-ewe-nited-twins.png",
       "imageSmall": "./cards/the-ewe-nited-twins-small.webp"
@@ -465,7 +465,7 @@
       "stats": {
         "Strength": 3,
         "Show": 4,
-        "Mud": 4
+        "Mud": 8
       },
       "image": "./cards/tumbleweed.png",
       "imageSmall": "./cards/tumbleweed-small.webp"
@@ -481,8 +481,8 @@
       "flavourText": "The scariest animal on the farm, and everybody knows it.",
       "stats": {
         "Strength": 4,
-        "Show": 6,
-        "Mud": 3
+        "Show": 9,
+        "Mud": 2
       },
       "image": "./cards/grumpy-gertie.png",
       "imageSmall": "./cards/grumpy-gertie-small.webp"
@@ -498,8 +498,8 @@
       "flavourText": "He says sorry after every match. He means it.",
       "stats": {
         "Strength": 10,
-        "Show": 4,
-        "Mud": 5
+        "Show": 1,
+        "Mud": 4
       },
       "image": "./cards/the-shire-giant.png",
       "imageSmall": "./cards/the-shire-giant-small.webp"
@@ -514,9 +514,9 @@
       "backgroundScene": "A barn arena exploding with fireworks, smoke and confetti, the crowd on its feet.",
       "flavourText": "When the barn doors blow open, the match is already over.",
       "stats": {
-        "Strength": 9,
-        "Show": 10,
-        "Mud": 7
+        "Strength": 5,
+        "Show": 9,
+        "Mud": 1
       },
       "image": "./cards/the-barnstormer.png",
       "imageSmall": "./cards/the-barnstormer-small.webp"
@@ -531,8 +531,8 @@
       "backgroundScene": "A barn ring with a huge bull opponent looking down, confused.",
       "flavourText": "He is fast. He is tiny. He is mostly ignored.",
       "stats": {
-        "Strength": 3,
-        "Show": 5,
+        "Strength": 4,
+        "Show": 9,
         "Mud": 2
       },
       "image": "./cards/rabbit-punch.png",
@@ -548,9 +548,9 @@
       "backgroundScene": "A packed barn arena decorated with colourful paper flags and piñatas, a crowd of farm animals in sombreros cheering.",
       "flavourText": "Nobody knows what is under the mask. Probably more goat.",
       "stats": {
-        "Strength": 6,
-        "Show": 9,
-        "Mud": 3
+        "Strength": 4,
+        "Show": 10,
+        "Mud": 1
       },
       "image": "./cards/el-chivo-loco.png",
       "imageSmall": "./cards/el-chivo-loco-small.webp"
@@ -565,9 +565,9 @@
       "backgroundScene": "A barn ring next to the duck pond, lily pads floating in a paddling pool at ringside.",
       "flavourText": "He has one move. It is a very good move.",
       "stats": {
-        "Strength": 3,
+        "Strength": 1,
         "Show": 5,
-        "Mud": 5
+        "Mud": 9
       },
       "image": "./cards/frog-splash-fred.png",
       "imageSmall": "./cards/frog-splash-fred-small.webp"
@@ -582,8 +582,8 @@
       "backgroundScene": "A barn ring with a crackling homemade science machine in the corner, sparks flying from the wires.",
       "flavourText": "He has a plan. It involves a lot of duct tape.",
       "stats": {
-        "Strength": 4,
-        "Show": 8,
+        "Strength": 1,
+        "Show": 9,
         "Mud": 5
       },
       "image": "./cards/doctor-quackenstein.png",
@@ -599,9 +599,9 @@
       "backgroundScene": "A barn ring with dust trails and dizzy opponents on the canvas.",
       "flavourText": "Delivers on time. Delivers a beating.",
       "stats": {
-        "Strength": 4,
-        "Show": 4,
-        "Mud": 3
+        "Strength": 8,
+        "Show": 3,
+        "Mud": 4
       },
       "image": "./cards/pony-express.png",
       "imageSmall": "./cards/pony-express-small.webp"
@@ -616,9 +616,9 @@
       "backgroundScene": "A barn arena under red and blue spotlights, the crowd laughing.",
       "flavourText": "He does not move. He does not need to.",
       "stats": {
-        "Strength": 8,
-        "Show": 6,
-        "Mud": 4
+        "Strength": 9,
+        "Show": 4,
+        "Mud": 2
       },
       "image": "./cards/the-alpaca-lypse.png",
       "imageSmall": "./cards/the-alpaca-lypse-small.webp"
@@ -633,9 +633,9 @@
       "backgroundScene": "A barn ring with a mole hill in the middle of the canvas and splinters flying.",
       "flavourText": "He never enters the ring. He enters from below.",
       "stats": {
-        "Strength": 5,
-        "Show": 3,
-        "Mud": 6
+        "Strength": 4,
+        "Show": 1,
+        "Mud": 10
       },
       "image": "./cards/mole-mauler.png",
       "imageSmall": "./cards/mole-mauler-small.webp"
@@ -651,8 +651,8 @@
       "flavourText": "Drop and give him twenty. Pins.",
       "stats": {
         "Strength": 8,
-        "Show": 7,
-        "Mud": 6
+        "Show": 3,
+        "Mud": 4
       },
       "image": "./cards/sergeant-snout.png",
       "imageSmall": "./cards/sergeant-snout-small.webp"
@@ -667,9 +667,9 @@
       "backgroundScene": "A barn ring with a giant clock on the wall and cobwebs on the ropes.",
       "flavourText": "He has never lost. His matches have not finished yet.",
       "stats": {
-        "Strength": 4,
-        "Show": 3,
-        "Mud": 3
+        "Strength": 8,
+        "Show": 1,
+        "Mud": 6
       },
       "image": "./cards/slow-mo.png",
       "imageSmall": "./cards/slow-mo-small.webp"
@@ -684,9 +684,9 @@
       "backgroundScene": "Ringside in a barn, with the bull's huge legs filling most of the frame.",
       "flavourText": "Pound for pound, the toughest bird alive.",
       "stats": {
-        "Strength": 4,
+        "Strength": 9,
         "Show": 5,
-        "Mud": 2
+        "Mud": 1
       },
       "image": "./cards/bantam-bruiser.png",
       "imageSmall": "./cards/bantam-bruiser-small.webp"
@@ -701,8 +701,8 @@
       "backgroundScene": "A dark barn arena with hay drifting down from the rafters, the crowd frozen in surprise, a single beam of light.",
       "flavourText": "Nine lives. Nine titles. No losses.",
       "stats": {
-        "Strength": 8,
-        "Show": 10,
+        "Strength": 2,
+        "Show": 5,
         "Mud": 8
       },
       "image": "./cards/the-phantom-of-the-hayloft.png",

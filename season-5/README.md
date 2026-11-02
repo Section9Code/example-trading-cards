@@ -3,6 +3,7 @@
 40 cards. Select a card to open the full-size image.
 
 - **Stats:** Strength, Show, Mud
+- **Balance:** built for Top Trumps. Every card's stats add up to 15, with at least one stat of 8 or more and one of 3 or less, so every card can win a round and every card can lose one.
 - **Rarities:** Common (19), Rare (16), Legendary (5)
 - **Data:** [cards.json](cards.json)
 
