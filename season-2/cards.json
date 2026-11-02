@@ -38,9 +38,9 @@
       "backgroundScene": "Pitch-black deep water with drifting particles, a few tiny curious fish swimming toward the glowing lure.",
       "flavourText": "Follow the light. Everyone does.",
       "stats": {
-        "Glow": 8,
-        "Bite": 7,
-        "Weirdness": 4
+        "Glow": 10,
+        "Bite": 4,
+        "Weirdness": 1
       },
       "image": "./cards/lanternjaw.png",
       "imageSmall": "./cards/lanternjaw-small.webp"
@@ -56,8 +56,8 @@
       "flavourText": "Sailors hear it on still nights. Then they go for a swim.",
       "stats": {
         "Glow": 10,
-        "Bite": 4,
-        "Weirdness": 10
+        "Bite": 1,
+        "Weirdness": 4
       },
       "image": "./cards/the-drowned-choir.png",
       "imageSmall": "./cards/the-drowned-choir-small.webp"
@@ -72,9 +72,9 @@
       "backgroundScene": "Dark indigo open water with a few drifting particles and a distant glow far below.",
       "flavourText": "Bit off more than it could chew. Chewed it anyway.",
       "stats": {
-        "Glow": 3,
-        "Bite": 5,
-        "Weirdness": 6
+        "Glow": 1,
+        "Bite": 6,
+        "Weirdness": 8
       },
       "image": "./cards/gulper-gary.png",
       "imageSmall": "./cards/gulper-gary-small.webp"
@@ -89,9 +89,9 @@
       "backgroundScene": "A tall kelp forest swaying in deep blue-purple water, shafts of pale light from far above, tiny glowing fish weaving between the stalks.",
       "flavourText": "She knows every secret the tide has ever told.",
       "stats": {
-        "Glow": 6,
-        "Bite": 3,
-        "Weirdness": 8
+        "Glow": 4,
+        "Bite": 1,
+        "Weirdness": 10
       },
       "image": "./cards/mother-kelpwhisker.png",
       "imageSmall": "./cards/mother-kelpwhisker-small.webp"
@@ -106,9 +106,9 @@
       "backgroundScene": "A shallow reef ledge at dusk with purple coral and drifting bubbles, a curious crab watching from below.",
       "flavourText": "Do not poke. It has been poked enough.",
       "stats": {
-        "Glow": 2,
-        "Bite": 4,
-        "Weirdness": 5
+        "Glow": 1,
+        "Bite": 8,
+        "Weirdness": 6
       },
       "image": "./cards/bubblepuff.png",
       "imageSmall": "./cards/bubblepuff-small.webp"
@@ -124,8 +124,8 @@
       "flavourText": "The pearl is real. So are the teeth.",
       "stats": {
         "Glow": 4,
-        "Bite": 6,
-        "Weirdness": 4
+        "Bite": 9,
+        "Weirdness": 2
       },
       "image": "./cards/snickerclam.png",
       "imageSmall": "./cards/snickerclam-small.webp"
@@ -140,9 +140,9 @@
       "backgroundScene": "A sunken castle courtyard overgrown with coral and anemones, a toppled statue and a cracked well, faint shafts of light.",
       "flavourText": "He sank on his first quest. He is still on it.",
       "stats": {
-        "Glow": 4,
-        "Bite": 6,
-        "Weirdness": 7
+        "Glow": 1,
+        "Bite": 5,
+        "Weirdness": 9
       },
       "image": "./cards/sir-barnaby-barnacle.png",
       "imageSmall": "./cards/sir-barnaby-barnacle-small.webp"
@@ -157,9 +157,9 @@
       "backgroundScene": "The edge of a bottomless ocean trench, the walls lit by glowing vents, debris and bubbles rushing upward.",
       "flavourText": "The trench is not deep. It is just very hungry.",
       "stats": {
-        "Glow": 7,
-        "Bite": 10,
-        "Weirdness": 8
+        "Glow": 3,
+        "Bite": 9,
+        "Weirdness": 3
       },
       "image": "./cards/abyssmaw.png",
       "imageSmall": "./cards/abyssmaw-small.webp"
@@ -174,9 +174,9 @@
       "backgroundScene": "A tide pool cave with smooth stones and a few glowing sea snails on the walls.",
       "flavourText": "Eight arms. No coordination.",
       "stats": {
-        "Glow": 3,
-        "Bite": 2,
-        "Weirdness": 7
+        "Glow": 4,
+        "Bite": 1,
+        "Weirdness": 10
       },
       "image": "./cards/wobblegoggle.png",
       "imageSmall": "./cards/wobblegoggle-small.webp"
@@ -191,9 +191,9 @@
       "backgroundScene": "A sunken library with sodden books floating off broken shelves, ink clouds drifting through dark purple water.",
       "flavourText": "She writes her curses in your own ink.",
       "stats": {
-        "Glow": 7,
-        "Bite": 4,
-        "Weirdness": 8
+        "Glow": 9,
+        "Bite": 1,
+        "Weirdness": 5
       },
       "image": "./cards/the-inkwitch.png",
       "imageSmall": "./cards/the-inkwitch-small.webp"
@@ -208,9 +208,9 @@
       "backgroundScene": "A sunken shipwreck deck with a broken wheel and tangled nets, dim teal light.",
       "flavourText": "He has been caught eleven times. He has kept every hook.",
       "stats": {
-        "Glow": 3,
-        "Bite": 8,
-        "Weirdness": 5
+        "Glow": 1,
+        "Bite": 10,
+        "Weirdness": 4
       },
       "image": "./cards/grumblefin.png",
       "imageSmall": "./cards/grumblefin-small.webp"
@@ -225,9 +225,9 @@
       "backgroundScene": "A field of black hydrothermal vents billowing dark smoke, glowing mineral cracks and pale crabs crowding the warm rocks.",
       "flavourText": "It likes it hot. It likes you hotter.",
       "stats": {
-        "Glow": 7,
-        "Bite": 6,
-        "Weirdness": 6
+        "Glow": 8,
+        "Bite": 5,
+        "Weirdness": 2
       },
       "image": "./cards/vent-wyrm.png",
       "imageSmall": "./cards/vent-wyrm-small.webp"
@@ -242,9 +242,9 @@
       "backgroundScene": "A tidy patch of sea floor next to a messy one full of shells and junk, faint light from above.",
       "flavourText": "Finally, someone cleans up down here.",
       "stats": {
-        "Glow": 3,
+        "Glow": 4,
         "Bite": 2,
-        "Weirdness": 6
+        "Weirdness": 9
       },
       "image": "./cards/mopfish.png",
       "imageSmall": "./cards/mopfish-small.webp"
@@ -259,9 +259,9 @@
       "backgroundScene": "A dark sea floor littered with broken anchors and chains, the outline of a wrecked ship behind, eerie teal mist in the water.",
       "flavourText": "He is still waiting for someone to pull the rope.",
       "stats": {
-        "Glow": 6,
-        "Bite": 3,
-        "Weirdness": 9
+        "Glow": 4,
+        "Bite": 1,
+        "Weirdness": 10
       },
       "image": "./cards/the-pale-diver.png",
       "imageSmall": "./cards/the-pale-diver-small.webp"
@@ -276,8 +276,8 @@
       "backgroundScene": "A busy reef with purple coral fans and schools of small fish scattering.",
       "flavourText": "Small fish. Big mouth.",
       "stats": {
-        "Glow": 2,
-        "Bite": 6,
+        "Glow": 3,
+        "Bite": 9,
         "Weirdness": 3
       },
       "image": "./cards/snapperjack.png",
@@ -293,9 +293,9 @@
       "backgroundScene": "Dark night water with a sprinkle of glowing plankton like stars.",
       "flavourText": "It lights the way. Not always the right way.",
       "stats": {
-        "Glow": 7,
-        "Bite": 2,
-        "Weirdness": 7
+        "Glow": 10,
+        "Bite": 1,
+        "Weirdness": 4
       },
       "image": "./cards/glimmerworm.png",
       "imageSmall": "./cards/glimmerworm-small.webp"
@@ -311,8 +311,8 @@
       "flavourText": "That rock has a spoon.",
       "stats": {
         "Glow": 1,
-        "Bite": 4,
-        "Weirdness": 6
+        "Bite": 5,
+        "Weirdness": 9
       },
       "image": "./cards/barnacle-bob.png",
       "imageSmall": "./cards/barnacle-bob-small.webp"
@@ -327,9 +327,9 @@
       "backgroundScene": "A field of tall sea grass in deep blue water, bubbles rising.",
       "flavourText": "They always agree. That is the problem.",
       "stats": {
-        "Glow": 4,
-        "Bite": 3,
-        "Weirdness": 6
+        "Glow": 9,
+        "Bite": 1,
+        "Weirdness": 5
       },
       "image": "./cards/squidlet-twins.png",
       "imageSmall": "./cards/squidlet-twins-small.webp"
@@ -344,9 +344,9 @@
       "backgroundScene": "A deep ocean graveyard of sunken ships, masts and sails drifting, faint light from far above and bubbles rising from the wrecks.",
       "flavourText": "Every ship down here was a gift. She keeps them all.",
       "stats": {
-        "Glow": 8,
-        "Bite": 9,
-        "Weirdness": 9
+        "Glow": 3,
+        "Bite": 8,
+        "Weirdness": 4
       },
       "image": "./cards/old-mother-kraken.png",
       "imageSmall": "./cards/old-mother-kraken-small.webp"
@@ -361,9 +361,9 @@
       "backgroundScene": "A murky underwater market of floating stalls made of crates and nets, lanterns of glowing jellyfish hanging from ropes.",
       "flavourText": "Everything is for sale. Especially you.",
       "stats": {
-        "Glow": 5,
-        "Bite": 5,
-        "Weirdness": 8
+        "Glow": 3,
+        "Bite": 3,
+        "Weirdness": 9
       },
       "image": "./cards/murkmonger.png",
       "imageSmall": "./cards/murkmonger-small.webp"
@@ -379,8 +379,8 @@
       "flavourText": "It has not moved in years. It does not plan to start.",
       "stats": {
         "Glow": 1,
-        "Bite": 5,
-        "Weirdness": 4
+        "Bite": 9,
+        "Weirdness": 5
       },
       "image": "./cards/pebbletoad.png",
       "imageSmall": "./cards/pebbletoad-small.webp"
@@ -395,9 +395,9 @@
       "backgroundScene": "A sunken inventor's workshop full of brass instruments, scattered blueprints and broken clocks, teal light through a skylight.",
       "flavourText": "Built to explore the deep. Never came back up.",
       "stats": {
-        "Glow": 6,
-        "Bite": 4,
-        "Weirdness": 8
+        "Glow": 5,
+        "Bite": 1,
+        "Weirdness": 9
       },
       "image": "./cards/the-clockwork-nautilus.png",
       "imageSmall": "./cards/the-clockwork-nautilus-small.webp"
@@ -412,9 +412,9 @@
       "backgroundScene": "A rocky reef slope with coral and a looming shadow of a fish behind it.",
       "flavourText": "It is not running away. It is running towards somewhere else.",
       "stats": {
-        "Glow": 2,
-        "Bite": 4,
-        "Weirdness": 5
+        "Glow": 1,
+        "Bite": 6,
+        "Weirdness": 8
       },
       "image": "./cards/spinyscuttle.png",
       "imageSmall": "./cards/spinyscuttle-small.webp"
@@ -429,9 +429,9 @@
       "backgroundScene": "A rocky shoal under a full moon, the broken hull of a small boat on the rocks behind her, silver-teal light on the water.",
       "flavourText": "Her song is lovely. Her smile has too many teeth.",
       "stats": {
-        "Glow": 7,
-        "Bite": 5,
-        "Weirdness": 7
+        "Glow": 8,
+        "Bite": 1,
+        "Weirdness": 6
       },
       "image": "./cards/siren-of-the-shoals.png",
       "imageSmall": "./cards/siren-of-the-shoals-small.webp"
@@ -446,9 +446,9 @@
       "backgroundScene": "Calm deep blue water with drifting particles like snow.",
       "flavourText": "Too soft for the abyss. The abyss does not mind.",
       "stats": {
-        "Glow": 3,
+        "Glow": 5,
         "Bite": 1,
-        "Weirdness": 5
+        "Weirdness": 9
       },
       "image": "./cards/dumpling.png",
       "imageSmall": "./cards/dumpling-small.webp"
@@ -464,8 +464,8 @@
       "flavourText": "It cannot close its mouth. It has never wanted to.",
       "stats": {
         "Glow": 4,
-        "Bite": 7,
-        "Weirdness": 3
+        "Bite": 10,
+        "Weirdness": 1
       },
       "image": "./cards/hookfang.png",
       "imageSmall": "./cards/hookfang-small.webp"
@@ -480,9 +480,9 @@
       "backgroundScene": "A rolling sea floor of sand dunes with ripples and a sunken bottle.",
       "flavourText": "Footprints in the sand. Very big footprints.",
       "stats": {
-        "Glow": 2,
+        "Glow": 1,
         "Bite": 5,
-        "Weirdness": 6
+        "Weirdness": 9
       },
       "image": "./cards/sandsquatch.png",
       "imageSmall": "./cards/sandsquatch-small.webp"
@@ -497,9 +497,9 @@
       "backgroundScene": "The deck of a sunken pirate galleon with a torn flag drifting, treasure chests spilling gold, schools of fish swimming through broken masts.",
       "flavourText": "Dead men tell no tales. This one never stops.",
       "stats": {
-        "Glow": 5,
-        "Bite": 7,
-        "Weirdness": 6
+        "Glow": 3,
+        "Bite": 8,
+        "Weirdness": 4
       },
       "image": "./cards/captain-coralbeard.png",
       "imageSmall": "./cards/captain-coralbeard-small.webp"
@@ -514,9 +514,9 @@
       "backgroundScene": "A vast underwater throne room carved from coral, glowing jellyfish lanterns, kneeling sea creatures in the distance and light streaming from above.",
       "flavourText": "The whole ocean is her kingdom. You are just visiting.",
       "stats": {
-        "Glow": 9,
-        "Bite": 8,
-        "Weirdness": 8
+        "Glow": 8,
+        "Bite": 5,
+        "Weirdness": 2
       },
       "image": "./cards/the-leviathan-queen.png",
       "imageSmall": "./cards/the-leviathan-queen-small.webp"
@@ -531,9 +531,9 @@
       "backgroundScene": "Bright teal shallow water near the surface with a fishing line and hook dangling from above.",
       "flavourText": "It steals the bait. Every single time.",
       "stats": {
-        "Glow": 2,
-        "Bite": 3,
-        "Weirdness": 4
+        "Glow": 1,
+        "Bite": 9,
+        "Weirdness": 5
       },
       "image": "./cards/nibbles.png",
       "imageSmall": "./cards/nibbles-small.webp"
