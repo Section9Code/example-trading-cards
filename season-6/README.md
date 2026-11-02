@@ -3,6 +3,7 @@
 50 cards. Select a card to open the full-size image.
 
 - **Stats:** Flavour, Menace, Fresh, Cook Speed, Eats You, Serves
+- **Balance:** built for Top Trumps. Every card's stats add up to 30, with at least one stat of 8 or more and one of 3 or less, so every card can win a round and every card can lose one.
 - **Rarities:** Common (23), Rare (20), Legendary (7)
 - **Data:** [cards.json](cards.json)
 

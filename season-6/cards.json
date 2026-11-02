@@ -84,11 +84,11 @@
       "backgroundScene": "A dim roadside diner at night with a flickering neon glow",
       "flavourText": "Would you like fries with your doom?",
       "stats": {
-        "Flavour": 6,
-        "Menace": 6,
+        "Flavour": 5,
+        "Menace": 5,
         "Fresh": 4,
         "Cook Speed": 9,
-        "Eats You": 6,
+        "Eats You": 5,
         "Serves": 2
       },
       "image": "./cards/gloomburger.png",
@@ -104,12 +104,12 @@
       "backgroundScene": "A bubbling oven interior glowing orange",
       "flavourText": "Nobody knows how many layers it has. Those who counted are in it.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 7,
-        "Fresh": 4,
-        "Cook Speed": 3,
-        "Eats You": 7,
-        "Serves": 8
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 2,
+        "Cook Speed": 1,
+        "Eats You": 6,
+        "Serves": 9
       },
       "image": "./cards/the-lasagnamander.png",
       "imageSmall": "./cards/the-lasagnamander-small.webp"
@@ -124,12 +124,12 @@
       "backgroundScene": "The cold back shelf of a glowing fridge",
       "flavourText": "Nobody remembers making it. It remembers you.",
       "stats": {
-        "Flavour": 3,
-        "Menace": 10,
-        "Fresh": 0,
-        "Cook Speed": 10,
+        "Flavour": 1,
+        "Menace": 9,
+        "Fresh": 1,
+        "Cook Speed": 7,
         "Eats You": 10,
-        "Serves": 3
+        "Serves": 2
       },
       "image": "./cards/the-leftover.png",
       "imageSmall": "./cards/the-leftover-small.webp"
@@ -145,11 +145,11 @@
       "flavourText": "He is rare. He is also well done with you.",
       "stats": {
         "Flavour": 7,
-        "Menace": 7,
-        "Fresh": 6,
-        "Cook Speed": 7,
-        "Eats You": 3,
-        "Serves": 2
+        "Menace": 8,
+        "Fresh": 8,
+        "Cook Speed": 5,
+        "Eats You": 1,
+        "Serves": 1
       },
       "image": "./cards/sir-loin.png",
       "imageSmall": "./cards/sir-loin-small.webp"
@@ -165,9 +165,9 @@
       "flavourText": "It has been sunny side up for 300 years.",
       "stats": {
         "Flavour": 7,
-        "Menace": 8,
-        "Fresh": 0,
-        "Cook Speed": 9,
+        "Menace": 10,
+        "Fresh": 1,
+        "Cook Speed": 6,
         "Eats You": 5,
         "Serves": 1
       },
@@ -186,9 +186,9 @@
       "stats": {
         "Flavour": 5,
         "Menace": 4,
-        "Fresh": 3,
-        "Cook Speed": 8,
-        "Eats You": 7,
+        "Fresh": 4,
+        "Cook Speed": 7,
+        "Eats You": 9,
         "Serves": 1
       },
       "image": "./cards/pretzel-fiend.png",
@@ -204,12 +204,12 @@
       "backgroundScene": "A candlelit waterfront restaurant with toppled chairs",
       "flavourText": "The table was set. The table was a mistake.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 7,
-        "Fresh": 5,
-        "Cook Speed": 5,
+        "Flavour": 8,
+        "Menace": 5,
+        "Fresh": 3,
+        "Cook Speed": 1,
         "Eats You": 8,
-        "Serves": 6
+        "Serves": 5
       },
       "image": "./cards/the-crawlfish-dinner.png",
       "imageSmall": "./cards/the-crawlfish-dinner-small.webp"
@@ -224,11 +224,11 @@
       "backgroundScene": "A dark suburban hallway with moonlight under a kitchen door",
       "flavourText": "It slides under doors. You will not hear it.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 5,
-        "Fresh": 7,
+        "Flavour": 5,
+        "Menace": 4,
+        "Fresh": 6,
         "Cook Speed": 10,
-        "Eats You": 5,
+        "Eats You": 4,
         "Serves": 1
       },
       "image": "./cards/silent-pancake.png",
@@ -244,12 +244,12 @@
       "backgroundScene": "A cobwebbed stone cheese cellar lit by candles",
       "flavourText": "He only gets stronger with age. And worse.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 7,
+        "Flavour": 9,
+        "Menace": 6,
         "Fresh": 2,
         "Cook Speed": 3,
         "Eats You": 5,
-        "Serves": 4
+        "Serves": 5
       },
       "image": "./cards/baron-von-brie.png",
       "imageSmall": "./cards/baron-von-brie-small.webp"
@@ -265,11 +265,11 @@
       "flavourText": "They roll in a gang. Nobody talks. Everybody simmers.",
       "stats": {
         "Flavour": 8,
-        "Menace": 6,
+        "Menace": 5,
         "Fresh": 5,
-        "Cook Speed": 4,
-        "Eats You": 4,
-        "Serves": 5
+        "Cook Speed": 3,
+        "Eats You": 3,
+        "Serves": 6
       },
       "image": "./cards/meatball-mob.png",
       "imageSmall": "./cards/meatball-mob-small.webp"
@@ -284,11 +284,11 @@
       "backgroundScene": "A sunken cathedral-like ballroom under a green sea-lit sky",
       "flavourText": "Let them eat cake. It will eat them first.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 10,
-        "Fresh": 6,
-        "Cook Speed": 2,
-        "Eats You": 9,
+        "Flavour": 8,
+        "Menace": 1,
+        "Fresh": 3,
+        "Cook Speed": 1,
+        "Eats You": 7,
         "Serves": 10
       },
       "image": "./cards/grand-gateau-cthulhu.png",
@@ -304,11 +304,11 @@
       "backgroundScene": "A cottage window sill at dusk with a stormy sky",
       "flavourText": "Four and twenty blackbirds tried to warn you.",
       "stats": {
-        "Flavour": 8,
-        "Menace": 8,
-        "Fresh": 5,
-        "Cook Speed": 4,
-        "Eats You": 8,
+        "Flavour": 7,
+        "Menace": 4,
+        "Fresh": 3,
+        "Cook Speed": 1,
+        "Eats You": 9,
         "Serves": 6
       },
       "image": "./cards/tentacle-pie.png",
@@ -325,11 +325,11 @@
       "flavourText": "It failed the bake. Now the baker fails too.",
       "stats": {
         "Flavour": 2,
-        "Menace": 3,
-        "Fresh": 3,
-        "Cook Speed": 3,
-        "Eats You": 4,
-        "Serves": 6
+        "Menace": 4,
+        "Fresh": 5,
+        "Cook Speed": 4,
+        "Eats You": 6,
+        "Serves": 9
       },
       "image": "./cards/soggy-bottom.png",
       "imageSmall": "./cards/soggy-bottom-small.webp"
@@ -344,11 +344,11 @@
       "backgroundScene": "A hazy fiery kitchen with smoke and heat shimmer",
       "flavourText": "You will see a light. It is your tongue.",
       "stats": {
-        "Flavour": 8,
+        "Flavour": 6,
         "Menace": 10,
         "Fresh": 8,
-        "Cook Speed": 10,
-        "Eats You": 3,
+        "Cook Speed": 4,
+        "Eats You": 1,
         "Serves": 1
       },
       "image": "./cards/reaper-chilli.png",
@@ -364,12 +364,12 @@
       "backgroundScene": "A dark kitchen with a toaster glowing orange on the worktop",
       "flavourText": "Toasted in 1953. Still has not popped up.",
       "stats": {
-        "Flavour": 3,
-        "Menace": 4,
-        "Fresh": 0,
+        "Flavour": 4,
+        "Menace": 5,
+        "Fresh": 3,
         "Cook Speed": 10,
-        "Eats You": 2,
-        "Serves": 1
+        "Eats You": 4,
+        "Serves": 4
       },
       "image": "./cards/toast-ghost.png",
       "imageSmall": "./cards/toast-ghost-small.webp"
@@ -384,12 +384,12 @@
       "backgroundScene": "A dark sushi bar with paper lanterns and rolling waves painted on the wall",
       "flavourText": "Goes round and round. Then it stops at you.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 6,
-        "Fresh": 10,
-        "Cook Speed": 7,
-        "Eats You": 7,
-        "Serves": 4
+        "Flavour": 6,
+        "Menace": 4,
+        "Fresh": 9,
+        "Cook Speed": 4,
+        "Eats You": 5,
+        "Serves": 2
       },
       "image": "./cards/sushi-serpent.png",
       "imageSmall": "./cards/sushi-serpent-small.webp"
@@ -404,11 +404,11 @@
       "backgroundScene": "A family dining table at a tense Sunday dinner",
       "flavourText": "You cannot have just a little. It decides how much.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 5,
-        "Fresh": 5,
+        "Flavour": 5,
+        "Menace": 2,
+        "Fresh": 4,
         "Cook Speed": 8,
-        "Eats You": 6,
+        "Eats You": 5,
         "Serves": 6
       },
       "image": "./cards/gnashed-potatoes.png",
@@ -424,12 +424,12 @@
       "backgroundScene": "A grand candlelit hall with long shadows and red curtains",
       "flavourText": "Reservations are not required. You are already booked.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 10,
-        "Fresh": 5,
-        "Cook Speed": 5,
-        "Eats You": 10,
-        "Serves": 10
+        "Flavour": 5,
+        "Menace": 7,
+        "Fresh": 1,
+        "Cook Speed": 1,
+        "Eats You": 9,
+        "Serves": 7
       },
       "image": "./cards/the-last-supper-club.png",
       "imageSmall": "./cards/the-last-supper-club-small.webp"
@@ -444,11 +444,11 @@
       "backgroundScene": "A gloomy old school canteen with rows of empty chairs",
       "flavourText": "Just the one. That is all it takes to spoil the rest.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 4,
-        "Fresh": 8,
-        "Cook Speed": 10,
-        "Eats You": 3,
+        "Flavour": 5,
+        "Menace": 3,
+        "Fresh": 10,
+        "Cook Speed": 9,
+        "Eats You": 2,
         "Serves": 1
       },
       "image": "./cards/bad-apple.png",
@@ -464,12 +464,12 @@
       "backgroundScene": "A lightning-lit butcher's laboratory with sparking switches",
       "flavourText": "Nobody asks what is in it. It does not know either.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 7,
-        "Fresh": 3,
-        "Cook Speed": 6,
-        "Eats You": 6,
-        "Serves": 4
+        "Flavour": 6,
+        "Menace": 8,
+        "Fresh": 1,
+        "Cook Speed": 5,
+        "Eats You": 7,
+        "Serves": 3
       },
       "image": "./cards/frankenwurst.png",
       "imageSmall": "./cards/frankenwurst-small.webp"
@@ -484,11 +484,11 @@
       "backgroundScene": "A foggy night outside a street food cart under a full moon",
       "flavourText": "Mustard by day. Something much worse by moonlight.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 7,
+        "Flavour": 5,
+        "Menace": 6,
         "Fresh": 5,
         "Cook Speed": 9,
-        "Eats You": 5,
+        "Eats You": 4,
         "Serves": 1
       },
       "image": "./cards/howling-hot-dog.png",
@@ -504,12 +504,12 @@
       "backgroundScene": "A misty moor with a dead tree and a fruit bowl on a rock",
       "flavourText": "When it wails, someone is about to slip.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 8,
+        "Flavour": 5,
+        "Menace": 10,
         "Fresh": 2,
-        "Cook Speed": 10,
+        "Cook Speed": 8,
         "Eats You": 3,
-        "Serves": 1
+        "Serves": 2
       },
       "image": "./cards/banana-banshee.png",
       "imageSmall": "./cards/banana-banshee-small.webp"
@@ -524,11 +524,11 @@
       "backgroundScene": "A dingy motel corridor at night with a buzzing ceiling light",
       "flavourText": "Knock if you like. It already has the room.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 5,
+        "Flavour": 4,
+        "Menace": 4,
         "Fresh": 4,
-        "Cook Speed": 7,
-        "Eats You": 6,
+        "Cook Speed": 9,
+        "Eats You": 8,
         "Serves": 1
       },
       "image": "./cards/doughnut-disturb.png",
@@ -544,12 +544,12 @@
       "backgroundScene": "A country dining room with a huge window and a full moon",
       "flavourText": "Sunday lunch. Monday, nobody came back.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 8,
-        "Fresh": 5,
-        "Cook Speed": 2,
+        "Flavour": 2,
+        "Menace": 7,
+        "Fresh": 3,
+        "Cook Speed": 1,
         "Eats You": 8,
-        "Serves": 8
+        "Serves": 9
       },
       "image": "./cards/the-wereroast.png",
       "imageSmall": "./cards/the-wereroast-small.webp"
@@ -565,11 +565,11 @@
       "flavourText": "Every year you push it aside. Every year it remembers.",
       "stats": {
         "Flavour": 1,
-        "Menace": 6,
-        "Fresh": 7,
-        "Cook Speed": 6,
-        "Eats You": 3,
-        "Serves": 1
+        "Menace": 7,
+        "Fresh": 9,
+        "Cook Speed": 7,
+        "Eats You": 4,
+        "Serves": 2
       },
       "image": "./cards/sprout-of-spite.png",
       "imageSmall": "./cards/sprout-of-spite-small.webp"
@@ -584,12 +584,12 @@
       "backgroundScene": "A gleaming restaurant kitchen after closing time, empty and silent",
       "flavourText": "The chef has stepped out. The chef has not stepped out.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 9,
-        "Fresh": 7,
-        "Cook Speed": 7,
-        "Eats You": 10,
-        "Serves": 6
+        "Flavour": 6,
+        "Menace": 6,
+        "Fresh": 4,
+        "Cook Speed": 3,
+        "Eats You": 8,
+        "Serves": 3
       },
       "image": "./cards/chefs-surprise.png",
       "imageSmall": "./cards/chefs-surprise-small.webp"
@@ -604,12 +604,12 @@
       "backgroundScene": "A stormy sea of broth under neon city lights",
       "flavourText": "Slurp it, or it slurps you. Those are the only rules.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 8,
-        "Fresh": 7,
-        "Cook Speed": 8,
-        "Eats You": 9,
-        "Serves": 5
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 4,
+        "Cook Speed": 5,
+        "Eats You": 8,
+        "Serves": 1
       },
       "image": "./cards/ramen-kraken.png",
       "imageSmall": "./cards/ramen-kraken-small.webp"
@@ -624,11 +624,11 @@
       "backgroundScene": "A moonlit cornfield with a scarecrow in the distance",
       "flavourText": "All ears. It has been listening for some time.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 6,
-        "Fresh": 8,
-        "Cook Speed": 7,
-        "Eats You": 5,
+        "Flavour": 5,
+        "Menace": 5,
+        "Fresh": 9,
+        "Cook Speed": 6,
+        "Eats You": 4,
         "Serves": 1
       },
       "image": "./cards/corn-stalker.png",
@@ -644,10 +644,10 @@
       "backgroundScene": "An ornate old opera-house kitchen with chandelier light",
       "flavourText": "One loud noise, and it collapses. Then it comes for you.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 6,
+        "Flavour": 9,
+        "Menace": 5,
         "Fresh": 8,
-        "Cook Speed": 3,
+        "Cook Speed": 2,
         "Eats You": 4,
         "Serves": 2
       },
@@ -664,11 +664,11 @@
       "backgroundScene": "A greasy diner breakfast counter at dawn",
       "flavourText": "Each square holds a little more sorrow. And syrup.",
       "stats": {
-        "Flavour": 8,
-        "Menace": 3,
-        "Fresh": 6,
-        "Cook Speed": 8,
-        "Eats You": 2,
+        "Flavour": 9,
+        "Menace": 2,
+        "Fresh": 7,
+        "Cook Speed": 9,
+        "Eats You": 1,
         "Serves": 2
       },
       "image": "./cards/wailing-waffle.png",
@@ -684,11 +684,11 @@
       "backgroundScene": "A snowy village street with broken gingerbread houses",
       "flavourText": "You cannot catch it. Nobody has ever tried twice.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 8,
-        "Fresh": 4,
-        "Cook Speed": 5,
-        "Eats You": 6,
+        "Flavour": 5,
+        "Menace": 6,
+        "Fresh": 3,
+        "Cook Speed": 3,
+        "Eats You": 5,
         "Serves": 8
       },
       "image": "./cards/gingerbread-golem.png",
@@ -704,12 +704,12 @@
       "backgroundScene": "A dim members-only lounge with leather chairs",
       "flavourText": "Membership is compulsory. So is the club.",
       "stats": {
-        "Flavour": 6,
-        "Menace": 8,
-        "Fresh": 5,
+        "Flavour": 5,
+        "Menace": 9,
+        "Fresh": 6,
         "Cook Speed": 7,
-        "Eats You": 3,
-        "Serves": 2
+        "Eats You": 2,
+        "Serves": 1
       },
       "image": "./cards/the-club-sandwich.png",
       "imageSmall": "./cards/the-club-sandwich-small.webp"
@@ -724,11 +724,11 @@
       "backgroundScene": "An ancient candlelit bakery cellar with smaller jars worshipping her",
       "flavourText": "Feed her daily. If you forget, she will remember.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 8,
-        "Fresh": 3,
+        "Flavour": 5,
+        "Menace": 6,
+        "Fresh": 1,
         "Cook Speed": 1,
-        "Eats You": 8,
+        "Eats You": 7,
         "Serves": 10
       },
       "image": "./cards/mother-sourdough.png",
@@ -744,12 +744,12 @@
       "backgroundScene": "A grubby vegetable-crate boxing ring in a cellar",
       "flavourText": "Stains everything. Especially the loser.",
       "stats": {
-        "Flavour": 3,
+        "Flavour": 2,
         "Menace": 7,
-        "Fresh": 8,
+        "Fresh": 9,
         "Cook Speed": 5,
         "Eats You": 4,
-        "Serves": 2
+        "Serves": 3
       },
       "image": "./cards/beet-down.png",
       "imageSmall": "./cards/beet-down-small.webp"
@@ -764,12 +764,12 @@
       "backgroundScene": "A marble trattoria full of diners turned to stone at the table",
       "flavourText": "One look and you will never leave the table.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 9,
-        "Fresh": 5,
-        "Cook Speed": 6,
-        "Eats You": 5,
-        "Serves": 4
+        "Flavour": 8,
+        "Menace": 8,
+        "Fresh": 4,
+        "Cook Speed": 4,
+        "Eats You": 3,
+        "Serves": 3
       },
       "image": "./cards/medusa-bolognese.png",
       "imageSmall": "./cards/medusa-bolognese-small.webp"
@@ -784,8 +784,8 @@
       "backgroundScene": "A torchlit stone tomb with hot sauce bottles as offerings",
       "flavourText": "Wrapped for 3,000 years. Still hot in the middle.",
       "stats": {
-        "Flavour": 8,
-        "Menace": 6,
+        "Flavour": 7,
+        "Menace": 5,
         "Fresh": 1,
         "Cook Speed": 9,
         "Eats You": 5,
@@ -804,12 +804,12 @@
       "backgroundScene": "A misty Louisiana-style bayou with cypress trees and lanterns",
       "flavourText": "It has been simmering since before the swamp.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 7,
-        "Fresh": 3,
+        "Flavour": 6,
+        "Menace": 6,
+        "Fresh": 1,
         "Cook Speed": 1,
-        "Eats You": 7,
-        "Serves": 9
+        "Eats You": 6,
+        "Serves": 10
       },
       "image": "./cards/gumbo-lagoon.png",
       "imageSmall": "./cards/gumbo-lagoon-small.webp"
@@ -824,12 +824,12 @@
       "backgroundScene": "A gloomy children's party with limp balloons",
       "flavourText": "It trembles. Not from fear. From anticipation.",
       "stats": {
-        "Flavour": 5,
+        "Flavour": 4,
         "Menace": 4,
-        "Fresh": 6,
-        "Cook Speed": 6,
-        "Eats You": 3,
-        "Serves": 8
+        "Fresh": 9,
+        "Cook Speed": 5,
+        "Eats You": 2,
+        "Serves": 6
       },
       "image": "./cards/jelly-fright.png",
       "imageSmall": "./cards/jelly-fright-small.webp"
@@ -844,12 +844,12 @@
       "backgroundScene": "A rocky cave kitchen with a huge cast-iron pan and sheep bones",
       "flavourText": "You have to break a few eggs. It breaks everything else.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 7,
-        "Fresh": 9,
-        "Cook Speed": 9,
-        "Eats You": 6,
-        "Serves": 5
+        "Flavour": 4,
+        "Menace": 4,
+        "Fresh": 8,
+        "Cook Speed": 7,
+        "Eats You": 4,
+        "Serves": 3
       },
       "image": "./cards/cyclops-omelette.png",
       "imageSmall": "./cards/cyclops-omelette-small.webp"
@@ -864,11 +864,11 @@
       "backgroundScene": "A witch's hut kitchen with a fire that has never gone out",
       "flavourText": "Nobody has reached the bottom. Some are still looking.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 9,
+        "Flavour": 3,
+        "Menace": 7,
         "Fresh": 1,
         "Cook Speed": 1,
-        "Eats You": 9,
+        "Eats You": 8,
         "Serves": 10
       },
       "image": "./cards/everlasting-stew.png",
@@ -884,10 +884,10 @@
       "backgroundScene": "A rainy street outside a closed patisserie",
       "flavourText": "Light as air. Follows you home.",
       "stats": {
-        "Flavour": 8,
+        "Flavour": 9,
         "Menace": 3,
-        "Fresh": 4,
-        "Cook Speed": 7,
+        "Fresh": 5,
+        "Cook Speed": 8,
         "Eats You": 4,
         "Serves": 1
       },
@@ -904,11 +904,11 @@
       "backgroundScene": "A ruined bake sale in a dark school hall with bunting",
       "flavourText": "Moist. Moist. Moist. Moist. Moist.",
       "stats": {
-        "Flavour": 7,
-        "Menace": 5,
-        "Fresh": 2,
-        "Cook Speed": 6,
-        "Eats You": 8,
+        "Flavour": 5,
+        "Menace": 3,
+        "Fresh": 1,
+        "Cook Speed": 4,
+        "Eats You": 7,
         "Serves": 10
       },
       "image": "./cards/cupcake-horde.png",
@@ -924,11 +924,11 @@
       "backgroundScene": "A rowdy dark sports bar with an old TV glowing",
       "flavourText": "It is nacho friend. It is nobody's friend.",
       "stats": {
-        "Flavour": 8,
-        "Menace": 5,
-        "Fresh": 4,
-        "Cook Speed": 9,
-        "Eats You": 6,
+        "Flavour": 7,
+        "Menace": 3,
+        "Fresh": 3,
+        "Cook Speed": 8,
+        "Eats You": 5,
         "Serves": 4
       },
       "image": "./cards/nacho-ghoul.png",
@@ -944,12 +944,12 @@
       "backgroundScene": "A blizzard outside a frozen mountain ice cream parlour",
       "flavourText": "Avoid brain freeze. It avoids nothing.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 7,
-        "Fresh": 6,
-        "Cook Speed": 10,
-        "Eats You": 5,
-        "Serves": 4
+        "Flavour": 9,
+        "Menace": 4,
+        "Fresh": 4,
+        "Cook Speed": 9,
+        "Eats You": 2,
+        "Serves": 2
       },
       "image": "./cards/sundae-yeti.png",
       "imageSmall": "./cards/sundae-yeti-small.webp"
@@ -964,12 +964,12 @@
       "backgroundScene": "A mad scientist's kitchen with bubbling pans and a blackboard of diagrams",
       "flavourText": "A very small mind. Very, very focused on you.",
       "stats": {
-        "Flavour": 2,
-        "Menace": 3,
-        "Fresh": 7,
+        "Flavour": 3,
+        "Menace": 4,
+        "Fresh": 8,
         "Cook Speed": 10,
-        "Eats You": 1,
-        "Serves": 1
+        "Eats You": 2,
+        "Serves": 3
       },
       "image": "./cards/pea-brain.png",
       "imageSmall": "./cards/pea-brain-small.webp"
@@ -984,12 +984,12 @@
       "backgroundScene": "A snowy Alpine chalet at midnight with candles and frosted windows",
       "flavourText": "Drop your bread in, and you must go in after it.",
       "stats": {
-        "Flavour": 10,
-        "Menace": 10,
-        "Fresh": 6,
-        "Cook Speed": 6,
-        "Eats You": 10,
-        "Serves": 8
+        "Flavour": 7,
+        "Menace": 6,
+        "Fresh": 2,
+        "Cook Speed": 1,
+        "Eats You": 8,
+        "Serves": 6
       },
       "image": "./cards/the-fondue-abyss.png",
       "imageSmall": "./cards/the-fondue-abyss-small.webp"
@@ -1004,12 +1004,12 @@
       "backgroundScene": "A windswept Highland glen in thick mist with a distant castle",
       "flavourText": "Its left legs are shorter. Run clockwise.",
       "stats": {
-        "Flavour": 8,
+        "Flavour": 9,
         "Menace": 7,
-        "Fresh": 6,
-        "Cook Speed": 3,
-        "Eats You": 6,
-        "Serves": 6
+        "Fresh": 7,
+        "Cook Speed": 1,
+        "Eats You": 5,
+        "Serves": 1
       },
       "image": "./cards/the-wild-haggis.png",
       "imageSmall": "./cards/the-wild-haggis-small.webp"
@@ -1024,12 +1024,12 @@
       "backgroundScene": "A frosty freezer aisle lit by a sickly green light",
       "flavourText": "Lost at sea. Found in aisle nine.",
       "stats": {
-        "Flavour": 4,
+        "Flavour": 5,
         "Menace": 3,
-        "Fresh": 1,
+        "Fresh": 5,
         "Cook Speed": 9,
-        "Eats You": 2,
-        "Serves": 1
+        "Eats You": 4,
+        "Serves": 4
       },
       "image": "./cards/haunted-fishstick.png",
       "imageSmall": "./cards/haunted-fishstick-small.webp"
@@ -1044,11 +1044,11 @@
       "backgroundScene": "A rain-soaked street at night with a delivery scooter on its side",
       "flavourText": "Thirty minutes or it is free. It has never been free.",
       "stats": {
-        "Flavour": 9,
-        "Menace": 8,
-        "Fresh": 5,
-        "Cook Speed": 8,
-        "Eats You": 7,
+        "Flavour": 7,
+        "Menace": 5,
+        "Fresh": 1,
+        "Cook Speed": 5,
+        "Eats You": 4,
         "Serves": 8
       },
       "image": "./cards/pizza-wraith.png",
@@ -1064,9 +1064,9 @@
       "backgroundScene": "A scorched bakery at midnight with smoke curling up",
       "flavourText": "Do not look through the hole. It is looking back.",
       "stats": {
-        "Flavour": 5,
-        "Menace": 8,
-        "Fresh": 3,
+        "Flavour": 4,
+        "Menace": 9,
+        "Fresh": 2,
         "Cook Speed": 8,
         "Eats You": 6,
         "Serves": 1
