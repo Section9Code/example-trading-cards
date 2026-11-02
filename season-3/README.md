@@ -3,6 +3,7 @@
 30 cards. Select a card to open the full-size image.
 
 - **Stats:** Fire, Fury, Scale
+- **Balance:** built for Top Trumps. Every card's stats add up to 15, with at least one stat of 8 or more and one of 3 or less, so every card can win a round and every card can lose one.
 - **Rarities:** Common (14), Rare (12), Legendary (4)
 - **Data:** [cards.json](cards.json)
 

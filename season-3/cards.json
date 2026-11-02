@@ -38,9 +38,9 @@
       "backgroundScene": "A rocky volcanic ledge strewn with blackened bones and smouldering embers, a river of molten lava glowing far below, ash drifting through a dark red sky.",
       "flavourText": "Small fire. Big attitude.",
       "stats": {
-        "Fire": 5,
-        "Fury": 7,
-        "Scale": 3
+        "Fire": 4,
+        "Fury": 10,
+        "Scale": 1
       },
       "image": "./cards/cinderjaw.png",
       "imageSmall": "./cards/cinderjaw-small.webp"
@@ -55,9 +55,9 @@
       "backgroundScene": "A ruined battlefield graveyard at dusk, broken swords and shattered shields half-buried in ash, crooked stone tombs, dark crimson clouds and a blood-red setting sun.",
       "flavourText": "It remembers every knight who came for it. None of them remember anything.",
       "stats": {
-        "Fire": 6,
-        "Fury": 8,
-        "Scale": 7
+        "Fire": 1,
+        "Fury": 9,
+        "Scale": 5
       },
       "image": "./cards/gravemaw.png",
       "imageSmall": "./cards/gravemaw-small.webp"
@@ -72,9 +72,9 @@
       "backgroundScene": "A burning castle on a cliff, its towers collapsing in flame, tiny fleeing figures on the walls, the whole sky boiling with smoke and lit dark red and orange by the fire.",
       "flavourText": "Kingdoms are just kindling with flags on.",
       "stats": {
-        "Fire": 10,
-        "Fury": 9,
-        "Scale": 10
+        "Fire": 8,
+        "Fury": 1,
+        "Scale": 6
       },
       "image": "./cards/the-red-tyrant.png",
       "imageSmall": "./cards/the-red-tyrant-small.webp"
@@ -89,9 +89,9 @@
       "backgroundScene": "The charred skeleton of a great hall, its roof beams blackened, thick ropes of grey ash-silk strung between the beams, embers drifting through red gloom.",
       "flavourText": "She weaves with smoke and waits with fire.",
       "stats": {
-        "Fire": 6,
+        "Fire": 8,
         "Fury": 6,
-        "Scale": 5
+        "Scale": 1
       },
       "image": "./cards/ashwidow.png",
       "imageSmall": "./cards/ashwidow-small.webp"
@@ -106,9 +106,9 @@
       "backgroundScene": "A dark dungeon tunnel lit by a dying torch, gnawed bones and spilled coins on the floor, red light spilling from a crack in the wall.",
       "flavourText": "Every hoard starts with one coin. Usually someone else's.",
       "stats": {
-        "Fire": 3,
-        "Fury": 5,
-        "Scale": 4
+        "Fire": 1,
+        "Fury": 9,
+        "Scale": 5
       },
       "image": "./cards/smoulderscut.png",
       "imageSmall": "./cards/smoulderscut-small.webp"
@@ -123,9 +123,9 @@
       "backgroundScene": "A steaming volcanic swamp of bubbling tar pools, dead black trees and drifting yellow-red fumes under a dark crimson sky.",
       "flavourText": "Do not pop the blisters. Do not ask why.",
       "stats": {
-        "Fire": 6,
-        "Fury": 3,
-        "Scale": 6
+        "Fire": 9,
+        "Fury": 1,
+        "Scale": 5
       },
       "image": "./cards/blisterhide.png",
       "imageSmall": "./cards/blisterhide-small.webp"
@@ -140,9 +140,9 @@
       "backgroundScene": "A grand ruined cathedral with shattered red stained-glass windows, smoke curling through the broken arches, candles of fire burning on the cracked floor.",
       "flavourText": "She wears his crown. He did not need it any more.",
       "stats": {
-        "Fire": 7,
-        "Fury": 5,
-        "Scale": 7
+        "Fire": 5,
+        "Fury": 1,
+        "Scale": 9
       },
       "image": "./cards/the-cinder-widow.png",
       "imageSmall": "./cards/the-cinder-widow-small.webp"
@@ -157,9 +157,9 @@
       "backgroundScene": "A great burial mound torn open, toppled standing stones, a burning sky of black smoke and red fire, tiny torch-carrying villagers fleeing in the distance.",
       "flavourText": "They buried it for a thousand years. It only needed a nap.",
       "stats": {
-        "Fire": 9,
-        "Fury": 10,
-        "Scale": 9
+        "Fire": 4,
+        "Fury": 8,
+        "Scale": 3
       },
       "image": "./cards/vorgath-the-unburied.png",
       "imageSmall": "./cards/vorgath-the-unburied-small.webp"
@@ -174,9 +174,9 @@
       "backgroundScene": "A nest of scorched bones and gold coins inside a dark cave, more black eggs glowing faintly from within, red firelight on the cave walls.",
       "flavourText": "First breath. First fire. First of many.",
       "stats": {
-        "Fire": 4,
-        "Fury": 4,
-        "Scale": 4
+        "Fire": 8,
+        "Fury": 5,
+        "Scale": 2
       },
       "image": "./cards/pyrelet.png",
       "imageSmall": "./cards/pyrelet-small.webp"
@@ -191,8 +191,8 @@
       "backgroundScene": "An abandoned dwarven forge deep under a mountain, cold anvils and broken hammers, rivers of molten metal glowing in channels in the stone floor.",
       "flavourText": "The smiths gave it a new jaw. It gave them a short retirement.",
       "stats": {
-        "Fire": 6,
-        "Fury": 7,
+        "Fire": 2,
+        "Fury": 5,
         "Scale": 8
       },
       "image": "./cards/slagjaw.png",
@@ -208,9 +208,9 @@
       "backgroundScene": "A storm sky boiling with dark red clouds and forks of orange lightning, a tiny burning watchtower on a cliff far below.",
       "flavourText": "You will hear it after it has already passed.",
       "stats": {
-        "Fire": 7,
-        "Fury": 8,
-        "Scale": 4
+        "Fire": 4,
+        "Fury": 10,
+        "Scale": 1
       },
       "image": "./cards/redgale.png",
       "imageSmall": "./cards/redgale-small.webp"
@@ -225,9 +225,9 @@
       "backgroundScene": "A vast cavern piled high with gold, crowns, goblets and broken swords, lit by a glowing lava pool, skeletons of past thieves half-buried in coins.",
       "flavourText": "Count her gold if you must. She counts the thieves.",
       "stats": {
-        "Fire": 6,
-        "Fury": 5,
-        "Scale": 9
+        "Fire": 4,
+        "Fury": 1,
+        "Scale": 10
       },
       "image": "./cards/the-hoardmother.png",
       "imageSmall": "./cards/the-hoardmother-small.webp"
@@ -242,9 +242,9 @@
       "backgroundScene": "A medieval town at night with thatched roofs on fire, chimneys and crooked timber houses, sparks and smoke rising into a dark red sky.",
       "flavourText": "Thatched roofs were a mistake.",
       "stats": {
-        "Fire": 5,
-        "Fury": 6,
-        "Scale": 2
+        "Fire": 4,
+        "Fury": 10,
+        "Scale": 1
       },
       "image": "./cards/scorchling.png",
       "imageSmall": "./cards/scorchling-small.webp"
@@ -259,9 +259,9 @@
       "backgroundScene": "A dark canyon floor scattered with giant bones and skulls, a red sunset glowing through the canyon walls, smoke rising from cracks in the ground.",
       "flavourText": "It does not hunt giants. It just finishes them.",
       "stats": {
-        "Fire": 4,
-        "Fury": 7,
-        "Scale": 8
+        "Fire": 1,
+        "Fury": 5,
+        "Scale": 9
       },
       "image": "./cards/bonegrinder.png",
       "imageSmall": "./cards/bonegrinder-small.webp"
@@ -276,9 +276,9 @@
       "backgroundScene": "A dark forest path at night lit by a single swinging lantern hung on a dead tree, glowing sparks floating like fireflies.",
       "flavourText": "Drawn to every flame. Leaves a bigger one behind.",
       "stats": {
-        "Fire": 5,
+        "Fire": 9,
         "Fury": 2,
-        "Scale": 3
+        "Scale": 4
       },
       "image": "./cards/tinderwing.png",
       "imageSmall": "./cards/tinderwing-small.webp"
@@ -293,8 +293,8 @@
       "backgroundScene": "A ruined tournament field with torn banners, broken lances and a collapsed wooden grandstand on fire, smoke drifting across a dark red sky.",
       "flavourText": "It won the joust. It also ate the judges.",
       "stats": {
-        "Fire": 5,
-        "Fury": 7,
+        "Fire": 1,
+        "Fury": 5,
         "Scale": 9
       },
       "image": "./cards/the-crimson-knight.png",
@@ -310,9 +310,9 @@
       "backgroundScene": "An old mine tunnel with wooden supports and tipped-over carts, red crystals in the walls and glowing lava seeping through cracks.",
       "flavourText": "The miners dug too deep. It dug up.",
       "stats": {
-        "Fire": 3,
+        "Fire": 2,
         "Fury": 4,
-        "Scale": 6
+        "Scale": 9
       },
       "image": "./cards/grubdrake.png",
       "imageSmall": "./cards/grubdrake-small.webp"
@@ -327,9 +327,9 @@
       "backgroundScene": "Jagged volcanic mountain peaks with smoke rising from distant craters, a narrow cliff path and a broken rope bridge, red evening sky.",
       "flavourText": "There is only one path. It is standing on it.",
       "stats": {
-        "Fire": 3,
-        "Fury": 7,
-        "Scale": 5
+        "Fire": 1,
+        "Fury": 10,
+        "Scale": 4
       },
       "image": "./cards/hookhorn.png",
       "imageSmall": "./cards/hookhorn-small.webp"
@@ -345,8 +345,8 @@
       "flavourText": "One is a nuisance. Three is a plan.",
       "stats": {
         "Fire": 4,
-        "Fury": 6,
-        "Scale": 3
+        "Fury": 9,
+        "Scale": 2
       },
       "image": "./cards/emberkin.png",
       "imageSmall": "./cards/emberkin-small.webp"
@@ -361,9 +361,9 @@
       "backgroundScene": "A whole kingdom of fields, forests and towers burning far below, the horizon a wall of flame and black smoke, the sky dark red and orange.",
       "flavourText": "Maps of the old kingdoms are mostly ash now.",
       "stats": {
-        "Fire": 10,
-        "Fury": 9,
-        "Scale": 8
+        "Fire": 9,
+        "Fury": 5,
+        "Scale": 1
       },
       "image": "./cards/malgrimm-the-world-burner.png",
       "imageSmall": "./cards/malgrimm-the-world-burner-small.webp"
@@ -378,9 +378,9 @@
       "backgroundScene": "A bleak crossroads on a dead moor with a crooked signpost, crows circling, a burning village on the horizon and a blood-red sky.",
       "flavourText": "It always arrives just before the bad news.",
       "stats": {
-        "Fire": 5,
-        "Fury": 7,
-        "Scale": 6
+        "Fire": 2,
+        "Fury": 8,
+        "Scale": 5
       },
       "image": "./cards/gallowscale.png",
       "imageSmall": "./cards/gallowscale-small.webp"
@@ -395,9 +395,9 @@
       "backgroundScene": "A crowded rooftop of a medieval town at dusk, crooked chimneys smoking, a red sky full of drifting ash.",
       "flavourText": "Chimney sweeps charge double on its street.",
       "stats": {
-        "Fire": 4,
-        "Fury": 2,
-        "Scale": 5
+        "Fire": 5,
+        "Fury": 1,
+        "Scale": 9
       },
       "image": "./cards/sootsnout.png",
       "imageSmall": "./cards/sootsnout-small.webp"
@@ -412,9 +412,9 @@
       "backgroundScene": "An old temple carved into a cliff with tall pillars, hanging chains of bronze bells, incense smoke and firelight flickering over carved dragon statues.",
       "flavourText": "It sees the future in the fire. The future is mostly fire.",
       "stats": {
-        "Fire": 8,
-        "Fury": 3,
-        "Scale": 6
+        "Fire": 10,
+        "Fury": 1,
+        "Scale": 4
       },
       "image": "./cards/the-flame-oracle.png",
       "imageSmall": "./cards/the-flame-oracle-small.webp"
@@ -429,9 +429,9 @@
       "backgroundScene": "A cracked desert of red sand and black rock, ancient broken statues half-buried in dunes, heat haze and a dark orange sun.",
       "flavourText": "It does not need wings. You will not get far enough.",
       "stats": {
-        "Fire": 5,
+        "Fire": 9,
         "Fury": 5,
-        "Scale": 3
+        "Scale": 1
       },
       "image": "./cards/spitecoil.png",
       "imageSmall": "./cards/spitecoil-small.webp"
@@ -446,9 +446,9 @@
       "backgroundScene": "A volcano slope with rivers of glowing lava, sharp black obsidian spikes rising from the ground, ash falling like snow.",
       "flavourText": "Swords shatter on it. So does courage.",
       "stats": {
-        "Fire": 7,
-        "Fury": 4,
-        "Scale": 9
+        "Fire": 4,
+        "Fury": 1,
+        "Scale": 10
       },
       "image": "./cards/obsidra.png",
       "imageSmall": "./cards/obsidra-small.webp"
@@ -463,9 +463,9 @@
       "backgroundScene": "A sheer rocky cliff above a smoking valley, with small ledges, bird nests and dark red evening light.",
       "flavourText": "That rock just blinked.",
       "stats": {
-        "Fire": 2,
+        "Fire": 1,
         "Fury": 4,
-        "Scale": 7
+        "Scale": 10
       },
       "image": "./cards/cragling.png",
       "imageSmall": "./cards/cragling-small.webp"
@@ -480,9 +480,9 @@
       "backgroundScene": "A ruined fortress dungeon with broken bars and a smashed gate, torchlight and smoke, an opening to a red sky beyond.",
       "flavourText": "They tried to tame it. That went badly for them.",
       "stats": {
-        "Fire": 5,
-        "Fury": 7,
-        "Scale": 4
+        "Fire": 4,
+        "Fury": 9,
+        "Scale": 2
       },
       "image": "./cards/hellbrand.png",
       "imageSmall": "./cards/hellbrand-small.webp"
@@ -497,9 +497,9 @@
       "backgroundScene": "A grey stone castle wall at night under a dark red moon, guards' broken spears scattered, banners burning.",
       "flavourText": "White as bone. Hungry as fire.",
       "stats": {
-        "Fire": 8,
-        "Fury": 6,
-        "Scale": 6
+        "Fire": 9,
+        "Fury": 3,
+        "Scale": 3
       },
       "image": "./cards/the-pale-scourge.png",
       "imageSmall": "./cards/the-pale-scourge-small.webp"
@@ -514,9 +514,9 @@
       "backgroundScene": "A vast throne hall inside a volcano with pillars carved as dragons, rivers of lava along the floor, lesser dragons bowing in the smoky distance.",
       "flavourText": "Every dragon bows. The brave ones bow first.",
       "stats": {
-        "Fire": 9,
-        "Fury": 8,
-        "Scale": 9
+        "Fire": 8,
+        "Fury": 1,
+        "Scale": 6
       },
       "image": "./cards/the-ember-queen.png",
       "imageSmall": "./cards/the-ember-queen-small.webp"
@@ -531,9 +531,9 @@
       "backgroundScene": "A smoky battlefield at sunset with scattered shields and banners, a giant dark dragon silhouette in the distance, red sky.",
       "flavourText": "Cute. Do not let it near your armour.",
       "stats": {
-        "Fire": 3,
-        "Fury": 3,
-        "Scale": 2
+        "Fire": 8,
+        "Fury": 6,
+        "Scale": 1
       },
       "image": "./cards/nibblescorch.png",
       "imageSmall": "./cards/nibblescorch-small.webp"
