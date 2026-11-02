@@ -70,7 +70,7 @@ Everything runs through `src/v2-compose-cards.ts` (run `node src/v2-compose-card
    3. Add `rulesCard.layout`: `title` is a text box in the banner, `step` is a text box with `wrap: true`, `anchor: "start"` and `y` set to the top of the first step, and `gap` is the space between steps in pixels.
    4. Run `node src/v2-compose-cards.ts rules season-N/cards.json` and read `season-N/rules-card.png`. Repeat until the text stays on the panel and clear of any artwork in its corners. Changing the wording can change the fit, so check it again after each edit.
 
-10. **Hand over.** Tell the user that the season is ready for card details, and show them the final preview. Each card needs `id` (kebab-case of the name), `name`, `cardNumber`, `rarity`, `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (0-10 for each stat name). `node src/v2-compose-cards.ts cards season-N/cards.json` then builds the cards.
+10. **Hand over.** Tell the user that the season is ready for card details, and show them the final preview. Each card needs `id` (kebab-case of the name), `name`, `cardNumber`, `rarity` (optional; without it the badge shows the set name, as in season 7), `character`, `poseAndExpression`, `backgroundScene`, `flavourText` and `stats` (0-10 for each stat name, distributed as in [Distributing stats](#distributing-stats)). `node src/v2-compose-cards.ts cards season-N/cards.json` then builds the cards.
 
 11. **After the cards are built.** The steps above stop before the cards exist, so do this when the user has built them:
    1. Run `node src/make-small-cards.ts season-N/cards.json`.
@@ -81,6 +81,30 @@ Everything runs through `src/v2-compose-cards.ts` (run `node src/v2-compose-card
       - A `## Cards` section with one line per card, in card number order, using paths from `image` and `imageSmall` without the leading `./`: `<a href="cards/x.png"><img src="cards/x-small.webp" alt="#1 Name" width="240"></a>`. Keep the lines together with no blank lines, so the cards wrap into a grid.
       - Check that every image path exists and that the number of cards matches `totalCards`. Make the file again if a card changes.
    3. Add the season to the sets table in the main `README.md`, and update any "Seasons 2 to N" wording.
+
+## Distributing stats
+
+The cards are played as Top Trumps, not as a collectable card game: in each round one stat is called and the higher value wins. So stats are about a fair game, not about rarity. A Legendary card must not be strong at everything.
+
+- **The same total on every card:** 5 × the number of stats (15 for three stats, 20 for four, 30 for six). With equal totals, no card can beat another card in every stat.
+- **A strength:** every card has at least one stat of 8 or more, so it has a stat worth calling.
+- **A weakness:** every card has at least one stat of 3 or less, so it can lose.
+- **Use the full range:** peaks of 8, 9 and 10 and lows of 1 to 3. Avoid 0 unless it is the joke of the card.
+- **Fit the character:** the best stat is what the card is famous for, and the weakness is a joke the flavour text can support (a sleepy king has low Valour, not low Nap Power).
+- **Balance the deck:** each stat should average about 5 across the set, and each stat should be the best stat on about the same number of cards (within 3 or so). If one stat is the best on too many cards, players always call it.
+
+Check the set before building the cards:
+
+```sh
+node -e '
+const d = require("./season-N/cards.json"); const n = d.set.statNames;
+for (const c of d.cards) { const v = n.map(s => c.stats[s]); const t = v.reduce((a, b) => a + b);
+  if (t !== 5 * n.length || Math.max(...v) < 8 || Math.min(...v) > 3) console.log("fix #" + c.cardNumber, c.name, v.join(",")); }
+n.forEach((s, j) => console.log(s, "mean", (d.cards.reduce((a, c) => a + c.stats[s], 0) / d.cards.length).toFixed(2),
+  "best for", d.cards.filter(c => Math.max(...n.map(x => c.stats[x])) === c.stats[s]).length));'
+```
+
+Add a line under the stats in the season's `README.md`: "**Balance:** built for Top Trumps. Every card's stats add up to <total>, with at least one stat of 8 or more and one of 3 or less, so every card can win a round and every card can lose one."
 
 ## Common mistakes
 
@@ -99,4 +123,5 @@ Everything runs through `src/v2-compose-cards.ts` (run `node src/v2-compose-card
 | Forgetting the season's `README.md` | Generate it after `make-small-cards.ts`, once every card has an `imageSmall` |
 | Making a rules card without asking | It is optional; ask in step 1. The card back is not optional |
 | Rules text running into the rules frame's artwork | Read `rules-card.png` after every wording change, and make the text smaller if needed |
+| Giving rarer cards higher stats | Every card has the same stat total; rarity is only a label |
 | Measuring by eye only | Scan pixels with sharp (e.g. find the pale pill by colour) to get exact badge bounds |

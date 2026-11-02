@@ -4,6 +4,8 @@
 
 A free set of AI-generated trading cards. Use them as test data for your apps, games, demos, and prototypes.
 
+Seasons 2 to 8 are balanced for Top Trumps: on every card the stats add up to the same total, with one strong stat and one weak stat, so any card can win a round. Season 1 keeps its original stats, because they are part of each card image.
+
 ## Sets
 
 | Folder | Set name | Cards | Stats | Rarities |
