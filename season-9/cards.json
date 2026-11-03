@@ -82,7 +82,9 @@
         "Courage": 9,
         "Cunning": 2,
         "Style": 2
-      }
+      },
+      "image": "./cards/rei-arashi.png",
+      "imageSmall": "./cards/rei-arashi-small.webp"
     },
     {
       "id": "admiral-vex",
@@ -99,7 +101,9 @@
         "Courage": 2,
         "Cunning": 9,
         "Style": 6
-      }
+      },
+      "image": "./cards/admiral-vex.png",
+      "imageSmall": "./cards/admiral-vex-small.webp"
     },
     {
       "id": "blaze-kurogane",
@@ -116,7 +120,9 @@
         "Courage": 7,
         "Cunning": 3,
         "Style": 3
-      }
+      },
+      "image": "./cards/blaze-kurogane.png",
+      "imageSmall": "./cards/blaze-kurogane-small.webp"
     },
     {
       "id": "lord-gorath",
@@ -133,7 +139,9 @@
         "Courage": 6,
         "Cunning": 4,
         "Style": 6
-      }
+      },
+      "image": "./cards/lord-gorath.png",
+      "imageSmall": "./cards/lord-gorath-small.webp"
     },
     {
       "id": "miko-starlight",
@@ -150,7 +158,9 @@
         "Courage": 7,
         "Cunning": 3,
         "Style": 10
-      }
+      },
+      "image": "./cards/miko-starlight.png",
+      "imageSmall": "./cards/miko-starlight-small.webp"
     },
     {
       "id": "queen-nocturna",
@@ -167,7 +177,9 @@
         "Courage": 3,
         "Cunning": 6,
         "Style": 9
-      }
+      },
+      "image": "./cards/queen-nocturna.png",
+      "imageSmall": "./cards/queen-nocturna-small.webp"
     },
     {
       "id": "jet-hayabusa",
@@ -184,7 +196,9 @@
         "Courage": 6,
         "Cunning": 2,
         "Style": 4
-      }
+      },
+      "image": "./cards/jet-hayabusa.png",
+      "imageSmall": "./cards/jet-hayabusa-small.webp"
     },
     {
       "id": "razor-kaido",
@@ -201,7 +215,9 @@
         "Courage": 4,
         "Cunning": 4,
         "Style": 5
-      }
+      },
+      "image": "./cards/razor-kaido.png",
+      "imageSmall": "./cards/razor-kaido-small.webp"
     },
     {
       "id": "dr-yumi-sato",
@@ -218,7 +234,9 @@
         "Courage": 6,
         "Cunning": 6,
         "Style": 4
-      }
+      },
+      "image": "./cards/dr-yumi-sato.png",
+      "imageSmall": "./cards/dr-yumi-sato-small.webp"
     },
     {
       "id": "professor-zorg",
@@ -235,7 +253,9 @@
         "Courage": 2,
         "Cunning": 8,
         "Style": 6
-      }
+      },
+      "image": "./cards/professor-zorg.png",
+      "imageSmall": "./cards/professor-zorg-small.webp"
     },
     {
       "id": "kage-the-silent",
@@ -252,7 +272,9 @@
         "Courage": 6,
         "Cunning": 5,
         "Style": 1
-      }
+      },
+      "image": "./cards/kage-the-silent.png",
+      "imageSmall": "./cards/kage-the-silent-small.webp"
     },
     {
       "id": "viper-mask",
@@ -269,7 +291,9 @@
         "Courage": 2,
         "Cunning": 9,
         "Style": 3
-      }
+      },
+      "image": "./cards/viper-mask.png",
+      "imageSmall": "./cards/viper-mask-small.webp"
     },
     {
       "id": "officer-kenji-bolt",
@@ -286,7 +310,9 @@
         "Courage": 7,
         "Cunning": 3,
         "Style": 1
-      }
+      },
+      "image": "./cards/officer-kenji-bolt.png",
+      "imageSmall": "./cards/officer-kenji-bolt-small.webp"
     },
     {
       "id": "chrome-reaper",
@@ -303,7 +329,9 @@
         "Courage": 5,
         "Cunning": 2,
         "Style": 2
-      }
+      },
+      "image": "./cards/chrome-reaper.png",
+      "imageSmall": "./cards/chrome-reaper-small.webp"
     },
     {
       "id": "tsubaki-blade",
@@ -320,7 +348,9 @@
         "Courage": 10,
         "Cunning": 2,
         "Style": 4
-      }
+      },
+      "image": "./cards/tsubaki-blade.png",
+      "imageSmall": "./cards/tsubaki-blade-small.webp"
     },
     {
       "id": "general-darkhorn",
@@ -337,7 +367,9 @@
         "Courage": 9,
         "Cunning": 5,
         "Style": 3
-      }
+      },
+      "image": "./cards/general-darkhorn.png",
+      "imageSmall": "./cards/general-darkhorn-small.webp"
     },
     {
       "id": "spike-nova",
@@ -354,7 +386,9 @@
         "Courage": 5,
         "Cunning": 1,
         "Style": 9
-      }
+      },
+      "image": "./cards/spike-nova.png",
+      "imageSmall": "./cards/spike-nova-small.webp"
     },
     {
       "id": "madame-orchid",
@@ -371,7 +405,9 @@
         "Courage": 4,
         "Cunning": 10,
         "Style": 7
-      }
+      },
+      "image": "./cards/madame-orchid.png",
+      "imageSmall": "./cards/madame-orchid-small.webp"
     },
     {
       "id": "goro-ironside",
@@ -388,7 +424,9 @@
         "Courage": 7,
         "Cunning": 3,
         "Style": 2
-      }
+      },
+      "image": "./cards/goro-ironside.png",
+      "imageSmall": "./cards/goro-ironside-small.webp"
     },
     {
       "id": "emperor-malgrim",
@@ -405,7 +443,9 @@
         "Courage": 3,
         "Cunning": 9,
         "Style": 7
-      }
+      },
+      "image": "./cards/emperor-malgrim.png",
+      "imageSmall": "./cards/emperor-malgrim-small.webp"
     },
     {
       "id": "lina-comet",
@@ -422,7 +462,9 @@
         "Courage": 6,
         "Cunning": 3,
         "Style": 2
-      }
+      },
+      "image": "./cards/lina-comet.png",
+      "imageSmall": "./cards/lina-comet-small.webp"
     },
     {
       "id": "twin-specters",
@@ -439,7 +481,9 @@
         "Courage": 4,
         "Cunning": 7,
         "Style": 5
-      }
+      },
+      "image": "./cards/twin-specters.png",
+      "imageSmall": "./cards/twin-specters-small.webp"
     },
     {
       "id": "tobi-sparks",
@@ -456,7 +500,9 @@
         "Courage": 9,
         "Cunning": 5,
         "Style": 4
-      }
+      },
+      "image": "./cards/tobi-sparks.png",
+      "imageSmall": "./cards/tobi-sparks-small.webp"
     },
     {
       "id": "mecha-rex-omega",
@@ -473,7 +519,9 @@
         "Courage": 7,
         "Cunning": 1,
         "Style": 2
-      }
+      },
+      "image": "./cards/mecha-rex-omega.png",
+      "imageSmall": "./cards/mecha-rex-omega-small.webp"
     },
     {
       "id": "princess-aurora",
@@ -490,7 +538,9 @@
         "Courage": 6,
         "Cunning": 5,
         "Style": 10
-      }
+      },
+      "image": "./cards/princess-aurora.png",
+      "imageSmall": "./cards/princess-aurora-small.webp"
     },
     {
       "id": "the-hollow-king",
@@ -507,7 +557,9 @@
         "Courage": 5,
         "Cunning": 8,
         "Style": 7
-      }
+      },
+      "image": "./cards/the-hollow-king.png",
+      "imageSmall": "./cards/the-hollow-king-small.webp"
     },
     {
       "id": "sgt-max-thunder",
@@ -524,7 +576,9 @@
         "Courage": 9,
         "Cunning": 1,
         "Style": 5
-      }
+      },
+      "image": "./cards/sgt-max-thunder.png",
+      "imageSmall": "./cards/sgt-max-thunder-small.webp"
     },
     {
       "id": "baron-von-glitch",
@@ -541,7 +595,9 @@
         "Courage": 2,
         "Cunning": 7,
         "Style": 4
-      }
+      },
+      "image": "./cards/baron-von-glitch.png",
+      "imageSmall": "./cards/baron-von-glitch-small.webp"
     },
     {
       "id": "kaito-wolf",
@@ -558,7 +614,9 @@
         "Courage": 7,
         "Cunning": 3,
         "Style": 4
-      }
+      },
+      "image": "./cards/kaito-wolf.png",
+      "imageSmall": "./cards/kaito-wolf-small.webp"
     },
     {
       "id": "mistress-venom",
@@ -575,7 +633,9 @@
         "Courage": 3,
         "Cunning": 6,
         "Style": 8
-      }
+      },
+      "image": "./cards/mistress-venom.png",
+      "imageSmall": "./cards/mistress-venom-small.webp"
     },
     {
       "id": "old-master-tenzan",
@@ -592,7 +652,9 @@
         "Courage": 9,
         "Cunning": 6,
         "Style": 5
-      }
+      },
+      "image": "./cards/old-master-tenzan.png",
+      "imageSmall": "./cards/old-master-tenzan-small.webp"
     },
     {
       "id": "neon-shogun",
@@ -609,7 +671,9 @@
         "Courage": 2,
         "Cunning": 2,
         "Style": 9
-      }
+      },
+      "image": "./cards/neon-shogun.png",
+      "imageSmall": "./cards/neon-shogun-small.webp"
     },
     {
       "id": "captain-sora-drake",
@@ -626,7 +690,9 @@
         "Courage": 9,
         "Cunning": 6,
         "Style": 2
-      }
+      },
+      "image": "./cards/captain-sora-drake.png",
+      "imageSmall": "./cards/captain-sora-drake-small.webp"
     },
     {
       "id": "dread-kraken",
@@ -643,7 +709,9 @@
         "Courage": 6,
         "Cunning": 6,
         "Style": 3
-      }
+      },
+      "image": "./cards/dread-kraken.png",
+      "imageSmall": "./cards/dread-kraken-small.webp"
     },
     {
       "id": "pixie-rocket",
@@ -660,7 +728,9 @@
         "Courage": 5,
         "Cunning": 3,
         "Style": 4
-      }
+      },
+      "image": "./cards/pixie-rocket.png",
+      "imageSmall": "./cards/pixie-rocket-small.webp"
     },
     {
       "id": "doctor-hex",
@@ -677,7 +747,9 @@
         "Courage": 1,
         "Cunning": 8,
         "Style": 6
-      }
+      },
+      "image": "./cards/doctor-hex.png",
+      "imageSmall": "./cards/doctor-hex-small.webp"
     },
     {
       "id": "ranger-luna-vance",
@@ -694,7 +766,9 @@
         "Courage": 7,
         "Cunning": 2,
         "Style": 2
-      }
+      },
+      "image": "./cards/ranger-luna-vance.png",
+      "imageSmall": "./cards/ranger-luna-vance-small.webp"
     },
     {
       "id": "the-gilded-prince",
@@ -711,7 +785,9 @@
         "Courage": 1,
         "Cunning": 7,
         "Style": 10
-      }
+      },
+      "image": "./cards/the-gilded-prince.png",
+      "imageSmall": "./cards/the-gilded-prince-small.webp"
     },
     {
       "id": "captain-ace-valor",
@@ -728,7 +804,9 @@
         "Courage": 8,
         "Cunning": 1,
         "Style": 5
-      }
+      },
+      "image": "./cards/captain-ace-valor.png",
+      "imageSmall": "./cards/captain-ace-valor-small.webp"
     },
     {
       "id": "overlord-skarn",
@@ -745,7 +823,9 @@
         "Courage": 6,
         "Cunning": 5,
         "Style": 1
-      }
+      },
+      "image": "./cards/overlord-skarn.png",
+      "imageSmall": "./cards/overlord-skarn-small.webp"
     },
     {
       "id": "nami-tides",
@@ -762,7 +842,9 @@
         "Courage": 6,
         "Cunning": 4,
         "Style": 3
-      }
+      },
+      "image": "./cards/nami-tides.png",
+      "imageSmall": "./cards/nami-tides-small.webp"
     },
     {
       "id": "shadow-empress-kuro",
@@ -779,7 +861,9 @@
         "Courage": 2,
         "Cunning": 10,
         "Style": 5
-      }
+      },
+      "image": "./cards/shadow-empress-kuro.png",
+      "imageSmall": "./cards/shadow-empress-kuro-small.webp"
     },
     {
       "id": "big-bruno-bash",
@@ -796,7 +880,9 @@
         "Courage": 8,
         "Cunning": 2,
         "Style": 7
-      }
+      },
+      "image": "./cards/big-bruno-bash.png",
+      "imageSmall": "./cards/big-bruno-bash-small.webp"
     },
     {
       "id": "iron-matron",
@@ -813,7 +899,9 @@
         "Courage": 6,
         "Cunning": 4,
         "Style": 2
-      }
+      },
+      "image": "./cards/iron-matron.png",
+      "imageSmall": "./cards/iron-matron-small.webp"
     },
     {
       "id": "echo",
@@ -830,7 +918,9 @@
         "Courage": 7,
         "Cunning": 9,
         "Style": 6
-      }
+      },
+      "image": "./cards/echo.png",
+      "imageSmall": "./cards/echo-small.webp"
     },
     {
       "id": "psi-lord-mentaro",
@@ -847,7 +937,9 @@
         "Courage": 4,
         "Cunning": 8,
         "Style": 5
-      }
+      },
+      "image": "./cards/psi-lord-mentaro.png",
+      "imageSmall": "./cards/psi-lord-mentaro-small.webp"
     },
     {
       "id": "detective-jin-rain",
@@ -864,7 +956,9 @@
         "Courage": 6,
         "Cunning": 8,
         "Style": 1
-      }
+      },
+      "image": "./cards/detective-jin-rain.png",
+      "imageSmall": "./cards/detective-jin-rain-small.webp"
     },
     {
       "id": "velvet-fang",
@@ -881,7 +975,9 @@
         "Courage": 4,
         "Cunning": 3,
         "Style": 9
-      }
+      },
+      "image": "./cards/velvet-fang.png",
+      "imageSmall": "./cards/velvet-fang-small.webp"
     },
     {
       "id": "hiro-dawn",
@@ -898,7 +994,9 @@
         "Courage": 10,
         "Cunning": 2,
         "Style": 3
-      }
+      },
+      "image": "./cards/hiro-dawn.png",
+      "imageSmall": "./cards/hiro-dawn-small.webp"
     },
     {
       "id": "zeta-the-devourer",
@@ -915,7 +1013,9 @@
         "Courage": 6,
         "Cunning": 2,
         "Style": 1
-      }
+      },
+      "image": "./cards/zeta-the-devourer.png",
+      "imageSmall": "./cards/zeta-the-devourer-small.webp"
     }
   ],
   "layout": {
