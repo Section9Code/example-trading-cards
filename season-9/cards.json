@@ -698,8 +698,8 @@
       "id": "dread-kraken",
       "name": "Dread Kraken",
       "cardNumber": 34,
-      "character": "A massive pirate villain with a tentacle beard, a mechanical octopus arm, a battered tricorn hat and a coat of dark sea-green leather",
-      "poseAndExpression": "Swinging a giant anchor on a chain with his octopus arm, bellowing",
+      "character": "A massive sea warlord villain in bulky dark teal power armour with barnacle-crusted plates, a spiked helmet with a tall shark-fin crest and a glowing red visor, and eight segmented mechanical tentacle arms sprouting from his back",
+      "poseAndExpression": "Standing on the deck with his feet planted wide, a giant anchor resting on his shoulder, his mechanical tentacles curling around him, bellowing a challenge",
       "backgroundScene": "The deck of a dark submarine-ship surfacing in a stormy alien sea",
       "flavourText": "Has eight arms and still can't hold a conversation.",
       "stats": {
