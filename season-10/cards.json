@@ -66,7 +66,708 @@
   "cardBack": {
     "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in black-and-white pen-and-ink cartoon style with grey ink wash on a deep purple ground. A symmetrical design, mirrored top to bottom, the same when turned upside down: a thick deep purple velvet border with a tarnished silver filigree edge and black rose vines with thorns twining along it. The centre is deep purple velvet with faint cobwebs. In the exact middle, a round tarnished silver medallion holding a single large black rose. Around the medallion, a full wreath of black roses, black leaves and thorns, drawn in black ink with grey wash, identical above and below. No text, letters or numbers. Do not use pink or magenta."
   },
-  "cards": [],
+  "cards": [
+    {
+      "id": "grandmother-mortensia",
+      "name": "Grandmother Mortensia",
+      "cardNumber": 1,
+      "character": "A tiny, ancient matriarch in a high-collared black lace gown and a widow's veil pushed back, holding a lorgnette up to her sharp, sunken eyes",
+      "poseAndExpression": "Peering through her lorgnette at the viewer with a thin, satisfied smile",
+      "backgroundScene": "A dim drawing room with a tall grandfather clock, dusty portraits and a candelabra",
+      "flavourText": "She has outlived four husbands and one house.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "uncle-fenwick",
+      "name": "Uncle Fenwick",
+      "cardNumber": 2,
+      "character": "A tall, gaunt uncle in a black tailcoat with impossibly long, thin fingers, a bald domed head and deep hollow eyes",
+      "poseAndExpression": "Seated at a pipe organ, fingers spread across three keyboards at once, head tilted back in bliss",
+      "backgroundScene": "A cavernous music room with organ pipes rising into darkness and cobwebs between them",
+      "flavourText": "He plays the organ every night, whether or not anyone asked.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 10,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "cousin-ocularis",
+      "name": "Cousin Ocularis",
+      "cardNumber": 3,
+      "character": "A small round boy in a sailor suit whose head, hands and knees are dotted with dozens of blinking eyes of different sizes",
+      "poseAndExpression": "Standing politely with hands folded, every eye looking in a different direction",
+      "backgroundScene": "A nursery with a rocking horse missing its head and a tall barred window",
+      "flavourText": "He sees everything, and tells Grandmother.",
+      "stats": {
+        "Eyes": 10,
+        "Fingers": 3,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "aunt-hortensia",
+      "name": "Aunt Hortensia",
+      "cardNumber": 4,
+      "character": "A severe aunt in a black gardening apron over a mourning dress, a wide black sun hat, and long gloves",
+      "poseAndExpression": "Feeding a dripping piece of meat to a huge toothed plant with a fond expression",
+      "backgroundScene": "A ruined glasshouse full of enormous snapping plants, vines and broken panes",
+      "flavourText": "The roses are doing beautifully this year, except for the postman.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 8,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "grimsby-the-butler",
+      "name": "Grimsby the Butler",
+      "cardNumber": 5,
+      "character": "An enormous, silent butler with a huge square head, a stiff black uniform, white gloves and a face that never changes",
+      "poseAndExpression": "Standing to attention with a silver tray, looming over the viewer, expressionless",
+      "backgroundScene": "A long dark hallway with suits of armour and a door that stands slightly open",
+      "flavourText": "He has not spoken since 1871 and sees no reason to start.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 5,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "little-mildew",
+      "name": "Little Mildew",
+      "cardNumber": 6,
+      "character": "A pale, solemn little girl with two long black plaits, a black pinafore dress and white stockings, holding a headless doll by the arm",
+      "poseAndExpression": "Standing very still and staring straight at the viewer without blinking",
+      "backgroundScene": "A nursery corridor lined with small portraits, one of them turned to the wall",
+      "flavourText": "She is not allowed to bring the doll's head to dinner.",
+      "stats": {
+        "Eyes": 5,
+        "Fingers": 2,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "baby-obadiah",
+      "name": "Baby Obadiah",
+      "cardNumber": 7,
+      "character": "A plump baby in a black christening gown and bonnet, with a full grey beard, bushy eyebrows and a knowing look",
+      "poseAndExpression": "Sitting up in an iron cot, chewing on a pocket watch",
+      "backgroundScene": "A gloomy nursery with a crooked mobile of bones over the cot",
+      "flavourText": "He was born on a Tuesday, looking exactly like this.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 4,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "great-uncle-phineas",
+      "name": "Great-Uncle Phineas",
+      "cardNumber": 8,
+      "character": "A translucent, faintly glowing ghost of a stout Victorian gentleman in a frock coat, with mutton-chop whiskers and a monocle, his legs fading away to mist",
+      "poseAndExpression": "Floating through the dining-room wall carrying a cup of tea, looking mildly put out",
+      "backgroundScene": "A formal dining room with a long table laid for twenty and no one in the chairs",
+      "flavourText": "He died in 1852 and still comes down for breakfast.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 4,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "cousin-dangle",
+      "name": "Cousin Dangle",
+      "cardNumber": 9,
+      "character": "A thin young man in a black suit hanging upside down by his feet, with slicked hair that somehow stays flat and a serene expression",
+      "poseAndExpression": "Hanging from the chandelier with arms folded, perfectly content",
+      "backgroundScene": "A grand entrance hall with a huge chandelier and a sweeping staircase in shadow",
+      "flavourText": "He prefers the view from up there.",
+      "stats": {
+        "Eyes": 6,
+        "Fingers": 1,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "ash-and-ember",
+      "name": "Ash and Ember",
+      "cardNumber": 10,
+      "character": "Identical twin girls with bobbed black hair and matching black dresses with white collars, standing shoulder to shoulder under one black umbrella",
+      "poseAndExpression": "Both looking at the viewer with the same tiny, unsettling smile, one holding the umbrella",
+      "backgroundScene": "An overgrown garden path in the rain, with a leaning iron gate",
+      "flavourText": "They finish each other's silences.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "nanny-thistlewick",
+      "name": "Nanny Thistlewick",
+      "cardNumber": 11,
+      "character": "A stern, bony governess in a black bonnet and buttoned-up black dress, with a raven perched on her shoulder and a cane",
+      "poseAndExpression": "Pointing her cane sharply at the viewer, lips pursed, the raven glaring too",
+      "backgroundScene": "A schoolroom with a chalkboard, a skeleton on a stand and a dunce's stool",
+      "flavourText": "Lessons begin at midnight and end when she says so.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 9,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "cousin-pollux",
+      "name": "Cousin Pollux",
+      "cardNumber": 12,
+      "character": "A cheerful boy in a striped jersey with six fingers on each hand, freckles and a gap-toothed grin",
+      "poseAndExpression": "Holding both hands up proudly to show them off",
+      "backgroundScene": "A playroom with an abacus, a chess set and toy soldiers lined up for a funeral",
+      "flavourText": "He is very good at the piano and very bad at gloves.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 10,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "aunt-vesper",
+      "name": "Aunt Vesper",
+      "cardNumber": 13,
+      "character": "An elegant, deathly pale aunt in a sweeping black velvet gown with a high collar, long black hair, dark lips and heavy-lidded eyes",
+      "poseAndExpression": "Descending a staircase at dusk with one hand on the banister, looking down at the viewer",
+      "backgroundScene": "A grand staircase with a tall window showing a crescent moon, and heavy drawn curtains",
+      "flavourText": "She does not come down until the sun is safely gone.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 3,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "uncle-barnabus",
+      "name": "Uncle Barnabus",
+      "cardNumber": 14,
+      "character": "A huge, broad uncle whose arms and shoulders are gnarled bark and branches, with twigs for hair and a black waistcoat buttoned over a trunk",
+      "poseAndExpression": "Standing rooted in the lawn with a bird's nest on his head, looking patient",
+      "backgroundScene": "A dead orchard behind the manor under a grey sky, with crows in the branches",
+      "flavourText": "He has not moved since the spring of 1879.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 8,
+        "Toes": 5
+      }
+    },
+    {
+      "id": "cousin-marrow",
+      "name": "Cousin Marrow",
+      "cardNumber": 15,
+      "character": "A dapper skeleton in a quilted smoking jacket and cravat, with a cigar holder and a cheerful grin",
+      "poseAndExpression": "Reclining in a wing-back armchair with legs crossed, feet up on a footstool",
+      "backgroundScene": "A library with towering bookshelves, a roaring fire and a bear-skin rug that is still alive",
+      "flavourText": "He keeps himself together remarkably well.",
+      "stats": {
+        "Eyes": 1,
+        "Fingers": 6,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "mother-lucretia",
+      "name": "Mother Lucretia",
+      "cardNumber": 16,
+      "character": "A tall, serene mother in a long clinging black gown, with straight black hair that reaches the floor, pale skin and large calm eyes",
+      "poseAndExpression": "Standing gracefully with her hands clasped, gazing at the viewer with quiet pride",
+      "backgroundScene": "A moonlit conservatory with dead ferns and a stone fountain",
+      "flavourText": "She has never once raised her voice, or her eyebrows.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "father-ambrose",
+      "name": "Father Ambrose",
+      "cardNumber": 17,
+      "character": "A dapper, moustachioed father in a pinstriped suit with a flower in his buttonhole, bright wild eyes and brilliantined hair",
+      "poseAndExpression": "Lunging in a fencing pose with a foil, beaming with delight",
+      "backgroundScene": "A long gallery of ancestral portraits with the frames all slightly crooked",
+      "flavourText": "He fences the suits of armour every morning, and sometimes wins.",
+      "stats": {
+        "Eyes": 5,
+        "Fingers": 8,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "the-attic-lodger",
+      "name": "The Attic Lodger",
+      "cardNumber": 18,
+      "character": "A large, shapeless mass of shadow with many pale round eyes of different sizes, squeezed under the rafters",
+      "poseAndExpression": "Peering down through the attic trapdoor with every eye wide open",
+      "backgroundScene": "A dusty attic full of trunks, dressmaker's dummies and a rocking chair rocking by itself",
+      "flavourText": "Nobody remembers inviting it, so it must be family.",
+      "stats": {
+        "Eyes": 10,
+        "Fingers": 2,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "cousin-sprocket",
+      "name": "Cousin Sprocket",
+      "cardNumber": 19,
+      "character": "A clockwork boy with a brass face, glass eyes, a winding key in his back and a neat black Eton suit",
+      "poseAndExpression": "Standing stiffly with one arm raised mid-wave, slightly wound down",
+      "backgroundScene": "A workshop with gears, bell jars and a workbench of spare parts",
+      "flavourText": "He must be wound every evening or he stops mid-sentence.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 8,
+        "Toes": 5
+      }
+    },
+    {
+      "id": "grandfather-thaddeus",
+      "name": "Grandfather Thaddeus",
+      "cardNumber": 20,
+      "character": "The painted portrait of a fierce old man in a military coat with a huge beard, whose eyes and mouth move within the canvas",
+      "poseAndExpression": "Leaning out of the picture frame, pointing and shouting at someone out of view",
+      "backgroundScene": "A hallway wall hung with portraits, cobwebs and a gas lamp",
+      "flavourText": "He still runs the household from the north wall.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 5,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "aunt-wisteria",
+      "name": "Aunt Wisteria",
+      "cardNumber": 21,
+      "character": "A refined aunt in a black bustle dress whose neck is impossibly long and curves gracefully up toward the ceiling",
+      "poseAndExpression": "Bending her neck down to peer at the viewer with mild curiosity",
+      "backgroundScene": "A tea parlour with a tall ceiling and a very high mirror",
+      "flavourText": "She finds most conversations rather beneath her.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 3,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "mrs-gristle-the-cook",
+      "name": "Mrs. Gristle the Cook",
+      "cardNumber": 22,
+      "character": "A stout, red-cheeked cook in a black dress, white apron and mob cap, with brawny arms and a cleaver",
+      "poseAndExpression": "Holding the cleaver and smiling warmly, with something unseen wriggling in the pot behind her",
+      "backgroundScene": "A vast stone kitchen with hanging pots, a huge black range and a cauldron",
+      "flavourText": "Nobody asks what is for dinner, and nobody leaves any.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 9,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "cousin-flotsam",
+      "name": "Cousin Flotsam",
+      "cardNumber": 23,
+      "character": "A damp, pale young man with seaweed in his hair, webbed hands and feet, and a soaked black suit",
+      "poseAndExpression": "Climbing out of a stone well, dripping, with a polite wave",
+      "backgroundScene": "The manor's garden well under a dead tree, with mist on the ground",
+      "flavourText": "He moved into the well for the quiet.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 4,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "uncle-mortlake",
+      "name": "Uncle Mortlake",
+      "cardNumber": 24,
+      "character": "A tall, thin undertaker uncle in a black top hat and frock coat, with a measuring tape and a mournful face",
+      "poseAndExpression": "Measuring the viewer with the tape, one eyebrow raised, taking notes",
+      "backgroundScene": "A parlour with a coffin on trestles, lilies and a black-draped mirror",
+      "flavourText": "He likes to measure the guests, just in case.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 8,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "little-gristle",
+      "name": "Little Gristle",
+      "cardNumber": 25,
+      "character": "A small round boy in a black jacket with a grubby collar, a wide grin and a spider dangling from his hand",
+      "poseAndExpression": "Dangling a spider over his open mouth with great anticipation",
+      "backgroundScene": "A cellar staircase with cobwebs in every corner",
+      "flavourText": "He is told not to eat between meals, so he eats during them.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 4,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "cousin-umbra",
+      "name": "Cousin Umbra",
+      "cardNumber": 26,
+      "character": "A girl who exists only as a flat black shadow on the wall, with the outline of a dress, plaits and a hair bow",
+      "poseAndExpression": "Standing on the wallpaper with one hand raised in a shy wave",
+      "backgroundScene": "A parlour wall with striped wallpaper and a gas lamp casting long shadows",
+      "flavourText": "She is only ever seen out of the corner of the eye.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 5,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "old-mould-the-gardener",
+      "name": "Old Mould the Gardener",
+      "cardNumber": 27,
+      "character": "A hunched, mossy old gardener in a tattered black coat and a hat with mushrooms growing from the brim, with a lichen beard",
+      "poseAndExpression": "Leaning on a spade beside a freshly dug hole, tipping his hat",
+      "backgroundScene": "A graveyard of family plots behind the manor, with crooked headstones and a wheelbarrow",
+      "flavourText": "He has dug the same hole every morning for forty years.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 3,
+        "Toes": 9
+      }
+    },
+    {
+      "id": "aunt-cordelia",
+      "name": "Aunt Cordelia",
+      "cardNumber": 28,
+      "character": "A spiritualist aunt in a black turban and shawl, with heavy kohl eyes and rings on every finger",
+      "poseAndExpression": "Seated at a round table with both hands flat on it, eyes rolled upward in a trance",
+      "backgroundScene": "A séance room with a crystal ball, a floating trumpet and a curtained doorway",
+      "flavourText": "She speaks to the dead, mostly to ask them to keep it down.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 3,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "cousin-pendulum",
+      "name": "Cousin Pendulum",
+      "cardNumber": 29,
+      "character": "A gangly boy in a black suit with his hair standing straight up, swinging on the pendulum of a giant clock",
+      "poseAndExpression": "Mid-swing, arms outstretched, with an expression of pure joy",
+      "backgroundScene": "The inside of the manor's clock tower, with huge gears and a bell",
+      "flavourText": "He has been late for every meal since he started.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 2,
+        "Toes": 9
+      }
+    },
+    {
+      "id": "doctor-hemlock",
+      "name": "Doctor Hemlock",
+      "cardNumber": 30,
+      "character": "A thin, bespectacled uncle in a black physician's coat, with a bag of leeches and a stethoscope",
+      "poseAndExpression": "Holding up a fat leech to the light with professional interest",
+      "backgroundScene": "A consulting room with anatomical charts, jars of specimens and a reclining couch",
+      "flavourText": "He prescribes leeches for everything, including boredom.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 9,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "great-aunt-agatha",
+      "name": "Great-Aunt Agatha",
+      "cardNumber": 31,
+      "character": "The living head of a sharp-eyed old lady in a lace cap, resting comfortably in an open hatbox lined with silk",
+      "poseAndExpression": "Looking up from the hatbox with a bright, interested expression",
+      "backgroundScene": "A dressing room with hatboxes stacked to the ceiling",
+      "flavourText": "The rest of her is coming by a later train.",
+      "stats": {
+        "Eyes": 10,
+        "Fingers": 3,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "cousin-lupin",
+      "name": "Cousin Lupin",
+      "cardNumber": 32,
+      "character": "A shaggy, wolfish boy in a sailor suit, with pointed ears, fur on his hands and feet and a long tongue",
+      "poseAndExpression": "Sitting on the floor, scratching behind one ear with a foot",
+      "backgroundScene": "A mud room with boots, coats and a very chewed umbrella stand",
+      "flavourText": "He is a perfectly good boy for most of the month.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 3,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "uncle-pyre",
+      "name": "Uncle Pyre",
+      "cardNumber": 33,
+      "character": "A stout, cheerful uncle in a smouldering black suit, permanently on fire from the collar up, with a lit cigar",
+      "poseAndExpression": "Warming his hands on his own head, chuckling",
+      "backgroundScene": "A smoky study with scorched armchairs and a singed rug",
+      "flavourText": "He is the only one allowed near the curtains.",
+      "stats": {
+        "Eyes": 5,
+        "Fingers": 8,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "aunt-nettle",
+      "name": "Aunt Nettle",
+      "cardNumber": 34,
+      "character": "A sharp little aunt in black with spectacles on a chain, knitting furiously, with a black scarf that trails across the whole room",
+      "poseAndExpression": "Knitting at tremendous speed without looking, needles a blur",
+      "backgroundScene": "A sitting room where the scarf winds around every chair and out of the door",
+      "flavourText": "She started the scarf in 1868 and sees no reason to stop.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 10,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "the-visitor",
+      "name": "The Visitor",
+      "cardNumber": 35,
+      "character": "A faded, dusty gentleman in an old-fashioned frock coat and cravat, with cobwebs on his shoulders and a patient smile",
+      "poseAndExpression": "Sitting bolt upright in a dining chair with his hat on his knee, waiting",
+      "backgroundScene": "The dining room, with a place still laid for him and a very old cake",
+      "flavourText": "He came to dinner in 1887 and is still waiting for the soup.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "cousin-snuffle",
+      "name": "Cousin Snuffle",
+      "cardNumber": 36,
+      "character": "A small round ball of dark fur with two huge eyes, wearing a lace bonnet",
+      "poseAndExpression": "Sitting on a cushion looking up adoringly",
+      "backgroundScene": "A parlour with a tasselled cushion on a tall chair",
+      "flavourText": "Nobody knows which side of the family it came from.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 2,
+        "Toes": 4
+      }
+    },
+    {
+      "id": "beelzebub-the-cat",
+      "name": "Beelzebub the Cat",
+      "cardNumber": 37,
+      "character": "A wrinkled hairless cat with huge pale eyes, wearing a tiny black ribbon",
+      "poseAndExpression": "Sitting upright on a cushion, staring directly at the viewer, unblinking",
+      "backgroundScene": "A windowsill with dead flowers in a vase and a view of the graveyard",
+      "flavourText": "The cat answers to no one, and the family respects that.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 2,
+        "Toes": 5
+      }
+    },
+    {
+      "id": "cousin-stilts",
+      "name": "Cousin Stilts",
+      "cardNumber": 38,
+      "character": "An impossibly tall, thin boy in a short black jacket whose legs go on for yards and end in enormous feet",
+      "poseAndExpression": "Ducking under a doorway with his head sideways and a sheepish smile",
+      "backgroundScene": "A hallway with a very low doorway and scuff marks on the ceiling",
+      "flavourText": "He has not fitted through a door since he was nine.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 4,
+        "Toes": 9
+      }
+    },
+    {
+      "id": "aunt-morrow",
+      "name": "Aunt Morrow",
+      "cardNumber": 39,
+      "character": "A thin, weeping aunt in a black veil, with huge wet eyes, a handkerchief and a watering can",
+      "poseAndExpression": "Watering a row of black flowers with her own tears, sniffing",
+      "backgroundScene": "A windowsill of potted black flowers beside a rain-streaked window",
+      "flavourText": "The flowers have never been better.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 4,
+        "Toes": 2
+      }
+    },
+    {
+      "id": "uncle-quill",
+      "name": "Uncle Quill",
+      "cardNumber": 40,
+      "character": "A short, prickly uncle covered in sharp black spines, wearing a black waistcoat with holes for the spines and tiny spectacles",
+      "poseAndExpression": "Curled halfway into a ball in an armchair, looking round and content",
+      "backgroundScene": "A parlour with a badly punctured armchair and a torn cushion",
+      "flavourText": "He gives the warmest hugs, and nobody accepts them.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 3,
+        "Toes": 9
+      }
+    },
+    {
+      "id": "the-sisters-grimwood",
+      "name": "The Sisters Grimwood",
+      "cardNumber": 41,
+      "character": "Three withered old aunts in matching black bonnets, joined at the shoulder, passing a single glass eye between them",
+      "poseAndExpression": "Huddled together, one holding the eye up to look at the viewer",
+      "backgroundScene": "A dim parlour with three teacups and one saucer",
+      "flavourText": "They take turns seeing, and they never agree on what they saw.",
+      "stats": {
+        "Eyes": 1,
+        "Fingers": 10,
+        "Toes": 4
+      }
+    },
+    {
+      "id": "cousin-ratchet",
+      "name": "Cousin Ratchet",
+      "cardNumber": 42,
+      "character": "A neat girl in a black dress with a pocket apron full of teeth, pliers in one hand and a pleasant smile",
+      "poseAndExpression": "Holding up a tooth to the light, pleased with it",
+      "backgroundScene": "A bedroom with a glass cabinet full of labelled teeth",
+      "flavourText": "She collects teeth, and the family sleeps lightly.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 8,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "old-mister-wick",
+      "name": "Old Mister Wick",
+      "cardNumber": 43,
+      "character": "A gaunt caretaker in a black coat whose head is a tall white candle with a flickering flame, dripping wax down his shoulders",
+      "poseAndExpression": "Shuffling along a corridor carrying a ring of keys, lighting the way",
+      "backgroundScene": "A dark corridor with doors on both sides and wax drips on the floor",
+      "flavourText": "He gets shorter every winter.",
+      "stats": {
+        "Eyes": 2,
+        "Fingers": 5,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "cousin-fathom",
+      "name": "Cousin Fathom",
+      "cardNumber": 44,
+      "character": "A pale boy with gills on his neck, round black eyes and slicked wet hair, in a soaked black suit",
+      "poseAndExpression": "Sitting at the bottom of a bathtub, fully clothed, waving up through the water",
+      "backgroundScene": "A bathroom with a claw-footed tub and a dripping tap",
+      "flavourText": "He takes his baths very seriously, and very long.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "corvus-the-raven",
+      "name": "Corvus the Raven",
+      "cardNumber": 45,
+      "character": "A large, glossy black raven with a bright beady eye and a tiny black mourning ribbon around its neck",
+      "poseAndExpression": "Perched on a skull, head cocked, examining the viewer",
+      "backgroundScene": "A study with a bust on a plinth, a desk and a snuffed candle",
+      "flavourText": "It has learned one word, and uses it constantly.",
+      "stats": {
+        "Eyes": 9,
+        "Fingers": 1,
+        "Toes": 5
+      }
+    },
+    {
+      "id": "baby-lamia",
+      "name": "Baby Lamia",
+      "cardNumber": 46,
+      "character": "A rosy baby in a black christening bonnet whose lower half is a long, coiled serpent's tail",
+      "poseAndExpression": "Coiled happily in a wicker basket, holding a rattle, smiling with tiny fangs",
+      "backgroundScene": "A nursery with a basket by the fire and a hissing kettle",
+      "flavourText": "She has her mother's eyes and her father's tail.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 7,
+        "Toes": 0
+      }
+    },
+    {
+      "id": "uncle-grimald",
+      "name": "Uncle Grimald",
+      "cardNumber": 47,
+      "character": "A gentleman made entirely of grey fog in the shape of a frock coat and top hat, with two faint pale eyes",
+      "poseAndExpression": "Drifting through a keyhole, hat first, politely",
+      "backgroundScene": "A locked door in a dark corridor, with fog curling under it",
+      "flavourText": "He never knocks, because he never has to.",
+      "stats": {
+        "Eyes": 8,
+        "Fingers": 4,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "aunt-sable",
+      "name": "Aunt Sable",
+      "cardNumber": 48,
+      "character": "A smiling, elegant aunt in a black silk dress and a cameo brooch, carrying a silver tea tray with one steaming cup",
+      "poseAndExpression": "Offering the cup to the viewer with a gracious smile",
+      "backgroundScene": "A tea parlour with a cabinet of small labelled bottles behind her",
+      "flavourText": "She insists you try the tea.",
+      "stats": {
+        "Eyes": 3,
+        "Fingers": 9,
+        "Toes": 3
+      }
+    },
+    {
+      "id": "the-headless-groom",
+      "name": "The Headless Groom",
+      "cardNumber": 49,
+      "character": "A headless man in a dusty wedding suit and a white buttonhole, holding a ring box, with a stiff upright collar and nothing above it",
+      "poseAndExpression": "Standing patiently at the altar with the ring box open",
+      "backgroundScene": "The manor's private chapel with cobwebbed pews and dead flowers",
+      "flavourText": "He is still waiting for the bride, and his head.",
+      "stats": {
+        "Eyes": 0,
+        "Fingers": 7,
+        "Toes": 8
+      }
+    },
+    {
+      "id": "mortimer-the-heir",
+      "name": "Mortimer, the Heir",
+      "cardNumber": 50,
+      "character": "A tiny, serious boy in an oversized black top hat and a frock coat that trails on the floor, holding an enormous iron key",
+      "poseAndExpression": "Standing on the front steps with the key held in both hands, chin up",
+      "backgroundScene": "The grand front door of Gloomsbury Manor, with gargoyles and a brass knocker",
+      "flavourText": "One day all of this will be his, including the attic.",
+      "stats": {
+        "Eyes": 4,
+        "Fingers": 8,
+        "Toes": 3
+      }
+    }
+  ],
   "layout": {
     "window": {
       "left": 99,
