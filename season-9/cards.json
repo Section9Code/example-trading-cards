@@ -1,0 +1,1100 @@
+{
+  "set": {
+    "name": "80s Heroes & Villains",
+    "totalCards": 50,
+    "statNames": [
+      "Power",
+      "Speed",
+      "Tech",
+      "Courage",
+      "Cunning",
+      "Style"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "1980s Japanese anime cel animation, hand-painted cel shading with hard-edged two-tone shadows, thick clean ink linework, airbrushed painted backgrounds, retro sci-fi OVA aesthetic circa 1985-1989, muted pastel and neon palette with deep blues, violet and teal, accents of neon sunset orange, chrome silver and warm cream, soft film grain, slight VHS chromatic bloom, large expressive eyes with sharp angular highlights, angular jawlines, voluminous feathered hair, lens flare star-glints, analog film look. Overall mood: dramatic, heroic and a little cheesy, like a VHS box cover.",
+    "windowHeight": 43,
+    "frame": [
+      "Border: a thick border of dark navy blue with a bevelled chrome-silver edge, a fine neon teal grid pattern like a retro synthwave floor, and a thin stripe of sunset colours (orange to violet) running along the inside edge.",
+      "Top-left corner: a small round set emblem of a bright four-pointed lens-flare star glint over a tiny striped sunset, with no letters.",
+      "Top: an empty name banner shaped like a long bevelled chrome bar with angled ends, pale silver-white inside a darker chrome edge, about 10% of the card height, with no letters in it.",
+      "Bottom: a text panel below the window, about 30% of the card height, in pale warm cream with a thin dark navy edge. The top third of the panel is empty space for two lines of text. A thin navy divider line runs across the panel below that space.",
+      "Stats grid: the lower two-thirds of the panel is split into six equal cells, in two rows of three, by thin navy dividers. All six cells are pale cream. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a word like 'COURAGE' and a large number. The icons, top row left to right: a clenched fist; a lightning bolt; a gear. Bottom row left to right: a flame; a narrowed eye; a pair of sunglasses. The icons are simple, flat and bold, in navy, teal, violet and sunset orange.",
+      "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty dark navy plaque with a chrome edge for the card number, about 22% of the card width, so it can hold text like '#50 of 50'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
+      "Accent colours on the frame are only navy, teal, violet, sunset orange, chrome silver and cream. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No 3D render, no CGI, no modern digital anime, no cel-shaded 3D, no photorealism, no smooth gradients on characters, no chibi, no moe style, no watermark, no text, no signature, no real or existing anime, cartoon or film characters, no logos.",
+    "artSize": "1376x1024"
+  },
+  "rulesCard": {
+    "title": "How to Play",
+    "steps": [
+      "Two players. Deal all the cards evenly.",
+      "Each player shuffles their cards into a face-down deck.",
+      "Each player turns over their top card and looks at it.",
+      "The winner of the last round picks a stat. In the first round, the player with the biggest hair picks.",
+      "Reveal the cards. The higher value in the called stat wins.",
+      "The winner keeps both cards in their own pile. On a tie, each player keeps their own card.",
+      "When your deck runs out, shuffle your pile to make a new deck.",
+      "You win when your opponent has no cards left. Hero or villain, only one can stand!"
+    ],
+    "framePrompt": "The front of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in the same 1980s anime cel style. The same thick dark navy border with a bevelled chrome edge, a neon teal synthwave grid and a sunset stripe on the inside edge. The same round emblem in the top-left corner: a four-pointed lens-flare star over a tiny striped sunset. The same empty pale chrome name banner with angled ends along the top. Below the banner, filling the rest of the card down to the border, one large empty panel in even pale warm cream with a thin navy edge, with no icons, dividers or badges. No text, letters or numbers anywhere. Do not use pink or magenta.",
+    "layout": {
+      "title": {
+        "x": 600,
+        "y": 93,
+        "size": 58,
+        "maxWidth": 640,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1a1f4a",
+        "charWidth": 0.75,
+        "bold": true
+      },
+      "step": {
+        "x": 95,
+        "y": 365,
+        "size": 40,
+        "maxWidth": 830,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#1a1f4a",
+        "anchor": "start",
+        "wrap": true,
+        "charWidth": 0.45,
+        "lineHeight": 1.25
+      },
+      "gap": 38
+    }
+  },
+  "cards": [
+    {
+      "id": "rei-arashi",
+      "name": "Rei Arashi",
+      "cardNumber": 1,
+      "character": "A young woman mecha pilot with short spiky silver-blue hair, a red visor headband, a white-and-red flight jacket with big shoulder pads over a black pilot suit, amber eyes and a small scar on her left cheek",
+      "poseAndExpression": "Leaning on the giant armoured foot of her white mecha, helmet under one arm, grinning with total confidence",
+      "backgroundScene": "A rain-soaked hangar deck at night with sparks, warning lights and a neon megacity skyline beyond the open doors",
+      "flavourText": "Never read the manual. Never lost a dogfight either.",
+      "stats": {
+        "Power": 4,
+        "Speed": 6,
+        "Tech": 7,
+        "Courage": 9,
+        "Cunning": 2,
+        "Style": 2
+      }
+    },
+    {
+      "id": "admiral-vex",
+      "name": "Admiral Vex",
+      "cardNumber": 2,
+      "character": "A thin, sneering space admiral with slicked-back violet hair, a monocle, a high-collared black uniform covered in gold medals and a long white cape",
+      "poseAndExpression": "Sitting back in a huge command throne, fingertips pressed together, smirking",
+      "backgroundScene": "The bridge of a vast battleship with glowing tactical screens and a fleet of warships outside the window",
+      "flavourText": "Commands ten thousand ships from the safest seat in the galaxy.",
+      "stats": {
+        "Power": 3,
+        "Speed": 4,
+        "Tech": 6,
+        "Courage": 2,
+        "Cunning": 9,
+        "Style": 6
+      }
+    },
+    {
+      "id": "blaze-kurogane",
+      "name": "Blaze Kurogane",
+      "cardNumber": 3,
+      "character": "A huge, muscular wandering martial artist with a wild black mane of hair, a torn blue vest, bandaged fists and a scar across his chest",
+      "poseAndExpression": "Mid-punch, fist glowing with orange energy, roaring with determination",
+      "backgroundScene": "A cracked desert wasteland with ruined highways and a blood-orange sunset",
+      "flavourText": "Can punch through a mountain. Cannot work a vending machine.",
+      "stats": {
+        "Power": 10,
+        "Speed": 6,
+        "Tech": 1,
+        "Courage": 7,
+        "Cunning": 3,
+        "Style": 3
+      }
+    },
+    {
+      "id": "lord-gorath",
+      "name": "Lord Gorath",
+      "cardNumber": 4,
+      "character": "A towering armoured warlord with green skin, curling horns, a spiked iron helmet and a cape made of banners from conquered worlds",
+      "poseAndExpression": "Standing with a giant axe resting on one shoulder, laughing loudly",
+      "backgroundScene": "A fortress of black spikes on a volcanic planet under two red moons",
+      "flavourText": "He conquered nine planets, very, very slowly.",
+      "stats": {
+        "Power": 9,
+        "Speed": 2,
+        "Tech": 3,
+        "Courage": 6,
+        "Cunning": 4,
+        "Style": 6
+      }
+    },
+    {
+      "id": "miko-starlight",
+      "name": "Miko Starlight",
+      "cardNumber": 5,
+      "character": "A teenage magical idol girl with enormous feathered lilac hair in twin tails, a frilly teal-and-white stage outfit, star-shaped earrings and a glowing star wand",
+      "poseAndExpression": "Striking a sparkling transformation pose, winking, ribbons of light swirling around her",
+      "backgroundScene": "A huge concert stage with spotlights, a starry sky and a cheering crowd",
+      "flavourText": "Her transformation sequence lasts longer than most battles.",
+      "stats": {
+        "Power": 2,
+        "Speed": 5,
+        "Tech": 3,
+        "Courage": 7,
+        "Cunning": 3,
+        "Style": 10
+      }
+    },
+    {
+      "id": "queen-nocturna",
+      "name": "Queen Nocturna",
+      "cardNumber": 6,
+      "character": "A tall, elegant moon witch with long flowing midnight-blue hair, pale skin, a crescent-moon crown and a dark violet gown with a high pointed collar",
+      "poseAndExpression": "Floating above the ground, one hand raised with dark crackling energy, a cold smile",
+      "backgroundScene": "A crystal palace on the dark side of the moon with Earth glowing in the black sky",
+      "flavourText": "Rules the dark side of the moon. Insists on good lighting.",
+      "stats": {
+        "Power": 5,
+        "Speed": 3,
+        "Tech": 4,
+        "Courage": 3,
+        "Cunning": 6,
+        "Style": 9
+      }
+    },
+    {
+      "id": "jet-hayabusa",
+      "name": "Jet Hayabusa",
+      "cardNumber": 7,
+      "character": "A lanky young courier with a messy orange pompadour, aviator goggles, a sleeveless red racing jacket and fingerless gloves",
+      "poseAndExpression": "Leaning into a sharp turn on a futuristic red motorbike, shouting with joy, light trails behind him",
+      "backgroundScene": "A neon-lit city highway at night with holographic billboards blurring past",
+      "flavourText": "Delivers anything across Neo-Kyoto in nine minutes flat.",
+      "stats": {
+        "Power": 3,
+        "Speed": 10,
+        "Tech": 5,
+        "Courage": 6,
+        "Cunning": 2,
+        "Style": 4
+      }
+    },
+    {
+      "id": "razor-kaido",
+      "name": "Razor Kaido",
+      "cardNumber": 8,
+      "character": "A hulking biker gang boss with a tall black mohawk, mirrored sunglasses, a spiked leather jacket and a chain wrapped around one fist",
+      "poseAndExpression": "Revving a huge chrome chopper, sneering, his gang's headlights behind him",
+      "backgroundScene": "A wrecked overpass in a dusty ruined city with burning oil drums",
+      "flavourText": "Biker gang boss. Has never once fixed his own bike.",
+      "stats": {
+        "Power": 7,
+        "Speed": 8,
+        "Tech": 2,
+        "Courage": 4,
+        "Cunning": 4,
+        "Style": 5
+      }
+    },
+    {
+      "id": "dr-yumi-sato",
+      "name": "Dr. Yumi Sato",
+      "cardNumber": 9,
+      "character": "A young scientist with a neat black bob, round glasses, a long white lab coat over a turtleneck, holding a glowing data pad",
+      "poseAndExpression": "Standing proudly in front of a half-built giant robot, cheerfully pointing a spanner at it",
+      "backgroundScene": "A cluttered high-tech laboratory with blueprints, blinking computers and sparks",
+      "flavourText": "Built a giant robot over the weekend. Still can't open jars.",
+      "stats": {
+        "Power": 1,
+        "Speed": 3,
+        "Tech": 10,
+        "Courage": 6,
+        "Cunning": 6,
+        "Style": 4
+      }
+    },
+    {
+      "id": "professor-zorg",
+      "name": "Professor Zorg",
+      "cardNumber": 10,
+      "character": "A mad scientist with a huge bald veiny head, wild white side-hair, a mechanical eyepiece and a stained lab coat with a high collar",
+      "poseAndExpression": "Cackling with both arms raised over a glowing control panel, lightning around him",
+      "backgroundScene": "A secret underground lair with bubbling tanks, cables and a half-finished doomsday cannon",
+      "flavourText": "His doomsday device is ninety percent finished, as always.",
+      "stats": {
+        "Power": 2,
+        "Speed": 3,
+        "Tech": 9,
+        "Courage": 2,
+        "Cunning": 8,
+        "Style": 6
+      }
+    },
+    {
+      "id": "kage-the-silent",
+      "name": "Kage the Silent",
+      "cardNumber": 11,
+      "character": "A lean ninja in a plain black outfit with a dark grey mask covering all but his sharp blue eyes, a short sword on his back",
+      "poseAndExpression": "Crouched on a rooftop edge, perfectly still, eyes narrowed",
+      "backgroundScene": "A moonlit rooftop over an old castle town with drifting cherry blossom petals",
+      "flavourText": "Nobody has seen his face. Nobody has heard him speak.",
+      "stats": {
+        "Power": 5,
+        "Speed": 9,
+        "Tech": 4,
+        "Courage": 6,
+        "Cunning": 5,
+        "Style": 1
+      }
+    },
+    {
+      "id": "viper-mask",
+      "name": "Viper Mask",
+      "cardNumber": 12,
+      "character": "A slim assassin in a dark green bodysuit with a snake-shaped metal mask, long braided black hair and throwing knives",
+      "poseAndExpression": "Leaping forward with knives fanned between her fingers, a cruel smile under the mask",
+      "backgroundScene": "A shadowy bamboo forest at night with thick fog and a glowing paper lantern",
+      "flavourText": "Strikes from the shadows, then runs from the light.",
+      "stats": {
+        "Power": 4,
+        "Speed": 7,
+        "Tech": 5,
+        "Courage": 2,
+        "Cunning": 9,
+        "Style": 3
+      }
+    },
+    {
+      "id": "officer-kenji-bolt",
+      "name": "Officer Kenji Bolt",
+      "cardNumber": 13,
+      "character": "A gruff cyborg police officer with a square jaw, short brown crew cut, a red glowing cyber-eye, one chrome robot arm and a long blue police coat",
+      "poseAndExpression": "Aiming a heavy blaster pistol with his chrome arm, scowling, coat flapping",
+      "backgroundScene": "A rain-soaked neon alley with a police hover-car and flashing blue and red lights",
+      "flavourText": "Half man, half machine, all paperwork.",
+      "stats": {
+        "Power": 7,
+        "Speed": 4,
+        "Tech": 8,
+        "Courage": 7,
+        "Cunning": 3,
+        "Style": 1
+      }
+    },
+    {
+      "id": "chrome-reaper",
+      "name": "Chrome Reaper",
+      "cardNumber": 14,
+      "character": "A tall, skeletal killer android with a polished chrome skull face, glowing red eyes, a black trench coat and blade arms",
+      "poseAndExpression": "Walking forward slowly through smoke, blades raised, expressionless",
+      "backgroundScene": "A burning robot factory with conveyor belts and red warning lights",
+      "flavourText": "Programmed to destroy. Not programmed to open doors.",
+      "stats": {
+        "Power": 8,
+        "Speed": 6,
+        "Tech": 7,
+        "Courage": 5,
+        "Cunning": 2,
+        "Style": 2
+      }
+    },
+    {
+      "id": "tsubaki-blade",
+      "name": "Tsubaki Blade",
+      "cardNumber": 15,
+      "character": "A young swordswoman with a long black ponytail tied with a red ribbon, a white headband, a red-and-white kimono top with hakama trousers and a katana",
+      "poseAndExpression": "Standing ready with her katana drawn, one foot forward, eyes fierce and calm",
+      "backgroundScene": "A ruined shrine on a hillside with scattered robot parts and a stormy sky",
+      "flavourText": "Has cut down a hundred robots with her grandmother's sword.",
+      "stats": {
+        "Power": 6,
+        "Speed": 7,
+        "Tech": 1,
+        "Courage": 10,
+        "Cunning": 2,
+        "Style": 4
+      }
+    },
+    {
+      "id": "general-darkhorn",
+      "name": "General Darkhorn",
+      "cardNumber": 16,
+      "character": "A giant demon general with dark red skin, two huge curved black horns, glowing yellow eyes and heavy black samurai-style armour",
+      "poseAndExpression": "Charging forward with a giant spiked club, roaring, eyes blazing",
+      "backgroundScene": "A battlefield of black rock and lava with an army of shadow soldiers behind him",
+      "flavourText": "Fears nothing in this world, except his mother.",
+      "stats": {
+        "Power": 8,
+        "Speed": 3,
+        "Tech": 2,
+        "Courage": 9,
+        "Cunning": 5,
+        "Style": 3
+      }
+    },
+    {
+      "id": "spike-nova",
+      "name": "Spike Nova",
+      "cardNumber": 17,
+      "character": "A laid-back space bounty hunter with a messy teal pompadour, half-closed eyes, a loose navy suit, a skinny tie and a lollipop in his mouth",
+      "poseAndExpression": "Leaning on a doorway with a blaster resting on his shoulder, smirking lazily",
+      "backgroundScene": "A grimy spaceport bar with neon signs, jazz instruments and a star-filled window",
+      "flavourText": "Coolest bounty hunter in the sector. Worst at collecting the bounty.",
+      "stats": {
+        "Power": 4,
+        "Speed": 6,
+        "Tech": 5,
+        "Courage": 5,
+        "Cunning": 1,
+        "Style": 9
+      }
+    },
+    {
+      "id": "madame-orchid",
+      "name": "Madame Orchid",
+      "cardNumber": 18,
+      "character": "A glamorous crime boss with a sleek violet bob, long gloves, a black evening dress and a pearl necklace",
+      "poseAndExpression": "Seated at a card table, dealing a royal flush, giving a knowing sideways smile",
+      "backgroundScene": "A lavish Martian casino with chandeliers, roulette tables and red Martian dunes through the windows",
+      "flavourText": "Owns every casino on Mars, and most of the police.",
+      "stats": {
+        "Power": 1,
+        "Speed": 3,
+        "Tech": 5,
+        "Courage": 4,
+        "Cunning": 10,
+        "Style": 7
+      }
+    },
+    {
+      "id": "goro-ironside",
+      "name": "Goro Ironside",
+      "cardNumber": 19,
+      "character": "A giant, gentle mechanic with a big bushy beard, a blue bandana, oil-stained overalls and arms as thick as tree trunks",
+      "poseAndExpression": "Lifting a huge mecha engine over his head with a friendly grin",
+      "backgroundScene": "A busy mecha repair yard with towering robots in scaffolding and sparks flying",
+      "flavourText": "Lifts mecha engines by hand. Takes an hour to climb the stairs.",
+      "stats": {
+        "Power": 10,
+        "Speed": 1,
+        "Tech": 7,
+        "Courage": 7,
+        "Cunning": 3,
+        "Style": 2
+      }
+    },
+    {
+      "id": "emperor-malgrim",
+      "name": "Emperor Malgrim",
+      "cardNumber": 20,
+      "character": "An ancient galactic emperor with a long white beard, sunken glowing eyes, a tall golden crown and heavy purple robes covered in star patterns",
+      "poseAndExpression": "Sitting on a floating throne, stroking his beard, eyes narrowed with a scheming smile",
+      "backgroundScene": "A vast throne room in a space station with a galaxy spiral behind tall windows",
+      "flavourText": "Has a plan, a backup plan and a backup throne.",
+      "stats": {
+        "Power": 3,
+        "Speed": 2,
+        "Tech": 6,
+        "Courage": 3,
+        "Cunning": 9,
+        "Style": 7
+      }
+    },
+    {
+      "id": "lina-comet",
+      "name": "Lina Comet",
+      "cardNumber": 21,
+      "character": "A young racing pilot with a short blonde bob, a white helmet under her arm, a teal racing suit with orange stripes and a big confident grin",
+      "poseAndExpression": "Giving a thumbs-up beside a sleek white space-racer with glowing engines",
+      "backgroundScene": "A racing track built around the rings of Saturn, with racers zooming past",
+      "flavourText": "Fastest racer on the Saturn ring circuit. Terrible at parking.",
+      "stats": {
+        "Power": 2,
+        "Speed": 10,
+        "Tech": 7,
+        "Courage": 6,
+        "Cunning": 3,
+        "Style": 2
+      }
+    },
+    {
+      "id": "twin-specters",
+      "name": "Twin Specters",
+      "cardNumber": 22,
+      "character": "Two identical pale ghost girls with long straight white hair, glowing violet eyes and matching old-fashioned dark blue school uniforms, floating side by side",
+      "poseAndExpression": "Floating in perfect mirror poses, giggling together, faces lit from below",
+      "backgroundScene": "A haunted abandoned school at night with flickering lights and blowing curtains",
+      "flavourText": "Two ghosts, one shared brain cell.",
+      "stats": {
+        "Power": 3,
+        "Speed": 9,
+        "Tech": 2,
+        "Courage": 4,
+        "Cunning": 7,
+        "Style": 5
+      }
+    },
+    {
+      "id": "tobi-sparks",
+      "name": "Tobi Sparks",
+      "cardNumber": 23,
+      "character": "A small, brave boy with big spiky brown hair, a yellow cap on backwards, a red jacket and a small round silver robot companion on his shoulder",
+      "poseAndExpression": "Standing in front of a giant monster with arms spread, shouting defiantly",
+      "backgroundScene": "A sunny seaside town with a giant monster's shadow falling over the rooftops",
+      "flavourText": "Twelve years old, four feet tall and totally fearless.",
+      "stats": {
+        "Power": 1,
+        "Speed": 5,
+        "Tech": 6,
+        "Courage": 9,
+        "Cunning": 5,
+        "Style": 4
+      }
+    },
+    {
+      "id": "mecha-rex-omega",
+      "name": "Mecha-Rex Omega",
+      "cardNumber": 24,
+      "character": "A two-hundred-ton robot tyrannosaurus with dark steel armour plates, glowing red eyes, missile pods on its back and a laser cannon in its mouth",
+      "poseAndExpression": "Rearing up and roaring, a beam of light charging in its jaws",
+      "backgroundScene": "A city harbour at night with crumbling buildings and searchlights in the sky",
+      "flavourText": "Two hundred tons of laser-breathing robot dinosaur. No brain.",
+      "stats": {
+        "Power": 10,
+        "Speed": 4,
+        "Tech": 6,
+        "Courage": 7,
+        "Cunning": 1,
+        "Style": 2
+      }
+    },
+    {
+      "id": "princess-aurora",
+      "name": "Princess Aurora",
+      "cardNumber": 25,
+      "character": "A space princess with long flowing rose-gold hair, a silver tiara with a blue jewel, a white-and-teal gown with armoured shoulders and a small laser pistol",
+      "poseAndExpression": "Standing tall on a balcony, gown blowing in the wind, gazing bravely at the horizon",
+      "backgroundScene": "A crystal city on an alien planet with three moons and an aurora in the sky",
+      "flavourText": "Wins every royal ball and most space battles.",
+      "stats": {
+        "Power": 3,
+        "Speed": 4,
+        "Tech": 2,
+        "Courage": 6,
+        "Cunning": 5,
+        "Style": 10
+      }
+    },
+    {
+      "id": "the-hollow-king",
+      "name": "The Hollow King",
+      "cardNumber": 26,
+      "character": "A skeletal sorcerer king with a cracked bone crown, empty eye sockets glowing blue, a tattered royal cape and a staff topped with a skull",
+      "poseAndExpression": "Leaning on his staff, slowly raising one bony hand, a ghostly grin",
+      "backgroundScene": "A ruined throne hall full of cobwebs, broken stained glass and blue ghost fire",
+      "flavourText": "Has been plotting for a thousand years. Moves at the same speed.",
+      "stats": {
+        "Power": 6,
+        "Speed": 1,
+        "Tech": 3,
+        "Courage": 5,
+        "Cunning": 8,
+        "Style": 7
+      }
+    },
+    {
+      "id": "sgt-max-thunder",
+      "name": "Sgt. Max Thunder",
+      "cardNumber": 27,
+      "character": "A square-jawed soldier with a blond flat-top haircut, a green combat vest, a headset microphone and a huge shoulder-mounted rocket launcher",
+      "poseAndExpression": "Charging forward with a battle cry, rocket launcher on his shoulder",
+      "backgroundScene": "A jungle battlefield with explosions, palm trees and a crashed transport ship",
+      "flavourText": "His only plan is to charge. It usually works.",
+      "stats": {
+        "Power": 8,
+        "Speed": 4,
+        "Tech": 3,
+        "Courage": 9,
+        "Cunning": 1,
+        "Style": 5
+      }
+    },
+    {
+      "id": "baron-von-glitch",
+      "name": "Baron Von Glitch",
+      "cardNumber": 28,
+      "character": "A skinny hacker villain with spiky green hair, a pale face lit by screens, round green-tinted glasses and a long black coat covered in wires",
+      "poseAndExpression": "Typing on a floating holographic keyboard, grinning wickedly",
+      "backgroundScene": "A dark room full of glowing monitors showing green code and a hacked moon",
+      "flavourText": "Hacked the moon once, just to prove he could.",
+      "stats": {
+        "Power": 1,
+        "Speed": 6,
+        "Tech": 10,
+        "Courage": 2,
+        "Cunning": 7,
+        "Style": 4
+      }
+    },
+    {
+      "id": "kaito-wolf",
+      "name": "Kaito Wolf",
+      "cardNumber": 29,
+      "character": "A wild teenage boy with shaggy grey hair, wolf-like golden eyes, a torn fur cloak, bare feet and claw marks on his arms, with a grey wolf beside him",
+      "poseAndExpression": "Running on all fours over rubble, howling, the wolf running beside him",
+      "backgroundScene": "The overgrown ruins of an old city with vines on the skyscrapers and a full moon",
+      "flavourText": "Raised by wolves in the ruins of Old Tokyo. Still eats like one.",
+      "stats": {
+        "Power": 6,
+        "Speed": 9,
+        "Tech": 1,
+        "Courage": 7,
+        "Cunning": 3,
+        "Style": 4
+      }
+    },
+    {
+      "id": "mistress-venom",
+      "name": "Mistress Venom",
+      "cardNumber": 30,
+      "character": "A snake-like villainess with long emerald-green hair, scaled skin on her arms, golden slit-pupil eyes and a sleek black-and-green bodysuit",
+      "poseAndExpression": "Coiling around a stone pillar, hissing, fangs bared, eyes glowing",
+      "backgroundScene": "A steamy temple in a jungle with snakes around ancient statues",
+      "flavourText": "Her kiss is poison. Her cooking is worse.",
+      "stats": {
+        "Power": 4,
+        "Speed": 7,
+        "Tech": 2,
+        "Courage": 3,
+        "Cunning": 6,
+        "Style": 8
+      }
+    },
+    {
+      "id": "old-master-tenzan",
+      "name": "Old Master Tenzan",
+      "cardNumber": 31,
+      "character": "A tiny ancient martial arts master with a long white beard down to the floor, bushy eyebrows, a simple orange robe and a wooden walking stick",
+      "poseAndExpression": "Balancing on one finger on top of his walking stick, eyes closed, perfectly calm",
+      "backgroundScene": "A misty mountain peak with a small temple and waterfalls",
+      "flavourText": "Taught a thousand heroes. Forgets all their names.",
+      "stats": {
+        "Power": 7,
+        "Speed": 2,
+        "Tech": 1,
+        "Courage": 9,
+        "Cunning": 6,
+        "Style": 5
+      }
+    },
+    {
+      "id": "neon-shogun",
+      "name": "Neon Shogun",
+      "cardNumber": 32,
+      "character": "A cyber samurai warlord in black lacquered armour lined with glowing neon tubes, a horned helmet with a light-up crest and a glowing laser katana",
+      "poseAndExpression": "Sitting on a throne of glowing neon signs, katana across his knees, glaring",
+      "backgroundScene": "A cyberpunk city district at night, covered in glowing neon signs and rain",
+      "flavourText": "Rules the neon district. Pays a fortune in electricity bills.",
+      "stats": {
+        "Power": 6,
+        "Speed": 4,
+        "Tech": 7,
+        "Courage": 2,
+        "Cunning": 2,
+        "Style": 9
+      }
+    },
+    {
+      "id": "captain-sora-drake",
+      "name": "Captain Sora Drake",
+      "cardNumber": 33,
+      "character": "A good-hearted space pirate captain with a long dark ponytail, an eyepatch, a patched brown coat, a red scarf and a laser cutlass",
+      "poseAndExpression": "Standing on the prow of her ship, pointing forward with the cutlass, laughing",
+      "backgroundScene": "A battered pirate spaceship flying through an asteroid field toward a bright nebula",
+      "flavourText": "A space pirate who only robs other pirates.",
+      "stats": {
+        "Power": 5,
+        "Speed": 5,
+        "Tech": 3,
+        "Courage": 9,
+        "Cunning": 6,
+        "Style": 2
+      }
+    },
+    {
+      "id": "dread-kraken",
+      "name": "Dread Kraken",
+      "cardNumber": 34,
+      "character": "A massive pirate villain with a tentacle beard, a mechanical octopus arm, a battered tricorn hat and a coat of dark sea-green leather",
+      "poseAndExpression": "Swinging a giant anchor on a chain with his octopus arm, bellowing",
+      "backgroundScene": "The deck of a dark submarine-ship surfacing in a stormy alien sea",
+      "flavourText": "Has eight arms and still can't hold a conversation.",
+      "stats": {
+        "Power": 9,
+        "Speed": 2,
+        "Tech": 4,
+        "Courage": 6,
+        "Cunning": 6,
+        "Style": 3
+      }
+    },
+    {
+      "id": "pixie-rocket",
+      "name": "Pixie Rocket",
+      "cardNumber": 35,
+      "character": "A tiny cheerful robot girl with a round white helmet, big glowing teal eyes, a jetpack and little rocket boots, the size of a cat",
+      "poseAndExpression": "Zooming through the air with a trail of sparks, laughing, arms out",
+      "backgroundScene": "A bright city skyline at sunrise with flying cars and blimps",
+      "flavourText": "Faster than a bullet train, smaller than a lunchbox.",
+      "stats": {
+        "Power": 1,
+        "Speed": 10,
+        "Tech": 7,
+        "Courage": 5,
+        "Cunning": 3,
+        "Style": 4
+      }
+    },
+    {
+      "id": "doctor-hex",
+      "name": "Doctor Hex",
+      "cardNumber": 36,
+      "character": "A cold cyborg surgeon with slicked silver hair, half of his face replaced by metal, six mechanical spider arms holding tools and a stained white coat",
+      "poseAndExpression": "Looming forward with all six arms spread, smiling thinly",
+      "backgroundScene": "A sterile white operating room with flickering lights and robot parts on trays",
+      "flavourText": "Will upgrade you, whether you like it or not.",
+      "stats": {
+        "Power": 3,
+        "Speed": 3,
+        "Tech": 9,
+        "Courage": 1,
+        "Cunning": 8,
+        "Style": 6
+      }
+    },
+    {
+      "id": "ranger-luna-vance",
+      "name": "Ranger Luna Vance",
+      "cardNumber": 37,
+      "character": "A tough desert ranger with a sun-bleached red braid, a wide-brimmed hat, a long dusty duster coat and a laser rifle",
+      "poseAndExpression": "Kneeling beside her hover-jeep with a wrench, squinting at the horizon",
+      "backgroundScene": "An endless orange desert with wrecked spaceships half-buried in the sand",
+      "flavourText": "Fixes her hover-jeep with sand and stubbornness.",
+      "stats": {
+        "Power": 5,
+        "Speed": 6,
+        "Tech": 8,
+        "Courage": 7,
+        "Cunning": 2,
+        "Style": 2
+      }
+    },
+    {
+      "id": "the-gilded-prince",
+      "name": "The Gilded Prince",
+      "cardNumber": 38,
+      "character": "A vain rival prince with perfect golden feathered hair, a sparkling white-and-gold uniform with epaulettes, a rose in his teeth and a thin rapier",
+      "poseAndExpression": "Posing with one hand flicking his hair, sparkles around him, smug",
+      "backgroundScene": "A mirror-filled palace ballroom with golden chandeliers",
+      "flavourText": "Fights only if it won't mess up his hair.",
+      "stats": {
+        "Power": 4,
+        "Speed": 5,
+        "Tech": 3,
+        "Courage": 1,
+        "Cunning": 7,
+        "Style": 10
+      }
+    },
+    {
+      "id": "captain-ace-valor",
+      "name": "Captain Ace Valor",
+      "cardNumber": 39,
+      "character": "A classic square-jawed space hero with a huge chin, wavy black hair, a white-and-blue spacesuit with a star badge and a ray gun",
+      "poseAndExpression": "Standing heroically with fists on hips, chin up, teeth sparkling",
+      "backgroundScene": "A space station launch bay with a sleek blue rocket ready for take-off",
+      "flavourText": "Jaw like a battleship. Brain like a rowing boat.",
+      "stats": {
+        "Power": 7,
+        "Speed": 5,
+        "Tech": 4,
+        "Courage": 8,
+        "Cunning": 1,
+        "Style": 5
+      }
+    },
+    {
+      "id": "overlord-skarn",
+      "name": "Overlord Skarn",
+      "cardNumber": 40,
+      "character": "A colossal final-boss overlord with dark armoured skin, four arms, a glowing red third eye and a worn, faded black cape",
+      "poseAndExpression": "Rising from a throne of skulls with all four arms raised, laughing",
+      "backgroundScene": "The top of a dark tower above a burning world under a red sky",
+      "flavourText": "Has worn the same cape for ten thousand years.",
+      "stats": {
+        "Power": 10,
+        "Speed": 3,
+        "Tech": 5,
+        "Courage": 6,
+        "Cunning": 5,
+        "Style": 1
+      }
+    },
+    {
+      "id": "nami-tides",
+      "name": "Nami Tides",
+      "cardNumber": 41,
+      "character": "An ocean diver heroine with short wavy aqua hair, a sleek dark blue wetsuit with teal stripes, a mechanical breathing mask around her neck and flippers",
+      "poseAndExpression": "Swimming fast through the water toward the viewer, determined, bubbles trailing",
+      "backgroundScene": "A sunken city deep under the sea with glowing coral and a huge whale",
+      "flavourText": "Swims faster than a submarine. Hates getting her hair wet.",
+      "stats": {
+        "Power": 4,
+        "Speed": 9,
+        "Tech": 4,
+        "Courage": 6,
+        "Cunning": 4,
+        "Style": 3
+      }
+    },
+    {
+      "id": "shadow-empress-kuro",
+      "name": "Shadow Empress Kuro",
+      "cardNumber": 42,
+      "character": "A mysterious empress with long straight black hair, a black-and-violet gown, a veil over her eyes and a floating chessboard of glowing pieces",
+      "poseAndExpression": "Moving a glowing chess piece with one finger, a slight cold smile",
+      "backgroundScene": "A dark palace hall with a giant chessboard floor and hanging lanterns",
+      "flavourText": "Sees every move ten turns ahead. Plays chess against herself.",
+      "stats": {
+        "Power": 3,
+        "Speed": 4,
+        "Tech": 6,
+        "Courage": 2,
+        "Cunning": 10,
+        "Style": 5
+      }
+    },
+    {
+      "id": "big-bruno-bash",
+      "name": "Big Bruno Bash",
+      "cardNumber": 43,
+      "character": "An enormous pro wrestler with a blond mullet, a wrestling mask pushed up on his forehead, bright orange tights and a championship belt",
+      "poseAndExpression": "Flexing both arms over his head, roaring with a huge grin",
+      "backgroundScene": "A wrestling ring in a packed arena with spotlights and a giant monster in the opposite corner",
+      "flavourText": "Pro wrestler by day. Monster wrestler by night.",
+      "stats": {
+        "Power": 10,
+        "Speed": 2,
+        "Tech": 1,
+        "Courage": 8,
+        "Cunning": 2,
+        "Style": 7
+      }
+    },
+    {
+      "id": "iron-matron",
+      "name": "Iron Matron",
+      "cardNumber": 44,
+      "character": "A small old granny villain with a tight grey bun, horn-rimmed glasses and a floral apron, driving a huge armoured battle tank with a teapot on top",
+      "poseAndExpression": "Leaning out of the tank's hatch, shaking her fist and cackling",
+      "backgroundScene": "A quiet suburban street being flattened by her tank, with flying garden gnomes",
+      "flavourText": "She built her own battle tank, and it has a teapot.",
+      "stats": {
+        "Power": 8,
+        "Speed": 1,
+        "Tech": 9,
+        "Courage": 6,
+        "Cunning": 4,
+        "Style": 2
+      }
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "cardNumber": 45,
+      "character": "A quiet psychic boy with floppy white hair, glowing violet eyes, a plain grey hoodie and a faint blue aura around him",
+      "poseAndExpression": "Floating cross-legged in the air, eyes glowing, objects drifting around him",
+      "backgroundScene": "A rooftop garden at dusk above a calm city with floating pebbles",
+      "flavourText": "Hears what everyone is thinking. Wishes he didn't.",
+      "stats": {
+        "Power": 1,
+        "Speed": 4,
+        "Tech": 3,
+        "Courage": 7,
+        "Cunning": 9,
+        "Style": 6
+      }
+    },
+    {
+      "id": "psi-lord-mentaro",
+      "name": "Psi-Lord Mentaro",
+      "cardNumber": 46,
+      "character": "A villain with a huge glowing brain inside a glass dome helmet, a tiny body in a purple jumpsuit and a mind-control machine on his back",
+      "poseAndExpression": "Pointing at the viewer with glowing eyes, wires sparking from the helmet",
+      "backgroundScene": "A control room full of hypnotised guards and spiral patterns on screens",
+      "flavourText": "Has a brain the size of a planet. Uses it to cheat at cards.",
+      "stats": {
+        "Power": 1,
+        "Speed": 3,
+        "Tech": 9,
+        "Courage": 4,
+        "Cunning": 8,
+        "Style": 5
+      }
+    },
+    {
+      "id": "detective-jin-rain",
+      "name": "Detective Jin Rain",
+      "cardNumber": 47,
+      "character": "A tired noir detective with messy black hair, stubble, a long beige trench coat, a loose tie and a small glowing cyber-eye",
+      "poseAndExpression": "Leaning against a wall under a streetlight, notebook in hand, eyes narrowed",
+      "backgroundScene": "A rainy cyberpunk street at night with neon reflections in the puddles",
+      "flavourText": "Solves every case. Never finds his umbrella.",
+      "stats": {
+        "Power": 4,
+        "Speed": 5,
+        "Tech": 6,
+        "Courage": 6,
+        "Cunning": 8,
+        "Style": 1
+      }
+    },
+    {
+      "id": "velvet-fang",
+      "name": "Velvet Fang",
+      "cardNumber": 48,
+      "character": "A vampire rock star with tall teased black hair, pale skin, red eyes, a studded leather jacket over a ruffled shirt and a red electric guitar",
+      "poseAndExpression": "Playing a wild guitar solo, fangs bared, bats bursting from the stage",
+      "backgroundScene": "A huge rock concert stage at midnight with smoke, lasers and a castle behind it",
+      "flavourText": "Plays every night, never at matinees.",
+      "stats": {
+        "Power": 5,
+        "Speed": 7,
+        "Tech": 2,
+        "Courage": 4,
+        "Cunning": 3,
+        "Style": 9
+      }
+    },
+    {
+      "id": "hiro-dawn",
+      "name": "Hiro Dawn",
+      "cardNumber": 49,
+      "character": "The red team leader of a hero squad, with spiky red hair, a red-and-white armoured hero suit, a helmet under his arm and four teammates in other colours behind him",
+      "poseAndExpression": "Striking a dramatic team pose, fist forward, coloured explosions behind",
+      "backgroundScene": "A rocky quarry with five coloured smoke explosions in the background",
+      "flavourText": "Leads his team into every explosion, on purpose.",
+      "stats": {
+        "Power": 6,
+        "Speed": 6,
+        "Tech": 3,
+        "Courage": 10,
+        "Cunning": 2,
+        "Style": 3
+      }
+    },
+    {
+      "id": "zeta-the-devourer",
+      "name": "Zeta the Devourer",
+      "cardNumber": 50,
+      "character": "A cosmic villain the size of a moon, with a dark star-filled body, glowing white eyes and a mouth like a black hole",
+      "poseAndExpression": "Leaning over a tiny planet with his mouth open, hungry and grinning",
+      "backgroundScene": "Deep space with swirling nebulae and a sun being pulled into his mouth",
+      "flavourText": "Eats suns for breakfast. Has no idea what lunch is.",
+      "stats": {
+        "Power": 9,
+        "Speed": 5,
+        "Tech": 7,
+        "Courage": 6,
+        "Cunning": 2,
+        "Style": 1
+      }
+    }
+  ],
+  "layout": {
+    "window": {
+      "left": 63,
+      "top": 205,
+      "width": 898,
+      "height": 672
+    },
+    "text": {
+      "name": {
+        "x": 572,
+        "y": 109,
+        "size": 58,
+        "maxWidth": 700,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1a1f4a",
+        "charWidth": 0.75,
+        "bold": true,
+        "twoLinesBelow": 30,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1004,
+        "size": 32,
+        "maxWidth": 840,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#1a1f4a",
+        "italic": true,
+        "wrap": true,
+        "balance": true
+      },
+      "number": {
+        "x": 839,
+        "y": 1456,
+        "size": 38,
+        "maxWidth": 240,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#f4ecd8",
+        "bold": true
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 258,
+          "y": 1128,
+          "size": 28,
+          "maxWidth": 175,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 258,
+          "y": 1188,
+          "size": 64,
+          "maxWidth": 120,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 552,
+          "y": 1128,
+          "size": 28,
+          "maxWidth": 175,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 552,
+          "y": 1188,
+          "size": 64,
+          "maxWidth": 120,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 872,
+          "y": 1128,
+          "size": 28,
+          "maxWidth": 175,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 872,
+          "y": 1188,
+          "size": 64,
+          "maxWidth": 120,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 258,
+          "y": 1266,
+          "size": 28,
+          "maxWidth": 175,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 258,
+          "y": 1326,
+          "size": 64,
+          "maxWidth": 120,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 572,
+          "y": 1266,
+          "size": 26,
+          "maxWidth": 150,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 572,
+          "y": 1326,
+          "size": 64,
+          "maxWidth": 120,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 908,
+          "y": 1266,
+          "size": 26,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 908,
+          "y": 1326,
+          "size": 64,
+          "maxWidth": 100,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1a1f4a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      }
+    ]
+  },
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in 1980s Japanese anime cel style with thick clean ink linework, airbrushed painting, soft film grain and slight VHS bloom. A symmetrical design, mirrored top to bottom, the same when turned upside down: a thick dark navy border with a bevelled chrome-silver edge, a fine neon teal synthwave grid and a thin stripe of sunset colours (orange to violet) along its inside edge. The centre is deep navy space with a starfield. In the exact middle, a round chrome medallion holding a large bright four-pointed lens-flare star glint. Above and below it, mirrored neon teal perspective grids and mirrored bands of sunset stripes run toward the centre. No text, letters or numbers. Do not use pink or magenta."
+  }
+}
