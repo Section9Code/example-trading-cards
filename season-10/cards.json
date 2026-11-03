@@ -1,0 +1,180 @@
+{
+  "set": {
+    "name": "Gloomsbury Manor",
+    "totalCards": 50,
+    "statNames": [
+      "Eyes",
+      "Fingers",
+      "Toes"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Black-and-white pen-and-ink cartoon in the macabre, deadpan manner of mid-century magazine gag cartoons, in the spirit of Charles Addams: confident scratchy dip-pen ink lines, soft grey ink-wash and charcoal shading, heavy pools of black shadow, crumbling Victorian gothic interiors with cobwebs, candelabras and tall dusty windows, and overgrown grounds with dead trees and iron railings. The family members wear old-fashioned mourning clothes and have sunken eyes, long pale faces or round pale faces, and small knowing smiles, all delivered with a perfectly straight face. Palette: only black, white and the greys of ink wash, with no colour anywhere. Texture: slightly toothy paper, a little ink bleed. Overall mood: morbid, elegant and quietly funny.",
+    "frame": [
+      "Border: a thick border of deep purple velvet, like an old Victorian photograph album, with a tarnished silver filigree edge, black rose vines with thorns twining along it, and faint cobwebs in the corners.",
+      "Top-left corner: a small round emblem of a single black rose on a deep purple ground with a thin silver ring, with no letters.",
+      "Top: an empty name banner shaped like a long engraved tarnished-silver nameplate with rounded ends and small screw heads, like the plate on a coffin or an old portrait frame, about 10% of the card height, with no letters in it.",
+      "Bottom: a pale text panel below the window, about a quarter of the card height, in pale bone white like old paper, with a thin black edge. The upper half of the panel is empty space for flavour text. A thin black divider line runs across the middle of the panel.",
+      "Stats row: the lower half of the panel is split into three equal cells by thin vertical black dividers. All three cells are pale bone white. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the right three-quarters of the cell is empty space for a word like 'FINGERS' and a large number. The icons, left to right: one wide staring eye; one hand with its five fingers spread; one bare foot with its toes showing. The icons are simple, flat and bold, drawn in black ink only.",
+      "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty black plaque with a tarnished silver edge for the card number, about 22% of the card width, so it can hold text like '#50 of 50'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
+      "Accent colours on the frame are only deep purple, plum, black, tarnished silver and bone white. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No colour, no photorealism, no 3D render, no anime, no modern vector or flat-design look, no gore, no blood, no text, no signature, no watermark, no real people, no real or existing cartoon characters, no Addams Family characters.",
+    "windowHeight": 50,
+    "artSize": "1104x1024"
+  },
+  "rulesCard": {
+    "title": "How to Play",
+    "steps": [
+      "Two players. Deal all the cards evenly.",
+      "Each player shuffles their cards into a face-down deck.",
+      "Each player turns over their top card and looks at it.",
+      "The winner of the last round picks a stat. In the first round, the player with the coldest hands picks.",
+      "Reveal the cards. The higher value in the called stat wins.",
+      "The winner keeps both cards in their own pile. On a tie, each player keeps their own card.",
+      "When your deck runs out, shuffle your pile to make a new deck.",
+      "You win when your opponent has no cards left. The last one standing inherits the manor."
+    ],
+    "framePrompt": "The front of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in black-and-white pen-and-ink cartoon style with grey ink wash on a deep purple ground. The same thick deep purple velvet border with a tarnished silver filigree edge, black rose vines with thorns and faint cobwebs in the corners. The same round emblem in the top-left corner: a single black rose on a deep purple ground with a thin silver ring. The same empty engraved tarnished-silver nameplate with rounded ends and screw heads along the top. Below the nameplate, filling the rest of the card down to the border, one large empty panel in even pale bone white like old paper, with a thin black edge, with no icons, dividers or badges. No text, letters or numbers anywhere. Do not use pink or magenta.",
+    "layout": {
+      "title": {
+        "x": 510,
+        "y": 108,
+        "size": 52,
+        "maxWidth": 560,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#1c1a1a",
+        "charWidth": 0.8,
+        "bold": true
+      },
+      "step": {
+        "x": 110,
+        "y": 300,
+        "size": 32,
+        "maxWidth": 770,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#1c1a1a",
+        "anchor": "start",
+        "wrap": true,
+        "charWidth": 0.56,
+        "lineHeight": 1.3
+      },
+      "gap": 30
+    }
+  },
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in black-and-white pen-and-ink cartoon style with grey ink wash on a deep purple ground. A symmetrical design, mirrored top to bottom, the same when turned upside down: a thick deep purple velvet border with a tarnished silver filigree edge and black rose vines with thorns twining along it. The centre is deep purple velvet with faint cobwebs. In the exact middle, a round tarnished silver medallion holding a single large black rose. Around the medallion, a full wreath of black roses, black leaves and thorns, drawn in black ink with grey wash, identical above and below. No text, letters or numbers. Do not use pink or magenta."
+  },
+  "cards": [],
+  "layout": {
+    "window": {
+      "left": 99,
+      "top": 196,
+      "width": 827,
+      "height": 765
+    },
+    "text": {
+      "name": {
+        "x": 510,
+        "y": 108,
+        "size": 52,
+        "maxWidth": 560,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#1c1a1a",
+        "charWidth": 0.8,
+        "bold": true,
+        "twoLinesBelow": 28,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 512,
+        "y": 1105,
+        "size": 32,
+        "maxWidth": 800,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#1c1a1a",
+        "italic": true,
+        "wrap": true,
+        "balance": true
+      },
+      "number": {
+        "x": 835,
+        "y": 1437,
+        "size": 38,
+        "maxWidth": 230,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#d8d4c8",
+        "bold": true
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 284,
+          "y": 1252,
+          "size": 26,
+          "maxWidth": 140,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 284,
+          "y": 1314,
+          "size": 60,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 570,
+          "y": 1252,
+          "size": 26,
+          "maxWidth": 180,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 570,
+          "y": 1314,
+          "size": 60,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 852,
+          "y": 1252,
+          "size": 26,
+          "maxWidth": 200,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 852,
+          "y": 1314,
+          "size": 60,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1c1a1a",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      }
+    ]
+  }
+}
