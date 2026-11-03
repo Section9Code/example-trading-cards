@@ -74,7 +74,7 @@
       "character": "A young woman mecha pilot with short spiky silver-blue hair, a red visor headband, a white-and-red flight jacket with big shoulder pads over a black pilot suit, amber eyes and a small scar on her left cheek",
       "poseAndExpression": "Leaning on the giant armoured foot of her white mecha, helmet under one arm, grinning with total confidence",
       "backgroundScene": "A rain-soaked hangar deck at night with sparks, warning lights and a neon megacity skyline beyond the open doors",
-      "flavourText": "“Target locked. Don’t blink, you’ll miss it.”",
+      "flavourText": "“Nobody outflies me.”",
       "stats": {
         "Power": 4,
         "Speed": 6,
@@ -93,7 +93,7 @@
       "character": "A thin, sneering space admiral with slicked-back violet hair, a monocle, a high-collared black uniform covered in gold medals and a long white cape",
       "poseAndExpression": "Sitting back in a huge command throne, fingertips pressed together, smirking",
       "backgroundScene": "The bridge of a vast battleship with glowing tactical screens and a fleet of warships outside the window",
-      "flavourText": "“Fire everything. I’ll be in my quarters.”",
+      "flavourText": "“Fire everything.”",
       "stats": {
         "Power": 3,
         "Speed": 4,
@@ -112,7 +112,7 @@
       "character": "A huge, muscular wandering martial artist with a wild black mane of hair, a torn blue vest, bandaged fists and a scar across his chest",
       "poseAndExpression": "Mid-punch, fist glowing with orange energy, roaring with determination",
       "backgroundScene": "A cracked desert wasteland with ruined highways and a blood-orange sunset",
-      "flavourText": "“My fists have no master, and neither do I!”",
+      "flavourText": "“My fists answer to no one!”",
       "stats": {
         "Power": 10,
         "Speed": 6,
@@ -150,7 +150,7 @@
       "character": "A teenage magical idol girl with enormous feathered lilac hair in twin tails, a frilly teal-and-white stage outfit, star-shaped earrings and a glowing star wand",
       "poseAndExpression": "Striking a sparkling transformation pose, winking, ribbons of light swirling around her",
       "backgroundScene": "A huge concert stage with spotlights, a starry sky and a cheering crowd",
-      "flavourText": "“Every star is a stage. Shine, or step aside!”",
+      "flavourText": "“Every star is a stage!”",
       "stats": {
         "Power": 2,
         "Speed": 5,
@@ -169,7 +169,7 @@
       "character": "A tall, elegant moon witch with long flowing midnight-blue hair, pale skin, a crescent-moon crown and a dark violet gown with a high pointed collar",
       "poseAndExpression": "Floating above the ground, one hand raised with dark crackling energy, a cold smile",
       "backgroundScene": "A crystal palace on the dark side of the moon with Earth glowing in the black sky",
-      "flavourText": "“The night belongs to me. So do you.”",
+      "flavourText": "“The night belongs to me.”",
       "stats": {
         "Power": 5,
         "Speed": 3,
@@ -188,7 +188,7 @@
       "character": "A lanky young courier with a messy orange pompadour, aviator goggles, a sleeveless red racing jacket and fingerless gloves",
       "poseAndExpression": "Leaning into a sharp turn on a futuristic red motorbike, shouting with joy, light trails behind him",
       "backgroundScene": "A neon-lit city highway at night with holographic billboards blurring past",
-      "flavourText": "“Nine minutes. Clock’s running. Hold on tight!”",
+      "flavourText": "“Nine minutes, guaranteed!”",
       "stats": {
         "Power": 3,
         "Speed": 10,
@@ -207,7 +207,7 @@
       "character": "A hulking biker gang boss with a tall black mohawk, mirrored sunglasses, a spiked leather jacket and a chain wrapped around one fist",
       "poseAndExpression": "Revving a huge chrome chopper, sneering, his gang's headlights behind him",
       "backgroundScene": "A wrecked overpass in a dusty ruined city with burning oil drums",
-      "flavourText": "“This road is mine. Every mile of it.”",
+      "flavourText": "“This road is mine.”",
       "stats": {
         "Power": 7,
         "Speed": 8,
@@ -226,7 +226,7 @@
       "character": "A young scientist with a neat black bob, round glasses, a long white lab coat over a turtleneck, holding a glowing data pad",
       "poseAndExpression": "Standing proudly in front of a half-built giant robot, cheerfully pointing a spanner at it",
       "backgroundScene": "A cluttered high-tech laboratory with blueprints, blinking computers and sparks",
-      "flavourText": "“Don’t touch that! …Okay, now touch that.”",
+      "flavourText": "“Don’t touch that, it’s not finished!”",
       "stats": {
         "Power": 1,
         "Speed": 3,
@@ -245,7 +245,7 @@
       "character": "A mad scientist with a huge bald veiny head, wild white side-hair, a mechanical eyepiece and a stained lab coat with a high collar",
       "poseAndExpression": "Cackling with both arms raised over a glowing control panel, lightning around him",
       "backgroundScene": "A secret underground lair with bubbling tanks, cables and a half-finished doomsday cannon",
-      "flavourText": "“Ninety percent complete! Tomorrow, the world!”",
+      "flavourText": "“Tomorrow, the world!”",
       "stats": {
         "Power": 2,
         "Speed": 3,
@@ -283,7 +283,7 @@
       "character": "A slim assassin in a dark green bodysuit with a snake-shaped metal mask, long braided black hair and throwing knives",
       "poseAndExpression": "Leaping forward with knives fanned between her fingers, a cruel smile under the mask",
       "backgroundScene": "A shadowy bamboo forest at night with thick fog and a glowing paper lantern",
-      "flavourText": "“You never saw me. You never will.”",
+      "flavourText": "“You never saw me.”",
       "stats": {
         "Power": 4,
         "Speed": 7,
@@ -302,7 +302,7 @@
       "character": "A gruff cyborg police officer with a square jaw, short brown crew cut, a red glowing cyber-eye, one chrome robot arm and a long blue police coat",
       "poseAndExpression": "Aiming a heavy blaster pistol with his chrome arm, scowling, coat flapping",
       "backgroundScene": "A rain-soaked neon alley with a police hover-car and flashing blue and red lights",
-      "flavourText": "“You have the right to remain silent. Use it.”",
+      "flavourText": "“Nobody runs from Kenji Bolt.”",
       "stats": {
         "Power": 7,
         "Speed": 4,
@@ -321,7 +321,7 @@
       "character": "A tall, skeletal killer android with a polished chrome skull face, glowing red eyes, a black trench coat and blade arms",
       "poseAndExpression": "Walking forward slowly through smoke, blades raised, expressionless",
       "backgroundScene": "A burning robot factory with conveyor belts and red warning lights",
-      "flavourText": "“Target acquired. Mercy not found.”",
+      "flavourText": "“Target acquired.”",
       "stats": {
         "Power": 8,
         "Speed": 6,
@@ -359,7 +359,7 @@
       "character": "A giant demon general with dark red skin, two huge curved black horns, glowing yellow eyes and heavy black samurai-style armour",
       "poseAndExpression": "Charging forward with a giant spiked club, roaring, eyes blazing",
       "backgroundScene": "A battlefield of black rock and lava with an army of shadow soldiers behind him",
-      "flavourText": "“Kneel, or burn. Choose quickly.”",
+      "flavourText": "“Kneel, or burn.”",
       "stats": {
         "Power": 8,
         "Speed": 3,
@@ -378,7 +378,7 @@
       "character": "A laid-back space bounty hunter with a silver undercut mohawk, a glowing orange cyber-visor over one eye, a cropped teal flight jacket with a high collar and glowing seams, light armour plates and fingerless gloves",
       "poseAndExpression": "Crouching on the edge of a rooftop ledge, flipping a gold coin with one thumb, a blaster on his hip, grinning lazily",
       "backgroundScene": "A rainy neon city at night seen from a rooftop, with holographic billboards, flying cars and a parked hover-bike behind him",
-      "flavourText": "“Dead or alive? Eh, whichever pays.”",
+      "flavourText": "“Dead or alive, the bounty’s mine.”",
       "stats": {
         "Power": 4,
         "Speed": 6,
@@ -397,7 +397,7 @@
       "character": "A glamorous crime boss with a sleek violet bob, long gloves, a black evening dress and a pearl necklace",
       "poseAndExpression": "Seated at a card table, dealing a royal flush, giving a knowing sideways smile",
       "backgroundScene": "A lavish Martian casino with chandeliers, roulette tables and red Martian dunes through the windows",
-      "flavourText": "“The house always wins, darling. I am the house.”",
+      "flavourText": "“I am the house, darling.”",
       "stats": {
         "Power": 1,
         "Speed": 3,
@@ -416,7 +416,7 @@
       "character": "A giant, gentle mechanic with a big bushy beard, a blue bandana, oil-stained overalls and arms as thick as tree trunks",
       "poseAndExpression": "Lifting a huge mecha engine over his head with a friendly grin",
       "backgroundScene": "A busy mecha repair yard with towering robots in scaffolding and sparks flying",
-      "flavourText": "“Nothing’s broken that I can’t fix. Pass the wrench.”",
+      "flavourText": "“Pass me the big wrench.”",
       "stats": {
         "Power": 10,
         "Speed": 1,
@@ -454,7 +454,7 @@
       "character": "A young racing pilot with a short blonde bob, a white helmet under her arm, a teal racing suit with orange stripes and a big confident grin",
       "poseAndExpression": "Giving a thumbs-up beside a sleek white space-racer with glowing engines",
       "backgroundScene": "A racing track built around the rings of Saturn, with racers zooming past",
-      "flavourText": "“Catch me if you can. You can’t.”",
+      "flavourText": "“Catch me if you can!”",
       "stats": {
         "Power": 2,
         "Speed": 10,
@@ -473,7 +473,7 @@
       "character": "Two identical pale ghost girls with long straight white hair, glowing violet eyes and matching old-fashioned dark blue school uniforms, floating side by side",
       "poseAndExpression": "Floating in perfect mirror poses, giggling together, faces lit from below",
       "backgroundScene": "A haunted abandoned school at night with flickering lights and blowing curtains",
-      "flavourText": "“One of us is lying. One of us isn’t. Guess!”",
+      "flavourText": "“We will never leave you.”",
       "stats": {
         "Power": 3,
         "Speed": 9,
@@ -492,7 +492,7 @@
       "character": "A small, brave boy with big spiky brown hair, a yellow cap on backwards, a red jacket and a small round silver robot companion on his shoulder",
       "poseAndExpression": "Standing in front of a giant monster with arms spread, shouting defiantly",
       "backgroundScene": "A sunny seaside town with a giant monster's shadow falling over the rooftops",
-      "flavourText": "“I’m not scared! Okay, a little. Let’s go anyway!”",
+      "flavourText": "“Let’s go anyway!”",
       "stats": {
         "Power": 1,
         "Speed": 5,
@@ -511,7 +511,7 @@
       "character": "A two-hundred-ton robot tyrannosaurus with dark steel armour plates, glowing red eyes, missile pods on its back and a laser cannon in its mouth",
       "poseAndExpression": "Rearing up and roaring, a beam of light charging in its jaws",
       "backgroundScene": "A city harbour at night with crumbling buildings and searchlights in the sky",
-      "flavourText": "“SYSTEMS ONLINE. CHEW MODE ENGAGED.”",
+      "flavourText": "“CHEW MODE ENGAGED.”",
       "stats": {
         "Power": 10,
         "Speed": 4,
@@ -530,7 +530,7 @@
       "character": "A space princess with long flowing rose-gold hair, a silver tiara with a blue jewel, a white-and-teal gown with armoured shoulders and a small laser pistol",
       "poseAndExpression": "Standing tall on a balcony, gown blowing in the wind, gazing bravely at the horizon",
       "backgroundScene": "A crystal city on an alien planet with three moons and an aurora in the sky",
-      "flavourText": "“A princess doesn’t wait to be rescued. She reloads.”",
+      "flavourText": "“This princess rescues herself.”",
       "stats": {
         "Power": 3,
         "Speed": 4,
@@ -549,7 +549,7 @@
       "character": "A skeletal sorcerer king with a cracked bone crown, empty eye sockets glowing blue, a tattered royal cape and a staff topped with a skull",
       "poseAndExpression": "Leaning on his staff, slowly raising one bony hand, a ghostly grin",
       "backgroundScene": "A ruined throne hall full of cobwebs, broken stained glass and blue ghost fire",
-      "flavourText": "“Patience, child. I have all of eternity.”",
+      "flavourText": "“I have all of eternity.”",
       "stats": {
         "Power": 6,
         "Speed": 1,
@@ -568,7 +568,7 @@
       "character": "A square-jawed soldier with a blond flat-top haircut, a green combat vest, a headset microphone and a huge shoulder-mounted rocket launcher",
       "poseAndExpression": "Charging forward with a battle cry, rocket launcher on his shoulder",
       "backgroundScene": "A jungle battlefield with explosions, palm trees and a crashed transport ship",
-      "flavourText": "“CHAAARGE! Questions later!”",
+      "flavourText": "“CHAAARGE!”",
       "stats": {
         "Power": 8,
         "Speed": 4,
@@ -587,7 +587,7 @@
       "character": "A skinny hacker villain with spiky green hair, a pale face lit by screens, round green-tinted glasses and a long black coat covered in wires",
       "poseAndExpression": "Typing on a floating holographic keyboard, grinning wickedly",
       "backgroundScene": "A dark room full of glowing monitors showing green code and a hacked moon",
-      "flavourText": "“Access granted. To me, that is.”",
+      "flavourText": "“Access granted.”",
       "stats": {
         "Power": 1,
         "Speed": 6,
@@ -606,7 +606,7 @@
       "character": "A wild teenage boy with shaggy grey hair, wolf-like golden eyes, a torn fur cloak, bare feet and claw marks on his arms, with a grey wolf beside him",
       "poseAndExpression": "Running on all fours over rubble, howling, the wolf running beside him",
       "backgroundScene": "The overgrown ruins of an old city with vines on the skyscrapers and a full moon",
-      "flavourText": "“The pack is my family. You are not the pack.”",
+      "flavourText": "“You are not the pack.”",
       "stats": {
         "Power": 6,
         "Speed": 9,
@@ -625,7 +625,7 @@
       "character": "A snake-like villainess with long emerald-green hair, scaled skin on her arms, golden slit-pupil eyes and a sleek black-and-green bodysuit",
       "poseAndExpression": "Coiling around a stone pillar, hissing, fangs bared, eyes glowing",
       "backgroundScene": "A steamy temple in a jungle with snakes around ancient statues",
-      "flavourText": "“One kiss, darling. Just one.”",
+      "flavourText": "“One kiss, darling.”",
       "stats": {
         "Power": 4,
         "Speed": 7,
@@ -739,7 +739,7 @@
       "character": "A cold cyborg surgeon with slicked silver hair, half of his face replaced by metal, six mechanical spider arms holding tools and a stained white coat",
       "poseAndExpression": "Looming forward with all six arms spread, smiling thinly",
       "backgroundScene": "A sterile white operating room with flickering lights and robot parts on trays",
-      "flavourText": "“Hold still. This won’t hurt me at all.”",
+      "flavourText": "“Everything can be improved.”",
       "stats": {
         "Power": 3,
         "Speed": 3,
@@ -758,7 +758,7 @@
       "character": "A tough desert ranger with a sun-bleached red braid, a wide-brimmed hat, a long dusty duster coat and a laser rifle",
       "poseAndExpression": "Kneeling beside her hover-jeep with a wrench, squinting at the horizon",
       "backgroundScene": "An endless orange desert with wrecked spaceships half-buried in the sand",
-      "flavourText": "“Out here, there’s only the law and me. Mostly me.”",
+      "flavourText": "“Out here, I am the law.”",
       "stats": {
         "Power": 5,
         "Speed": 6,
@@ -777,7 +777,7 @@
       "character": "A vain rival prince with perfect golden feathered hair, a sparkling white-and-gold uniform with epaulettes, a rose in his teeth and a thin rapier",
       "poseAndExpression": "Posing with one hand flicking his hair, sparkles around him, smug",
       "backgroundScene": "A mirror-filled palace ballroom with golden chandeliers",
-      "flavourText": "“Not the hair. Never the hair.”",
+      "flavourText": "“Never the hair.”",
       "stats": {
         "Power": 4,
         "Speed": 5,
@@ -796,7 +796,7 @@
       "character": "A classic square-jawed space hero with a huge chin, wavy black hair, a white-and-blue spacesuit with a star badge and a ray gun",
       "poseAndExpression": "Standing heroically with fists on hips, chin up, teeth sparkling",
       "backgroundScene": "A space station launch bay with a sleek blue rocket ready for take-off",
-      "flavourText": "“Chin up, cadets! Valor is here!”",
+      "flavourText": "“Chin up, cadets!”",
       "stats": {
         "Power": 7,
         "Speed": 5,
@@ -815,7 +815,7 @@
       "character": "A colossal final-boss overlord with dark armoured skin, four arms, a glowing red third eye and a worn, faded black cape",
       "poseAndExpression": "Rising from a throne of skulls with all four arms raised, laughing",
       "backgroundScene": "The top of a dark tower above a burning world under a red sky",
-      "flavourText": "“Heroes come and go. I remain.”",
+      "flavourText": "“I remain.”",
       "stats": {
         "Power": 10,
         "Speed": 3,
@@ -834,7 +834,7 @@
       "character": "An ocean diver heroine with short wavy aqua hair, a sleek dark blue wetsuit with teal stripes, a mechanical breathing mask around her neck and flippers",
       "poseAndExpression": "Swimming fast through the water toward the viewer, determined, bubbles trailing",
       "backgroundScene": "A sunken city deep under the sea with glowing coral and a huge whale",
-      "flavourText": "“The ocean doesn’t scare me. Hairdryers do.”",
+      "flavourText": "“The deep answers to me.”",
       "stats": {
         "Power": 4,
         "Speed": 9,
@@ -853,7 +853,7 @@
       "character": "A mysterious empress with long straight black hair, a black-and-violet gown, a veil over her eyes and a floating chessboard of glowing pieces",
       "poseAndExpression": "Moving a glowing chess piece with one finger, a slight cold smile",
       "backgroundScene": "A dark palace hall with a giant chessboard floor and hanging lanterns",
-      "flavourText": "“Check. You just don’t know it yet.”",
+      "flavourText": "“Check.”",
       "stats": {
         "Power": 3,
         "Speed": 4,
@@ -872,7 +872,7 @@
       "character": "An enormous pro wrestler with a blond mullet, a wrestling mask pushed up on his forehead, bright orange tights and a championship belt",
       "poseAndExpression": "Flexing both arms over his head, roaring with a huge grin",
       "backgroundScene": "A wrestling ring in a packed arena with spotlights and a giant monster in the opposite corner",
-      "flavourText": "“Ring the bell! It’s BASH TIME!”",
+      "flavourText": "“It’s BASH TIME!”",
       "stats": {
         "Power": 10,
         "Speed": 2,
@@ -891,7 +891,7 @@
       "character": "A small old granny villain with a tight grey bun, horn-rimmed glasses and a floral apron, driving a huge armoured battle tank with a teapot on top",
       "poseAndExpression": "Leaning out of the tank's hatch, shaking her fist and cackling",
       "backgroundScene": "A quiet suburban street being flattened by her tank, with flying garden gnomes",
-      "flavourText": "“Tea first, dear. Then the shelling.”",
+      "flavourText": "“Tea first, dear.”",
       "stats": {
         "Power": 8,
         "Speed": 1,
@@ -910,7 +910,7 @@
       "character": "A quiet psychic boy with floppy white hair, glowing violet eyes, a plain grey hoodie and a faint blue aura around him",
       "poseAndExpression": "Floating cross-legged in the air, eyes glowing, objects drifting around him",
       "backgroundScene": "A rooftop garden at dusk above a calm city with floating pebbles",
-      "flavourText": "“I already know what you’re going to say. Please don’t.”",
+      "flavourText": "“Please stop thinking so loudly.”",
       "stats": {
         "Power": 1,
         "Speed": 4,
@@ -929,7 +929,7 @@
       "character": "A villain with a huge glowing brain inside a glass dome helmet, a tiny body in a purple jumpsuit and a mind-control machine on his back",
       "poseAndExpression": "Pointing at the viewer with glowing eyes, wires sparking from the helmet",
       "backgroundScene": "A control room full of hypnotised guards and spiral patterns on screens",
-      "flavourText": "“Your mind is an open book. A short one.”",
+      "flavourText": "“Your mind is an open book.”",
       "stats": {
         "Power": 1,
         "Speed": 3,
@@ -948,7 +948,7 @@
       "character": "A tired noir detective with messy black hair, stubble, a long beige trench coat, a loose tie and a small glowing cyber-eye",
       "poseAndExpression": "Leaning against a wall under a streetlight, notebook in hand, eyes narrowed",
       "backgroundScene": "A rainy cyberpunk street at night with neon reflections in the puddles",
-      "flavourText": "“In this city everyone’s guilty. Some just pay better.”",
+      "flavourText": "“In this city, everyone’s guilty.”",
       "stats": {
         "Power": 4,
         "Speed": 5,
@@ -967,7 +967,7 @@
       "character": "A vampire rock star with tall teased black hair, pale skin, red eyes, a studded leather jacket over a ruffled shirt and a red electric guitar",
       "poseAndExpression": "Playing a wild guitar solo, fangs bared, bats bursting from the stage",
       "backgroundScene": "A huge rock concert stage at midnight with smoke, lasers and a castle behind it",
-      "flavourText": "“Goodnight, Neo-Tokyo! I’ll be here till dawn!”",
+      "flavourText": "“Goodnight, Neo-Tokyo!”",
       "stats": {
         "Power": 5,
         "Speed": 7,
@@ -986,7 +986,7 @@
       "character": "The red team leader of a hero squad, with spiky red hair, a red-and-white armoured hero suit, a helmet under his arm and four teammates in other colours behind him",
       "poseAndExpression": "Striking a dramatic team pose, fist forward, coloured explosions behind",
       "backgroundScene": "A rocky quarry with five coloured smoke explosions in the background",
-      "flavourText": "“Dawn Squad, form up! Go, go, GO!”",
+      "flavourText": "“Dawn Squad, form up!”",
       "stats": {
         "Power": 6,
         "Speed": 6,
