@@ -340,7 +340,7 @@
       "character": "A young swordswoman with a long black ponytail tied with a red ribbon, a white headband, a red-and-white kimono top with hakama trousers and a katana",
       "poseAndExpression": "Standing ready with her katana drawn, one foot forward, eyes fierce and calm",
       "backgroundScene": "A ruined shrine on a hillside with scattered robot parts and a stormy sky",
-      "flavourText": "“This blade was my grandmother’s. Now it’s your problem.”",
+      "flavourText": "“One cut is all I need.”",
       "stats": {
         "Power": 6,
         "Speed": 7,
@@ -644,7 +644,7 @@
       "character": "A tiny ancient martial arts master with a long braided white beard tied with jade beads, huge bushy eyebrows, a patched indigo robe with a rope belt, a wide straw hat and a tall bamboo staff",
       "poseAndExpression": "Sitting cross-legged in meditation on a flat mountain rock, his bamboo staff leaning against the rock beside him, eyes closed and perfectly calm, catching a falling maple leaf between two fingers of one raised hand",
       "backgroundScene": "A misty mountain peak at dawn with a small temple and waterfalls",
-      "flavourText": "“The leaf does not fight the wind. Also, who are you?”",
+      "flavourText": "“The leaf does not fight the wind.”",
       "stats": {
         "Power": 7,
         "Speed": 2,
@@ -1005,7 +1005,7 @@
       "character": "A cosmic villain the size of a moon, with a dark star-filled body, glowing white eyes and a mouth like a black hole",
       "poseAndExpression": "Leaning over a tiny planet with his mouth open, hungry and grinning",
       "backgroundScene": "Deep space with swirling nebulae and a sun being pulled into his mouth",
-      "flavourText": "“Your sun was delicious. What’s next?”",
+      "flavourText": "“I hunger, and the stars go dark.”",
       "stats": {
         "Power": 9,
         "Speed": 5,
