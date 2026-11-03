@@ -79,7 +79,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/grandmother-mortensia.png",
+      "imageSmall": "./cards/grandmother-mortensia-small.webp"
     },
     {
       "id": "uncle-fenwick",
@@ -93,7 +95,9 @@
         "Eyes": 3,
         "Fingers": 10,
         "Toes": 2
-      }
+      },
+      "image": "./cards/uncle-fenwick.png",
+      "imageSmall": "./cards/uncle-fenwick-small.webp"
     },
     {
       "id": "cousin-ocularis",
@@ -107,7 +111,9 @@
         "Eyes": 10,
         "Fingers": 3,
         "Toes": 2
-      }
+      },
+      "image": "./cards/cousin-ocularis.png",
+      "imageSmall": "./cards/cousin-ocularis-small.webp"
     },
     {
       "id": "aunt-hortensia",
@@ -121,7 +127,9 @@
         "Eyes": 4,
         "Fingers": 8,
         "Toes": 3
-      }
+      },
+      "image": "./cards/aunt-hortensia.png",
+      "imageSmall": "./cards/aunt-hortensia-small.webp"
     },
     {
       "id": "grimsby-the-butler",
@@ -135,7 +143,9 @@
         "Eyes": 2,
         "Fingers": 5,
         "Toes": 8
-      }
+      },
+      "image": "./cards/grimsby-the-butler.png",
+      "imageSmall": "./cards/grimsby-the-butler-small.webp"
     },
     {
       "id": "little-mildew",
@@ -149,7 +159,9 @@
         "Eyes": 5,
         "Fingers": 2,
         "Toes": 8
-      }
+      },
+      "image": "./cards/little-mildew.png",
+      "imageSmall": "./cards/little-mildew-small.webp"
     },
     {
       "id": "baby-obadiah",
@@ -163,7 +175,9 @@
         "Eyes": 3,
         "Fingers": 4,
         "Toes": 8
-      }
+      },
+      "image": "./cards/baby-obadiah.png",
+      "imageSmall": "./cards/baby-obadiah-small.webp"
     },
     {
       "id": "great-uncle-phineas",
@@ -177,21 +191,25 @@
         "Eyes": 9,
         "Fingers": 4,
         "Toes": 2
-      }
+      },
+      "image": "./cards/great-uncle-phineas.png",
+      "imageSmall": "./cards/great-uncle-phineas-small.webp"
     },
     {
       "id": "cousin-dangle",
       "name": "Cousin Dangle",
       "cardNumber": 9,
-      "character": "A thin young man in a black suit hanging upside down by his feet, with slicked hair that somehow stays flat and a serene expression",
-      "poseAndExpression": "Hanging from the chandelier with arms folded, perfectly content",
+      "character": "A thin young man in a neat black suit with slicked flat hair, long thin legs and a serene, faraway expression",
+      "poseAndExpression": "Sitting calmly on the very top of the great chandelier like a bird on a perch, knees drawn up, arms folded, gazing down at the viewer",
       "backgroundScene": "A grand entrance hall with a huge chandelier and a sweeping staircase in shadow",
       "flavourText": "He prefers the view from up there.",
       "stats": {
         "Eyes": 6,
         "Fingers": 1,
         "Toes": 8
-      }
+      },
+      "image": "./cards/cousin-dangle.png",
+      "imageSmall": "./cards/cousin-dangle-small.webp"
     },
     {
       "id": "ash-and-ember",
@@ -205,7 +223,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/ash-and-ember.png",
+      "imageSmall": "./cards/ash-and-ember-small.webp"
     },
     {
       "id": "nanny-thistlewick",
@@ -219,7 +239,9 @@
         "Eyes": 4,
         "Fingers": 9,
         "Toes": 2
-      }
+      },
+      "image": "./cards/nanny-thistlewick.png",
+      "imageSmall": "./cards/nanny-thistlewick-small.webp"
     },
     {
       "id": "cousin-pollux",
@@ -233,7 +255,9 @@
         "Eyes": 3,
         "Fingers": 10,
         "Toes": 2
-      }
+      },
+      "image": "./cards/cousin-pollux.png",
+      "imageSmall": "./cards/cousin-pollux-small.webp"
     },
     {
       "id": "aunt-vesper",
@@ -247,7 +271,9 @@
         "Eyes": 9,
         "Fingers": 3,
         "Toes": 3
-      }
+      },
+      "image": "./cards/aunt-vesper.png",
+      "imageSmall": "./cards/aunt-vesper-small.webp"
     },
     {
       "id": "uncle-barnabus",
@@ -261,7 +287,9 @@
         "Eyes": 2,
         "Fingers": 8,
         "Toes": 5
-      }
+      },
+      "image": "./cards/uncle-barnabus.png",
+      "imageSmall": "./cards/uncle-barnabus-small.webp"
     },
     {
       "id": "cousin-marrow",
@@ -275,7 +303,9 @@
         "Eyes": 1,
         "Fingers": 6,
         "Toes": 8
-      }
+      },
+      "image": "./cards/cousin-marrow.png",
+      "imageSmall": "./cards/cousin-marrow-small.webp"
     },
     {
       "id": "mother-lucretia",
@@ -289,7 +319,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/mother-lucretia.png",
+      "imageSmall": "./cards/mother-lucretia-small.webp"
     },
     {
       "id": "father-ambrose",
@@ -303,7 +335,9 @@
         "Eyes": 5,
         "Fingers": 8,
         "Toes": 2
-      }
+      },
+      "image": "./cards/father-ambrose.png",
+      "imageSmall": "./cards/father-ambrose-small.webp"
     },
     {
       "id": "the-attic-lodger",
@@ -317,7 +351,9 @@
         "Eyes": 10,
         "Fingers": 2,
         "Toes": 3
-      }
+      },
+      "image": "./cards/the-attic-lodger.png",
+      "imageSmall": "./cards/the-attic-lodger-small.webp"
     },
     {
       "id": "cousin-sprocket",
@@ -331,7 +367,9 @@
         "Eyes": 2,
         "Fingers": 8,
         "Toes": 5
-      }
+      },
+      "image": "./cards/cousin-sprocket.png",
+      "imageSmall": "./cards/cousin-sprocket-small.webp"
     },
     {
       "id": "grandfather-thaddeus",
@@ -345,7 +383,9 @@
         "Eyes": 8,
         "Fingers": 5,
         "Toes": 2
-      }
+      },
+      "image": "./cards/grandfather-thaddeus.png",
+      "imageSmall": "./cards/grandfather-thaddeus-small.webp"
     },
     {
       "id": "aunt-wisteria",
@@ -359,7 +399,9 @@
         "Eyes": 4,
         "Fingers": 3,
         "Toes": 8
-      }
+      },
+      "image": "./cards/aunt-wisteria.png",
+      "imageSmall": "./cards/aunt-wisteria-small.webp"
     },
     {
       "id": "mrs-gristle-the-cook",
@@ -373,7 +415,9 @@
         "Eyes": 3,
         "Fingers": 9,
         "Toes": 3
-      }
+      },
+      "image": "./cards/mrs-gristle-the-cook.png",
+      "imageSmall": "./cards/mrs-gristle-the-cook-small.webp"
     },
     {
       "id": "cousin-flotsam",
@@ -387,7 +431,9 @@
         "Eyes": 3,
         "Fingers": 4,
         "Toes": 8
-      }
+      },
+      "image": "./cards/cousin-flotsam.png",
+      "imageSmall": "./cards/cousin-flotsam-small.webp"
     },
     {
       "id": "uncle-mortlake",
@@ -401,7 +447,9 @@
         "Eyes": 4,
         "Fingers": 8,
         "Toes": 3
-      }
+      },
+      "image": "./cards/uncle-mortlake.png",
+      "imageSmall": "./cards/uncle-mortlake-small.webp"
     },
     {
       "id": "little-gristle",
@@ -415,7 +463,9 @@
         "Eyes": 3,
         "Fingers": 4,
         "Toes": 8
-      }
+      },
+      "image": "./cards/little-gristle.png",
+      "imageSmall": "./cards/little-gristle-small.webp"
     },
     {
       "id": "cousin-umbra",
@@ -429,7 +479,9 @@
         "Eyes": 2,
         "Fingers": 5,
         "Toes": 8
-      }
+      },
+      "image": "./cards/cousin-umbra.png",
+      "imageSmall": "./cards/cousin-umbra-small.webp"
     },
     {
       "id": "old-mould-the-gardener",
@@ -443,7 +495,9 @@
         "Eyes": 3,
         "Fingers": 3,
         "Toes": 9
-      }
+      },
+      "image": "./cards/old-mould-the-gardener.png",
+      "imageSmall": "./cards/old-mould-the-gardener-small.webp"
     },
     {
       "id": "aunt-cordelia",
@@ -457,7 +511,9 @@
         "Eyes": 9,
         "Fingers": 3,
         "Toes": 3
-      }
+      },
+      "image": "./cards/aunt-cordelia.png",
+      "imageSmall": "./cards/aunt-cordelia-small.webp"
     },
     {
       "id": "cousin-pendulum",
@@ -471,7 +527,9 @@
         "Eyes": 4,
         "Fingers": 2,
         "Toes": 9
-      }
+      },
+      "image": "./cards/cousin-pendulum.png",
+      "imageSmall": "./cards/cousin-pendulum-small.webp"
     },
     {
       "id": "doctor-hemlock",
@@ -485,7 +543,9 @@
         "Eyes": 4,
         "Fingers": 9,
         "Toes": 2
-      }
+      },
+      "image": "./cards/doctor-hemlock.png",
+      "imageSmall": "./cards/doctor-hemlock-small.webp"
     },
     {
       "id": "great-aunt-agatha",
@@ -499,7 +559,9 @@
         "Eyes": 10,
         "Fingers": 3,
         "Toes": 2
-      }
+      },
+      "image": "./cards/great-aunt-agatha.png",
+      "imageSmall": "./cards/great-aunt-agatha-small.webp"
     },
     {
       "id": "cousin-lupin",
@@ -513,7 +575,9 @@
         "Eyes": 4,
         "Fingers": 3,
         "Toes": 8
-      }
+      },
+      "image": "./cards/cousin-lupin.png",
+      "imageSmall": "./cards/cousin-lupin-small.webp"
     },
     {
       "id": "uncle-pyre",
@@ -527,7 +591,9 @@
         "Eyes": 5,
         "Fingers": 8,
         "Toes": 2
-      }
+      },
+      "image": "./cards/uncle-pyre.png",
+      "imageSmall": "./cards/uncle-pyre-small.webp"
     },
     {
       "id": "aunt-nettle",
@@ -541,7 +607,9 @@
         "Eyes": 3,
         "Fingers": 10,
         "Toes": 2
-      }
+      },
+      "image": "./cards/aunt-nettle.png",
+      "imageSmall": "./cards/aunt-nettle-small.webp"
     },
     {
       "id": "the-visitor",
@@ -555,7 +623,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/the-visitor.png",
+      "imageSmall": "./cards/the-visitor-small.webp"
     },
     {
       "id": "cousin-snuffle",
@@ -569,7 +639,9 @@
         "Eyes": 9,
         "Fingers": 2,
         "Toes": 4
-      }
+      },
+      "image": "./cards/cousin-snuffle.png",
+      "imageSmall": "./cards/cousin-snuffle-small.webp"
     },
     {
       "id": "beelzebub-the-cat",
@@ -583,7 +655,9 @@
         "Eyes": 8,
         "Fingers": 2,
         "Toes": 5
-      }
+      },
+      "image": "./cards/beelzebub-the-cat.png",
+      "imageSmall": "./cards/beelzebub-the-cat-small.webp"
     },
     {
       "id": "cousin-stilts",
@@ -597,7 +671,9 @@
         "Eyes": 2,
         "Fingers": 4,
         "Toes": 9
-      }
+      },
+      "image": "./cards/cousin-stilts.png",
+      "imageSmall": "./cards/cousin-stilts-small.webp"
     },
     {
       "id": "aunt-morrow",
@@ -611,7 +687,9 @@
         "Eyes": 9,
         "Fingers": 4,
         "Toes": 2
-      }
+      },
+      "image": "./cards/aunt-morrow.png",
+      "imageSmall": "./cards/aunt-morrow-small.webp"
     },
     {
       "id": "uncle-quill",
@@ -625,7 +703,9 @@
         "Eyes": 3,
         "Fingers": 3,
         "Toes": 9
-      }
+      },
+      "image": "./cards/uncle-quill.png",
+      "imageSmall": "./cards/uncle-quill-small.webp"
     },
     {
       "id": "the-sisters-grimwood",
@@ -639,7 +719,9 @@
         "Eyes": 1,
         "Fingers": 10,
         "Toes": 4
-      }
+      },
+      "image": "./cards/the-sisters-grimwood.png",
+      "imageSmall": "./cards/the-sisters-grimwood-small.webp"
     },
     {
       "id": "cousin-ratchet",
@@ -653,7 +735,9 @@
         "Eyes": 4,
         "Fingers": 8,
         "Toes": 3
-      }
+      },
+      "image": "./cards/cousin-ratchet.png",
+      "imageSmall": "./cards/cousin-ratchet-small.webp"
     },
     {
       "id": "old-mister-wick",
@@ -667,7 +751,9 @@
         "Eyes": 2,
         "Fingers": 5,
         "Toes": 8
-      }
+      },
+      "image": "./cards/old-mister-wick.png",
+      "imageSmall": "./cards/old-mister-wick-small.webp"
     },
     {
       "id": "cousin-fathom",
@@ -681,7 +767,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/cousin-fathom.png",
+      "imageSmall": "./cards/cousin-fathom-small.webp"
     },
     {
       "id": "corvus-the-raven",
@@ -695,7 +783,9 @@
         "Eyes": 9,
         "Fingers": 1,
         "Toes": 5
-      }
+      },
+      "image": "./cards/corvus-the-raven.png",
+      "imageSmall": "./cards/corvus-the-raven-small.webp"
     },
     {
       "id": "baby-lamia",
@@ -709,7 +799,9 @@
         "Eyes": 8,
         "Fingers": 7,
         "Toes": 0
-      }
+      },
+      "image": "./cards/baby-lamia.png",
+      "imageSmall": "./cards/baby-lamia-small.webp"
     },
     {
       "id": "uncle-grimald",
@@ -723,7 +815,9 @@
         "Eyes": 8,
         "Fingers": 4,
         "Toes": 3
-      }
+      },
+      "image": "./cards/uncle-grimald.png",
+      "imageSmall": "./cards/uncle-grimald-small.webp"
     },
     {
       "id": "aunt-sable",
@@ -737,7 +831,9 @@
         "Eyes": 3,
         "Fingers": 9,
         "Toes": 3
-      }
+      },
+      "image": "./cards/aunt-sable.png",
+      "imageSmall": "./cards/aunt-sable-small.webp"
     },
     {
       "id": "the-headless-groom",
@@ -751,7 +847,9 @@
         "Eyes": 0,
         "Fingers": 7,
         "Toes": 8
-      }
+      },
+      "image": "./cards/the-headless-groom.png",
+      "imageSmall": "./cards/the-headless-groom-small.webp"
     },
     {
       "id": "mortimer-the-heir",
@@ -765,7 +863,9 @@
         "Eyes": 4,
         "Fingers": 8,
         "Toes": 3
-      }
+      },
+      "image": "./cards/mortimer-the-heir.png",
+      "imageSmall": "./cards/mortimer-the-heir-small.webp"
     }
   ],
   "layout": {
