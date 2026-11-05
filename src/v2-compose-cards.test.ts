@@ -13,6 +13,14 @@ test("textSvg only uses two lines when one line would be too small", () => {
   assert.equal(textSvg(box, "BIG BERTHA THE BARN-CRUSHER").match(/<tspan/g)?.length, 2);
 });
 
+test("textSvg caps two-line text at twoLineSize", () => {
+  const box = { x: 0, y: 0, size: 64, maxWidth: 440, font: "Arial", colour: "#000", charWidth: 0.75, twoLinesBelow: 30 };
+  const fontSize = (svg: string) => Number(svg.match(/font-size="([\d.]+)"/)?.[1]);
+  assert.ok(fontSize(textSvg(box, "BIG BERTHA THE BARN-CRUSHER")) > 40);
+  assert.equal(fontSize(textSvg({ ...box, twoLineSize: 40 }, "BIG BERTHA THE BARN-CRUSHER")), 40);
+  assert.equal(textSvg({ ...box, twoLineSize: 40 }, "MOLE MAULER"), textSvg(box, "MOLE MAULER"));
+});
+
 test("rulesSvg numbers each step and stacks it below the last", () => {
   const box = { x: 0, y: 100, size: 10, maxWidth: 100, font: "Arial", colour: "#000", wrap: true, charWidth: 1, lineHeight: 1 };
   const svg = rulesSvg({ title: "Rules", steps: ["one two three", "four"], layout: { title: box, step: box, gap: 5 } });

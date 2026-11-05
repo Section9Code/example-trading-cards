@@ -65,6 +65,8 @@ type TextBox = {
   balance?: boolean;
   /** One-line text that would shrink below this size goes on two lines instead. Off when absent. */
   twoLinesBelow?: number;
+  /** The largest font size once text is on two lines via `twoLinesBelow`, so two lines still fit the box's height. Default `size`. */
+  twoLineSize?: number;
   /** Line spacing as a multiple of the font size. Default 1.2. */
   lineHeight?: number;
   /** Average character width as a multiple of the font size, used to fit text. Default 0.6; raise it for wide fonts. */
@@ -283,7 +285,7 @@ export function textSvg(box: TextBox, text: string): string {
   if (box.balance && lines.length === 2) lines = splitInTwo(text);
   if (!box.wrap && box.twoLinesBelow && size < box.twoLinesBelow) {
     lines = splitInTwo(text);
-    size = fit(Math.max(...lines.map((l) => l.length)));
+    size = Math.min(box.twoLineSize ?? box.size, fit(Math.max(...lines.map((l) => l.length))));
   }
   const lh = size * (box.lineHeight ?? 1.2);
   const top = box.y - ((lines.length - 1) * lh) / 2;

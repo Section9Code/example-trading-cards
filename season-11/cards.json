@@ -586,7 +586,8 @@
         "charWidth": 0.75,
         "bold": true,
         "twoLinesBelow": 30,
-        "lineHeight": 1.05
+        "lineHeight": 1.05,
+        "twoLineSize": 40
       },
       "flavour": {
         "x": 511,
