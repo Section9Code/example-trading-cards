@@ -42,7 +42,8 @@
         "Fright": 4,
         "Tricks": 3
       },
-      "image": "./cards/baron-nightfang.png"
+      "image": "./cards/baron-nightfang.png",
+      "imageSmall": "./cards/baron-nightfang-small.webp"
     },
     {
       "id": "pharaoh-tubs",
@@ -59,7 +60,8 @@
         "Fright": 6,
         "Tricks": 5
       },
-      "image": "./cards/pharaoh-tubs.png"
+      "image": "./cards/pharaoh-tubs.png",
+      "imageSmall": "./cards/pharaoh-tubs-small.webp"
     },
     {
       "id": "howl-hitch",
@@ -75,7 +77,9 @@
         "Armour": 5,
         "Fright": 3,
         "Tricks": 2
-      }
+      },
+      "image": "./cards/howl-hitch.png",
+      "imageSmall": "./cards/howl-hitch-small.webp"
     },
     {
       "id": "sir-rattles",
@@ -91,7 +95,9 @@
         "Armour": 3,
         "Fright": 4,
         "Tricks": 9
-      }
+      },
+      "image": "./cards/sir-rattles.png",
+      "imageSmall": "./cards/sir-rattles-small.webp"
     },
     {
       "id": "the-boo-gatti",
@@ -107,7 +113,9 @@
         "Armour": 1,
         "Fright": 9,
         "Tricks": 6
-      }
+      },
+      "image": "./cards/the-boo-gatti.png",
+      "imageSmall": "./cards/the-boo-gatti-small.webp"
     },
     {
       "id": "bogwater-bill",
@@ -123,7 +131,9 @@
         "Armour": 5,
         "Fright": 2,
         "Tricks": 5
-      }
+      },
+      "image": "./cards/bogwater-bill.png",
+      "imageSmall": "./cards/bogwater-bill-small.webp"
     },
     {
       "id": "boltz",
@@ -139,7 +149,9 @@
         "Armour": 9,
         "Fright": 5,
         "Tricks": 4
-      }
+      },
+      "image": "./cards/boltz.png",
+      "imageSmall": "./cards/boltz-small.webp"
     },
     {
       "id": "granny-hexhaust",
@@ -155,7 +167,9 @@
         "Armour": 3,
         "Fright": 3,
         "Tricks": 10
-      }
+      },
+      "image": "./cards/granny-hexhaust.png",
+      "imageSmall": "./cards/granny-hexhaust-small.webp"
     },
     {
       "id": "the-headless-hot-rodder",
@@ -171,7 +185,9 @@
         "Armour": 4,
         "Fright": 9,
         "Tricks": 1
-      }
+      },
+      "image": "./cards/the-headless-hot-rodder.png",
+      "imageSmall": "./cards/the-headless-hot-rodder-small.webp"
     },
     {
       "id": "shuffles",
@@ -187,7 +203,9 @@
         "Armour": 9,
         "Fright": 6,
         "Tricks": 5
-      }
+      },
+      "image": "./cards/shuffles.png",
+      "imageSmall": "./cards/shuffles-small.webp"
     },
     {
       "id": "eight-wheel-edna",
@@ -203,7 +221,9 @@
         "Armour": 4,
         "Fright": 5,
         "Tricks": 2
-      }
+      },
+      "image": "./cards/eight-wheel-edna.png",
+      "imageSmall": "./cards/eight-wheel-edna-small.webp"
     },
     {
       "id": "the-flapjacks",
@@ -219,7 +239,9 @@
         "Armour": 1,
         "Fright": 4,
         "Tricks": 8
-      }
+      },
+      "image": "./cards/the-flapjacks.png",
+      "imageSmall": "./cards/the-flapjacks-small.webp"
     },
     {
       "id": "grimstone",
@@ -235,7 +257,9 @@
         "Armour": 10,
         "Fright": 4,
         "Tricks": 4
-      }
+      },
+      "image": "./cards/grimstone.png",
+      "imageSmall": "./cards/grimstone-small.webp"
     },
     {
       "id": "jack-lantern",
@@ -251,7 +275,9 @@
         "Armour": 3,
         "Fright": 10,
         "Tricks": 4
-      }
+      },
+      "image": "./cards/jack-lantern.png",
+      "imageSmall": "./cards/jack-lantern-small.webp"
     },
     {
       "id": "captain-squidsworth",
@@ -267,7 +293,9 @@
         "Armour": 6,
         "Fright": 3,
         "Tricks": 8
-      }
+      },
+      "image": "./cards/captain-squidsworth.png",
+      "imageSmall": "./cards/captain-squidsworth-small.webp"
     },
     {
       "id": "nobody-nelson",
@@ -283,7 +311,9 @@
         "Armour": 3,
         "Fright": 3,
         "Tricks": 9
-      }
+      },
+      "image": "./cards/nobody-nelson.png",
+      "imageSmall": "./cards/nobody-nelson-small.webp"
     },
     {
       "id": "big-chill",
@@ -299,7 +329,9 @@
         "Armour": 7,
         "Fright": 5,
         "Tricks": 1
-      }
+      },
+      "image": "./cards/big-chill.png",
+      "imageSmall": "./cards/big-chill-small.webp"
     },
     {
       "id": "dr-von-varoom",
@@ -315,7 +347,9 @@
         "Armour": 5,
         "Fright": 2,
         "Tricks": 7
-      }
+      },
+      "image": "./cards/dr-von-varoom.png",
+      "imageSmall": "./cards/dr-von-varoom-small.webp"
     },
     {
       "id": "wailin-wendy",
@@ -331,7 +365,9 @@
         "Armour": 1,
         "Fright": 8,
         "Tricks": 2
-      }
+      },
+      "image": "./cards/wailin-wendy.png",
+      "imageSmall": "./cards/wailin-wendy-small.webp"
     },
     {
       "id": "the-grease-goblins",
@@ -347,7 +383,9 @@
         "Armour": 2,
         "Fright": 2,
         "Tricks": 10
-      }
+      },
+      "image": "./cards/the-grease-goblins.png",
+      "imageSmall": "./cards/the-grease-goblins-small.webp"
     },
     {
       "id": "one-eye-ike",
@@ -363,7 +401,9 @@
         "Armour": 9,
         "Fright": 5,
         "Tricks": 4
-      }
+      },
+      "image": "./cards/one-eye-ike.png",
+      "imageSmall": "./cards/one-eye-ike-small.webp"
     },
     {
       "id": "lil-dracula",
@@ -379,7 +419,9 @@
         "Armour": 4,
         "Fright": 3,
         "Tricks": 10
-      }
+      },
+      "image": "./cards/lil-dracula.png",
+      "imageSmall": "./cards/lil-dracula-small.webp"
     },
     {
       "id": "davy-bones",
@@ -395,7 +437,9 @@
         "Armour": 6,
         "Fright": 9,
         "Tricks": 3
-      }
+      },
+      "image": "./cards/davy-bones.png",
+      "imageSmall": "./cards/davy-bones-small.webp"
     },
     {
       "id": "gloop",
@@ -411,7 +455,9 @@
         "Armour": 3,
         "Fright": 4,
         "Tricks": 6
-      }
+      },
+      "image": "./cards/gloop.png",
+      "imageSmall": "./cards/gloop-small.webp"
     },
     {
       "id": "sir-clanksalot",
@@ -427,7 +473,9 @@
         "Armour": 10,
         "Fright": 5,
         "Tricks": 3
-      }
+      },
+      "image": "./cards/sir-clanksalot.png",
+      "imageSmall": "./cards/sir-clanksalot-small.webp"
     },
     {
       "id": "moth-mahoney",
@@ -443,7 +491,9 @@
         "Armour": 4,
         "Fright": 5,
         "Tricks": 5
-      }
+      },
+      "image": "./cards/moth-mahoney.png",
+      "imageSmall": "./cards/moth-mahoney-small.webp"
     },
     {
       "id": "reaper-ricky",
@@ -459,7 +509,9 @@
         "Armour": 2,
         "Fright": 10,
         "Tricks": 3
-      }
+      },
+      "image": "./cards/reaper-ricky.png",
+      "imageSmall": "./cards/reaper-ricky-small.webp"
     },
     {
       "id": "the-toll-troll",
@@ -475,7 +527,9 @@
         "Armour": 7,
         "Fright": 4,
         "Tricks": 5
-      }
+      },
+      "image": "./cards/the-toll-troll.png",
+      "imageSmall": "./cards/the-toll-troll-small.webp"
     },
     {
       "id": "hot-rod-horace",
@@ -491,7 +545,9 @@
         "Armour": 3,
         "Fright": 7,
         "Tricks": 2
-      }
+      },
+      "image": "./cards/hot-rod-horace.png",
+      "imageSmall": "./cards/hot-rod-horace-small.webp"
     },
     {
       "id": "the-phantom-of-the-finish-line",
@@ -507,7 +563,9 @@
         "Armour": 4,
         "Fright": 10,
         "Tricks": 1
-      }
+      },
+      "image": "./cards/the-phantom-of-the-finish-line.png",
+      "imageSmall": "./cards/the-phantom-of-the-finish-line-small.webp"
     }
   ],
   "layout": {
