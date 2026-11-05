@@ -41,7 +41,8 @@
         "Armour": 4,
         "Fright": 4,
         "Tricks": 3
-      }
+      },
+      "image": "./cards/baron-nightfang.png"
     },
     {
       "id": "pharaoh-tubs",
@@ -57,7 +58,8 @@
         "Armour": 10,
         "Fright": 6,
         "Tricks": 5
-      }
+      },
+      "image": "./cards/pharaoh-tubs.png"
     },
     {
       "id": "howl-hitch",
