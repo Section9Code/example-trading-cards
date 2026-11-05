@@ -4,7 +4,7 @@
 
 A free set of AI-generated trading cards. Use them as test data for your apps, games, demos, and prototypes.
 
-Seasons 2 to 11 are balanced for Top Trumps: on every card the stats add up to the same total, with one strong stat and one weak stat, so any card can win a round. Season 1 keeps its original stats, because they are part of each card image.
+Seasons 2 to 12 are balanced for Top Trumps: on every card the stats add up to the same total, with one strong stat and one weak stat, so any card can win a round. Season 1 keeps its original stats, because they are part of each card image.
 
 ## Sets
 
@@ -21,13 +21,14 @@ Seasons 2 to 11 are balanced for Top Trumps: on every card the stats add up to t
 | [season-9](season-9/) | 80s Heroes & Villains | 50, plus a rules card and a card back | Power, Speed, Tech, Courage, Cunning, Style | None. Stats balanced for Top Trumps: each card totals 30 |
 | [season-10](season-10/) | Gloomsbury Manor | 50, plus a rules card and a card back | Eyes, Fingers, Toes | None. Stats balanced for Top Trumps: each card totals 15 |
 | [season-11](season-11/) | Ghouls' Grand Prix | 30, plus a card back | Speed, Grip, Armour, Fright, Tricks | None. Stats balanced for Top Trumps: each card totals 25 |
+| [season-12](season-12/) | Hoard Keepers | 30, plus a rules card and a card back | Haggling, Stock, Quality, Shady, Charm | None. Stats balanced for Top Trumps: each card totals 25 |
 
 ## How the cards were made
 
 | Script | Made | How | Docs |
 |---|---|---|---|
 | `src/v1-generate-cards.ts` | Season 1 | Each card is one complete image, so the frame is a little different on every card. | [src/docs/v1-generate-cards.md](src/docs/v1-generate-cards.md) |
-| `src/v2-compose-cards.ts` | Seasons 2 to 11 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
+| `src/v2-compose-cards.ts` | Seasons 2 to 12 | One shared frame, with each card's art and text added to it, so every card in a set has the same frame. | [src/docs/v2-compose-cards.md](src/docs/v2-compose-cards.md) |
 
 Both scripts make their images with [OpenRouter](https://openrouter.ai/), so they need an `OPENROUTER_API_KEY`. You can use a different image generator: only the `generate` function in each script calls OpenRouter, so that is the only part to change. The prompts in `cards.json` work with any image generator.
 
@@ -46,8 +47,8 @@ Each set folder contains:
 - `cards.json` — the set metadata, the image prompts, and one record for each card.
 - `cards/` — one PNG for each card (1024 × 1536, portrait).
 - One small WebP for each card (512 × 768), next to its PNG, for grids and thumbnails.
-- Seasons 2 to 11 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
-- Seasons 6, 7, 9 and 10 only: `rules-card.png` (how to play, a game like Top Trumps) and `card-back.png`.
+- Seasons 2 to 12 only: `frame.png` (the shared empty frame) and `art/` (the art for each card, without the frame).
+- Seasons 6, 7, 9, 10 and 12 only: `rules-card.png` (how to play, a game like Top Trumps) and `card-back.png`.
 - Seasons 8 and 11 only: `card-back.png`.
 
 ### `cards.json` shape
