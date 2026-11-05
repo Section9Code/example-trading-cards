@@ -1,0 +1,36 @@
+{
+  "set": {
+    "name": "Hoard Keepers",
+    "totalCards": 30,
+    "statNames": ["Haggling", "Stock", "Quality", "Shady", "Charm"]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Warm, cosy flat 2D storybook illustration, like a mural on a fantasy tavern wall: confident brown-black ink outlines, flat colour with soft hard-edged shading, lantern and candle light pooling on wood and brass, and shelves crammed with clutter drawn in loving detail. Characters are expressive fantasy shopkeepers of every kind (dwarves, elves, goblins, orcs, halflings, witches, lizardfolk, ghosts and stranger things) shown at their counter, stall or forge, each with a strong silhouette and a knowing face. Palette: warm amber, deep burgundy, aged parchment, dark oak brown and polished brass, with cool teal-blue shadows for depth. A fine paper-grain texture over everything. Overall mood: cosy, bustling and sly, like a market street where everyone has a deal for you.",
+    "windowHeight": 45,
+    "frame": [
+      "Border: a thick border of carved dark oak, like the frame of an old shop sign, with a shallow bevel, small carved vine scrolls along its length and polished brass corner fittings with visible screw heads.",
+      "Top-left corner: a small round set emblem of a plump brown leather coin purse with a brass clasp and three gold coins spilling from it, with no letters.",
+      "Top: an empty name banner shaped like a long rectangular brass nameplate with rounded ends and a brass rivet at each end, with a pale cream-brass inner panel, about 10% of the card height, with no letters in it.",
+      "Bottom: a pale parchment text panel below the window, about 30% of the card height, like a page from a shop ledger, with a thin burgundy edge and faint ruled lines. The top third of the panel is empty space for two lines of flavour text. A thin burgundy divider line runs across the panel below that space.",
+      "Stats grid: the lower two-thirds of the panel is split into two rows by a thin burgundy divider. The top row is split into three equal cells and the bottom row into two equal wider cells, by thin vertical burgundy dividers. All five cells are pale parchment. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the rest of the cell to the right is empty space for a word like 'HAGGLING' and a large number. The icons, top row left to right: a pair of brass balance scales; a stacked wooden crate with a sack on top; a cut red gem sparkling. Bottom row left to right: a single narrowed eye peering out from under a dark hood; a frothy wooden tankard. The icons are simple, flat and bold, in brass, burgundy, dark oak and amber.",
+      "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty dark oak plaque with a brass edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
+      "Accent colours on the frame are only dark oak brown, brass gold, burgundy, amber and parchment cream. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No 3D render, no CGI, no photorealism, no anime style, no gore, no blood, no real people, no real brands or logos, no real or existing cartoon, game or film characters, no watermark, no text, no signature, no readable writing on signs or labels."
+  },
+  "rulesCard": {
+    "title": "How to Play",
+    "steps": [
+      "Two players. Deal all the cards evenly.",
+      "Each player shuffles their cards into a face-down deck.",
+      "Each player turns over their top card and looks at it.",
+      "The winner of the last round picks a stat. In the first round, the player who most recently bought something picks.",
+      "Reveal the cards. The higher value in the called stat wins.",
+      "The winner keeps both cards in their own pile. On a tie, each player keeps their own card.",
+      "When your deck runs out, shuffle your pile to make a new deck.",
+      "You win when your opponent has no cards left. Thank you for your custom!"
+    ]
+  },
+  "cards": []
+}
