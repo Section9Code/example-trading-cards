@@ -80,7 +80,8 @@
         "Quality": 10,
         "Shady": 1,
         "Charm": 5
-      }
+      },
+      "image": "./cards/durnik-ironbelly.png"
     },
     {
       "id": "grizeldas-potion-seconds",
