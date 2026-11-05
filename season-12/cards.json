@@ -81,7 +81,8 @@
         "Shady": 1,
         "Charm": 5
       },
-      "image": "./cards/durnik-ironbelly.png"
+      "image": "./cards/durnik-ironbelly.png",
+      "imageSmall": "./cards/durnik-ironbelly-small.webp"
     },
     {
       "id": "grizeldas-potion-seconds",
@@ -97,7 +98,9 @@
         "Quality": 1,
         "Shady": 9,
         "Charm": 4
-      }
+      },
+      "image": "./cards/grizeldas-potion-seconds.png",
+      "imageSmall": "./cards/grizeldas-potion-seconds-small.webp"
     },
     {
       "id": "the-no-refunds-mimic",
@@ -113,7 +116,9 @@
         "Quality": 3,
         "Shady": 5,
         "Charm": 1
-      }
+      },
+      "image": "./cards/the-no-refunds-mimic.png",
+      "imageSmall": "./cards/the-no-refunds-mimic-small.webp"
     },
     {
       "id": "madame-vellamour",
@@ -129,7 +134,9 @@
         "Quality": 7,
         "Shady": 1,
         "Charm": 10
-      }
+      },
+      "image": "./cards/madame-vellamour.png",
+      "imageSmall": "./cards/madame-vellamour-small.webp"
     },
     {
       "id": "old-pip",
@@ -145,7 +152,9 @@
         "Quality": 1,
         "Shady": 4,
         "Charm": 9
-      }
+      },
+      "image": "./cards/old-pip.png",
+      "imageSmall": "./cards/old-pip-small.webp"
     },
     {
       "id": "bram-stoutkeg",
@@ -161,7 +170,9 @@
         "Quality": 4,
         "Shady": 2,
         "Charm": 7
-      }
+      },
+      "image": "./cards/bram-stoutkeg.png",
+      "imageSmall": "./cards/bram-stoutkeg-small.webp"
     },
     {
       "id": "sister-marigold",
@@ -177,7 +188,9 @@
         "Quality": 9,
         "Shady": 3,
         "Charm": 8
-      }
+      },
+      "image": "./cards/sister-marigold.png",
+      "imageSmall": "./cards/sister-marigold-small.webp"
     },
     {
       "id": "fenwick-thimble",
@@ -193,7 +206,9 @@
         "Quality": 5,
         "Shady": 6,
         "Charm": 2
-      }
+      },
+      "image": "./cards/fenwick-thimble.png",
+      "imageSmall": "./cards/fenwick-thimble-small.webp"
     },
     {
       "id": "mother-ashgrave",
@@ -209,7 +224,9 @@
         "Quality": 8,
         "Shady": 6,
         "Charm": 3
-      }
+      },
+      "image": "./cards/mother-ashgrave.png",
+      "imageSmall": "./cards/mother-ashgrave-small.webp"
     },
     {
       "id": "skrix",
@@ -225,7 +242,9 @@
         "Quality": 1,
         "Shady": 10,
         "Charm": 2
-      }
+      },
+      "image": "./cards/skrix.png",
+      "imageSmall": "./cards/skrix-small.webp"
     },
     {
       "id": "aunt-bessamy",
@@ -241,7 +260,9 @@
         "Quality": 7,
         "Shady": 2,
         "Charm": 10
-      }
+      },
+      "image": "./cards/aunt-bessamy.png",
+      "imageSmall": "./cards/aunt-bessamy-small.webp"
     },
     {
       "id": "vorlag-the-armourer",
@@ -257,7 +278,9 @@
         "Quality": 8,
         "Shady": 6,
         "Charm": 2
-      }
+      },
+      "image": "./cards/vorlag-the-armourer.png",
+      "imageSmall": "./cards/vorlag-the-armourer-small.webp"
     },
     {
       "id": "the-twins-tallow",
@@ -273,7 +296,9 @@
         "Quality": 3,
         "Shady": 4,
         "Charm": 5
-      }
+      },
+      "image": "./cards/the-twins-tallow.png",
+      "imageSmall": "./cards/the-twins-tallow-small.webp"
     },
     {
       "id": "cassius-gildmoor",
@@ -289,7 +314,9 @@
         "Quality": 7,
         "Shady": 6,
         "Charm": 1
-      }
+      },
+      "image": "./cards/cassius-gildmoor.png",
+      "imageSmall": "./cards/cassius-gildmoor-small.webp"
     },
     {
       "id": "grubb",
@@ -305,7 +332,9 @@
         "Quality": 2,
         "Shady": 7,
         "Charm": 3
-      }
+      },
+      "image": "./cards/grubb.png",
+      "imageSmall": "./cards/grubb-small.webp"
     },
     {
       "id": "ysolde-nightwick",
@@ -321,7 +350,9 @@
         "Quality": 3,
         "Shady": 9,
         "Charm": 6
-      }
+      },
+      "image": "./cards/ysolde-nightwick.png",
+      "imageSmall": "./cards/ysolde-nightwick-small.webp"
     },
     {
       "id": "barnaby-crowe",
@@ -337,7 +368,9 @@
         "Quality": 6,
         "Shady": 1,
         "Charm": 7
-      }
+      },
+      "image": "./cards/barnaby-crowe.png",
+      "imageSmall": "./cards/barnaby-crowe-small.webp"
     },
     {
       "id": "lady-pemberton-quill",
@@ -353,7 +386,9 @@
         "Quality": 10,
         "Shady": 2,
         "Charm": 6
-      }
+      },
+      "image": "./cards/lady-pemberton-quill.png",
+      "imageSmall": "./cards/lady-pemberton-quill-small.webp"
     },
     {
       "id": "big-hilde",
@@ -369,7 +404,9 @@
         "Quality": 4,
         "Shady": 3,
         "Charm": 6
-      }
+      },
+      "image": "./cards/big-hilde.png",
+      "imageSmall": "./cards/big-hilde-small.webp"
     },
     {
       "id": "nib-nub",
@@ -385,7 +422,9 @@
         "Quality": 2,
         "Shady": 7,
         "Charm": 4
-      }
+      },
+      "image": "./cards/nib-nub.png",
+      "imageSmall": "./cards/nib-nub-small.webp"
     },
     {
       "id": "thorvald-saltbeard",
@@ -401,7 +440,9 @@
         "Quality": 3,
         "Shady": 3,
         "Charm": 8
-      }
+      },
+      "image": "./cards/thorvald-saltbeard.png",
+      "imageSmall": "./cards/thorvald-saltbeard-small.webp"
     },
     {
       "id": "the-librarian-lich",
@@ -417,7 +458,9 @@
         "Quality": 9,
         "Shady": 7,
         "Charm": 1
-      }
+      },
+      "image": "./cards/the-librarian-lich.png",
+      "imageSmall": "./cards/the-librarian-lich-small.webp"
     },
     {
       "id": "pennyroyal",
@@ -433,7 +476,9 @@
         "Quality": 5,
         "Shady": 3,
         "Charm": 10
-      }
+      },
+      "image": "./cards/pennyroyal.png",
+      "imageSmall": "./cards/pennyroyal-small.webp"
     },
     {
       "id": "hob-underbough",
@@ -449,7 +494,9 @@
         "Quality": 6,
         "Shady": 2,
         "Charm": 5
-      }
+      },
+      "image": "./cards/hob-underbough.png",
+      "imageSmall": "./cards/hob-underbough-small.webp"
     },
     {
       "id": "marrok-the-moonlit",
@@ -465,7 +512,9 @@
         "Quality": 5,
         "Shady": 8,
         "Charm": 3
-      }
+      },
+      "image": "./cards/marrok-the-moonlit.png",
+      "imageSmall": "./cards/marrok-the-moonlit-small.webp"
     },
     {
       "id": "dame-agatha-pryce",
@@ -481,7 +530,9 @@
         "Quality": 6,
         "Shady": 4,
         "Charm": 2
-      }
+      },
+      "image": "./cards/dame-agatha-pryce.png",
+      "imageSmall": "./cards/dame-agatha-pryce-small.webp"
     },
     {
       "id": "snorri-two-hats",
@@ -497,7 +548,9 @@
         "Quality": 2,
         "Shady": 8,
         "Charm": 4
-      }
+      },
+      "image": "./cards/snorri-two-hats.png",
+      "imageSmall": "./cards/snorri-two-hats-small.webp"
     },
     {
       "id": "ol-glimmer",
@@ -513,7 +566,9 @@
         "Quality": 5,
         "Shady": 3,
         "Charm": 1
-      }
+      },
+      "image": "./cards/ol-glimmer.png",
+      "imageSmall": "./cards/ol-glimmer-small.webp"
     },
     {
       "id": "captain-mireille",
@@ -529,7 +584,9 @@
         "Quality": 3,
         "Shady": 10,
         "Charm": 2
-      }
+      },
+      "image": "./cards/captain-mireille.png",
+      "imageSmall": "./cards/captain-mireille-small.webp"
     },
     {
       "id": "grandmother-oakhollow",
@@ -545,7 +602,9 @@
         "Quality": 7,
         "Shady": 3,
         "Charm": 10
-      }
+      },
+      "image": "./cards/grandmother-oakhollow.png",
+      "imageSmall": "./cards/grandmother-oakhollow-small.webp"
     }
   ],
   "layout": {
