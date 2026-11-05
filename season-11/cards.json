@@ -1,0 +1,29 @@
+{
+  "set": {
+    "name": "Ghouls' Grand Prix",
+    "totalCards": 30,
+    "statNames": [
+      "Speed",
+      "Grip",
+      "Armour",
+      "Fright",
+      "Dirty Tricks"
+    ]
+  },
+  "sharedPrompt": {
+    "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
+    "artStyle": "Bold flat 2D cartoon in the style of a 1960s-70s Saturday-morning racing cartoon: thick confident black ink outlines, flat colour with simple hard-edged cel shadows, exaggerated squash-and-stretch vehicles with wobbly wheels, big swooping speed lines, puffs of exhaust and cartoon dust clouds. Characters are goofy, lovable monsters (mummies, vampires, werewolves, ghosts, swamp creatures, skeletons) driving ridiculous home-made race vehicles, with big expressive eyes and wide grins. Palette: racing green, bone white, flame orange, deep black and chrome silver, with moonlit night-blue skies. A light screen-print grain over everything. Overall mood: fast, spooky-silly and full of mischief, never gory.",
+    "windowHeight": 45,
+    "frame": [
+      "Border: a thick black-and-white chequered-flag border with a bolted chrome-silver trim along its inner and outer edges, and small chrome rivets at the corners.",
+      "Top-left corner: a small round set emblem of a bone-white grinning skull with small swept-back chrome wings, set on a black racing tyre, with no letters.",
+      "Top: an empty name banner shaped like a long racing-green pit-lane sign with a chrome edge and a pale bone-white inner panel, about 10% of the card height, with no letters in it.",
+      "Bottom: a pale bone-white text panel below the window, about 30% of the card height, with a thin racing-green edge. The top third of the panel is empty space for two lines of flavour text. A thin racing-green divider line runs across the panel below that space.",
+      "Stats grid: the lower two-thirds of the panel is split into two rows by a thin racing-green divider. The top row is split into three equal cells and the bottom row into two equal wider cells, by thin vertical racing-green dividers. All five cells are pale bone white. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the rest of the cell to the right is empty space for a word like 'DIRTY TRICKS' and a large number. The icons, top row left to right: a speedometer with the needle in the red; a chunky racing tyre; a riveted shield. Bottom row left to right: a cartoon ghost face; a black oil slick puddle. The icons are simple, flat and bold, in racing green, flame orange, black and chrome.",
+      "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty black plaque with a chrome edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
+      "Accent colours on the frame are only racing green, flame orange, black, chrome silver and bone white. Do not use pink, magenta or hot pink anywhere on the frame."
+    ],
+    "negative": "No 3D render, no CGI, no photorealism, no gore, no blood, no injuries, no real people, no real car brands or logos, no real or existing cartoon characters, no anime style, no watermark, no text, no signature, no numbers on the vehicles."
+  },
+  "cards": []
+}
