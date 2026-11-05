@@ -23,7 +23,165 @@
       "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty black plaque with a chrome edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
       "Accent colours on the frame are only racing green, flame orange, black, chrome silver and bone white. Do not use pink, magenta or hot pink anywhere on the frame."
     ],
-    "negative": "No 3D render, no CGI, no photorealism, no gore, no blood, no injuries, no real people, no real car brands or logos, no real or existing cartoon characters, no anime style, no watermark, no text, no signature, no numbers on the vehicles."
+    "negative": "No 3D render, no CGI, no photorealism, no gore, no blood, no injuries, no real people, no real car brands or logos, no real or existing cartoon characters, no anime style, no watermark, no text, no signature, no numbers on the vehicles.",
+    "artSize": "1408x1024"
   },
-  "cards": []
+  "cards": [],
+  "layout": {
+    "window": {
+      "left": 72,
+      "top": 221,
+      "width": 878,
+      "height": 637
+    },
+    "text": {
+      "name": {
+        "x": 612,
+        "y": 113,
+        "size": 58,
+        "maxWidth": 600,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#1b2a1f",
+        "charWidth": 0.75,
+        "bold": true,
+        "twoLinesBelow": 30,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 511,
+        "y": 998,
+        "size": 32,
+        "maxWidth": 860,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#1b2a1f",
+        "italic": true,
+        "wrap": true,
+        "balance": true
+      },
+      "number": {
+        "x": 837,
+        "y": 1472,
+        "size": 38,
+        "maxWidth": 230,
+        "font": "'Trebuchet MS', Arial, sans-serif",
+        "colour": "#f3ecd8",
+        "bold": true
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 286,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 125,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 286,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 596,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 115,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 596,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 885,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 145,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 885,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 392,
+          "y": 1294,
+          "size": 28,
+          "maxWidth": 200,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 392,
+          "y": 1356,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 840,
+          "y": 1272,
+          "size": 26,
+          "maxWidth": 215,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 880,
+          "y": 1356,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#1b2a1f",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      }
+    ]
+  },
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in a bold flat 2D 1960s-70s Saturday-morning racing cartoon style with thick black ink outlines, flat colour, hard-edged cel shadows and a light screen-print grain. A design mirrored top to bottom, so it looks the same either way up, with no single upright object in the middle: a thick black-and-white chequered-flag border with bolted chrome-silver trim and chrome rivets at the corners, around a deep racing-green centre panel. In the exact centre, a round black racing tyre lying flat like a wreath, with a pair of crossed chequered flags through it and swept-back chrome wings on its left and right. Above and below it, mirrored flame-orange speed lines and mirrored bone-white skull-and-crossbones motifs, the lower one upside down. Small cartoon puffs of exhaust and stars fill the rest of the panel. No text, letters or numbers. Do not use pink or magenta."
+  }
 }
