@@ -7,7 +7,7 @@
       "Grip",
       "Armour",
       "Fright",
-      "Dirty Tricks"
+      "Tricks"
     ]
   },
   "sharedPrompt": {
@@ -19,7 +19,7 @@
       "Top-left corner: a small round set emblem of a bone-white grinning skull with small swept-back chrome wings, set on a black racing tyre, with no letters.",
       "Top: an empty name banner shaped like a long racing-green pit-lane sign with a chrome edge and a pale bone-white inner panel, about 10% of the card height, with no letters in it.",
       "Bottom: a pale bone-white text panel below the window, about 30% of the card height, with a thin racing-green edge. The top third of the panel is empty space for two lines of flavour text. A thin racing-green divider line runs across the panel below that space.",
-      "Stats grid: the lower two-thirds of the panel is split into two rows by a thin racing-green divider. The top row is split into three equal cells and the bottom row into two equal wider cells, by thin vertical racing-green dividers. All five cells are pale bone white. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the rest of the cell to the right is empty space for a word like 'DIRTY TRICKS' and a large number. The icons, top row left to right: a speedometer with the needle in the red; a chunky racing tyre; a riveted shield. Bottom row left to right: a cartoon ghost face; a black oil slick puddle. The icons are simple, flat and bold, in racing green, flame orange, black and chrome.",
+      "Stats grid: the lower two-thirds of the panel is split into two rows by a thin racing-green divider. The top row is split into three equal cells and the bottom row into two equal wider cells, by thin vertical racing-green dividers. All five cells are pale bone white. Each cell has one small bold icon on its left side, no wider than a quarter of the cell, and the rest of the cell to the right is empty space for a word like 'ARMOUR' and a large number. The icons, top row left to right: a speedometer with the needle in the red; a chunky racing tyre; a riveted shield. Bottom row left to right: a cartoon ghost face; a black oil slick puddle. The icons are simple, flat and bold, in racing green, flame orange, black and chrome.",
       "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty black plaque with a chrome edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
       "Accent colours on the frame are only racing green, flame orange, black, chrome silver and bone white. Do not use pink, magenta or hot pink anywhere on the frame."
     ],
@@ -159,10 +159,10 @@
       },
       {
         "label": {
-          "x": 840,
-          "y": 1272,
-          "size": 26,
-          "maxWidth": 215,
+          "x": 880,
+          "y": 1294,
+          "size": 28,
+          "maxWidth": 150,
           "font": "'Arial Black', Impact, sans-serif",
           "colour": "#1b2a1f",
           "charWidth": 0.75,
