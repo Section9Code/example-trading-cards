@@ -2,7 +2,13 @@
   "set": {
     "name": "Hoard Keepers",
     "totalCards": 30,
-    "statNames": ["Haggling", "Stock", "Quality", "Shady", "Charm"]
+    "statNames": [
+      "Haggling",
+      "Stock",
+      "Quality",
+      "Shady",
+      "Charm"
+    ]
   },
   "sharedPrompt": {
     "format": "One full-bleed illustration that fills the whole image edge to edge. Flat 2D illustration, no 3D rendering, no photorealism.",
@@ -17,7 +23,8 @@
       "Card number: below the panel, on the border, in the bottom-right corner only, one wide empty dark oak plaque with a brass edge for the card number, about 22% of the card width, so it can hold text like '#30 of 30'. The bottom-left corner has no badge, only border. The plaque is empty, with no letters.",
       "Accent colours on the frame are only dark oak brown, brass gold, burgundy, amber and parchment cream. Do not use pink, magenta or hot pink anywhere on the frame."
     ],
-    "negative": "No 3D render, no CGI, no photorealism, no anime style, no gore, no blood, no real people, no real brands or logos, no real or existing cartoon, game or film characters, no watermark, no text, no signature, no readable writing on signs or labels."
+    "negative": "No 3D render, no CGI, no photorealism, no anime style, no gore, no blood, no real people, no real brands or logos, no real or existing cartoon, game or film characters, no watermark, no text, no signature, no readable writing on signs or labels.",
+    "artSize": "1424x1024"
   },
   "rulesCard": {
     "title": "How to Play",
@@ -30,7 +37,167 @@
       "The winner keeps both cards in their own pile. On a tie, each player keeps their own card.",
       "When your deck runs out, shuffle your pile to make a new deck.",
       "You win when your opponent has no cards left. Thank you for your custom!"
+    ],
+    "framePrompt": "The front of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in the same warm cosy flat 2D storybook style. The same thick carved dark oak border with small carved vine scrolls and polished brass corner fittings with screw heads. The same round emblem in the top-left corner: a plump brown leather coin purse with a brass clasp and three gold coins spilling from it. The same empty long brass nameplate with rounded ends and a brass rivet at each end along the top, with a pale cream-brass inner panel. Below the nameplate, filling the rest of the card down to the border, one large empty panel in even pale parchment with a thin burgundy edge, with no ruled lines, icons, dividers or badges. No text, letters or numbers anywhere. Do not use pink or magenta."
+  },
+  "cards": [],
+  "layout": {
+    "window": {
+      "left": 92,
+      "top": 225,
+      "width": 840,
+      "height": 606
+    },
+    "text": {
+      "name": {
+        "x": 610,
+        "y": 117,
+        "size": 58,
+        "maxWidth": 620,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#2b1a12",
+        "charWidth": 0.75,
+        "bold": true,
+        "twoLinesBelow": 30,
+        "twoLineSize": 40,
+        "lineHeight": 1.05
+      },
+      "flavour": {
+        "x": 512,
+        "y": 995,
+        "size": 32,
+        "maxWidth": 840,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#2b1a12",
+        "italic": true,
+        "wrap": true,
+        "balance": true,
+        "lineHeight": 1.56
+      },
+      "number": {
+        "x": 838,
+        "y": 1463,
+        "size": 38,
+        "maxWidth": 230,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#f3e6c4",
+        "bold": true
+      }
+    },
+    "stats": [
+      {
+        "label": {
+          "x": 275,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 140,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 275,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 583,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 140,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 583,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 880,
+          "y": 1130,
+          "size": 28,
+          "maxWidth": 160,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 880,
+          "y": 1192,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 362,
+          "y": 1296,
+          "size": 28,
+          "maxWidth": 250,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 362,
+          "y": 1356,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      },
+      {
+        "label": {
+          "x": 820,
+          "y": 1296,
+          "size": 28,
+          "maxWidth": 250,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.75,
+          "bold": true
+        },
+        "value": {
+          "x": 820,
+          "y": 1356,
+          "size": 64,
+          "maxWidth": 110,
+          "font": "'Arial Black', Impact, sans-serif",
+          "colour": "#2b1a12",
+          "charWidth": 0.7,
+          "bold": true
+        }
+      }
     ]
   },
-  "cards": []
+  "cardBack": {
+    "prompt": "The back of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in a warm cosy flat 2D storybook style with confident brown-black ink outlines, flat colour, soft hard-edged shading and a fine paper-grain texture. A design mirrored top to bottom, so it looks the same either way up, with no single upright object in the middle: a thick carved dark oak border with small carved vine scrolls and polished brass corner fittings with screw heads, around a deep burgundy centre panel with a faint damask pattern. In the exact centre, a round brass medallion holding a plump brown leather coin purse lying on its side, with gold coins spilling out of it to the left and the right. Above and below the medallion, mirrored brass balance scales and mirrored fans of gold coins, the lower ones upside down. Small brass keys, gems and tankards fill the rest of the panel in a loose mirrored pattern. No text, letters or numbers. Do not use pink or magenta."
+  }
 }
