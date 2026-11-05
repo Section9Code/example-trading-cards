@@ -28,13 +28,13 @@
   },
   "cards": [
     {
-      "id": "count-turbo",
-      "name": "Count Turbo",
+      "id": "baron-nightfang",
+      "name": "Baron Nightfang",
       "cardNumber": 1,
       "character": "A dapper cartoon vampire with slicked-back hair, a high-collared cape and tiny fangs, strapped into a long black coffin-shaped dragster with chrome exhaust pipes and a coffin lid for a spoiler.",
       "poseAndExpression": "Leaning forward over the wheel, cape streaming behind him, grinning with fangs out and one eyebrow raised.",
       "backgroundScene": "A moonlit night-time race track with a castle silhouette on a hill, a wall of speed lines and a bright full moon.",
-      "flavourText": "He only races at night. Something about the sunroof.",
+      "flavourText": "Banned from every daytime race since 1783.",
       "stats": {
         "Speed": 10,
         "Grip": 4,
@@ -50,7 +50,7 @@
       "character": "A bandaged cartoon mummy with one loose bandage trailing, sitting in a clawfoot bathtub on four wobbly wheels, with a rubber duck taped to the bonnet as a mascot.",
       "poseAndExpression": "Sitting upright and unbothered, holding a steering wheel attached to the taps, with a calm sleepy expression.",
       "backgroundScene": "A dusty desert track between two pyramids, with sand spraying from the back wheels.",
-      "flavourText": "Three thousand years old and still never in a hurry.",
+      "flavourText": "Rolled out of the tomb and straight onto the grid.",
       "stats": {
         "Speed": 1,
         "Grip": 3,
@@ -66,7 +66,7 @@
       "character": "A shaggy cartoon werewolf in a leather jacket driving a vintage motorbike, with a tiny excited wolf pup wearing goggles in the sidecar.",
       "poseAndExpression": "The werewolf howls at the sky mid-corner while the pup hangs its tongue out in the wind.",
       "backgroundScene": "A twisting forest road at night, with pine trees whipping past and a full moon between the branches.",
-      "flavourText": "Hitch does the navigating. Howl does the howling.",
+      "flavourText": "Still arguing about who gets the sidecar.",
       "stats": {
         "Speed": 6,
         "Grip": 9,
@@ -82,7 +82,7 @@
       "character": "A cheerful cartoon skeleton in a tiny knight's helmet riding a penny-farthing bicycle made of bones, with a femur for a crossbar.",
       "poseAndExpression": "Pedalling furiously with knees up high, jaw wide open in a delighted rattling laugh.",
       "backgroundScene": "A cobbled village street at dusk with jack-o'-lanterns on every doorstep and leaves blowing by.",
-      "flavourText": "Loses a bone every lap and never the same one twice.",
+      "flavourText": "Leaves a trail of bones for the marshals to pick up.",
       "stats": {
         "Speed": 5,
         "Grip": 4,
@@ -98,7 +98,7 @@
       "character": "A round white cartoon ghost with big hollow eyes, driving a sleek see-through ghostly sports car that trails wisps of mist.",
       "poseAndExpression": "Peeking over the wheel with a mischievous wide-eyed stare, arms raised in a 'boo' pose.",
       "backgroundScene": "A foggy graveyard track at midnight, headstones leaning in the mist and bats overhead.",
-      "flavourText": "Passes straight through the other cars. Technically not cheating.",
+      "flavourText": "Drove clean through the pack and left them in a cold sweat.",
       "stats": {
         "Speed": 7,
         "Grip": 2,
@@ -114,7 +114,7 @@
       "character": "A green, weedy cartoon swamp creature with webbed hands and a friendly gormless face, driving a mud buggy with huge knobbly tyres and reeds stuck in the grille.",
       "poseAndExpression": "Hunched happily over the wheel with mud splattered across his face, grinning with two big teeth.",
       "backgroundScene": "A steaming swamp track with lily pads, cattails and a startled frog leaping out of the way.",
-      "flavourText": "Nobody knows how he gets grip on that. Nobody wants to check.",
+      "flavourText": "Hasn't washed the buggy since the swamp grew on it.",
       "stats": {
         "Speed": 3,
         "Grip": 10,
@@ -130,7 +130,7 @@
       "character": "A tall square-headed cartoon patchwork monster with neck bolts and stitches, riding a chunky motorbike bolted together from spare parts, pipes and a toaster.",
       "poseAndExpression": "Sitting stiffly upright on the bike, blinking slowly, with a small puzzled smile.",
       "backgroundScene": "A lightning-struck laboratory tower in the background, with sparking cables along the roadside.",
-      "flavourText": "Built from spare parts. The bike, too.",
+      "flavourText": "Whatever falls off, he bolts back on at the next corner.",
       "stats": {
         "Speed": 4,
         "Grip": 3,
@@ -146,7 +146,7 @@
       "character": "A tiny wrinkled cartoon witch with a crooked hat and half-moon spectacles, riding a broomstick fitted with a huge chrome engine and two fat exhaust pipes.",
       "poseAndExpression": "Cackling with glee, one hand on the broom and the other flicking a wand behind her.",
       "backgroundScene": "A cloudy night sky over the race track, with a trail of green sparkles and a knocked-over cauldron below.",
-      "flavourText": "Her potions are illegal in six counties and all of them are in the fuel tank.",
+      "flavourText": "Brewed the fuel herself and won't say what's in it.",
       "stats": {
         "Speed": 7,
         "Grip": 2,
@@ -162,7 +162,7 @@
       "character": "A headless cartoon horseman in a tattered riding coat, driving a flame-painted hot rod while holding his own grinning head under one arm.",
       "poseAndExpression": "The body steers calmly while the tucked-under head screams with excitement, eyes wide.",
       "backgroundScene": "A covered bridge over a dark river, with autumn leaves swirling and a crooked signpost.",
-      "flavourText": "The head does all the shouting. The body just drives.",
+      "flavourText": "Has to be reminded which way he's facing.",
       "stats": {
         "Speed": 8,
         "Grip": 3,
@@ -178,7 +178,7 @@
       "character": "A slouching green cartoon zombie in a torn suit, driving a long black hearse with a wreath on the roof and one wheel wobbling.",
       "poseAndExpression": "Slumped over the wheel with a dopey grin, one arm hanging out of the window.",
       "backgroundScene": "A crumbling cemetery gate at the roadside, with crows on the fence and mist on the ground.",
-      "flavourText": "Started the race last year. Should be finishing any day now.",
+      "flavourText": "Will get there when he gets there.",
       "stats": {
         "Speed": 1,
         "Grip": 4,
@@ -194,7 +194,7 @@
       "character": "A big fuzzy purple cartoon spider with eight goggled eyes, driving a low eight-wheeled racing car with a leg on each wheel.",
       "poseAndExpression": "Leaning hard into a corner with all eight legs working the controls, smirking with confidence.",
       "backgroundScene": "An old barn with cobwebs across the doorway, the track running right through it.",
-      "flavourText": "Eight wheels, eight legs, and absolutely no understanding of the word 'overtake'.",
+      "flavourText": "Spins across the track and the others stick to it.",
       "stats": {
         "Speed": 4,
         "Grip": 10,
@@ -210,7 +210,7 @@
       "character": "A squabbling swarm of a dozen tiny cartoon bats crammed into one little go-kart, all fighting over the steering wheel.",
       "poseAndExpression": "Bats piled on top of each other, some flapping, some pulling the wheel in opposite directions, all shrieking happily.",
       "backgroundScene": "A night sky over the track with a bat-shaped cloud across the moon and a belfry in the distance.",
-      "flavourText": "Twelve drivers, one steering wheel, zero plan.",
+      "flavourText": "All twelve of them want to turn left.",
       "stats": {
         "Speed": 9,
         "Grip": 3,
@@ -226,7 +226,7 @@
       "character": "A heavy grey cartoon gargoyle with stubby wings and a toothy frown, driving a monster truck carved entirely out of stone with cobblestone tyres.",
       "poseAndExpression": "Gripping the wheel with both claws, face set in a grim determined scowl.",
       "backgroundScene": "The roof of a gothic cathedral, with the truck bouncing between spires against a stormy sky.",
-      "flavourText": "Hasn't blinked since 1340. Hasn't braked either.",
+      "flavourText": "Doesn't swerve for anything, so the track swerves for him.",
       "stats": {
         "Speed": 2,
         "Grip": 5,
@@ -242,7 +242,7 @@
       "character": "A lanky cartoon scarecrow with a glowing carved pumpkin for a head, straw poking out of his sleeves, driving a rusty old tractor.",
       "poseAndExpression": "Sitting bolt upright on the tractor seat, pumpkin grin lit from inside, straw arms spread wide.",
       "backgroundScene": "A moonlit cornfield at night with a scarecrow-shaped gap in the corn and crows scattering.",
-      "flavourText": "Top speed: walking pace. Terror: considerable.",
+      "flavourText": "Nobody dares pass that grin on a dark lane.",
       "stats": {
         "Speed": 2,
         "Grip": 6,
@@ -258,7 +258,7 @@
       "character": "A plump cartoon sea monster with a squid's head, a captain's hat and a monocle, driving a submarine on wheels with a periscope sticking out.",
       "poseAndExpression": "Twirling a tentacle like a moustache, peering through the periscope with a sly grin.",
       "backgroundScene": "A harbour-side track with a lighthouse, with sea spray over the quay and gulls fleeing.",
-      "flavourText": "Keeps an ink slick in reserve. And a second one. And a third.",
+      "flavourText": "Spills ink on every corner and calls it weather.",
       "stats": {
         "Speed": 3,
         "Grip": 5,
@@ -274,7 +274,7 @@
       "character": "An invisible driver in a battered open-top roadster, shown only as a pair of floating goggles, a flat cap and two driving gloves on the wheel.",
       "poseAndExpression": "The empty gloves give a cheeky thumbs-up while the goggles tilt as if winking.",
       "backgroundScene": "A pit lane with confused goblin mechanics scratching their heads and a missing-driver poster on the wall.",
-      "flavourText": "Won three races before anyone noticed he'd entered.",
+      "flavourText": "Took the lead and nobody could point to where he went.",
       "stats": {
         "Speed": 6,
         "Grip": 4,
@@ -290,7 +290,7 @@
       "character": "A huge fluffy white cartoon yeti with a woolly scarf and tiny sunglasses, riding a snowmobile fitted with spiked tracks.",
       "poseAndExpression": "Leaning back and relaxed, one paw on the handlebars, flashing a big friendly grin.",
       "backgroundScene": "A snowy mountain pass with icicles and a startled penguin, snow spraying off the tracks.",
-      "flavourText": "Never loses his cool. Never finds his car keys either.",
+      "flavourText": "Melts the bend and keeps the pace.",
       "stats": {
         "Speed": 3,
         "Grip": 9,
@@ -306,7 +306,7 @@
       "character": "A wild-haired cartoon mad scientist in a lab coat and goggles, strapped into a rocket car with a fizzing beaker for a fuel tank.",
       "poseAndExpression": "Hands flung in the air, mouth open in a manic shout of triumph as the rocket fires.",
       "backgroundScene": "A rocket launchpad beside the track, with scorch marks, smoke clouds and a 'DANGER' feel conveyed only by stripes and warning lights.",
-      "flavourText": "The brakes were an experiment. The experiment failed.",
+      "flavourText": "Brakes are for racers who plan to stop.",
       "stats": {
         "Speed": 10,
         "Grip": 1,
@@ -322,7 +322,7 @@
       "character": "A pale cartoon banshee with long flowing white hair and a tattered grey dress, riding a sleek racing motorbike.",
       "poseAndExpression": "Mouth open in an enormous wail, hair blown straight back, eyes squeezed shut with effort.",
       "backgroundScene": "A windswept moor under a purple sky, with the wail shown as visible sound waves rattling a fence.",
-      "flavourText": "You hear her coming three laps before she arrives.",
+      "flavourText": "Clears the straight with a scream, not a horn.",
       "stats": {
         "Speed": 9,
         "Grip": 5,
@@ -338,7 +338,7 @@
       "character": "Three small green cartoon goblins in overalls stacked on each other's shoulders in one go-kart, each holding a different spanner.",
       "poseAndExpression": "The top goblin steers, the middle one shifts gears and the bottom one pushes the pedals, all grinning wickedly.",
       "backgroundScene": "A messy pit garage with tools scattered everywhere and a tyre rolling away by itself.",
-      "flavourText": "They fix your car. They also fix the race.",
+      "flavourText": "Three heads under one helmet and all of them cheating.",
       "stats": {
         "Speed": 5,
         "Grip": 6,
@@ -354,7 +354,7 @@
       "character": "A big burly cartoon cyclops in a vest, squeezed into a monster truck with a single enormous headlight shaped like his eye.",
       "poseAndExpression": "Squinting his one eye at the road, tongue poking out in concentration.",
       "backgroundScene": "A rocky quarry track with boulders bouncing as the truck thunders through.",
-      "flavourText": "Great at going straight. Corners are a work in progress.",
+      "flavourText": "Sees the finish line fine, it's the corners he misses.",
       "stats": {
         "Speed": 3,
         "Grip": 4,
@@ -370,7 +370,7 @@
       "character": "A tiny cartoon vampire toddler with a little cape, a dummy and one baby fang, driving a bright pedal car.",
       "poseAndExpression": "Pedalling with fierce concentration, cheeks puffed out, cape flapping.",
       "backgroundScene": "A castle driveway lined with gargoyles who are all looking down fondly.",
-      "flavourText": "Still in a car seat. Still ahead of you.",
+      "flavourText": "Too small to see over the wheel and too fast to care.",
       "stats": {
         "Speed": 2,
         "Grip": 6,
@@ -386,7 +386,7 @@
       "character": "A cartoon skeleton pirate with a tricorn hat, an eyepatch and a hook, at the wheel of a small pirate ship fitted with wheels and a sail.",
       "poseAndExpression": "Hook raised to the sky, jaw open in a hearty laugh, with a parrot skeleton on his shoulder.",
       "backgroundScene": "A beach-side track at sunset with a shipwreck behind and the sail full of wind.",
-      "flavourText": "Sails only when the wind is behind him. Cheats when it isn't.",
+      "flavourText": "Steers by the stars and cuts every chicane.",
       "stats": {
         "Speed": 4,
         "Grip": 3,
@@ -402,7 +402,7 @@
       "character": "A wobbly lime-green cartoon slime blob with two big eyes, oozing over a go-kart so that it is barely visible underneath.",
       "poseAndExpression": "Stretching one gooey arm to the wheel and another to wave, with a delighted gurgling smile.",
       "backgroundScene": "A sewer tunnel exit with glowing green puddles and a manhole cover spinning on the road.",
-      "flavourText": "Sticks to the track like glue. Sticks to the seat, too.",
+      "flavourText": "Pours himself round the hairpin without touching the brakes.",
       "stats": {
         "Speed": 2,
         "Grip": 10,
@@ -418,7 +418,7 @@
       "character": "A haunted suit of medieval armour with glowing eyes behind the visor, riding a motorbike shaped like an iron horse.",
       "poseAndExpression": "Sitting rigidly upright with a lance tucked under one arm, visor up, eyes glowing proudly.",
       "backgroundScene": "A castle jousting ground with tattered banners and a tilted wooden barrier.",
-      "flavourText": "Nothing inside the armour. Nothing can stop it either.",
+      "flavourText": "Jousts the barriers rather than steer round them.",
       "stats": {
         "Speed": 4,
         "Grip": 3,
@@ -434,7 +434,7 @@
       "character": "A fuzzy brown cartoon moth-man with huge glowing eyes and feathery antennae, driving a slim racing car with giant headlights.",
       "poseAndExpression": "Staring in rapt fascination at his own headlights instead of the road, mouth slightly open.",
       "backgroundScene": "A dark country road with a glowing streetlamp ahead that he is clearly steering towards.",
-      "flavourText": "Fast as a flash. Distracted by one, too.",
+      "flavourText": "Keeps swerving towards the floodlights.",
       "stats": {
         "Speed": 9,
         "Grip": 2,
@@ -450,7 +450,7 @@
       "character": "A cartoon grim reaper in a hooded black robe with a skull face, riding a chopper motorbike with a scythe blade for handlebars.",
       "poseAndExpression": "Leaning back on the chopper with one bony hand raised in a laid-back wave, skull grinning.",
       "backgroundScene": "A long highway at dusk with crows on the telephone wires and a tombstone mile marker.",
-      "flavourText": "Everyone finishes eventually. He just likes to be there for it.",
+      "flavourText": "Waits at the finish for everyone, eventually.",
       "stats": {
         "Speed": 6,
         "Grip": 4,
@@ -466,7 +466,7 @@
       "character": "A squat warty cartoon troll with a huge nose, driving a lumbering truck built from the stones of an old bridge.",
       "poseAndExpression": "Holding out one hand for a toll with a grumpy frown, the other hand on the wheel.",
       "backgroundScene": "A narrow stone bridge over a ravine, with the truck taking up the whole road.",
-      "flavourText": "Won't let anyone past without paying. Won't go faster either.",
+      "flavourText": "Takes up both lanes and charges you for the view.",
       "stats": {
         "Speed": 1,
         "Grip": 8,
@@ -482,7 +482,7 @@
       "character": "A small red cartoon imp with tiny horns and a pointed tail, driving a flaming hot rod with fire painted on the sides and real fire coming out of the back.",
       "poseAndExpression": "Howling with laughter, horns glowing, both hands off the wheel in celebration.",
       "backgroundScene": "A lava-cracked track in a volcanic cavern with glowing embers in the air.",
-      "flavourText": "Does not use the brakes. Does not believe in the brakes.",
+      "flavourText": "Sets the tyres on fire before the lights go green.",
       "stats": {
         "Speed": 10,
         "Grip": 3,
@@ -498,7 +498,7 @@
       "character": "A tall spectral cartoon figure in a tattered race marshal's coat, with a glowing skull face, riding a ghostly motorbike and holding a shredded chequered flag.",
       "poseAndExpression": "Standing on the footpegs, flag held high, skull lit from inside with a triumphant grin.",
       "backgroundScene": "The finish line of the Grand Prix at midnight, with a crowd of silhouetted monsters cheering in the stands.",
-      "flavourText": "Nobody has ever beaten him across the line. Nobody has ever seen him start, either.",
+      "flavourText": "Nobody has ever seen him start a race, only win one.",
       "stats": {
         "Speed": 5,
         "Grip": 5,
