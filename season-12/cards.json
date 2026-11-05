@@ -65,7 +65,488 @@
       "gap": 34
     }
   },
-  "cards": [],
+  "cards": [
+    {
+      "id": "durnik-ironbelly",
+      "name": "Durnik Ironbelly",
+      "cardNumber": 1,
+      "character": "A broad, barrel-chested dwarf smith with a soot-streaked red beard tied in brass rings, a scorched leather apron and forearms like hams, holding a gleaming new sword up to the light.",
+      "poseAndExpression": "Squinting critically down the blade with one eye closed, lips pursed, not yet satisfied.",
+      "backgroundScene": "A glowing forge behind him with racks of hammers, tongs and finished blades on the stone wall, sparks drifting in the air.",
+      "flavourText": "Won't sell a blade he wouldn't swing himself.",
+      "stats": {
+        "Haggling": 4,
+        "Stock": 5,
+        "Quality": 10,
+        "Shady": 1,
+        "Charm": 5
+      }
+    },
+    {
+      "id": "grizeldas-potion-seconds",
+      "name": "Grizelda's Potion Seconds",
+      "cardNumber": 2,
+      "character": "A wiry old witch with wild grey hair under a crumpled hat and spectacles on a chain, behind a trestle table crowded with mismatched bottles in every colour, some fizzing, one gently smoking.",
+      "poseAndExpression": "Holding up a cloudy green bottle with a hopeful grin, the other hand already palm-up for the coins.",
+      "backgroundScene": "A damp market corner under a dripping awning, with a hand-painted sign shape above and a cat asleep among the bottles.",
+      "flavourText": "The labels fell off, but the prices are very good.",
+      "stats": {
+        "Haggling": 6,
+        "Stock": 5,
+        "Quality": 1,
+        "Shady": 9,
+        "Charm": 4
+      }
+    },
+    {
+      "id": "the-no-refunds-mimic",
+      "name": "The No-Refunds Mimic",
+      "cardNumber": 3,
+      "character": "A huge treasure chest with a wide toothy mouth and a long purple tongue, wearing a tiny green visor, sitting behind a pawn-shop counter heaped with swords, lutes and a single boot.",
+      "poseAndExpression": "Grinning with every tooth showing, tongue lolling, one wooden lid-corner raised like an eyebrow.",
+      "backgroundScene": "A cramped pawn shop with shelves of pledged goods, hanging lanterns and a row of little brass bells over the door.",
+      "flavourText": "Every sale is final and so, usually, is the customer.",
+      "stats": {
+        "Haggling": 10,
+        "Stock": 6,
+        "Quality": 3,
+        "Shady": 5,
+        "Charm": 1
+      }
+    },
+    {
+      "id": "madame-vellamour",
+      "name": "Madame Vellamour",
+      "cardNumber": 4,
+      "character": "A tall, elegant elf in flowing layered silks of burgundy and gold, with silver hair piled high and long jewelled fingers, standing among bolts of shimmering fabric.",
+      "poseAndExpression": "Draping a length of silk over one arm and gazing at the viewer with a slow, knowing smile.",
+      "backgroundScene": "A luxurious draper's shop with fabric cascading from high shelves, a tall mirror and candlelight glinting on gold thread.",
+      "flavourText": "Nothing in this shop has ever been cheap, including the compliments.",
+      "stats": {
+        "Haggling": 4,
+        "Stock": 3,
+        "Quality": 7,
+        "Shady": 1,
+        "Charm": 10
+      }
+    },
+    {
+      "id": "old-pip",
+      "name": "Old Pip",
+      "cardNumber": 5,
+      "character": "A round little halfling with a bald head, enormous white eyebrows and a magnifying glass on a cord, surrounded by rolled parchment maps spilling from every pocket and shelf.",
+      "poseAndExpression": "Unrolling a map across the counter and pointing at it with great confidence and a cheerful, toothless grin.",
+      "backgroundScene": "A tiny cluttered shop lined with map tubes, a globe missing a continent and a stuffed owl wearing a compass.",
+      "flavourText": "His maps will get you somewhere, which is more than most.",
+      "stats": {
+        "Haggling": 5,
+        "Stock": 6,
+        "Quality": 1,
+        "Shady": 4,
+        "Charm": 9
+      }
+    },
+    {
+      "id": "bram-stoutkeg",
+      "name": "Bram Stoutkeg",
+      "cardNumber": 6,
+      "character": "A mountainous orc innkeeper with a shaved green head, a magnificent tusked grin and a stained apron, carrying four foaming tankards in each enormous hand.",
+      "poseAndExpression": "Laughing heartily with his head thrown back, foam sloshing over the tankards.",
+      "backgroundScene": "A warm, crowded tavern with a roaring hearth, barrels stacked to the rafters and a fiddler on a table in the background.",
+      "flavourText": "There's always another barrel in the cellar, and he fetches it himself.",
+      "stats": {
+        "Haggling": 3,
+        "Stock": 9,
+        "Quality": 4,
+        "Shady": 2,
+        "Charm": 7
+      }
+    },
+    {
+      "id": "sister-marigold",
+      "name": "Sister Marigold",
+      "cardNumber": 7,
+      "character": "A gentle, plump human priestess in cream and amber robes with a sunflower embroidered on the front, standing behind a small altar-counter of holy water phials and little wax blessings.",
+      "poseAndExpression": "Smiling warmly with her hands folded, head tilted in patient kindness.",
+      "backgroundScene": "A sunlit temple alcove with stained glass, candles in rows and a sleeping dog curled at the foot of the altar.",
+      "flavourText": "Her blessings work beautifully and she will not be haggled down.",
+      "stats": {
+        "Haggling": 1,
+        "Stock": 4,
+        "Quality": 9,
+        "Shady": 3,
+        "Charm": 8
+      }
+    },
+    {
+      "id": "fenwick-thimble",
+      "name": "Fenwick Thimble",
+      "cardNumber": 8,
+      "character": "A tiny gnome with enormous brass goggles, a frizz of white hair and a dozen tools strapped to a bandolier, perched on a stool behind a counter of whirring, ticking contraptions.",
+      "poseAndExpression": "Winding a clockwork bird with a screwdriver, tongue poking out in concentration, a spring boinging loose beside him.",
+      "backgroundScene": "A workshop-shop packed with gears, bellows, dangling springs and shelves of half-finished inventions, one of them smoking slightly.",
+      "flavourText": "Every gadget does something, though rarely what the label says.",
+      "stats": {
+        "Haggling": 4,
+        "Stock": 8,
+        "Quality": 5,
+        "Shady": 6,
+        "Charm": 2
+      }
+    },
+    {
+      "id": "mother-ashgrave",
+      "name": "Mother Ashgrave",
+      "cardNumber": 9,
+      "character": "A faintly translucent ghost of an elderly woman in a high-collared Victorian-style dress, floating behind the counter of a bookshop with a stack of books hovering beside her.",
+      "poseAndExpression": "Peering over half-moon spectacles with a disapproving but fond expression, one finger raised to her lips for quiet.",
+      "backgroundScene": "A tall, narrow haunted bookshop with ladders, cobwebbed shelves rising into darkness and a single candle on the counter.",
+      "flavourText": "Returns are accepted at midnight and nobody has ever tried twice.",
+      "stats": {
+        "Haggling": 3,
+        "Stock": 5,
+        "Quality": 8,
+        "Shady": 6,
+        "Charm": 3
+      }
+    },
+    {
+      "id": "skrix",
+      "name": "Skrix",
+      "cardNumber": 10,
+      "character": "A skinny goblin in an oversized patched coat with the lining full of dangling watches, rings and daggers, lurking behind an upturned crate in an alley.",
+      "poseAndExpression": "Holding his coat open with both hands and a sly, gap-toothed grin, eyes darting sideways.",
+      "backgroundScene": "A narrow rain-slick alley at night with a single lantern, a cat on a barrel and the shadow of a town guard at the far end.",
+      "flavourText": "Everything he sells came from somewhere, and that's all you'll get out of him.",
+      "stats": {
+        "Haggling": 8,
+        "Stock": 4,
+        "Quality": 1,
+        "Shady": 10,
+        "Charm": 2
+      }
+    },
+    {
+      "id": "aunt-bessamy",
+      "name": "Aunt Bessamy",
+      "cardNumber": 11,
+      "character": "A rosy-cheeked halfling baker with flour on her nose, curly hair in a kerchief and a tray of golden pies held proudly in oven mitts.",
+      "poseAndExpression": "Beaming with pride and offering the tray forward, one pie already missing a slice.",
+      "backgroundScene": "A cosy bakery with loaves on cooling racks, a brick oven glowing behind and steam fogging the little window.",
+      "flavourText": "Nobody leaves her counter hungry or with their coins.",
+      "stats": {
+        "Haggling": 2,
+        "Stock": 4,
+        "Quality": 7,
+        "Shady": 2,
+        "Charm": 10
+      }
+    },
+    {
+      "id": "vorlag-the-armourer",
+      "name": "Vorlag the Armourer",
+      "cardNumber": 12,
+      "character": "A hulking grey-skinned orc with one tusk, a scarred face and a chainmail vest, standing beside a dented but heavy suit of plate on a stand, hammer resting on one shoulder.",
+      "poseAndExpression": "Arms folded, scowling down at the viewer with deep suspicion.",
+      "backgroundScene": "A dim armoury with racks of shields, helmets on hooks and a quenching trough steaming in the corner.",
+      "flavourText": "His armour will stop anything, including conversation.",
+      "stats": {
+        "Haggling": 5,
+        "Stock": 4,
+        "Quality": 8,
+        "Shady": 6,
+        "Charm": 2
+      }
+    },
+    {
+      "id": "the-twins-tallow",
+      "name": "The Twins Tallow",
+      "cardNumber": 13,
+      "character": "Two identical small kobolds in matching waxy aprons, one on the other's shoulders, surrounded by thousands of candles in every size, stacked in teetering towers.",
+      "poseAndExpression": "The top kobold holds a candle aloft like a torch while the bottom one grins up, both squinting in the glow.",
+      "backgroundScene": "A candle shop crammed floor to ceiling with candles, wax drips everywhere and a hundred small flames reflected in a window.",
+      "flavourText": "Between them they have never once run out of anything.",
+      "stats": {
+        "Haggling": 3,
+        "Stock": 10,
+        "Quality": 3,
+        "Shady": 4,
+        "Charm": 5
+      }
+    },
+    {
+      "id": "cassius-gildmoor",
+      "name": "Cassius Gildmoor",
+      "cardNumber": 14,
+      "character": "A sleek human jeweller with oiled black hair, a waxed moustache, a velvet waistcoat and a jeweller's loupe, presenting a ring on a cushion.",
+      "poseAndExpression": "Leaning in with a dazzling, slightly too-wide smile and one eyebrow raised in invitation.",
+      "backgroundScene": "A plush jeweller's shop with glass cases of glittering stones, velvet drapes and a locked iron door behind the counter.",
+      "flavourText": "Starts every price three times too high and still looks wounded when you argue.",
+      "stats": {
+        "Haggling": 9,
+        "Stock": 2,
+        "Quality": 7,
+        "Shady": 6,
+        "Charm": 1
+      }
+    },
+    {
+      "id": "grubb",
+      "name": "Grubb",
+      "cardNumber": 15,
+      "character": "A squat, mossy troll with a huge underbite, a tattered apron and a single turnip in one hand, sitting at a rickety stall built onto the side of a stone bridge.",
+      "poseAndExpression": "Holding out the turnip in one hand and his other palm up for payment, with a slow, stubborn frown.",
+      "backgroundScene": "A stone bridge over a misty river, with a rough stall of planks, a pile of turnips and a hand-painted toll sign shape.",
+      "flavourText": "Sells turnips, charges a toll, and won't say which you're paying for.",
+      "stats": {
+        "Haggling": 8,
+        "Stock": 5,
+        "Quality": 2,
+        "Shady": 7,
+        "Charm": 3
+      }
+    },
+    {
+      "id": "ysolde-nightwick",
+      "name": "Ysolde Nightwick",
+      "cardNumber": 16,
+      "character": "A striking tiefling with curling horns hung with tiny charms, violet skin and layers of shawls and beads, seated at a small round table of crystals, cards and amulets.",
+      "poseAndExpression": "Fanning out a hand of cards with a mysterious, amused half-smile, eyes glowing faintly.",
+      "backgroundScene": "A dim tent lined with hanging charms, a crystal ball glowing on the table and incense smoke curling upward.",
+      "flavourText": "Every charm she sells is guaranteed, though she never says against what.",
+      "stats": {
+        "Haggling": 5,
+        "Stock": 2,
+        "Quality": 3,
+        "Shady": 9,
+        "Charm": 6
+      }
+    },
+    {
+      "id": "barnaby-crowe",
+      "name": "Barnaby Crowe",
+      "cardNumber": 17,
+      "character": "A lanky scarecrow with a sackcloth face, button eyes and a straw-stuffed waistcoat, standing behind a farm stall heaped with pumpkins, apples and bunches of carrots.",
+      "poseAndExpression": "Proudly presenting a giant pumpkin with both stick-arms, head tilted in a crooked, friendly grin.",
+      "backgroundScene": "A sunny harvest market with hay bales, crates of produce and a crow perched on the stall, eating an apple.",
+      "flavourText": "Grows it all himself and the crows get first pick.",
+      "stats": {
+        "Haggling": 2,
+        "Stock": 9,
+        "Quality": 6,
+        "Shady": 1,
+        "Charm": 7
+      }
+    },
+    {
+      "id": "lady-pemberton-quill",
+      "name": "Lady Pemberton-Quill",
+      "cardNumber": 18,
+      "character": "A severe, slender elf with a tight silver bun, pince-nez and an immaculate high-collared gown, standing before shelves of pristine inks, quills and heavy cream paper.",
+      "poseAndExpression": "Looking down her nose at the viewer, holding a single perfect quill between two fingers.",
+      "backgroundScene": "A spotless, hushed stationer's shop with glass cabinets of ink bottles arranged by colour and a brass pen rack.",
+      "flavourText": "Her paper is flawless and so, she will remind you, is her opinion.",
+      "stats": {
+        "Haggling": 3,
+        "Stock": 4,
+        "Quality": 10,
+        "Shady": 2,
+        "Charm": 6
+      }
+    },
+    {
+      "id": "big-hilde",
+      "name": "Big Hilde",
+      "cardNumber": 19,
+      "character": "A cheerful giantess with blonde braids, rolled sleeves and a huge striped apron, ducking under the beams of a general store, holding a sack of flour the size of a pony in one hand.",
+      "poseAndExpression": "Grinning down at the viewer with a wave, half her head out of frame among the rafters.",
+      "backgroundScene": "A general store with shelves to the ceiling full of pots, rope, boots and jars, with a tiny ladder leaning against them.",
+      "flavourText": "Keeps the whole village stocked and reaches the top shelf without a ladder.",
+      "stats": {
+        "Haggling": 2,
+        "Stock": 10,
+        "Quality": 4,
+        "Shady": 3,
+        "Charm": 6
+      }
+    },
+    {
+      "id": "nib-nub",
+      "name": "Nib & Nub",
+      "cardNumber": 20,
+      "character": "Two plump rats in tiny waistcoats standing on their hind legs behind a cheese counter, one holding a wedge of cheese, the other holding a very small set of scales.",
+      "poseAndExpression": "Both squinting shrewdly at the viewer, whiskers twitching, the scales very obviously tipped.",
+      "backgroundScene": "A cheese shop with great wheels of cheese on shelves, a cat-shaped silhouette in the window and crumbs everywhere.",
+      "flavourText": "Two sets of eyes on the scales and both of them cheating.",
+      "stats": {
+        "Haggling": 9,
+        "Stock": 3,
+        "Quality": 2,
+        "Shady": 7,
+        "Charm": 4
+      }
+    },
+    {
+      "id": "thorvald-saltbeard",
+      "name": "Thorvald Saltbeard",
+      "cardNumber": 21,
+      "character": "A weathered dwarf fishmonger with a salt-crusted white beard, a sou'wester hat and a gleaming cleaver, standing before a slab of fish on ice that has mostly melted.",
+      "poseAndExpression": "Holding up a slightly limp fish by the tail with a huge, proud grin, blissfully unaware of the smell.",
+      "backgroundScene": "A harbour-side fish stall with gulls circling, nets drying and boats bobbing behind in the morning light.",
+      "flavourText": "Fresh in this morning, he says, and has said every morning this week.",
+      "stats": {
+        "Haggling": 7,
+        "Stock": 4,
+        "Quality": 3,
+        "Shady": 3,
+        "Charm": 8
+      }
+    },
+    {
+      "id": "the-librarian-lich",
+      "name": "The Librarian Lich",
+      "cardNumber": 22,
+      "character": "A gaunt skeletal lich in tattered scholar's robes with a glowing blue light in each eye socket, standing behind a lectern-counter stacked with ancient chained tomes.",
+      "poseAndExpression": "Pressing one bony finger to the cover of a book and fixing the viewer with a slow, unblinking stare.",
+      "backgroundScene": "A vaulted crypt-library with endless shelves, floating candles and dust motes glowing in shafts of cold light.",
+      "flavourText": "First editions only, and he was there for most of them.",
+      "stats": {
+        "Haggling": 3,
+        "Stock": 5,
+        "Quality": 9,
+        "Shady": 7,
+        "Charm": 1
+      }
+    },
+    {
+      "id": "pennyroyal",
+      "name": "Pennyroyal",
+      "cardNumber": 23,
+      "character": "A tiny glowing fairy with dragonfly wings and a dress of sugar-pink petals replaced by warm amber petals, hovering over a stall of jars of sweets, lollipops and sugared violets.",
+      "poseAndExpression": "Sitting on the rim of a sweet jar, swinging her legs and holding out a lollipop bigger than her head with a delighted smile.",
+      "backgroundScene": "A sweet shop with rows of glass jars in every colour, striped paper bags and a brass scoop on the counter.",
+      "flavourText": "One free sample and you'll be back every day for a year.",
+      "stats": {
+        "Haggling": 2,
+        "Stock": 5,
+        "Quality": 5,
+        "Shady": 3,
+        "Charm": 10
+      }
+    },
+    {
+      "id": "hob-underbough",
+      "name": "Hob Underbough",
+      "cardNumber": 24,
+      "character": "A shaggy hedge druid with a beard full of twigs, antlers wound with ivy and a cloak of leaves, standing behind a stall of bundled herbs, mushrooms and clay pots of seedlings.",
+      "poseAndExpression": "Sniffing a bunch of herbs with his eyes closed and a contented, faraway smile.",
+      "backgroundScene": "A forest-edge market stall under a great oak, with drying herbs hanging overhead and a hedgehog among the pots.",
+      "flavourText": "Grows a cure for everything and has forgotten which one is which.",
+      "stats": {
+        "Haggling": 4,
+        "Stock": 8,
+        "Quality": 6,
+        "Shady": 2,
+        "Charm": 5
+      }
+    },
+    {
+      "id": "marrok-the-moonlit",
+      "name": "Marrok the Moonlit",
+      "cardNumber": 25,
+      "character": "A shaggy grey werewolf in a torn merchant's doublet, standing behind a cart of daggers, crossbows and traps, with a sign shape flipped to show it is open.",
+      "poseAndExpression": "Leaning on the cart with one clawed hand and a toothy grin, ears pricked, glancing up at the moon.",
+      "backgroundScene": "A moonlit crossroads at night with the weapons cart, a lantern on a pole and a distant village with its windows shuttered.",
+      "flavourText": "Open after dark only, and he'd rather you didn't ask why.",
+      "stats": {
+        "Haggling": 6,
+        "Stock": 3,
+        "Quality": 5,
+        "Shady": 8,
+        "Charm": 3
+      }
+    },
+    {
+      "id": "dame-agatha-pryce",
+      "name": "Dame Agatha Pryce",
+      "cardNumber": 26,
+      "character": "A formidable elderly human woman with a towering grey wig, a lorgnette and a black gown, standing at an auctioneer's podium with a small ivory gavel raised.",
+      "poseAndExpression": "Gavel raised mid-strike, mouth open in a sharp call, eyes gleaming with the thrill of a bid.",
+      "backgroundScene": "A grand auction hall with a chandelier, rows of raised paddles and a painting on an easel beside the podium.",
+      "flavourText": "Going once, going twice, and somehow you've bought it.",
+      "stats": {
+        "Haggling": 10,
+        "Stock": 3,
+        "Quality": 6,
+        "Shady": 4,
+        "Charm": 2
+      }
+    },
+    {
+      "id": "snorri-two-hats",
+      "name": "Snorri Two-Hats",
+      "cardNumber": 27,
+      "character": "A scruffy kobold wearing two hats stacked on top of each other, with a third in each hand, standing behind a hat stall where every hat looks suspiciously similar.",
+      "poseAndExpression": "Offering both hats forward with an eager, shifty grin, eyes flicking between them.",
+      "backgroundScene": "A cluttered hat stall under a striped awning, with hat boxes stacked high and a mirror that has clearly been cracked and glued.",
+      "flavourText": "Sold the same hat to the same knight three times.",
+      "stats": {
+        "Haggling": 7,
+        "Stock": 4,
+        "Quality": 2,
+        "Shady": 8,
+        "Charm": 4
+      }
+    },
+    {
+      "id": "ol-glimmer",
+      "name": "Ol' Glimmer",
+      "cardNumber": 28,
+      "character": "A small copper dragon wyrmling with tiny spectacles perched on its snout, curled protectively around a stall of trinkets, goblets and coins that are clearly from its own hoard.",
+      "poseAndExpression": "Clutching a single gold goblet to its chest with both claws, eyes narrowed, lips curled back from its teeth in a reluctant snarl.",
+      "backgroundScene": "A cave-mouth stall with a glittering mound of treasure behind and a few pieces set out on a velvet cloth, very reluctantly.",
+      "flavourText": "Technically for sale, though no one has ever managed to buy anything.",
+      "stats": {
+        "Haggling": 9,
+        "Stock": 7,
+        "Quality": 5,
+        "Shady": 3,
+        "Charm": 1
+      }
+    },
+    {
+      "id": "captain-mireille",
+      "name": "Captain Mireille",
+      "cardNumber": 29,
+      "character": "A dashing sea-elf with sea-green hair in a long braid, a tricorn hat and a salt-stained coat, leaning on a crate marked only with a strange stamp, at a dockside stall of exotic goods.",
+      "poseAndExpression": "Tipping her hat with a wink and a crooked smile, one boot up on the crate.",
+      "backgroundScene": "A foggy dock at dusk with a moored ship, crates and barrels stacked high and a lantern swinging from a hook.",
+      "flavourText": "Imports, she calls them, and the harbour master calls them something else.",
+      "stats": {
+        "Haggling": 6,
+        "Stock": 4,
+        "Quality": 3,
+        "Shady": 10,
+        "Charm": 2
+      }
+    },
+    {
+      "id": "grandmother-oakhollow",
+      "name": "Grandmother Oakhollow",
+      "cardNumber": 30,
+      "character": "An ancient, gentle treant with a face in her bark, moss for hair and birds nesting in her branches, pouring tea from a huge kettle at a stall built around her own trunk.",
+      "poseAndExpression": "Smiling warmly with crinkled bark eyes, pouring tea into a line of mismatched cups.",
+      "backgroundScene": "The heart of the market square at golden hour, with stalls all around her, lanterns in her branches and villagers gathered on benches at her roots.",
+      "flavourText": "Every deal in the market is shaken on over one of her cups of tea.",
+      "stats": {
+        "Haggling": 1,
+        "Stock": 4,
+        "Quality": 7,
+        "Shady": 3,
+        "Charm": 10
+      }
+    }
+  ],
   "layout": {
     "window": {
       "left": 92,
