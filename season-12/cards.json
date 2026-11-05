@@ -38,7 +38,32 @@
       "When your deck runs out, shuffle your pile to make a new deck.",
       "You win when your opponent has no cards left. Thank you for your custom!"
     ],
-    "framePrompt": "The front of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in the same warm cosy flat 2D storybook style. The same thick carved dark oak border with small carved vine scrolls and polished brass corner fittings with screw heads. The same round emblem in the top-left corner: a plump brown leather coin purse with a brass clasp and three gold coins spilling from it. The same empty long brass nameplate with rounded ends and a brass rivet at each end along the top, with a pale cream-brass inner panel. Below the nameplate, filling the rest of the card down to the border, one large empty panel in even pale parchment with a thin burgundy edge, with no ruled lines, icons, dividers or badges. No text, letters or numbers anywhere. Do not use pink or magenta."
+    "framePrompt": "The front of one vertical trading card, seen flat and straight on, filling the whole image edge to edge, in the same warm cosy flat 2D storybook style. The same thick carved dark oak border with small carved vine scrolls and polished brass corner fittings with screw heads. The same round emblem in the top-left corner: a plump brown leather coin purse with a brass clasp and three gold coins spilling from it. The same empty long brass nameplate with rounded ends and a brass rivet at each end along the top, with a pale cream-brass inner panel. Below the nameplate, filling the rest of the card down to the border, one large empty panel in even pale parchment with a thin burgundy edge, with no ruled lines, icons, dividers or badges. No text, letters or numbers anywhere. Do not use pink or magenta.",
+    "layout": {
+      "title": {
+        "x": 630,
+        "y": 141,
+        "size": 58,
+        "maxWidth": 560,
+        "font": "'Arial Black', Impact, sans-serif",
+        "colour": "#2b1a12",
+        "charWidth": 0.75,
+        "bold": true
+      },
+      "step": {
+        "x": 125,
+        "y": 300,
+        "size": 38,
+        "maxWidth": 790,
+        "font": "Georgia, 'Times New Roman', serif",
+        "colour": "#2b1a12",
+        "anchor": "start",
+        "wrap": true,
+        "charWidth": 0.43,
+        "lineHeight": 1.25
+      },
+      "gap": 34
+    }
   },
   "cards": [],
   "layout": {
